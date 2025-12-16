@@ -1,0 +1,201 @@
+{
+  "id": "koerperpflege",
+  "name": {
+    "de": "Körperpflege durchführen",
+    "en": "Perform body care",
+    "nb": "Utføre kroppspleie"
+  },
+  "description": {
+    "de": "Waschen, Duschen oder Baden",
+    "en": "Washing, showering or bathing",
+    "nb": "Vask, dusj eller bad"
+  },
+  "properties": [
+    {
+      "id": "pflegeart",
+      "type": "select",
+      "label": {
+        "de": "Art der Pflege",
+        "en": "Type of care",
+        "nb": "Type pleie"
+      },
+      "required": true,
+      "options": [
+        {
+          "value": "ganzwaschung_bett",
+          "label": {
+            "de": "Ganzwaschung im Bett",
+            "en": "Full wash in bed",
+            "nb": "Fullvask i seng"
+          }
+        },
+        {
+          "value": "teilwaschung",
+          "label": {
+            "de": "Teilwaschung am Waschbecken",
+            "en": "Partial wash at sink",
+            "nb": "Delvis vask ved vask"
+          }
+        },
+        {
+          "value": "dusche",
+          "label": {
+            "de": "Dusche",
+            "en": "Shower",
+            "nb": "Dusj"
+          }
+        },
+        {
+          "value": "vollbad",
+          "label": {
+            "de": "Vollbad",
+            "en": "Full bath",
+            "nb": "Fullt bad"
+          }
+        }
+      ]
+    },
+    {
+      "id": "unterstuetzung",
+      "type": "select",
+      "label": {
+        "de": "Unterstützungsbedarf",
+        "en": "Support needed",
+        "nb": "Støtte nødvendig"
+      },
+      "required": true,
+      "options": [
+        {
+          "value": "selbststaendig",
+          "label": {
+            "de": "Selbstständig",
+            "en": "Independent",
+            "nb": "Selvstendig"
+          }
+        },
+        {
+          "value": "ueberwachung",
+          "label": {
+            "de": "Überwachung",
+            "en": "Supervision",
+            "nb": "Overvåking"
+          }
+        },
+        {
+          "value": "teilweise",
+          "label": {
+            "de": "Teilweise Übernahme",
+            "en": "Partial takeover",
+            "nb": "Delvis overtagelse"
+          }
+        },
+        {
+          "value": "vollstaendig",
+          "label": {
+            "de": "Vollständige Übernahme",
+            "en": "Complete takeover",
+            "nb": "Full overtagelse"
+          }
+        }
+      ]
+    },
+    {
+      "id": "wassertemperatur",
+      "type": "number",
+      "label": {
+        "de": "Wassertemperatur (°C)",
+        "en": "Water temperature (°C)",
+        "nb": "Vanntemperatur (°C)"
+      },
+      "required": false,
+      "min": 30,
+      "max": 42,
+      "unit": {
+        "de": "°C",
+        "en": "°C",
+        "nb": "°C"
+      }
+    },
+    {
+      "id": "hautbeobachtung",
+      "type": "multiselect",
+      "label": {
+        "de": "Hautbeobachtung",
+        "en": "Skin observation",
+        "nb": "Hudobservasjon"
+      },
+      "required": false,
+      "options": [
+        {
+          "value": "roetungen",
+          "label": {
+            "de": "Rötungen",
+            "en": "Redness",
+            "nb": "Rødhet"
+          }
+        },
+        {
+          "value": "druckstellen",
+          "label": {
+            "de": "Druckstellen",
+            "en": "Pressure marks",
+            "nb": "Trykkmerker"
+          }
+        },
+        {
+          "value": "hautveraenderungen",
+          "label": {
+            "de": "Hautveränderungen",
+            "en": "Skin changes",
+            "nb": "Hudendringer"
+          }
+        },
+        {
+          "value": "verletzungen",
+          "label": {
+            "de": "Verletzungen",
+            "en": "Injuries",
+            "nb": "Skader"
+          }
+        }
+      ]
+    },
+    {
+      "id": "produkte",
+      "type": "textarea",
+      "label": {
+        "de": "Verwendete Pflegeprodukte",
+        "en": "Care products used",
+        "nb": "Pleiprodukter brukt"
+      },
+      "required": false,
+      "placeholder": {
+        "de": "z.B. pH-neutrale Seife, Hautschutzcreme...",
+        "en": "e.g. pH-neutral soap, skin protection cream...",
+        "nb": "f.eks. pH-nøytral såpe, hudbeskyttelseskrem..."
+      }
+    },
+    {
+      "id": "photos",
+      "type": "media",
+      "label": {
+        "de": "Fotos (z.B. Hautveränderungen)",
+        "en": "Photos (e.g. skin changes)",
+        "nb": "Bilder (f.eks. hudendringer)"
+      },
+      "required": false,
+      "mediaType": "image",
+      "maxCount": 5
+    },
+    {
+      "id": "notes",
+      "type": "textarea",
+      "label": {
+        "de": "Bemerkungen",
+        "en": "Notes",
+        "nb": "Merknader"
+      },
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "id": "abendessen-servieren",
+  "name": {
+    "de": "Abendessen servieren",
+    "en": "Serve dinner",
+    "nb": "Servere middag"
+  },
+  "description": {
+    "de": "Abendmahlzeit herrichten und servieren",
+    "en": "Prepare and serve evening meal",
+    "nb": "Forberede og servere kveldsmåltid"
+  },
+  "properties": [
+    {
+      "id": "art",
+      "type": "select",
+      "label": {
+        "de": "Art der Mahlzeit",
+        "en": "Type of meal",
+        "nb": "Type måltid"
+      },
+      "required": true,
+      "options": [
+        {
+          "value": "warm",
+          "label": {
+            "de": "Warme Mahlzeit",
+            "en": "Warm meal",
+            "nb": "Varm måltid"
+          }
+        },
+        {
+          "value": "kalt",
+          "label": {
+            "de": "Kalte Mahlzeit",
+            "en": "Cold meal",
+            "nb": "Kald måltid"
+          }
+        },
+        {
+          "value": "brotzeit",
+          "label": {
+            "de": "Brotzeit",
+            "en": "Bread meal",
+            "nb": "Brødmåltid"
+          }
+        }
+      ]
+    },
+    {
+      "id": "zeitpunkt",
+      "type": "time",
+      "label": {
+        "de": "Zeitpunkt",
+        "en": "Time",
+        "nb": "Tidspunkt"
+      },
+      "required": true
+    },
+    {
+      "id": "speisen",
+      "type": "multiselect",
+      "label": {
+        "de": "Servierte Speisen",
+        "en": "Food served",
+        "nb": "Servert mat"
+      },
+      "required": true,
+      "options": [
+        {
+          "value": "brot",
+          "label": {
+            "de": "Brot",
+            "en": "Bread",
+            "nb": "Brød"
+          }
+        },
+        {
+          "value": "aufschnitt",
+          "label": {
+            "de": "Aufschnitt",
+            "en": "Cold cuts",
+            "nb": "Pålegg"
+          }
+        },
+        {
+          "value": "kaese",
+          "label": {
+            "de": "Käse",
+            "en": "Cheese",
+            "nb": "Ost"
+          }
+        },
+        {
+          "value": "salat",
+          "label": {
+            "de": "Salat",
+            "en": "Salad",
+            "nb": "Salat"
+          }
+        },
+        {
+          "value": "suppe",
+          "label": {
+            "de": "Suppe",
+            "en": "Soup",
+            "nb": "Suppe"
+          }
+        }
+      ]
+    },
+    {
+      "id": "notes",
+      "type": "textarea",
+      "label": {
+        "de": "Bemerkungen",
+        "en": "Notes",
+        "nb": "Merknader"
+      },
+      "required": false
+    }
+  ]
+}

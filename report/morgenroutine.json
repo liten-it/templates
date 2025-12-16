@@ -1,0 +1,15 @@
+{
+  "id": "morgenroutine",
+  "name": {
+    "de": "Morgenroutine",
+    "en": "Morning Routine",
+    "nb": "Morgenrutine"
+  },
+  "description": {
+    "de": "Aktivitäten zur Unterstützung beim Start in den Tag",
+    "en": "Activities to support starting the day",
+    "nb": "Aktiviteter for å støtte starten på dagen"
+  },
+  "icon": "sunrise",
+  "color": "#FF9800"
+}

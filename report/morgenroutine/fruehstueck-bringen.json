@@ -1,0 +1,157 @@
+{
+  "id": "fruehstueck-bringen",
+  "name": {
+    "de": "Zum Frühstück bringen",
+    "en": "Bring to breakfast",
+    "nb": "Bringe til frokost"
+  },
+  "description": {
+    "de": "Transport zum Frühstücksraum oder Service am Bett",
+    "en": "Transport to breakfast room or service in bed",
+    "nb": "Transport til frokostrom eller service i seng"
+  },
+  "properties": [
+    {
+      "id": "ort",
+      "type": "select",
+      "label": {
+        "de": "Ort",
+        "en": "Location",
+        "nb": "Sted"
+      },
+      "required": true,
+      "options": [
+        {
+          "value": "gemeinschaft",
+          "label": {
+            "de": "Gemeinschaftsraum",
+            "en": "Common room",
+            "nb": "Fellesrom"
+          }
+        },
+        {
+          "value": "zimmer",
+          "label": {
+            "de": "Eigenes Zimmer",
+            "en": "Own room",
+            "nb": "Eget rom"
+          }
+        },
+        {
+          "value": "bett",
+          "label": {
+            "de": "Im Bett",
+            "en": "In bed",
+            "nb": "I sengen"
+          }
+        },
+        {
+          "value": "balkon",
+          "label": {
+            "de": "Auf dem Balkon",
+            "en": "On the balcony",
+            "nb": "På balkongen"
+          }
+        }
+      ]
+    },
+    {
+      "id": "transport",
+      "type": "select",
+      "label": {
+        "de": "Transportart",
+        "en": "Mode of transport",
+        "nb": "Transportmåte"
+      },
+      "required": true,
+      "options": [
+        {
+          "value": "gehend",
+          "label": {
+            "de": "Selbstständig gehend",
+            "en": "Walking independently",
+            "nb": "Går selvstendig"
+          }
+        },
+        {
+          "value": "gehwagen",
+          "label": {
+            "de": "Mit Gehwagen",
+            "en": "With walker",
+            "nb": "Med gåstol"
+          }
+        },
+        {
+          "value": "rollstuhl",
+          "label": {
+            "de": "Im Rollstuhl",
+            "en": "In wheelchair",
+            "nb": "I rullestol"
+          }
+        },
+        {
+          "value": "begleitung",
+          "label": {
+            "de": "Mit Begleitung",
+            "en": "With accompaniment",
+            "nb": "Med følge"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sitzposition",
+      "type": "select",
+      "label": {
+        "de": "Sitzposition",
+        "en": "Sitting position",
+        "nb": "Sitteposisjon"
+      },
+      "required": true,
+      "options": [
+        {
+          "value": "tisch",
+          "label": {
+            "de": "Am Tisch",
+            "en": "At table",
+            "nb": "Ved bordet"
+          }
+        },
+        {
+          "value": "sessel",
+          "label": {
+            "de": "Im Sessel",
+            "en": "In armchair",
+            "nb": "I lenestol"
+          }
+        },
+        {
+          "value": "bett",
+          "label": {
+            "de": "Im Bett aufgerichtet",
+            "en": "Upright in bed",
+            "nb": "Oppreist i seng"
+          }
+        },
+        {
+          "value": "rollstuhl",
+          "label": {
+            "de": "Im Rollstuhl",
+            "en": "In wheelchair",
+            "nb": "I rullestol"
+          }
+        }
+      ]
+    },
+    {
+      "id": "notes",
+      "type": "textarea",
+      "label": {
+        "de": "Bemerkungen",
+        "en": "Notes",
+        "nb": "Merknader"
+      },
+      "required": false
+    }
+  ]
+}

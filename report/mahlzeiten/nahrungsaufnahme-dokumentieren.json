@@ -1,0 +1,198 @@
+{
+  "id": "nahrungsaufnahme-dokumentieren",
+  "name": {
+    "de": "Nahrungsaufnahme dokumentieren",
+    "en": "Document food intake",
+    "nb": "Dokumentere matinntak"
+  },
+  "description": {
+    "de": "Dokumentation von Essen und Trinken",
+    "en": "Documentation of eating and drinking",
+    "nb": "Dokumentasjon av spising og drikking"
+  },
+  "properties": [
+    {
+      "id": "nahrungsmenge",
+      "type": "select",
+      "label": {
+        "de": "Gegessene Menge",
+        "en": "Amount eaten",
+        "nb": "Mengde spist"
+      },
+      "required": true,
+      "options": [
+        {
+          "value": "alles",
+          "label": {
+            "de": "Alles gegessen",
+            "en": "Everything eaten",
+            "nb": "Alt spist"
+          }
+        },
+        {
+          "value": "drei_viertel",
+          "label": {
+            "de": "¾ gegessen",
+            "en": "¾ eaten",
+            "nb": "¾ spist"
+          }
+        },
+        {
+          "value": "halb",
+          "label": {
+            "de": "½ gegessen",
+            "en": "½ eaten",
+            "nb": "½ spist"
+          }
+        },
+        {
+          "value": "viertel",
+          "label": {
+            "de": "¼ gegessen",
+            "en": "¼ eaten",
+            "nb": "¼ spist"
+          }
+        },
+        {
+          "value": "nichts",
+          "label": {
+            "de": "Nichts gegessen",
+            "en": "Nothing eaten",
+            "nb": "Ingenting spist"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fluessigkeitsmenge",
+      "type": "number",
+      "label": {
+        "de": "Flüssigkeitsmenge (ml)",
+        "en": "Fluid amount (ml)",
+        "nb": "Væskemengde (ml)"
+      },
+      "required": true,
+      "min": 0,
+      "max": 5000,
+      "unit": {
+        "de": "ml",
+        "en": "ml",
+        "nb": "ml"
+      }
+    },
+    {
+      "id": "mahlzeit",
+      "type": "select",
+      "label": {
+        "de": "Mahlzeit",
+        "en": "Meal",
+        "nb": "Måltid"
+      },
+      "required": true,
+      "options": [
+        {
+          "value": "fruehstueck",
+          "label": {
+            "de": "Frühstück",
+            "en": "Breakfast",
+            "nb": "Frokost"
+          }
+        },
+        {
+          "value": "zwischenmahlzeit_vorm",
+          "label": {
+            "de": "Zwischenmahlzeit vormittags",
+            "en": "Morning snack",
+            "nb": "Mellommåltid formiddag"
+          }
+        },
+        {
+          "value": "mittagessen",
+          "label": {
+            "de": "Mittagessen",
+            "en": "Lunch",
+            "nb": "Lunsj"
+          }
+        },
+        {
+          "value": "zwischenmahlzeit_nachm",
+          "label": {
+            "de": "Zwischenmahlzeit nachmittags",
+            "en": "Afternoon snack",
+            "nb": "Mellommåltid ettermiddag"
+          }
+        },
+        {
+          "value": "abendessen",
+          "label": {
+            "de": "Abendessen",
+            "en": "Dinner",
+            "nb": "Middag"
+          }
+        },
+        {
+          "value": "spaetmahlzeit",
+          "label": {
+            "de": "Spätmahlzeit",
+            "en": "Late meal",
+            "nb": "Sent måltid"
+          }
+        }
+      ]
+    },
+    {
+      "id": "besonderheiten",
+      "type": "multiselect",
+      "label": {
+        "de": "Besonderheiten",
+        "en": "Special notes",
+        "nb": "Særegenheter"
+      },
+      "required": false,
+      "options": [
+        {
+          "value": "verweigerung",
+          "label": {
+            "de": "Nahrungsverweigerung",
+            "en": "Food refusal",
+            "nb": "Matnektelse"
+          }
+        },
+        {
+          "value": "uebelkeit",
+          "label": {
+            "de": "Übelkeit",
+            "en": "Nausea",
+            "nb": "Kvalme"
+          }
+        },
+        {
+          "value": "erbrechen",
+          "label": {
+            "de": "Erbrechen",
+            "en": "Vomiting",
+            "nb": "Oppkast"
+          }
+        },
+        {
+          "value": "vorlieben",
+          "label": {
+            "de": "Besondere Vorlieben/Abneigungen",
+            "en": "Special preferences/dislikes",
+            "nb": "Spesielle preferanser/motvilje"
+          }
+        }
+      ]
+    },
+    {
+      "id": "notes",
+      "type": "textarea",
+      "label": {
+        "de": "Bemerkungen",
+        "en": "Notes",
+        "nb": "Merknader"
+      },
+      "required": false
+    }
+  ]
+}

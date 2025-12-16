@@ -1,0 +1,28 @@
+{
+  "id": "zustandsaenderung-melden",
+  "name": {"de": "Zustandsänderung melden", "en": "Report change in condition", "nb": "Rapportere tilstandsendring"},
+  "description": {"de": "Meldung von Gesundheitsveränderungen", "en": "Reporting of health changes", "nb": "Rapportering av helseendringer"},
+  "properties": [
+    {"id": "art", "type": "select", "label": {"de": "Art der Veränderung", "en": "Type of change", "nb": "Type endring"}, "required": true,
+      "options": [
+        {"value": "verschlechterung", "label": {"de": "Verschlechterung", "en": "Deterioration", "nb": "Forverring"}},
+        {"value": "verbesserung", "label": {"de": "Verbesserung", "en": "Improvement", "nb": "Forbedring"}},
+        {"value": "akut", "label": {"de": "Akutes Ereignis", "en": "Acute event", "nb": "Akutt hendelse"}},
+        {"value": "verhalten", "label": {"de": "Verhaltensänderung", "en": "Behavioral change", "nb": "Atferdsendring"}}
+      ]},
+    {"id": "beschreibung", "type": "textarea", "label": {"de": "Beschreibung", "en": "Description", "nb": "Beskrivelse"}, "required": true},
+    {"id": "gemeldet_an", "type": "multiselect", "label": {"de": "Gemeldet an", "en": "Reported to", "nb": "Rapportert til"}, "required": true,
+      "options": [
+        {"value": "wbl", "label": {"de": "Wohnbereichsleitung", "en": "Unit manager", "nb": "Enhetsleder"}},
+        {"value": "pdl", "label": {"de": "Pflegedienstleitung", "en": "Director of nursing", "nb": "Pleiedistriktsleder"}},
+        {"value": "arzt", "label": {"de": "Arzt", "en": "Doctor", "nb": "Lege"}},
+        {"value": "angehoerige", "label": {"de": "Angehörige", "en": "Relatives", "nb": "Pårørende"}}
+      ]},
+    {"id": "dringlichkeit", "type": "select", "label": {"de": "Dringlichkeit", "en": "Urgency", "nb": "Hastighet"}, "required": true,
+      "options": [
+        {"value": "sofort", "label": {"de": "Sofort (Notfall)", "en": "Immediately (emergency)", "nb": "Umiddelbart (nødstilfelle)"}},
+        {"value": "zeitnah", "label": {"de": "Zeitnah", "en": "Promptly", "nb": "Raskt"}},
+        {"value": "planbar", "label": {"de": "Planbar", "en": "Can be scheduled", "nb": "Kan planlegges"}}
+      ]}
+  ]
+}

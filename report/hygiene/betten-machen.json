@@ -1,0 +1,21 @@
+{
+  "id": "betten-machen",
+  "name": {"de": "Betten machen", "en": "Make beds", "nb": "Re senger"},
+  "description": {"de": "Bett herrichten und Wäsche wechseln", "en": "Prepare bed and change linen", "nb": "Klargjøre seng og bytte sengetøy"},
+  "properties": [
+    {"id": "wechsel", "type": "multiselect", "label": {"de": "Gewechselte Wäsche", "en": "Changed linen", "nb": "Byttet sengetøy"}, "required": true,
+      "options": [
+        {"value": "bezug", "label": {"de": "Bettbezug", "en": "Duvet cover", "nb": "Dynetrekk"}},
+        {"value": "laken", "label": {"de": "Bettlaken", "en": "Bed sheet", "nb": "Laken"}},
+        {"value": "kissen", "label": {"de": "Kopfkissenbezug", "en": "Pillowcase", "nb": "Putetrekk"}},
+        {"value": "schutz", "label": {"de": "Bettschutzeinlage", "en": "Bed pad", "nb": "Sengepute"}}
+      ]},
+    {"id": "grund", "type": "select", "label": {"de": "Grund für Wechsel", "en": "Reason for change", "nb": "Grunn til bytte"}, "required": true,
+      "options": [
+        {"value": "routinemaessig", "label": {"de": "Routinemäßig", "en": "Routine", "nb": "Rutinemessig"}},
+        {"value": "verschmutzung", "label": {"de": "Verschmutzung", "en": "Soiling", "nb": "Tilsmussing"}},
+        {"value": "wunsch", "label": {"de": "Bewohnerwunsch", "en": "Resident request", "nb": "Beboerønske"}}
+      ]},
+    {"id": "notes", "type": "textarea", "label": {"de": "Bemerkungen", "en": "Notes", "nb": "Merknader"}, "required": false}
+  ]
+}

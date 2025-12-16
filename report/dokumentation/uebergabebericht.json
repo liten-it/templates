@@ -1,0 +1,15 @@
+{
+  "id": "uebergabebericht",
+  "name": {"de": "Übergabebericht schreiben", "en": "Write handover report", "nb": "Skrive overføringsrapport"},
+  "description": {"de": "Übergabe für die nächste Schicht", "en": "Handover for next shift", "nb": "Overføring til neste skift"},
+  "properties": [
+    {"id": "schicht", "type": "select", "label": {"de": "Für Schicht", "en": "For shift", "nb": "For skift"}, "required": true,
+      "options": [
+        {"value": "frueh", "label": {"de": "Frühschicht", "en": "Early shift", "nb": "Tidlig skift"}},
+        {"value": "spaet", "label": {"de": "Spätschicht", "en": "Late shift", "nb": "Sen skift"}},
+        {"value": "nacht", "label": {"de": "Nachtschicht", "en": "Night shift", "nb": "Nattskift"}}
+      ]},
+    {"id": "besonderheiten", "type": "textarea", "label": {"de": "Besondere Vorkommnisse", "en": "Special incidents", "nb": "Spesielle hendelser"}, "required": true},
+    {"id": "aufgaben", "type": "textarea", "label": {"de": "Ausstehende Aufgaben", "en": "Pending tasks", "nb": "Ventende oppgaver"}, "required": false}
+  ]
+}

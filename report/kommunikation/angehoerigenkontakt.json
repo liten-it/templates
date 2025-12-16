@@ -1,0 +1,22 @@
+{
+  "id": "angehoerigenkontakt",
+  "name": {"de": "Angehörigenkontakt", "en": "Contact with relatives", "nb": "Kontakt med pårørende"},
+  "description": {"de": "Austausch mit Angehörigen", "en": "Exchange with relatives", "nb": "Utveksling med pårørende"},
+  "properties": [
+    {"id": "form", "type": "select", "label": {"de": "Form", "en": "Form", "nb": "Form"}, "required": true,
+      "options": [
+        {"value": "telefon", "label": {"de": "Telefongespräch", "en": "Phone conversation", "nb": "Telefonsamtale"}},
+        {"value": "persoenlich", "label": {"de": "Persönliches Gespräch", "en": "Personal conversation", "nb": "Personlig samtale"}},
+        {"value": "geplant", "label": {"de": "Geplantes Gespräch", "en": "Scheduled conversation", "nb": "Planlagt samtale"}}
+      ]},
+    {"id": "anlass", "type": "select", "label": {"de": "Anlass", "en": "Occasion", "nb": "Anledning"}, "required": true,
+      "options": [
+        {"value": "routine", "label": {"de": "Routinemäßig", "en": "Routine", "nb": "Rutinemessig"}},
+        {"value": "zustand", "label": {"de": "Zustandsveränderung", "en": "Change in condition", "nb": "Tilstandsendring"}},
+        {"value": "angehoerige_wunsch", "label": {"de": "Auf Wunsch Angehöriger", "en": "At relatives' request", "nb": "Etter pårørendes ønske"}},
+        {"value": "problem", "label": {"de": "Problembesprechung", "en": "Problem discussion", "nb": "Problemdiskusjon"}}
+      ]},
+    {"id": "inhalt", "type": "textarea", "label": {"de": "Gesprächsinhalt", "en": "Content", "nb": "Innhold"}, "required": true},
+    {"id": "notes", "type": "textarea", "label": {"de": "Vereinbarungen", "en": "Agreements", "nb": "Avtaler"}, "required": false}
+  ]
+}

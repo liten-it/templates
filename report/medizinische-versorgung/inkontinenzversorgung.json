@@ -1,0 +1,183 @@
+{
+  "id": "inkontinenzversorgung",
+  "name": {
+    "de": "Inkontinenzversorgung",
+    "en": "Incontinence care",
+    "nb": "Inkontinenspleie"
+  },
+  "description": {
+    "de": "Unterstützung bei Inkontinenz",
+    "en": "Support with incontinence",
+    "nb": "Støtte ved inkontinens"
+  },
+  "properties": [
+    {
+      "id": "inkontinenzform",
+      "type": "select",
+      "label": {
+        "de": "Inkontinenzform",
+        "en": "Type of incontinence",
+        "nb": "Type inkontinens"
+      },
+      "required": true,
+      "options": [
+        {
+          "value": "harn",
+          "label": {
+            "de": "Harninkontinenz",
+            "en": "Urinary incontinence",
+            "nb": "Urininkontinens"
+          }
+        },
+        {
+          "value": "stuhl",
+          "label": {
+            "de": "Stuhlinkontinenz",
+            "en": "Fecal incontinence",
+            "nb": "Fekal inkontinens"
+          }
+        },
+        {
+          "value": "doppel",
+          "label": {
+            "de": "Doppelinkontinenz",
+            "en": "Double incontinence",
+            "nb": "Dobbel inkontinens"
+          }
+        }
+      ]
+    },
+    {
+      "id": "hilfsmittel",
+      "type": "multiselect",
+      "label": {
+        "de": "Verwendete Hilfsmittel",
+        "en": "Aids used",
+        "nb": "Hjelpemidler brukt"
+      },
+      "required": true,
+      "options": [
+        {
+          "value": "einlagen_klein",
+          "label": {
+            "de": "Einlagen klein",
+            "en": "Small pads",
+            "nb": "Små innlegg"
+          }
+        },
+        {
+          "value": "einlagen_mittel",
+          "label": {
+            "de": "Einlagen mittel",
+            "en": "Medium pads",
+            "nb": "Middels innlegg"
+          }
+        },
+        {
+          "value": "einlagen_gross",
+          "label": {
+            "de": "Einlagen groß",
+            "en": "Large pads",
+            "nb": "Store innlegg"
+          }
+        },
+        {
+          "value": "pants",
+          "label": {
+            "de": "Pants",
+            "en": "Pull-ups",
+            "nb": "Trekkbukse"
+          }
+        },
+        {
+          "value": "windelhosen",
+          "label": {
+            "de": "Windelhosen",
+            "en": "Adult diapers",
+            "nb": "Bleie"
+          }
+        },
+        {
+          "value": "vorlagen",
+          "label": {
+            "de": "Vorlagen",
+            "en": "Inserts",
+            "nb": "Innlegg"
+          }
+        },
+        {
+          "value": "bettschutz",
+          "label": {
+            "de": "Bettschutzeinlagen",
+            "en": "Bed pads",
+            "nb": "Sengeputer"
+          }
+        }
+      ]
+    },
+    {
+      "id": "wechselgrund",
+      "type": "select",
+      "label": {
+        "de": "Grund für Wechsel",
+        "en": "Reason for change",
+        "nb": "Grunn til bytte"
+      },
+      "required": true,
+      "options": [
+        {
+          "value": "routinemaessig",
+          "label": {
+            "de": "Routinemäßig",
+            "en": "Routine",
+            "nb": "Rutinemessig"
+          }
+        },
+        {
+          "value": "durchnaesst",
+          "label": {
+            "de": "Durchnässt",
+            "en": "Soaked",
+            "nb": "Gjennomvåt"
+          }
+        },
+        {
+          "value": "stuhlgang",
+          "label": {
+            "de": "Stuhlgang",
+            "en": "Bowel movement",
+            "nb": "Avføring"
+          }
+        },
+        {
+          "value": "kontrollrunde",
+          "label": {
+            "de": "Kontrollrunde",
+            "en": "Control round",
+            "nb": "Kontrollrunde"
+          }
+        }
+      ]
+    },
+    {
+      "id": "hautpflege",
+      "type": "checkbox",
+      "label": {
+        "de": "Hautpflege durchgeführt",
+        "en": "Skin care performed",
+        "nb": "Hudpleie utført"
+      },
+      "required": false
+    },
+    {
+      "id": "notes",
+      "type": "textarea",
+      "label": {
+        "de": "Bemerkungen",
+        "en": "Notes",
+        "nb": "Merknader"
+      },
+      "required": false
+    }
+  ]
+}

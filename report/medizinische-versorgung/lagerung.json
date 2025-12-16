@@ -1,0 +1,207 @@
+{
+  "id": "lagerung",
+  "name": {
+    "de": "Lagerung durchführen",
+    "en": "Perform positioning",
+    "nb": "Utføre leiring"
+  },
+  "description": {
+    "de": "Dekubitusprophylaxe durch Lagerung",
+    "en": "Pressure ulcer prevention through positioning",
+    "nb": "Trykkårforebygging gjennom leiring"
+  },
+  "properties": [
+    {
+      "id": "lagerungsart",
+      "type": "select",
+      "label": {
+        "de": "Lagerungsart",
+        "en": "Type of positioning",
+        "nb": "Type leiring"
+      },
+      "required": true,
+      "options": [
+        {
+          "value": "30_grad",
+          "label": {
+            "de": "30-Grad-Lagerung",
+            "en": "30-degree positioning",
+            "nb": "30-graders leiring"
+          }
+        },
+        {
+          "value": "90_grad",
+          "label": {
+            "de": "90-Grad-Lagerung",
+            "en": "90-degree positioning",
+            "nb": "90-graders leiring"
+          }
+        },
+        {
+          "value": "135_grad",
+          "label": {
+            "de": "135-Grad-Lagerung",
+            "en": "135-degree positioning",
+            "nb": "135-graders leiring"
+          }
+        },
+        {
+          "value": "ruecken",
+          "label": {
+            "de": "Rückenlage",
+            "en": "Supine position",
+            "nb": "Ryggleie"
+          }
+        },
+        {
+          "value": "seite_rechts",
+          "label": {
+            "de": "Seitenlage rechts",
+            "en": "Right lateral position",
+            "nb": "Høyre sideleie"
+          }
+        },
+        {
+          "value": "seite_links",
+          "label": {
+            "de": "Seitenlage links",
+            "en": "Left lateral position",
+            "nb": "Venstre sideleie"
+          }
+        },
+        {
+          "value": "bauch",
+          "label": {
+            "de": "Bauchlage",
+            "en": "Prone position",
+            "nb": "Mageleie"
+          }
+        },
+        {
+          "value": "oberk_hoch",
+          "label": {
+            "de": "Oberkörperhochlagerung",
+            "en": "Elevated upper body",
+            "nb": "Hevet overkropp"
+          }
+        }
+      ]
+    },
+    {
+      "id": "hilfsmittel",
+      "type": "multiselect",
+      "label": {
+        "de": "Verwendete Hilfsmittel",
+        "en": "Aids used",
+        "nb": "Hjelpemidler brukt"
+      },
+      "required": false,
+      "options": [
+        {
+          "value": "lagerungskissen",
+          "label": {
+            "de": "Lagerungskissen",
+            "en": "Positioning pillows",
+            "nb": "Leiringsputer"
+          }
+        },
+        {
+          "value": "schaumkeile",
+          "label": {
+            "de": "Schaumstoffkeile",
+            "en": "Foam wedges",
+            "nb": "Skumkiler"
+          }
+        },
+        {
+          "value": "antidekubitus",
+          "label": {
+            "de": "Anti-Dekubitus-Matratze",
+            "en": "Anti-decubitus mattress",
+            "nb": "Anti-dekubitus madrass"
+          }
+        },
+        {
+          "value": "fersenschoner",
+          "label": {
+            "de": "Fersenschoner",
+            "en": "Heel protectors",
+            "nb": "Hælbeskyttere"
+          }
+        },
+        {
+          "value": "wechseldruck",
+          "label": {
+            "de": "Wechseldruckmatratze",
+            "en": "Alternating pressure mattress",
+            "nb": "Vekslende trykkmadrass"
+          }
+        }
+      ]
+    },
+    {
+      "id": "druckentlastung",
+      "type": "multiselect",
+      "label": {
+        "de": "Druckentlastung",
+        "en": "Pressure relief",
+        "nb": "Trykklindring"
+      },
+      "required": false,
+      "options": [
+        {
+          "value": "fersen",
+          "label": {
+            "de": "Fersen freilagern",
+            "en": "Free heels",
+            "nb": "Fri hæler"
+          }
+        },
+        {
+          "value": "knie",
+          "label": {
+            "de": "Knie leicht beugen",
+            "en": "Slightly bend knees",
+            "nb": "Lett bøyde knær"
+          }
+        },
+        {
+          "value": "schulter",
+          "label": {
+            "de": "Schulter entlasten",
+            "en": "Relieve shoulder",
+            "nb": "Lindre skulder"
+          }
+        },
+        {
+          "value": "steissbein",
+          "label": {
+            "de": "Steißbein entlasten",
+            "en": "Relieve coccyx",
+            "nb": "Lindre halebein"
+          }
+        }
+      ]
+    },
+    {
+      "id": "uhrzeit_naechste_lagerung",
+      "type": "time",
+      "label": {
+        "de": "Nächste Lagerung geplant um",
+        "en": "Next positioning planned at",
+        "nb": "Neste leiring planlagt kl"
+      },
+      "required": false
+    },
+    {
+      "id": "notes",
+      "type": "textarea",
+      "label": {
+        "de": "Bemerkungen",
+        "en": "Notes",
+        "nb": "Merknader"
+      },
+      "required": false
+    }
+  ]
+}

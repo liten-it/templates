@@ -1,0 +1,15 @@
+{
+  "id": "mobilisation",
+  "name": {
+    "de": "Mobilisation und Aktivierung",
+    "en": "Mobilization and Activation",
+    "nb": "Mobilisering og aktivering"
+  },
+  "description": {
+    "de": "Förderung von Bewegung und sozialer Teilhabe",
+    "en": "Promotion of movement and social participation",
+    "nb": "Fremming av bevegelse og sosial deltakelse"
+  },
+  "icon": "activity",
+  "color": "#2196F3"
+}

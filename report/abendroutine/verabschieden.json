@@ -1,0 +1,27 @@
+{
+  "id": "verabschieden",
+  "name": {"de": "Verabschiedung", "en": "Saying goodnight", "nb": "Si god natt"},
+  "description": {"de": "Bewohner für die Nacht verabschieden", "en": "Bid resident goodnight", "nb": "Ønske beboer god natt"},
+  "properties": [
+    {"id": "griffbereit", "type": "multiselect", "label": {"de": "Griffbereit platziert", "en": "Placed within reach", "nb": "Plassert innen rekkevidde"}, "required": true,
+      "options": [
+        {"value": "klingel", "label": {"de": "Klingel", "en": "Call bell", "nb": "Ringeklokke"}},
+        {"value": "getraenk", "label": {"de": "Getränke", "en": "Beverages", "nb": "Drikkevarer"}},
+        {"value": "licht", "label": {"de": "Licht/Nachtlicht", "en": "Light/night light", "nb": "Lys/nattlys"}},
+        {"value": "persoenliches", "label": {"de": "Persönliche Gegenstände", "en": "Personal items", "nb": "Personlige gjenstander"}}
+      ]},
+    {"id": "rituale", "type": "multiselect", "label": {"de": "Durchgeführte Rituale", "en": "Rituals performed", "nb": "Ritualer utført"}, "required": false,
+      "options": [
+        {"value": "gespraech", "label": {"de": "Kurzes Gespräch", "en": "Short conversation", "nb": "Kort samtale"}},
+        {"value": "gebet", "label": {"de": "Gebet", "en": "Prayer", "nb": "Bønn"}},
+        {"value": "vorlesen", "label": {"de": "Vorlesen", "en": "Reading aloud", "nb": "Lese høyt"}}
+      ]},
+    {"id": "raumvorbereitung", "type": "multiselect", "label": {"de": "Raumvorbereitung", "en": "Room preparation", "nb": "Romforberedelse"}, "required": false,
+      "options": [
+        {"value": "licht_dimmen", "label": {"de": "Licht gedimmt", "en": "Light dimmed", "nb": "Lys dempet"}},
+        {"value": "vorhaenge", "label": {"de": "Vorhänge geschlossen", "en": "Curtains closed", "nb": "Gardiner lukket"}},
+        {"value": "lueften", "label": {"de": "Fenster gekippt", "en": "Window tilted", "nb": "Vindu på gløtt"}}
+      ]},
+    {"id": "notes", "type": "textarea", "label": {"de": "Bemerkungen", "en": "Notes", "nb": "Merknader"}, "required": false}
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "lueften",
+  "name": {"de": "Lüften", "en": "Ventilate", "nb": "Lufte"},
+  "description": {"de": "Regelmäßiges Lüften der Zimmer", "en": "Regular ventilation of rooms", "nb": "Regelmessig lufting av rom"},
+  "properties": [
+    {"id": "dauer", "type": "select", "label": {"de": "Dauer", "en": "Duration", "nb": "Varighet"}, "required": true,
+      "options": [
+        {"value": "5", "label": {"de": "5 Minuten", "en": "5 minutes", "nb": "5 minutter"}},
+        {"value": "10", "label": {"de": "10 Minuten", "en": "10 minutes", "nb": "10 minutter"}},
+        {"value": "15", "label": {"de": "15 Minuten", "en": "15 minutes", "nb": "15 minutter"}}
+      ]},
+    {"id": "art", "type": "select", "label": {"de": "Art", "en": "Type", "nb": "Type"}, "required": true,
+      "options": [
+        {"value": "stoss", "label": {"de": "Stoßlüftung", "en": "Shock ventilation", "nb": "Støtlufting"}},
+        {"value": "quer", "label": {"de": "Querlüftung", "en": "Cross ventilation", "nb": "Tverrluftlufting"}},
+        {"value": "kippen", "label": {"de": "Fenster gekippt", "en": "Window tilted", "nb": "Vindu på gløtt"}}
+      ]},
+    {"id": "notes", "type": "textarea", "label": {"de": "Bemerkungen", "en": "Notes", "nb": "Merknader"}, "required": false}
+  ]
+}

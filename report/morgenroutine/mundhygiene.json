@@ -1,0 +1,157 @@
+{
+  "id": "mundhygiene",
+  "name": {
+    "de": "Mund- und Zahnhygiene",
+    "en": "Oral and dental hygiene",
+    "nb": "Munn- og tannhygiene"
+  },
+  "description": {
+    "de": "Unterstützung bei Mundpflege",
+    "en": "Support with oral care",
+    "nb": "Støtte med munnpleie"
+  },
+  "properties": [
+    {
+      "id": "durchfuehrung",
+      "type": "select",
+      "label": {
+        "de": "Durchführung",
+        "en": "Execution",
+        "nb": "Utførelse"
+      },
+      "required": true,
+      "options": [
+        {
+          "value": "selbststaendig",
+          "label": {
+            "de": "Selbstständig",
+            "en": "Independent",
+            "nb": "Selvstendig"
+          }
+        },
+        {
+          "value": "anleitung",
+          "label": {
+            "de": "Mit Anleitung",
+            "en": "With guidance",
+            "nb": "Med veiledning"
+          }
+        },
+        {
+          "value": "unterstuetzung",
+          "label": {
+            "de": "Mit Unterstützung",
+            "en": "With support",
+            "nb": "Med støtte"
+          }
+        },
+        {
+          "value": "uebernahme",
+          "label": {
+            "de": "Vollständige Übernahme",
+            "en": "Complete takeover",
+            "nb": "Full overtagelse"
+          }
+        }
+      ]
+    },
+    {
+      "id": "art",
+      "type": "multiselect",
+      "label": {
+        "de": "Durchgeführte Maßnahmen",
+        "en": "Measures performed",
+        "nb": "Tiltak utført"
+      },
+      "required": true,
+      "options": [
+        {
+          "value": "zaehne",
+          "label": {
+            "de": "Zähne putzen",
+            "en": "Brush teeth",
+            "nb": "Pusse tenner"
+          }
+        },
+        {
+          "value": "prothese",
+          "label": {
+            "de": "Zahnprothese reinigen",
+            "en": "Clean dentures",
+            "nb": "Rengjøre tannprotese"
+          }
+        },
+        {
+          "value": "spuelung",
+          "label": {
+            "de": "Mundspülung",
+            "en": "Mouthwash",
+            "nb": "Munnskylling"
+          }
+        },
+        {
+          "value": "zunge",
+          "label": {
+            "de": "Zungenreinigung",
+            "en": "Tongue cleaning",
+            "nb": "Tungerens"
+          }
+        }
+      ]
+    },
+    {
+      "id": "besonderheiten",
+      "type": "multiselect",
+      "label": {
+        "de": "Besonderheiten",
+        "en": "Special notes",
+        "nb": "Særegenheter"
+      },
+      "required": false,
+      "options": [
+        {
+          "value": "mundtrockenheit",
+          "label": {
+            "de": "Mundtrockenheit",
+            "en": "Dry mouth",
+            "nb": "Munntørrhet"
+          }
+        },
+        {
+          "value": "entzuendungen",
+          "label": {
+            "de": "Entzündungen",
+            "en": "Inflammations",
+            "nb": "Betennelser"
+          }
+        },
+        {
+          "value": "druckstellen",
+          "label": {
+            "de": "Prothesendruckstellen",
+            "en": "Denture pressure marks",
+            "nb": "Protese trykkmerker"
+          }
+        },
+        {
+          "value": "schluckreflex",
+          "label": {
+            "de": "Schluckreflex beeinträchtigt",
+            "en": "Swallowing reflex impaired",
+            "nb": "Svelgerefleks svekket"
+          }
+        }
+      ]
+    },
+    {
+      "id": "notes",
+      "type": "textarea",
+      "label": {
+        "de": "Bemerkungen",
+        "en": "Notes",
+        "nb": "Merknader"
+      },
+      "required": false
+    }
+  ]
+}

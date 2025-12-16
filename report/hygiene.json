@@ -1,0 +1,15 @@
+{
+  "id": "hygiene",
+  "name": {
+    "de": "Hygiene und Hauswirtschaft",
+    "en": "Hygiene and Housekeeping",
+    "nb": "Hygiene og husholdning"
+  },
+  "description": {
+    "de": "Sauberkeit und Ordnung im Wohnbereich",
+    "en": "Cleanliness and order in living area",
+    "nb": "Renslighet og orden i boareal"
+  },
+  "icon": "droplet",
+  "color": "#00BCD4"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "soziale-kontakte",
+  "name": {"de": "Soziale Kontakte fördern", "en": "Promote social contacts", "nb": "Fremme sosiale kontakter"},
+  "description": {"de": "Förderung von Kommunikation und Kontakten", "en": "Promotion of communication and contacts", "nb": "Fremming av kommunikasjon og kontakter"},
+  "properties": [
+    {"id": "form", "type": "select", "label": {"de": "Gesprächsform", "en": "Form of conversation", "nb": "Samtaleform"}, "required": true,
+      "options": [
+        {"value": "einzel", "label": {"de": "Einzelgespräch", "en": "Individual conversation", "nb": "Individuell samtale"}},
+        {"value": "gruppe", "label": {"de": "Gruppengespräch", "en": "Group conversation", "nb": "Gruppesamtale"}},
+        {"value": "angehoerige", "label": {"de": "Angehörigengespräch", "en": "Conversation with relatives", "nb": "Samtale med pårørende"}}
+      ]},
+    {"id": "themen", "type": "multiselect", "label": {"de": "Gesprächsthemen", "en": "Conversation topics", "nb": "Samtaletemaer"}, "required": false,
+      "options": [
+        {"value": "biografie", "label": {"de": "Biografie", "en": "Biography", "nb": "Biografi"}},
+        {"value": "aktuell", "label": {"de": "Aktuelle Ereignisse", "en": "Current events", "nb": "Aktuelle hendelser"}},
+        {"value": "familie", "label": {"de": "Familie", "en": "Family", "nb": "Familie"}},
+        {"value": "hobbys", "label": {"de": "Hobbys", "en": "Hobbies", "nb": "Hobbyer"}},
+        {"value": "erinnerungen", "label": {"de": "Erinnerungen", "en": "Memories", "nb": "Minner"}}
+      ]},
+    {"id": "dauer", "type": "number", "label": {"de": "Dauer (Min)", "en": "Duration (min)", "nb": "Varighet (min)"}, "required": false, "min": 5, "max": 120, "unit": {"de": "Min", "en": "min", "nb": "min"}},
+    {"id": "notes", "type": "textarea", "label": {"de": "Bemerkungen", "en": "Notes", "nb": "Merknader"}, "required": false}
+  ]
+}

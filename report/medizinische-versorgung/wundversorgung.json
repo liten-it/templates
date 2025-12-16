@@ -1,0 +1,260 @@
+{
+  "id": "wundversorgung",
+  "name": {
+    "de": "Wundversorgung durchführen",
+    "en": "Perform wound care",
+    "nb": "Utføre sårbehandling"
+  },
+  "description": {
+    "de": "Verbandswechsel und Wundpflege",
+    "en": "Dressing change and wound care",
+    "nb": "Bandbytte og sårpleie"
+  },
+  "properties": [
+    {
+      "id": "wundart",
+      "type": "select",
+      "label": {
+        "de": "Wundart",
+        "en": "Wound type",
+        "nb": "Sårtype"
+      },
+      "required": true,
+      "options": [
+        {
+          "value": "chronisch",
+          "label": {
+            "de": "Chronische Wunde",
+            "en": "Chronic wound",
+            "nb": "Kronisk sår"
+          }
+        },
+        {
+          "value": "dekubitus",
+          "label": {
+            "de": "Dekubitus",
+            "en": "Pressure ulcer",
+            "nb": "Trykkår"
+          }
+        },
+        {
+          "value": "diabetisch",
+          "label": {
+            "de": "Diabetisches Ulkus",
+            "en": "Diabetic ulcer",
+            "nb": "Diabetisk sår"
+          }
+        },
+        {
+          "value": "operation",
+          "label": {
+            "de": "Operationswunde",
+            "en": "Surgical wound",
+            "nb": "Operasjonssår"
+          }
+        },
+        {
+          "value": "schuerfwunde",
+          "label": {
+            "de": "Schürfwunde",
+            "en": "Abrasion",
+            "nb": "Skrubbsår"
+          }
+        },
+        {
+          "value": "hauteinriss",
+          "label": {
+            "de": "Hauteinriss",
+            "en": "Skin tear",
+            "nb": "Hudrift"
+          }
+        }
+      ]
+    },
+    {
+      "id": "lokalisation",
+      "type": "select",
+      "label": {
+        "de": "Lokalisation",
+        "en": "Location",
+        "nb": "Lokalisering"
+      },
+      "required": true,
+      "options": [
+        {
+          "value": "ferse",
+          "label": {
+            "de": "Ferse",
+            "en": "Heel",
+            "nb": "Hæl"
+          }
+        },
+        {
+          "value": "steissbein",
+          "label": {
+            "de": "Steißbein",
+            "en": "Coccyx",
+            "nb": "Halebein"
+          }
+        },
+        {
+          "value": "huefte",
+          "label": {
+            "de": "Hüfte",
+            "en": "Hip",
+            "nb": "Hofte"
+          }
+        },
+        {
+          "value": "unterschenkel",
+          "label": {
+            "de": "Unterschenkel",
+            "en": "Lower leg",
+            "nb": "Legg"
+          }
+        },
+        {
+          "value": "andere",
+          "label": {
+            "de": "Andere Körperstelle",
+            "en": "Other body part",
+            "nb": "Annen kroppsdel"
+          }
+        }
+      ]
+    },
+    {
+      "id": "wundgroesse",
+      "type": "text",
+      "label": {
+        "de": "Wundgröße (cm)",
+        "en": "Wound size (cm)",
+        "nb": "Sårstørrelse (cm)"
+      },
+      "required": false,
+      "placeholder": {
+        "de": "z.B. 3x2 cm",
+        "en": "e.g. 3x2 cm",
+        "nb": "f.eks. 3x2 cm"
+      }
+    },
+    {
+      "id": "verbandmaterial",
+      "type": "multiselect",
+      "label": {
+        "de": "Verwendetes Verbandmaterial",
+        "en": "Dressing material used",
+        "nb": "Bandasjemateriale brukt"
+      },
+      "required": true,
+      "options": [
+        {
+          "value": "kompresse",
+          "label": {
+            "de": "Kompresse",
+            "en": "Gauze pad",
+            "nb": "Kompresse"
+          }
+        },
+        {
+          "value": "hydrokolloid",
+          "label": {
+            "de": "Hydrokolloidverband",
+            "en": "Hydrocolloid dressing",
+            "nb": "Hydrokolloidbandasje"
+          }
+        },
+        {
+          "value": "schaum",
+          "label": {
+            "de": "Schaumverband",
+            "en": "Foam dressing",
+            "nb": "Skumbandasje"
+          }
+        },
+        {
+          "value": "alginat",
+          "label": {
+            "de": "Alginat",
+            "en": "Alginate",
+            "nb": "Alginat"
+          }
+        },
+        {
+          "value": "gaze",
+          "label": {
+            "de": "Wundgaze",
+            "en": "Wound gauze",
+            "nb": "Sårgaze"
+          }
+        }
+      ]
+    },
+    {
+      "id": "exsudat",
+      "type": "select",
+      "label": {
+        "de": "Exsudat",
+        "en": "Exudate",
+        "nb": "Ekssudat"
+      },
+      "required": false,
+      "options": [
+        {
+          "value": "keine",
+          "label": {
+            "de": "Keine",
+            "en": "None",
+            "nb": "Ingen"
+          }
+        },
+        {
+          "value": "gering",
+          "label": {
+            "de": "Gering",
+            "en": "Minimal",
+            "nb": "Minimal"
+          }
+        },
+        {
+          "value": "maessig",
+          "label": {
+            "de": "Mäßig",
+            "en": "Moderate",
+            "nb": "Moderat"
+          }
+        },
+        {
+          "value": "stark",
+          "label": {
+            "de": "Stark",
+            "en": "Heavy",
+            "nb": "Kraftig"
+          }
+        }
+      ]
+    },
+    {
+      "id": "photos",
+      "type": "media",
+      "label": {
+        "de": "Wundfotos",
+        "en": "Wound photos",
+        "nb": "Sårbilder"
+      },
+      "required": false,
+      "mediaType": "image",
+      "maxCount": 5
+    },
+    {
+      "id": "notes",
+      "type": "textarea",
+      "label": {
+        "de": "Bemerkungen",
+        "en": "Notes",
+        "nb": "Merknader"
+      },
+      "required": false
+    }
+  ]
+}

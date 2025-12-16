@@ -1,0 +1,24 @@
+{
+  "id": "bewohner-kommunikation",
+  "name": {"de": "Mit Bewohnern kommunizieren", "en": "Communicate with residents", "nb": "Kommunisere med beboere"},
+  "description": {"de": "Gespräche und Zuwendung", "en": "Conversations and attention", "nb": "Samtaler og oppmerksomhet"},
+  "properties": [
+    {"id": "themen", "type": "multiselect", "label": {"de": "Gesprächsthemen", "en": "Conversation topics", "nb": "Samtaletemaer"}, "required": false,
+      "options": [
+        {"value": "befinden", "label": {"de": "Tagesbefinden", "en": "Daily well-being", "nb": "Daglig velvære"}},
+        {"value": "sorgen", "label": {"de": "Sorgen und Ängste", "en": "Worries and fears", "nb": "Bekymringer og frykt"}},
+        {"value": "wuensche", "label": {"de": "Wünsche", "en": "Wishes", "nb": "Ønsker"}},
+        {"value": "erinnerungen", "label": {"de": "Erinnerungen", "en": "Memories", "nb": "Minner"}},
+        {"value": "familie", "label": {"de": "Familie", "en": "Family", "nb": "Familie"}}
+      ]},
+    {"id": "dauer", "type": "number", "label": {"de": "Dauer (Min)", "en": "Duration (min)", "nb": "Varighet (min)"}, "required": false, "min": 1, "max": 120, "unit": {"de": "Min", "en": "min", "nb": "min"}},
+    {"id": "besonderheiten", "type": "multiselect", "label": {"de": "Kommunikationshilfen", "en": "Communication aids", "nb": "Kommunikasjonshjelp"}, "required": false,
+      "options": [
+        {"value": "bildkarten", "label": {"de": "Bildkarten", "en": "Picture cards", "nb": "Bildekort"}},
+        {"value": "schreibtafel", "label": {"de": "Schreibtafel", "en": "Writing board", "nb": "Skrivetavle"}},
+        {"value": "gesten", "label": {"de": "Gesten", "en": "Gestures", "nb": "Gester"}},
+        {"value": "einfache_sprache", "label": {"de": "Vereinfachte Sprache", "en": "Simplified language", "nb": "Forenklet språk"}}
+      ]},
+    {"id": "notes", "type": "textarea", "label": {"de": "Bemerkungen", "en": "Notes", "nb": "Merknader"}, "required": false}
+  ]
+}

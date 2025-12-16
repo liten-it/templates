@@ -1,0 +1,149 @@
+{
+  "id": "frisieren",
+  "name": {
+    "de": "Kämmen und Frisieren",
+    "en": "Combing and hairdressing",
+    "nb": "Greie og style hår"
+  },
+  "description": {
+    "de": "Haarpflege und Frisur",
+    "en": "Hair care and styling",
+    "nb": "Hårpleie og styling"
+  },
+  "properties": [
+    {
+      "id": "frisur",
+      "type": "select",
+      "label": {
+        "de": "Frisur",
+        "en": "Hairstyle",
+        "nb": "Frisyre"
+      },
+      "required": true,
+      "options": [
+        {
+          "value": "wunsch",
+          "label": {
+            "de": "Nach persönlichem Wunsch",
+            "en": "According to personal wish",
+            "nb": "Etter personlig ønske"
+          }
+        },
+        {
+          "value": "gewohnt",
+          "label": {
+            "de": "Gewohnte Frisur",
+            "en": "Usual hairstyle",
+            "nb": "Vanlig frisyre"
+          }
+        },
+        {
+          "value": "festlich",
+          "label": {
+            "de": "Festlicher Anlass",
+            "en": "Festive occasion",
+            "nb": "Festlig anledning"
+          }
+        },
+        {
+          "value": "einfach",
+          "label": {
+            "de": "Einfache Pflege",
+            "en": "Simple care",
+            "nb": "Enkel pleie"
+          }
+        }
+      ]
+    },
+    {
+      "id": "hilfsmittel",
+      "type": "multiselect",
+      "label": {
+        "de": "Verwendete Hilfsmittel",
+        "en": "Tools used",
+        "nb": "Verktøy brukt"
+      },
+      "required": false,
+      "options": [
+        {
+          "value": "kamm",
+          "label": {
+            "de": "Kamm",
+            "en": "Comb",
+            "nb": "Kam"
+          }
+        },
+        {
+          "value": "buerste",
+          "label": {
+            "de": "Bürste",
+            "en": "Brush",
+            "nb": "Børste"
+          }
+        },
+        {
+          "value": "spangen",
+          "label": {
+            "de": "Haarspangen",
+            "en": "Hair clips",
+            "nb": "Hårspenne"
+          }
+        },
+        {
+          "value": "styling",
+          "label": {
+            "de": "Haarspray/Gel",
+            "en": "Hair spray/gel",
+            "nb": "Hårspray/gel"
+          }
+        }
+      ]
+    },
+    {
+      "id": "besonderheiten",
+      "type": "multiselect",
+      "label": {
+        "de": "Besonderheiten",
+        "en": "Special notes",
+        "nb": "Særegenheter"
+      },
+      "required": false,
+      "options": [
+        {
+          "value": "peruecke",
+          "label": {
+            "de": "Perücke richten",
+            "en": "Adjust wig",
+            "nb": "Justere parykk"
+          }
+        },
+        {
+          "value": "kopfbedeckung",
+          "label": {
+            "de": "Kopfbedeckung",
+            "en": "Headwear",
+            "nb": "Hodeplagg"
+          }
+        },
+        {
+          "value": "haarteil",
+          "label": {
+            "de": "Haarteil",
+            "en": "Hairpiece",
+            "nb": "Hårfyll"
+          }
+        }
+      ]
+    },
+    {
+      "id": "notes",
+      "type": "textarea",
+      "label": {
+        "de": "Bemerkungen",
+        "en": "Notes",
+        "nb": "Merknader"
+      },
+      "required": false
+    }
+  ]
+}

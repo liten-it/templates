@@ -1,0 +1,25 @@
+{
+  "id": "schlafstoerung",
+  "name": {"de": "Schlafstörung behandeln", "en": "Treat sleep disorder", "nb": "Behandle søvnforstyrrelse"},
+  "description": {"de": "Hilfe bei Schlafproblemen", "en": "Help with sleep problems", "nb": "Hjelp ved søvnproblemer"},
+  "properties": [
+    {"id": "uhrzeit", "type": "time", "label": {"de": "Uhrzeit", "en": "Time", "nb": "Tidspunkt"}, "required": true},
+    {"id": "ursache", "type": "select", "label": {"de": "Vermutete Ursache", "en": "Suspected cause", "nb": "Mistenkt årsak"}, "required": false,
+      "options": [
+        {"value": "schmerz", "label": {"de": "Schmerzen", "en": "Pain", "nb": "Smerte"}},
+        {"value": "harndrang", "label": {"de": "Harndrang", "en": "Urge to urinate", "nb": "Vannlatingstrang"}},
+        {"value": "angst", "label": {"de": "Angst", "en": "Anxiety", "nb": "Angst"}},
+        {"value": "verwirrtheit", "label": {"de": "Verwirrtheit", "en": "Confusion", "nb": "Forvirring"}},
+        {"value": "albtraum", "label": {"de": "Albtraum", "en": "Nightmare", "nb": "Mareritt"}}
+      ]},
+    {"id": "massnahmen", "type": "multiselect", "label": {"de": "Durchgeführte Maßnahmen", "en": "Measures taken", "nb": "Tiltak tatt"}, "required": true,
+      "options": [
+        {"value": "gespraech", "label": {"de": "Ruhiges Gespräch", "en": "Calm conversation", "nb": "Rolig samtale"}},
+        {"value": "hand", "label": {"de": "Hand gehalten", "en": "Held hand", "nb": "Holdt hånd"}},
+        {"value": "lagerung", "label": {"de": "Lagerung geändert", "en": "Position changed", "nb": "Leiring endret"}},
+        {"value": "getraenk", "label": {"de": "Getränk angeboten", "en": "Beverage offered", "nb": "Drikke tilbudt"}},
+        {"value": "medikation", "label": {"de": "Bedarfsmedikation", "en": "As-needed medication", "nb": "Behovsmedikasjon"}}
+      ]},
+    {"id": "notes", "type": "textarea", "label": {"de": "Bemerkungen", "en": "Notes", "nb": "Merknader"}, "required": false}
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "id": "wecken",
+  "name": {
+    "de": "Bewohner wecken",
+    "en": "Wake residents",
+    "nb": "Vekke beboere"
+  },
+  "description": {
+    "de": "Wecken zu vereinbarten Zeiten",
+    "en": "Wake at agreed times",
+    "nb": "Vekke til avtalt tid"
+  },
+  "properties": [
+    {
+      "id": "weckzeit",
+      "type": "time",
+      "label": {
+        "de": "Weckzeit",
+        "en": "Wake time",
+        "nb": "Vekketid"
+      },
+      "required": true
+    },
+    {
+      "id": "weckart",
+      "type": "multiselect",
+      "label": {
+        "de": "Weckart",
+        "en": "Wake method",
+        "nb": "Vekkemetode"
+      },
+      "required": true,
+      "options": [
+        {
+          "value": "ansprechen",
+          "label": {
+            "de": "Sanftes Ansprechen",
+            "en": "Gentle speaking",
+            "nb": "Forsiktig tiltale"
+          }
+        },
+        {
+          "value": "licht",
+          "label": {
+            "de": "Licht einschalten",
+            "en": "Turn on light",
+            "nb": "Slå på lys"
+          }
+        },
+        {
+          "value": "beruehrung",
+          "label": {
+            "de": "Berührung",
+            "en": "Touch",
+            "nb": "Berøring"
+          }
+        },
+        {
+          "value": "vorhaenge",
+          "label": {
+            "de": "Vorhänge öffnen",
+            "en": "Open curtains",
+            "nb": "Åpne gardiner"
+          }
+        }
+      ]
+    },
+    {
+      "id": "besonderheiten",
+      "type": "multiselect",
+      "label": {
+        "de": "Besonderheiten",
+        "en": "Special notes",
+        "nb": "Særegenheter"
+      },
+      "required": false,
+      "options": [
+        {
+          "value": "hoergeraet",
+          "label": {
+            "de": "Hörgerät einsetzen",
+            "en": "Insert hearing aid",
+            "nb": "Sette inn høreapparat"
+          }
+        },
+        {
+          "value": "brille",
+          "label": {
+            "de": "Brille aufsetzen",
+            "en": "Put on glasses",
+            "nb": "Ta på briller"
+          }
+        },
+        {
+          "value": "orientierung",
+          "label": {
+            "de": "Orientierung geben",
+            "en": "Provide orientation",
+            "nb": "Gi orientering"
+          }
+        }
+      ]
+    },
+    {
+      "id": "notes",
+      "type": "textarea",
+      "label": {
+        "de": "Bemerkungen",
+        "en": "Notes",
+        "nb": "Merknader"
+      },
+      "required": false
+    }
+  ]
+}

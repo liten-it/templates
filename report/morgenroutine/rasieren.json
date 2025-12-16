@@ -1,0 +1,97 @@
+{
+  "id": "rasieren",
+  "name": {
+    "de": "Rasieren",
+    "en": "Shaving",
+    "nb": "Barbering"
+  },
+  "description": {
+    "de": "Unterstützung bei der Rasur",
+    "en": "Support with shaving",
+    "nb": "Støtte med barbering"
+  },
+  "properties": [
+    {
+      "id": "rasurart",
+      "type": "select",
+      "label": {
+        "de": "Art der Rasur",
+        "en": "Type of shave",
+        "nb": "Type barbering"
+      },
+      "required": true,
+      "options": [
+        {
+          "value": "nass",
+          "label": {
+            "de": "Nassrasur",
+            "en": "Wet shave",
+            "nb": "Våtbarbering"
+          }
+        },
+        {
+          "value": "trocken",
+          "label": {
+            "de": "Trockenrasur (elektrisch)",
+            "en": "Dry shave (electric)",
+            "nb": "Tørrbarbering (elektrisk)"
+          }
+        },
+        {
+          "value": "bart",
+          "label": {
+            "de": "Bartpflege",
+            "en": "Beard care",
+            "nb": "Skjeggpleie"
+          }
+        }
+      ]
+    },
+    {
+      "id": "durchfuehrung",
+      "type": "select",
+      "label": {
+        "de": "Durchführung",
+        "en": "Execution",
+        "nb": "Utførelse"
+      },
+      "required": true,
+      "options": [
+        {
+          "value": "selbststaendig",
+          "label": {
+            "de": "Selbstständig",
+            "en": "Independent",
+            "nb": "Selvstendig"
+          }
+        },
+        {
+          "value": "unterstuetzung",
+          "label": {
+            "de": "Mit Unterstützung",
+            "en": "With support",
+            "nb": "Med støtte"
+          }
+        },
+        {
+          "value": "uebernahme",
+          "label": {
+            "de": "Vollständige Übernahme",
+            "en": "Complete takeover",
+            "nb": "Full overtagelse"
+          }
+        }
+      ]
+    },
+    {
+      "id": "notes",
+      "type": "textarea",
+      "label": {
+        "de": "Bemerkungen",
+        "en": "Notes",
+        "nb": "Merknader"
+      },
+      "required": false
+    }
+  ]
+}

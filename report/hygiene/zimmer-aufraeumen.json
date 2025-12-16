@@ -1,0 +1,16 @@
+{
+  "id": "zimmer-aufraeumen",
+  "name": {"de": "Zimmer aufräumen", "en": "Tidy room", "nb": "Rydde rom"},
+  "description": {"de": "Ordnung im Bewohnerzimmer schaffen", "en": "Create order in resident room", "nb": "Skape orden i beboerrom"},
+  "properties": [
+    {"id": "bereiche", "type": "multiselect", "label": {"de": "Aufgeräumte Bereiche", "en": "Tidied areas", "nb": "Ryddede områder"}, "required": true,
+      "options": [
+        {"value": "nachttisch", "label": {"de": "Nachttisch", "en": "Bedside table", "nb": "Nattbord"}},
+        {"value": "schrank", "label": {"de": "Kleiderschrank", "en": "Wardrobe", "nb": "Klesskap"}},
+        {"value": "tisch", "label": {"de": "Schreibtisch", "en": "Desk", "nb": "Skrivebord"}},
+        {"value": "bad", "label": {"de": "Badezimmer", "en": "Bathroom", "nb": "Baderom"}}
+      ]},
+    {"id": "mit_bewohner", "type": "checkbox", "label": {"de": "Zusammen mit Bewohner", "en": "Together with resident", "nb": "Sammen med beboer"}, "required": false},
+    {"id": "notes", "type": "textarea", "label": {"de": "Bemerkungen", "en": "Notes", "nb": "Merknader"}, "required": false}
+  ]
+}

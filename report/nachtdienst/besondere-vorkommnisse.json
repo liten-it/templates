@@ -1,0 +1,27 @@
+{
+  "id": "besondere-vorkommnisse",
+  "name": {"de": "Besondere Vorkommnisse dokumentieren", "en": "Document special incidents", "nb": "Dokumentere spesielle hendelser"},
+  "description": {"de": "Dokumentation außergewöhnlicher Ereignisse", "en": "Documentation of unusual events", "nb": "Dokumentasjon av uvanlige hendelser"},
+  "properties": [
+    {"id": "art", "type": "select", "label": {"de": "Art des Vorkommnisses", "en": "Type of incident", "nb": "Type hendelse"}, "required": true,
+      "options": [
+        {"value": "sturz", "label": {"de": "Sturz", "en": "Fall", "nb": "Fall"}},
+        {"value": "weglauftendenz", "label": {"de": "Weglauftendenz", "en": "Wandering tendency", "nb": "Vandretendens"}},
+        {"value": "aggression", "label": {"de": "Aggressives Verhalten", "en": "Aggressive behavior", "nb": "Aggressiv adferd"}},
+        {"value": "erkrankung", "label": {"de": "Akute Erkrankung", "en": "Acute illness", "nb": "Akutt sykdom"}},
+        {"value": "unruhe", "label": {"de": "Starke Unruhe", "en": "Severe restlessness", "nb": "Alvorlig uro"}},
+        {"value": "todesfall", "label": {"de": "Todesfall", "en": "Death", "nb": "Dødsfall"}}
+      ]},
+    {"id": "uhrzeit", "type": "time", "label": {"de": "Uhrzeit", "en": "Time", "nb": "Tidspunkt"}, "required": true},
+    {"id": "hergang", "type": "textarea", "label": {"de": "Hergang", "en": "Course of events", "nb": "Hendelsesforløp"}, "required": true},
+    {"id": "massnahmen", "type": "textarea", "label": {"de": "Sofortmaßnahmen", "en": "Immediate measures", "nb": "Umiddelbare tiltak"}, "required": true},
+    {"id": "benachrichtigt", "type": "multiselect", "label": {"de": "Benachrichtigt", "en": "Notified", "nb": "Varslet"}, "required": false,
+      "options": [
+        {"value": "arzt", "label": {"de": "Arzt", "en": "Doctor", "nb": "Lege"}},
+        {"value": "angehoerige", "label": {"de": "Angehörige", "en": "Relatives", "nb": "Pårørende"}},
+        {"value": "leitung", "label": {"de": "Leitung", "en": "Management", "nb": "Ledelse"}},
+        {"value": "rettungsdienst", "label": {"de": "Rettungsdienst", "en": "Emergency services", "nb": "Ambulanse"}}
+      ]},
+    {"id": "photos", "type": "media", "label": {"de": "Fotos", "en": "Photos", "nb": "Bilder"}, "required": false, "mediaType": "image", "maxCount": 5}
+  ]
+}

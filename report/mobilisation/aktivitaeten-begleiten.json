@@ -1,0 +1,190 @@
+{
+  "id": "aktivitaeten-begleiten",
+  "name": {
+    "de": "Zu Aktivitäten begleiten",
+    "en": "Accompany to activities",
+    "nb": "Ledsage til aktiviteter"
+  },
+  "description": {
+    "de": "Begleitung zu Veranstaltungen",
+    "en": "Accompaniment to events",
+    "nb": "Ledsagelse til arrangementer"
+  },
+  "properties": [
+    {
+      "id": "aktivitaet",
+      "type": "select",
+      "label": {
+        "de": "Art der Aktivität",
+        "en": "Type of activity",
+        "nb": "Type aktivitet"
+      },
+      "required": true,
+      "options": [
+        {
+          "value": "gymnastik",
+          "label": {
+            "de": "Gruppengymnastik",
+            "en": "Group exercise",
+            "nb": "Gruppegymnastikk"
+          }
+        },
+        {
+          "value": "gedaechtnis",
+          "label": {
+            "de": "Gedächtnistraining",
+            "en": "Memory training",
+            "nb": "Hukommelsestrening"
+          }
+        },
+        {
+          "value": "singkreis",
+          "label": {
+            "de": "Singkreis",
+            "en": "Singing circle",
+            "nb": "Sangkrets"
+          }
+        },
+        {
+          "value": "gottesdienst",
+          "label": {
+            "de": "Gottesdienst",
+            "en": "Church service",
+            "nb": "Gudstjeneste"
+          }
+        },
+        {
+          "value": "ausflug",
+          "label": {
+            "de": "Ausflug",
+            "en": "Outing",
+            "nb": "Utflukt"
+          }
+        },
+        {
+          "value": "fest",
+          "label": {
+            "de": "Fest/Feier",
+            "en": "Party/celebration",
+            "nb": "Fest/feiring"
+          }
+        },
+        {
+          "value": "konzert",
+          "label": {
+            "de": "Konzert",
+            "en": "Concert",
+            "nb": "Konsert"
+          }
+        },
+        {
+          "value": "kino",
+          "label": {
+            "de": "Kinoabend",
+            "en": "Movie night",
+            "nb": "Kinokveld"
+          }
+        }
+      ]
+    },
+    {
+      "id": "transport",
+      "type": "select",
+      "label": {
+        "de": "Transport",
+        "en": "Transport",
+        "nb": "Transport"
+      },
+      "required": true,
+      "options": [
+        {
+          "value": "fuss",
+          "label": {
+            "de": "Zu Fuß",
+            "en": "Walking",
+            "nb": "Til fots"
+          }
+        },
+        {
+          "value": "rollstuhl",
+          "label": {
+            "de": "Mit Rollstuhl",
+            "en": "With wheelchair",
+            "nb": "Med rullestol"
+          }
+        },
+        {
+          "value": "rollator",
+          "label": {
+            "de": "Mit Rollator",
+            "en": "With rollator",
+            "nb": "Med rullator"
+          }
+        }
+      ]
+    },
+    {
+      "id": "teilnahme",
+      "type": "select",
+      "label": {
+        "de": "Art der Teilnahme",
+        "en": "Type of participation",
+        "nb": "Type deltakelse"
+      },
+      "required": false,
+      "options": [
+        {
+          "value": "aktiv",
+          "label": {
+            "de": "Aktiv",
+            "en": "Active",
+            "nb": "Aktiv"
+          }
+        },
+        {
+          "value": "passiv",
+          "label": {
+            "de": "Passiv/Zuschauend",
+            "en": "Passive/watching",
+            "nb": "Passiv/tilskuende"
+          }
+        },
+        {
+          "value": "interesse",
+          "label": {
+            "de": "Nach Interesse",
+            "en": "According to interest",
+            "nb": "Etter interesse"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dauer",
+      "type": "number",
+      "label": {
+        "de": "Dauer (Minuten)",
+        "en": "Duration (minutes)",
+        "nb": "Varighet (minutter)"
+      },
+      "required": false,
+      "min": 15,
+      "max": 300,
+      "unit": {
+        "de": "Min",
+        "en": "Min",
+        "nb": "Min"
+      }
+    },
+    {
+      "id": "notes",
+      "type": "textarea",
+      "label": {
+        "de": "Bemerkungen",
+        "en": "Notes",
+        "nb": "Merknader"
+      },
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "id": "zwischenmahlzeiten",
+  "name": {
+    "de": "Zwischenmahlzeiten anbieten",
+    "en": "Offer snacks",
+    "nb": "Tilby mellommåltider"
+  },
+  "description": {
+    "de": "Zwischenmahlzeiten und Getränke bereitstellen",
+    "en": "Provide snacks and beverages",
+    "nb": "Tilby snacks og drikke"
+  },
+  "properties": [
+    {
+      "id": "zeitpunkt",
+      "type": "select",
+      "label": {
+        "de": "Zeitpunkt",
+        "en": "Time",
+        "nb": "Tidspunkt"
+      },
+      "required": true,
+      "options": [
+        {
+          "value": "vormittag",
+          "label": {
+            "de": "Vormittags (ca. 10:00)",
+            "en": "Morning (approx. 10:00)",
+            "nb": "Formiddag (ca. 10:00)"
+          }
+        },
+        {
+          "value": "nachmittag",
+          "label": {
+            "de": "Nachmittags (ca. 15:00)",
+            "en": "Afternoon (approx. 15:00)",
+            "nb": "Ettermiddag (ca. 15:00)"
+          }
+        },
+        {
+          "value": "abend",
+          "label": {
+            "de": "Abends (ca. 20:00)",
+            "en": "Evening (approx. 20:00)",
+            "nb": "Kveld (ca. 20:00)"
+          }
+        },
+        {
+          "value": "bedarf",
+          "label": {
+            "de": "Nach Bedarf",
+            "en": "As needed",
+            "nb": "Etter behov"
+          }
+        }
+      ]
+    },
+    {
+      "id": "speisen",
+      "type": "multiselect",
+      "label": {
+        "de": "Angebotene Speisen",
+        "en": "Food offered",
+        "nb": "Tilbudt mat"
+      },
+      "required": false,
+      "options": [
+        {
+          "value": "obst",
+          "label": {
+            "de": "Obst",
+            "en": "Fruit",
+            "nb": "Frukt"
+          }
+        },
+        {
+          "value": "joghurt",
+          "label": {
+            "de": "Joghurt",
+            "en": "Yogurt",
+            "nb": "Yoghurt"
+          }
+        },
+        {
+          "value": "kuchen",
+          "label": {
+            "de": "Kuchen",
+            "en": "Cake",
+            "nb": "Kake"
+          }
+        },
+        {
+          "value": "kekse",
+          "label": {
+            "de": "Kekse",
+            "en": "Cookies",
+            "nb": "Kjeks"
+          }
+        },
+        {
+          "value": "brot",
+          "label": {
+            "de": "Brot",
+            "en": "Bread",
+            "nb": "Brød"
+          }
+        }
+      ]
+    },
+    {
+      "id": "getraenke",
+      "type": "multiselect",
+      "label": {
+        "de": "Angebotene Getränke",
+        "en": "Beverages offered",
+        "nb": "Tilbudt drikke"
+      },
+      "required": true,
+      "options": [
+        {
+          "value": "wasser",
+          "label": {
+            "de": "Wasser",
+            "en": "Water",
+            "nb": "Vann"
+          }
+        },
+        {
+          "value": "saft",
+          "label": {
+            "de": "Saft",
+            "en": "Juice",
+            "nb": "Juice"
+          }
+        },
+        {
+          "value": "tee",
+          "label": {
+            "de": "Tee",
+            "en": "Tea",
+            "nb": "Te"
+          }
+        },
+        {
+          "value": "kaffee",
+          "label": {
+            "de": "Kaffee",
+            "en": "Coffee",
+            "nb": "Kaffe"
+          }
+        }
+      ]
+    },
+    {
+      "id": "notes",
+      "type": "textarea",
+      "label": {
+        "de": "Bemerkungen",
+        "en": "Notes",
+        "nb": "Merknader"
+      },
+      "required": false
+    }
+  ]
+}

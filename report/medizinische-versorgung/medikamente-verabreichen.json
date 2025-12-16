@@ -1,0 +1,238 @@
+{
+  "id": "medikamente-verabreichen",
+  "name": {
+    "de": "Medikamente verabreichen",
+    "en": "Administer medication",
+    "nb": "Administrere medisin"
+  },
+  "description": {
+    "de": "Medikamentengabe nach ärztlicher Verordnung",
+    "en": "Medication administration according to prescription",
+    "nb": "Medikamentadministrasjon etter resept"
+  },
+  "properties": [
+    {
+      "id": "zeitpunkt",
+      "type": "select",
+      "label": {
+        "de": "Zeitpunkt",
+        "en": "Time",
+        "nb": "Tidspunkt"
+      },
+      "required": true,
+      "options": [
+        {
+          "value": "morgens_nuechtern",
+          "label": {
+            "de": "Morgens nüchtern",
+            "en": "Morning fasting",
+            "nb": "Morgen fastende"
+          }
+        },
+        {
+          "value": "morgens",
+          "label": {
+            "de": "Morgens zum Frühstück",
+            "en": "Morning with breakfast",
+            "nb": "Morgen med frokost"
+          }
+        },
+        {
+          "value": "mittags",
+          "label": {
+            "de": "Mittags",
+            "en": "Midday",
+            "nb": "Middag"
+          }
+        },
+        {
+          "value": "abends",
+          "label": {
+            "de": "Abends",
+            "en": "Evening",
+            "nb": "Kveld"
+          }
+        },
+        {
+          "value": "nacht",
+          "label": {
+            "de": "Zur Nacht",
+            "en": "At night",
+            "nb": "Om natten"
+          }
+        },
+        {
+          "value": "bedarf",
+          "label": {
+            "de": "Nach Bedarf",
+            "en": "As needed",
+            "nb": "Etter behov"
+          }
+        }
+      ]
+    },
+    {
+      "id": "darreichungsform",
+      "type": "multiselect",
+      "label": {
+        "de": "Darreichungsform",
+        "en": "Form of administration",
+        "nb": "Administrasjonsform"
+      },
+      "required": true,
+      "options": [
+        {
+          "value": "tabletten",
+          "label": {
+            "de": "Tabletten",
+            "en": "Tablets",
+            "nb": "Tabletter"
+          }
+        },
+        {
+          "value": "tropfen",
+          "label": {
+            "de": "Tropfen",
+            "en": "Drops",
+            "nb": "Dråper"
+          }
+        },
+        {
+          "value": "saft",
+          "label": {
+            "de": "Saft",
+            "en": "Liquid",
+            "nb": "Væske"
+          }
+        },
+        {
+          "value": "injektion",
+          "label": {
+            "de": "Injektion (subkutan)",
+            "en": "Injection (subcutaneous)",
+            "nb": "Injeksjon (subkutan)"
+          }
+        },
+        {
+          "value": "pflaster",
+          "label": {
+            "de": "Pflaster",
+            "en": "Patch",
+            "nb": "Plaster"
+          }
+        },
+        {
+          "value": "salbe",
+          "label": {
+            "de": "Salbe",
+            "en": "Ointment",
+            "nb": "Salve"
+          }
+        },
+        {
+          "value": "augentropfen",
+          "label": {
+            "de": "Augentropfen",
+            "en": "Eye drops",
+            "nb": "Øyedråper"
+          }
+        },
+        {
+          "value": "inhalation",
+          "label": {
+            "de": "Inhalation",
+            "en": "Inhalation",
+            "nb": "Inhalasjon"
+          }
+        }
+      ]
+    },
+    {
+      "id": "einnahme",
+      "type": "select",
+      "label": {
+        "de": "Einnahme",
+        "en": "Intake",
+        "nb": "Inntak"
+      },
+      "required": false,
+      "options": [
+        {
+          "value": "mit_wasser",
+          "label": {
+            "de": "Mit Wasser",
+            "en": "With water",
+            "nb": "Med vann"
+          }
+        },
+        {
+          "value": "mit_nahrung",
+          "label": {
+            "de": "Mit Nahrung",
+            "en": "With food",
+            "nb": "Med mat"
+          }
+        },
+        {
+          "value": "vor_essen",
+          "label": {
+            "de": "Vor dem Essen",
+            "en": "Before meals",
+            "nb": "Før måltider"
+          }
+        },
+        {
+          "value": "nuechtern",
+          "label": {
+            "de": "Nüchtern",
+            "en": "Fasting",
+            "nb": "Fastende"
+          }
+        },
+        {
+          "value": "sublingual",
+          "label": {
+            "de": "Sublingual",
+            "en": "Sublingual",
+            "nb": "Sublingual"
+          }
+        }
+      ]
+    },
+    {
+      "id": "medikamente",
+      "type": "textarea",
+      "label": {
+        "de": "Verabreichte Medikamente",
+        "en": "Administered medications",
+        "nb": "Administrerte medikamenter"
+      },
+      "required": true,
+      "placeholder": {
+        "de": "z.B. ASS 100mg, Ramipril 5mg...",
+        "en": "e.g. ASA 100mg, Ramipril 5mg...",
+        "nb": "f.eks. ASA 100mg, Ramipril 5mg..."
+      }
+    },
+    {
+      "id": "einnahme_ueberwacht",
+      "type": "checkbox",
+      "label": {
+        "de": "Einnahme überwacht",
+        "en": "Intake monitored",
+        "nb": "Inntak overvåket"
+      },
+      "required": false
+    },
+    {
+      "id": "notes",
+      "type": "textarea",
+      "label": {
+        "de": "Bemerkungen",
+        "en": "Notes",
+        "nb": "Merknader"
+      },
+      "required": false
+    }
+  ]
+}

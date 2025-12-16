@@ -1,0 +1,198 @@
+{
+  "id": "physiotherapie",
+  "name": {
+    "de": "Physiotherapeutische Übungen",
+    "en": "Physiotherapy exercises",
+    "nb": "Fysioterapiøvelser"
+  },
+  "description": {
+    "de": "Unterstützung bei therapeutischen Übungen",
+    "en": "Support with therapeutic exercises",
+    "nb": "Støtte med terapeutiske øvelser"
+  },
+  "properties": [
+    {
+      "id": "uebungsart",
+      "type": "multiselect",
+      "label": {
+        "de": "Übungsart",
+        "en": "Type of exercise",
+        "nb": "Type øvelse"
+      },
+      "required": true,
+      "options": [
+        {
+          "value": "passiv",
+          "label": {
+            "de": "Passive Bewegung",
+            "en": "Passive movement",
+            "nb": "Passiv bevegelse"
+          }
+        },
+        {
+          "value": "aktiv_assistiv",
+          "label": {
+            "de": "Aktiv-assistive Bewegung",
+            "en": "Active-assistive movement",
+            "nb": "Aktiv-assistiv bevegelse"
+          }
+        },
+        {
+          "value": "aktiv",
+          "label": {
+            "de": "Aktive Bewegung",
+            "en": "Active movement",
+            "nb": "Aktiv bevegelse"
+          }
+        },
+        {
+          "value": "gehtraining",
+          "label": {
+            "de": "Gehtraining",
+            "en": "Gait training",
+            "nb": "Gangtrening"
+          }
+        },
+        {
+          "value": "gleichgewicht",
+          "label": {
+            "de": "Gleichgewichtsübungen",
+            "en": "Balance exercises",
+            "nb": "Balanseøvelser"
+          }
+        },
+        {
+          "value": "atmung",
+          "label": {
+            "de": "Atemübungen",
+            "en": "Breathing exercises",
+            "nb": "Pusteøvelser"
+          }
+        }
+      ]
+    },
+    {
+      "id": "koerperregion",
+      "type": "multiselect",
+      "label": {
+        "de": "Körperregion",
+        "en": "Body region",
+        "nb": "Kroppsregion"
+      },
+      "required": true,
+      "options": [
+        {
+          "value": "obe_extremitaeten",
+          "label": {
+            "de": "Obere Extremitäten",
+            "en": "Upper extremities",
+            "nb": "Øvre ekstremiteter"
+          }
+        },
+        {
+          "value": "untere_extremitaeten",
+          "label": {
+            "de": "Untere Extremitäten",
+            "en": "Lower extremities",
+            "nb": "Nedre ekstremiteter"
+          }
+        },
+        {
+          "value": "rumpf",
+          "label": {
+            "de": "Rumpf",
+            "en": "Trunk",
+            "nb": "Torso"
+          }
+        },
+        {
+          "value": "hals_nacken",
+          "label": {
+            "de": "Hals/Nacken",
+            "en": "Neck",
+            "nb": "Hals/nakke"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dauer",
+      "type": "number",
+      "label": {
+        "de": "Dauer (Minuten)",
+        "en": "Duration (minutes)",
+        "nb": "Varighet (minutter)"
+      },
+      "required": true,
+      "min": 5,
+      "max": 120,
+      "unit": {
+        "de": "Min",
+        "en": "Min",
+        "nb": "Min"
+      }
+    },
+    {
+      "id": "hilfsmittel",
+      "type": "multiselect",
+      "label": {
+        "de": "Verwendete Hilfsmittel",
+        "en": "Equipment used",
+        "nb": "Utstyr brukt"
+      },
+      "required": false,
+      "options": [
+        {
+          "value": "theraband",
+          "label": {
+            "de": "Theraband",
+            "en": "Resistance band",
+            "nb": "Treningsband"
+          }
+        },
+        {
+          "value": "gewichte",
+          "label": {
+            "de": "Gewichte",
+            "en": "Weights",
+            "nb": "Vekter"
+          }
+        },
+        {
+          "value": "ball",
+          "label": {
+            "de": "Gymnastikball",
+            "en": "Exercise ball",
+            "nb": "Treningsball"
+          }
+        },
+        {
+          "value": "gehbarren",
+          "label": {
+            "de": "Gehbarren",
+            "en": "Parallel bars",
+            "nb": "Gangstativ"
+          }
+        },
+        {
+          "value": "hantel",
+          "label": {
+            "de": "Hantel",
+            "en": "Dumbbell",
+            "nb": "Håndvekter"
+          }
+        }
+      ]
+    },
+    {
+      "id": "notes",
+      "type": "textarea",
+      "label": {
+        "de": "Bemerkungen",
+        "en": "Notes",
+        "nb": "Merknader"
+      },
+      "required": false
+    }
+  ]
+}

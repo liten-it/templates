@@ -1,0 +1,15 @@
+{
+  "id": "kommunikation",
+  "name": {
+    "de": "Kommunikation",
+    "en": "Communication",
+    "nb": "Kommunikasjon"
+  },
+  "description": {
+    "de": "Austausch mit Bewohnern, Angehörigen und Team",
+    "en": "Exchange with residents, relatives and team",
+    "nb": "Utveksling med beboere, pårørende og team"
+  },
+  "icon": "message-circle",
+  "color": "#009688"
+}

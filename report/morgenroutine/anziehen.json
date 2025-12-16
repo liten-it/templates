@@ -1,0 +1,185 @@
+{
+  "id": "anziehen",
+  "name": {
+    "de": "Beim Anziehen helfen",
+    "en": "Help with dressing",
+    "nb": "Hjelpe med påkledning"
+  },
+  "description": {
+    "de": "Unterstützung beim Anziehen und Kleidungsauswahl",
+    "en": "Support with dressing and clothing selection",
+    "nb": "Støtte med påkledning og klevalg"
+  },
+  "properties": [
+    {
+      "id": "kleidungsstuecke",
+      "type": "multiselect",
+      "label": {
+        "de": "Angezogene Kleidungsstücke",
+        "en": "Clothes put on",
+        "nb": "Klær påført"
+      },
+      "required": true,
+      "options": [
+        {
+          "value": "unterwaesche",
+          "label": {
+            "de": "Unterwäsche",
+            "en": "Underwear",
+            "nb": "Undertøy"
+          }
+        },
+        {
+          "value": "oberbekleidung",
+          "label": {
+            "de": "Oberbekleidung",
+            "en": "Outer clothing",
+            "nb": "Ytterklær"
+          }
+        },
+        {
+          "value": "struempfe",
+          "label": {
+            "de": "Strümpfe/Kompressionsstrümpfe",
+            "en": "Stockings/compression stockings",
+            "nb": "Strømper/kompresjonstrømper"
+          }
+        },
+        {
+          "value": "schuhe",
+          "label": {
+            "de": "Schuhe",
+            "en": "Shoes",
+            "nb": "Sko"
+          }
+        }
+      ]
+    },
+    {
+      "id": "auswahl",
+      "type": "select",
+      "label": {
+        "de": "Kleidungsauswahl",
+        "en": "Clothing selection",
+        "nb": "Klevalg"
+      },
+      "required": true,
+      "options": [
+        {
+          "value": "bewohner",
+          "label": {
+            "de": "Bewohner wählt selbst",
+            "en": "Resident chooses",
+            "nb": "Beboer velger selv"
+          }
+        },
+        {
+          "value": "vorschlaege",
+          "label": {
+            "de": "Vorschläge gemacht",
+            "en": "Suggestions made",
+            "nb": "Forslag gjort"
+          }
+        },
+        {
+          "value": "pflegekraft",
+          "label": {
+            "de": "Pflegekraft wählt",
+            "en": "Caregiver chooses",
+            "nb": "Pleier velger"
+          }
+        }
+      ]
+    },
+    {
+      "id": "hilfsmittel",
+      "type": "multiselect",
+      "label": {
+        "de": "Verwendete Hilfsmittel",
+        "en": "Aids used",
+        "nb": "Hjelpemidler brukt"
+      },
+      "required": false,
+      "options": [
+        {
+          "value": "knoepfhilfe",
+          "label": {
+            "de": "Knöpfhilfe",
+            "en": "Button aid",
+            "nb": "Knappehjelp"
+          }
+        },
+        {
+          "value": "schuhanzieher",
+          "label": {
+            "de": "Schuhanzieher",
+            "en": "Shoe horn",
+            "nb": "Skotrekker"
+          }
+        },
+        {
+          "value": "strumpfanzieher",
+          "label": {
+            "de": "Strumpfanzieher",
+            "en": "Stocking aid",
+            "nb": "Strømpepåtrekker"
+          }
+        }
+      ]
+    },
+    {
+      "id": "besonderheiten",
+      "type": "multiselect",
+      "label": {
+        "de": "Besonderheiten",
+        "en": "Special notes",
+        "nb": "Særegenheter"
+      },
+      "required": false,
+      "options": [
+        {
+          "value": "inkontinenz",
+          "label": {
+            "de": "Inkontinenzmaterial",
+            "en": "Incontinence material",
+            "nb": "Inkontinensmateriale"
+          }
+        },
+        {
+          "value": "kompression",
+          "label": {
+            "de": "Kompressionsstrümpfe",
+            "en": "Compression stockings",
+            "nb": "Kompresjonstrømper"
+          }
+        },
+        {
+          "value": "orthesen",
+          "label": {
+            "de": "Orthesen",
+            "en": "Orthoses",
+            "nb": "Ortoser"
+          }
+        },
+        {
+          "value": "prothesen",
+          "label": {
+            "de": "Prothesen",
+            "en": "Prostheses",
+            "nb": "Proteser"
+          }
+        }
+      ]
+    },
+    {
+      "id": "notes",
+      "type": "textarea",
+      "label": {
+        "de": "Bemerkungen",
+        "en": "Notes",
+        "nb": "Merknader"
+      },
+      "required": false
+    }
+  ]
+}

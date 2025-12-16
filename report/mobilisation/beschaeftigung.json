@@ -1,0 +1,23 @@
+{
+  "id": "beschaeftigung",
+  "name": {"de": "Beschäftigungsangebote", "en": "Activity offers", "nb": "Aktivitetstilbud"},
+  "description": {"de": "Kognitive und motorische Aktivierung", "en": "Cognitive and motor activation", "nb": "Kognitiv og motorisk aktivering"},
+  "properties": [
+    {"id": "art", "type": "multiselect", "label": {"de": "Art der Beschäftigung", "en": "Type of activity", "nb": "Type aktivitet"}, "required": true,
+      "options": [
+        {"value": "gedaechtnis", "label": {"de": "Gedächtnistraining", "en": "Memory training", "nb": "Hukommelsestrening"}},
+        {"value": "kreativ", "label": {"de": "Kreatives (Malen, Basteln)", "en": "Creative (painting, crafting)", "nb": "Kreativt (male, håndverk)"}},
+        {"value": "motorik", "label": {"de": "Motorik (Ballspiele, Kegeln)", "en": "Motor skills (ball games, bowling)", "nb": "Motorikk (ballspill, bowling)"}},
+        {"value": "sinne", "label": {"de": "Sinnesaktivierung", "en": "Sensory activation", "nb": "Sensorisk aktivering"}},
+        {"value": "alltagsorientiert", "label": {"de": "Alltagsorientiert (Kochen, Backen)", "en": "Daily life oriented (cooking, baking)", "nb": "Dagliglivsorientert (matlaging, baking)"}}
+      ]},
+    {"id": "dauer", "type": "number", "label": {"de": "Dauer (Min)", "en": "Duration (min)", "nb": "Varighet (min)"}, "required": false, "min": 10, "max": 180, "unit": {"de": "Min", "en": "min", "nb": "min"}},
+    {"id": "teilnahme", "type": "select", "label": {"de": "Teilnahme", "en": "Participation", "nb": "Deltakelse"}, "required": true,
+      "options": [
+        {"value": "aktiv", "label": {"de": "Aktiv", "en": "Active", "nb": "Aktiv"}},
+        {"value": "passiv", "label": {"de": "Passiv", "en": "Passive", "nb": "Passiv"}},
+        {"value": "teilweise", "label": {"de": "Teilweise", "en": "Partial", "nb": "Delvis"}}
+      ]},
+    {"id": "notes", "type": "textarea", "label": {"de": "Bemerkungen", "en": "Notes", "nb": "Merknader"}, "required": false}
+  ]
+}

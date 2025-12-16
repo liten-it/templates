@@ -1,0 +1,15 @@
+{
+  "id": "abendroutine",
+  "name": {
+    "de": "Abendroutine",
+    "en": "Evening Routine",
+    "nb": "Kveldsrutine"
+  },
+  "description": {
+    "de": "Aktivitäten zur Vorbereitung der Nachtruhe",
+    "en": "Activities to prepare for night rest",
+    "nb": "Aktiviteter for å forberede nattehvile"
+  },
+  "icon": "sunset",
+  "color": "#673AB7"
+}

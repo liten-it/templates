@@ -1,0 +1,15 @@
+{
+  "id": "dokumentation",
+  "name": {
+    "de": "Dokumentation und Organisation",
+    "en": "Documentation and Organization",
+    "nb": "Dokumentasjon og organisering"
+  },
+  "description": {
+    "de": "Pflegedokumentation und Koordination",
+    "en": "Care documentation and coordination",
+    "nb": "Pleiedokumentasjon og koordinering"
+  },
+  "icon": "file-text",
+  "color": "#9C27B0"
+}

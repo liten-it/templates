@@ -1,0 +1,15 @@
+{
+  "id": "medizinische-versorgung",
+  "name": {
+    "de": "Medizinische Versorgung",
+    "en": "Medical Care",
+    "nb": "Medisinsk behandling"
+  },
+  "description": {
+    "de": "Medizinische Pflege und Behandlungsmaßnahmen",
+    "en": "Medical care and treatment measures",
+    "nb": "Medisinsk pleie og behandlingstiltak"
+  },
+  "icon": "heart-pulse",
+  "color": "#F44336"
+}

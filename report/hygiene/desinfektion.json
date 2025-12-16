@@ -1,0 +1,20 @@
+{
+  "id": "desinfektion",
+  "name": {"de": "Desinfektion durchführen", "en": "Perform disinfection", "nb": "Utføre desinfeksjon"},
+  "description": {"de": "Hygienemaßnahmen und Desinfektion", "en": "Hygiene measures and disinfection", "nb": "Hygieniske tiltak og desinfeksjon"},
+  "properties": [
+    {"id": "art", "type": "multiselect", "label": {"de": "Art der Desinfektion", "en": "Type of disinfection", "nb": "Type desinfeksjon"}, "required": true,
+      "options": [
+        {"value": "haende", "label": {"de": "Händedesinfektion", "en": "Hand disinfection", "nb": "Hånddesinfeksjon"}},
+        {"value": "flaeche", "label": {"de": "Flächendesinfektion", "en": "Surface disinfection", "nb": "Overflatedesinfeksjon"}},
+        {"value": "geraete", "label": {"de": "Gerätedesinfektion", "en": "Device disinfection", "nb": "Utstyrsdesinfeksjon"}}
+      ]},
+    {"id": "bereiche", "type": "multiselect", "label": {"de": "Bereiche", "en": "Areas", "nb": "Områder"}, "required": false,
+      "options": [
+        {"value": "arbeitsflächen", "label": {"de": "Arbeitsflächen", "en": "Work surfaces", "nb": "Arbeidsflater"}},
+        {"value": "klinken", "label": {"de": "Türklinken", "en": "Door handles", "nb": "Dørhåndtak"}},
+        {"value": "sanitär", "label": {"de": "Sanitärbereiche", "en": "Sanitary areas", "nb": "Sanitærområder"}}
+      ]},
+    {"id": "notes", "type": "textarea", "label": {"de": "Bemerkungen", "en": "Notes", "nb": "Merknader"}, "required": false}
+  ]
+}

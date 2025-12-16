@@ -1,0 +1,26 @@
+{
+  "id": "ausziehen",
+  "name": {"de": "Ausziehen und Nachtkleidung anziehen", "en": "Undress and put on nightwear", "nb": "Kle av og ta på nattøy"},
+  "description": {"de": "Vorbereitung für die Nacht", "en": "Preparation for the night", "nb": "Forberedelse til natten"},
+  "properties": [
+    {"id": "nachtkleidung", "type": "select", "label": {"de": "Nachtkleidung", "en": "Nightwear", "nb": "Nattøy"}, "required": true,
+      "options": [
+        {"value": "nachthemd", "label": {"de": "Nachthemd", "en": "Nightgown", "nb": "Nattskjorte"}},
+        {"value": "pyjama", "label": {"de": "Pyjama", "en": "Pajamas", "nb": "Pyjamas"}}
+      ]},
+    {"id": "unterstuetzung", "type": "select", "label": {"de": "Unterstützungsbedarf", "en": "Support needed", "nb": "Støtte nødvendig"}, "required": true,
+      "options": [
+        {"value": "selbststaendig", "label": {"de": "Selbstständig", "en": "Independent", "nb": "Selvstendig"}},
+        {"value": "teilweise", "label": {"de": "Teilweise Unterstützung", "en": "Partial support", "nb": "Delvis støtte"}},
+        {"value": "vollstaendig", "label": {"de": "Vollständige Übernahme", "en": "Complete takeover", "nb": "Full overtagelse"}}
+      ]},
+    {"id": "besonderheiten", "type": "multiselect", "label": {"de": "Besonderheiten", "en": "Special notes", "nb": "Særegenheter"}, "required": false,
+      "options": [
+        {"value": "kompression", "label": {"de": "Kompressionsstrümpfe ausgezogen", "en": "Compression stockings removed", "nb": "Kompresjonstrømper fjernet"}},
+        {"value": "prothese", "label": {"de": "Prothesen abgelegt", "en": "Prostheses removed", "nb": "Proteser fjernet"}},
+        {"value": "schmuck", "label": {"de": "Schmuck abgenommen", "en": "Jewelry removed", "nb": "Smykker fjernet"}}
+      ]},
+    {"id": "inkontinenz_nacht", "label": {"de": "Inkontinenzmaterial für Nacht", "en": "Incontinence material for night", "nb": "Inkontinensmateriale for natten"}, "type": "checkbox", "required": false},
+    {"id": "notes", "type": "textarea", "label": {"de": "Bemerkungen", "en": "Notes", "nb": "Merknader"}, "required": false}
+  ]
+}

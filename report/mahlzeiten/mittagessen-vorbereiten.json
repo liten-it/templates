@@ -1,0 +1,165 @@
+{
+  "id": "mittagessen-vorbereiten",
+  "name": {
+    "de": "Mittagessen vorbereiten",
+    "en": "Prepare lunch",
+    "nb": "Forberede lunsj"
+  },
+  "description": {
+    "de": "Mittagessen herrichten und servieren",
+    "en": "Prepare and serve lunch",
+    "nb": "Forberede og servere lunsj"
+  },
+  "properties": [
+    {
+      "id": "menue",
+      "type": "select",
+      "label": {
+        "de": "Menüwahl",
+        "en": "Menu choice",
+        "nb": "Menyvalg"
+      },
+      "required": true,
+      "options": [
+        {
+          "value": "menu1",
+          "label": {
+            "de": "Menü 1",
+            "en": "Menu 1",
+            "nb": "Meny 1"
+          }
+        },
+        {
+          "value": "menu2",
+          "label": {
+            "de": "Menü 2",
+            "en": "Menu 2",
+            "nb": "Meny 2"
+          }
+        },
+        {
+          "value": "vegetarisch",
+          "label": {
+            "de": "Vegetarisch",
+            "en": "Vegetarian",
+            "nb": "Vegetarisk"
+          }
+        },
+        {
+          "value": "schonkost",
+          "label": {
+            "de": "Schonkost",
+            "en": "Bland diet",
+            "nb": "Lettfordøyelig mat"
+          }
+        },
+        {
+          "value": "diabetiker",
+          "label": {
+            "de": "Diabetikerkost",
+            "en": "Diabetic diet",
+            "nb": "Diabetikerkost"
+          }
+        }
+      ]
+    },
+    {
+      "id": "konsistenz",
+      "type": "select",
+      "label": {
+        "de": "Konsistenz",
+        "en": "Consistency",
+        "nb": "Konsistens"
+      },
+      "required": true,
+      "options": [
+        {
+          "value": "normal",
+          "label": {
+            "de": "Normal",
+            "en": "Normal",
+            "nb": "Normal"
+          }
+        },
+        {
+          "value": "weich",
+          "label": {
+            "de": "Weich gekocht",
+            "en": "Soft cooked",
+            "nb": "Mykkokt"
+          }
+        },
+        {
+          "value": "pueriert",
+          "label": {
+            "de": "Püriert",
+            "en": "Pureed",
+            "nb": "Purert"
+          }
+        },
+        {
+          "value": "passiert",
+          "label": {
+            "de": "Passiert",
+            "en": "Strained",
+            "nb": "Silt"
+          }
+        }
+      ]
+    },
+    {
+      "id": "komponenten",
+      "type": "multiselect",
+      "label": {
+        "de": "Servierte Komponenten",
+        "en": "Served components",
+        "nb": "Serverte komponenter"
+      },
+      "required": true,
+      "options": [
+        {
+          "value": "suppe",
+          "label": {
+            "de": "Suppe/Vorspeise",
+            "en": "Soup/starter",
+            "nb": "Suppe/forrett"
+          }
+        },
+        {
+          "value": "hauptgericht",
+          "label": {
+            "de": "Hauptgericht",
+            "en": "Main course",
+            "nb": "Hovedrett"
+          }
+        },
+        {
+          "value": "beilage",
+          "label": {
+            "de": "Beilage",
+            "en": "Side dish",
+            "nb": "Tilbehør"
+          }
+        },
+        {
+          "value": "nachtisch",
+          "label": {
+            "de": "Nachtisch",
+            "en": "Dessert",
+            "nb": "Dessert"
+          }
+        }
+      ]
+    },
+    {
+      "id": "notes",
+      "type": "textarea",
+      "label": {
+        "de": "Bemerkungen",
+        "en": "Notes",
+        "nb": "Merknader"
+      },
+      "required": false
+    }
+  ]
+}

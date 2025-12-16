@@ -1,0 +1,22 @@
+{
+  "id": "kontrollrundgang",
+  "name": {"de": "Kontrollrundgang", "en": "Control round", "nb": "Kontrollrunde"},
+  "description": {"de": "Nächtliche Kontrolle der Bewohner", "en": "Nightly check of residents", "nb": "Nattlig kontroll av beboere"},
+  "properties": [
+    {"id": "uhrzeit", "type": "time", "label": {"de": "Uhrzeit", "en": "Time", "nb": "Tidspunkt"}, "required": true},
+    {"id": "kontrolle", "type": "multiselect", "label": {"de": "Durchgeführte Kontrollen", "en": "Controls performed", "nb": "Utførte kontroller"}, "required": true,
+      "options": [
+        {"value": "atmung", "label": {"de": "Atmung beobachtet", "en": "Breathing observed", "nb": "Pust observert"}},
+        {"value": "lagerung", "label": {"de": "Lagerung geprüft", "en": "Positioning checked", "nb": "Leiring kontrollert"}},
+        {"value": "decke", "label": {"de": "Decke zurechtgerückt", "en": "Blanket adjusted", "nb": "Teppe justert"}},
+        {"value": "inkontinenz", "label": {"de": "Inkontinenz kontrolliert", "en": "Incontinence checked", "nb": "Inkontinens kontrollert"}}
+      ]},
+    {"id": "zustand", "type": "select", "label": {"de": "Zustand", "en": "Condition", "nb": "Tilstand"}, "required": true,
+      "options": [
+        {"value": "ruhig", "label": {"de": "Ruhiger Schlaf", "en": "Peaceful sleep", "nb": "Rolig søvn"}},
+        {"value": "unruhig", "label": {"de": "Unruhig", "en": "Restless", "nb": "Urolig"}},
+        {"value": "wach", "label": {"de": "Wach", "en": "Awake", "nb": "Våken"}}
+      ]},
+    {"id": "notes", "type": "textarea", "label": {"de": "Besonderheiten", "en": "Special notes", "nb": "Særegenheter"}, "required": false}
+  ]
+}

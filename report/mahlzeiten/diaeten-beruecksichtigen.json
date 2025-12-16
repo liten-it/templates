@@ -1,0 +1,249 @@
+{
+  "id": "diaeten-beruecksichtigen",
+  "name": {
+    "de": "Diäten berücksichtigen",
+    "en": "Consider diets",
+    "nb": "Ta hensyn til dietter"
+  },
+  "description": {
+    "de": "Besondere Ernährungsbedürfnisse beachten",
+    "en": "Observe special dietary needs",
+    "nb": "Observer spesielle kostholdbehov"
+  },
+  "properties": [
+    {
+      "id": "diaetform",
+      "type": "multiselect",
+      "label": {
+        "de": "Diätform",
+        "en": "Diet type",
+        "nb": "Dietttype"
+      },
+      "required": true,
+      "options": [
+        {
+          "value": "diabetiker",
+          "label": {
+            "de": "Diabetikerkost",
+            "en": "Diabetic diet",
+            "nb": "Diabetikerkost"
+          }
+        },
+        {
+          "value": "schonkost",
+          "label": {
+            "de": "Schonkost",
+            "en": "Bland diet",
+            "nb": "Lettfordøyelig mat"
+          }
+        },
+        {
+          "value": "leichte_vollkost",
+          "label": {
+            "de": "Leichte Vollkost",
+            "en": "Light full diet",
+            "nb": "Lett fullkost"
+          }
+        },
+        {
+          "value": "pueriert",
+          "label": {
+            "de": "Pürierte Kost",
+            "en": "Pureed diet",
+            "nb": "Purert kost"
+          }
+        },
+        {
+          "value": "hochkalorisch",
+          "label": {
+            "de": "Hochkalorisch",
+            "en": "High-calorie",
+            "nb": "Høykalorisk"
+          }
+        },
+        {
+          "value": "eiweissreich",
+          "label": {
+            "de": "Eiweißreich",
+            "en": "High-protein",
+            "nb": "Proteinrik"
+          }
+        },
+        {
+          "value": "salzarm",
+          "label": {
+            "de": "Salzarm",
+            "en": "Low-salt",
+            "nb": "Lavt saltinnhold"
+          }
+        },
+        {
+          "value": "glutenfrei",
+          "label": {
+            "de": "Glutenfrei",
+            "en": "Gluten-free",
+            "nb": "Glutenfri"
+          }
+        },
+        {
+          "value": "laktosefrei",
+          "label": {
+            "de": "Laktosefrei",
+            "en": "Lactose-free",
+            "nb": "Laktosefri"
+          }
+        }
+      ]
+    },
+    {
+      "id": "allergien",
+      "type": "multiselect",
+      "label": {
+        "de": "Allergien/Unverträglichkeiten",
+        "en": "Allergies/intolerances",
+        "nb": "Allergier/intoleranser"
+      },
+      "required": false,
+      "options": [
+        {
+          "value": "nuss",
+          "label": {
+            "de": "Nussallergie",
+            "en": "Nut allergy",
+            "nb": "Nøtteallergi"
+          }
+        },
+        {
+          "value": "laktose",
+          "label": {
+            "de": "Laktoseintoleranz",
+            "en": "Lactose intolerance",
+            "nb": "Laktoseintoleranse"
+          }
+        },
+        {
+          "value": "gluten",
+          "label": {
+            "de": "Glutenunverträglichkeit",
+            "en": "Gluten intolerance",
+            "nb": "Glutenintoleranse"
+          }
+        },
+        {
+          "value": "fruktose",
+          "label": {
+            "de": "Fruktoseintoleranz",
+            "en": "Fructose intolerance",
+            "nb": "Fruktoseintoleranse"
+          }
+        }
+      ]
+    },
+    {
+      "id": "religioese_vorgaben",
+      "type": "multiselect",
+      "label": {
+        "de": "Religiöse/ethische Vorgaben",
+        "en": "Religious/ethical requirements",
+        "nb": "Religiøse/etiske krav"
+      },
+      "required": false,
+      "options": [
+        {
+          "value": "halal",
+          "label": {
+            "de": "Halal",
+            "en": "Halal",
+            "nb": "Halal"
+          }
+        },
+        {
+          "value": "koscher",
+          "label": {
+            "de": "Koscher",
+            "en": "Kosher",
+            "nb": "Kosher"
+          }
+        },
+        {
+          "value": "vegetarisch",
+          "label": {
+            "de": "Vegetarisch",
+            "en": "Vegetarian",
+            "nb": "Vegetarisk"
+          }
+        },
+        {
+          "value": "vegan",
+          "label": {
+            "de": "Vegan",
+            "en": "Vegan",
+            "nb": "Vegansk"
+          }
+        },
+        {
+          "value": "kein_schwein",
+          "label": {
+            "de": "Kein Schweinefleisch",
+            "en": "No pork",
+            "nb": "Ikke svinekjøtt"
+          }
+        }
+      ]
+    },
+    {
+      "id": "medizinische_gruende",
+      "type": "multiselect",
+      "label": {
+        "de": "Medizinische Gründe",
+        "en": "Medical reasons",
+        "nb": "Medisinske grunner"
+      },
+      "required": false,
+      "options": [
+        {
+          "value": "schluckstoerung",
+          "label": {
+            "de": "Schluckstörungen",
+            "en": "Swallowing disorders",
+            "nb": "Svelgeforstyrrelser"
+          }
+        },
+        {
+          "value": "kauschwierigkeit",
+          "label": {
+            "de": "Kauschwierigkeiten",
+            "en": "Chewing difficulties",
+            "nb": "Tyggevansker"
+          }
+        },
+        {
+          "value": "gewichtsreduktion",
+          "label": {
+            "de": "Gewichtsreduktion",
+            "en": "Weight reduction",
+            "nb": "Vektreduksjon"
+          }
+        },
+        {
+          "value": "gewichtsaufbau",
+          "label": {
+            "de": "Gewichtsaufbau",
+            "en": "Weight gain",
+            "nb": "Vektøkning"
+          }
+        }
+      ]
+    },
+    {
+      "id": "notes",
+      "type": "textarea",
+      "label": {
+        "de": "Bemerkungen",
+        "en": "Notes",
+        "nb": "Merknader"
+      },
+      "required": false
+    }
+  ]
+}

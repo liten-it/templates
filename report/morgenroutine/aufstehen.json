@@ -1,0 +1,193 @@
+{
+  "id": "aufstehen",
+  "name": {
+    "de": "Beim Aufstehen unterstützen",
+    "en": "Support getting up",
+    "nb": "Støtte ved å stå opp"
+  },
+  "description": {
+    "de": "Unterstützung beim Aufstehen und Aufsetzen",
+    "en": "Support with standing up and sitting up",
+    "nb": "Støtte ved å stå opp og sette seg opp"
+  },
+  "properties": [
+    {
+      "id": "unterstuetzung",
+      "type": "select",
+      "label": {
+        "de": "Unterstützungsbedarf",
+        "en": "Support needed",
+        "nb": "Støtte nødvendig"
+      },
+      "required": true,
+      "options": [
+        {
+          "value": "selbststaendig",
+          "label": {
+            "de": "Selbstständig",
+            "en": "Independent",
+            "nb": "Selvstendig"
+          }
+        },
+        {
+          "value": "teilweise",
+          "label": {
+            "de": "Teilweise Unterstützung",
+            "en": "Partial support",
+            "nb": "Delvis støtte"
+          }
+        },
+        {
+          "value": "vollstaendig",
+          "label": {
+            "de": "Vollständige Übernahme",
+            "en": "Complete takeover",
+            "nb": "Full overtagelse"
+          }
+        },
+        {
+          "value": "zwei_personen",
+          "label": {
+            "de": "Mit 2 Personen",
+            "en": "With 2 persons",
+            "nb": "Med 2 personer"
+          }
+        }
+      ]
+    },
+    {
+      "id": "hilfsmittel",
+      "type": "multiselect",
+      "label": {
+        "de": "Verwendete Hilfsmittel",
+        "en": "Aids used",
+        "nb": "Hjelpemidler brukt"
+      },
+      "required": false,
+      "options": [
+        {
+          "value": "bettgalgen",
+          "label": {
+            "de": "Bettgalgen",
+            "en": "Bed grab bar",
+            "nb": "Sengehest"
+          }
+        },
+        {
+          "value": "aufrichthilfe",
+          "label": {
+            "de": "Aufrichthilfe",
+            "en": "Raising aid",
+            "nb": "Reisehjelp"
+          }
+        },
+        {
+          "value": "rutschbrett",
+          "label": {
+            "de": "Rutschbrett",
+            "en": "Sliding board",
+            "nb": "Glidebrett"
+          }
+        },
+        {
+          "value": "lifter",
+          "label": {
+            "de": "Lifter",
+            "en": "Lifter",
+            "nb": "Løfter"
+          }
+        }
+      ]
+    },
+    {
+      "id": "transfer",
+      "type": "select",
+      "label": {
+        "de": "Transfer",
+        "en": "Transfer",
+        "nb": "Overføring"
+      },
+      "required": true,
+      "options": [
+        {
+          "value": "liegen_sitzen",
+          "label": {
+            "de": "Vom Liegen zum Sitzen",
+            "en": "From lying to sitting",
+            "nb": "Fra liggende til sittende"
+          }
+        },
+        {
+          "value": "bett_rollstuhl",
+          "label": {
+            "de": "Vom Bett zum Rollstuhl",
+            "en": "From bed to wheelchair",
+            "nb": "Fra seng til rullestol"
+          }
+        },
+        {
+          "value": "bett_bettkante",
+          "label": {
+            "de": "Vom Bett zur Bettkante",
+            "en": "From bed to edge",
+            "nb": "Fra seng til sengekant"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sicherheit",
+      "type": "multiselect",
+      "label": {
+        "de": "Sicherheitsmaßnahmen",
+        "en": "Safety measures",
+        "nb": "Sikkerhetstiltak"
+      },
+      "required": false,
+      "options": [
+        {
+          "value": "sturzprophylaxe",
+          "label": {
+            "de": "Sturzprophylaxe",
+            "en": "Fall prevention",
+            "nb": "Fallforebygging"
+          }
+        },
+        {
+          "value": "hueftprotektor",
+          "label": {
+            "de": "Hüftprotektor anlegen",
+            "en": "Apply hip protector",
+            "nb": "Påføre hoftebeskytter"
+          }
+        },
+        {
+          "value": "schuhe",
+          "label": {
+            "de": "Rutschfeste Schuhe",
+            "en": "Non-slip shoes",
+            "nb": "Sklisikre sko"
+          }
+        },
+        {
+          "value": "gehhilfe",
+          "label": {
+            "de": "Gehhilfe bereitstellen",
+            "en": "Provide walking aid",
+            "nb": "Tilby ganghjelp"
+          }
+        }
+      ]
+    },
+    {
+      "id": "notes",
+      "type": "textarea",
+      "label": {
+        "de": "Bemerkungen",
+        "en": "Notes",
+        "nb": "Merknader"
+      },
+      "required": false
+    }
+  ]
+}

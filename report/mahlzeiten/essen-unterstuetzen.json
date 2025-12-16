@@ -1,0 +1,217 @@
+{
+  "id": "essen-unterstuetzen",
+  "name": {
+    "de": "Beim Essen unterstützen",
+    "en": "Support with eating",
+    "nb": "Støtte med måltid"
+  },
+  "description": {
+    "de": "Hilfe bei der Nahrungsaufnahme",
+    "en": "Assistance with food intake",
+    "nb": "Hjelp med matinntak"
+  },
+  "properties": [
+    {
+      "id": "unterstuetzung",
+      "type": "select",
+      "label": {
+        "de": "Unterstützungsbedarf",
+        "en": "Support needed",
+        "nb": "Støtte nødvendig"
+      },
+      "required": true,
+      "options": [
+        {
+          "value": "selbststaendig",
+          "label": {
+            "de": "Selbstständig",
+            "en": "Independent",
+            "nb": "Selvstendig"
+          }
+        },
+        {
+          "value": "vorbereiten",
+          "label": {
+            "de": "Vorbereiten (schneiden, streichen)",
+            "en": "Prepare (cut, spread)",
+            "nb": "Forberede (kutte, smøre)"
+          }
+        },
+        {
+          "value": "anreichen",
+          "label": {
+            "de": "Anreichen",
+            "en": "Hand over",
+            "nb": "Rekke fram"
+          }
+        },
+        {
+          "value": "mundgerecht",
+          "label": {
+            "de": "Mundgerechte Portionen",
+            "en": "Bite-sized portions",
+            "nb": "Munnfulle porsjoner"
+          }
+        },
+        {
+          "value": "fuettern",
+          "label": {
+            "de": "Vollständiges Füttern",
+            "en": "Complete feeding",
+            "nb": "Fullstendig mating"
+          }
+        }
+      ]
+    },
+    {
+      "id": "hilfsmittel",
+      "type": "multiselect",
+      "label": {
+        "de": "Verwendete Hilfsmittel",
+        "en": "Aids used",
+        "nb": "Hjelpemidler brukt"
+      },
+      "required": false,
+      "options": [
+        {
+          "value": "besteck",
+          "label": {
+            "de": "Spezielles Besteck",
+            "en": "Special cutlery",
+            "nb": "Spesielt bestikk"
+          }
+        },
+        {
+          "value": "tellerrand",
+          "label": {
+            "de": "Tellerranderhöhung",
+            "en": "Plate guard",
+            "nb": "Tallerkenrand"
+          }
+        },
+        {
+          "value": "trinkhilfe",
+          "label": {
+            "de": "Trinkhilfen",
+            "en": "Drinking aids",
+            "nb": "Drikke hjelpemidler"
+          }
+        },
+        {
+          "value": "schnabeltasse",
+          "label": {
+            "de": "Schnabeltasse",
+            "en": "Sippy cup",
+            "nb": "Drikkekop med tut"
+          }
+        },
+        {
+          "value": "strohhalm",
+          "label": {
+            "de": "Strohhalm",
+            "en": "Straw",
+            "nb": "Sugerør"
+          }
+        },
+        {
+          "value": "unterlage",
+          "label": {
+            "de": "Rutschfeste Unterlage",
+            "en": "Non-slip mat",
+            "nb": "Sklisikker underlag"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tempo",
+      "type": "select",
+      "label": {
+        "de": "Tempo",
+        "en": "Pace",
+        "nb": "Tempo"
+      },
+      "required": false,
+      "options": [
+        {
+          "value": "langsam",
+          "label": {
+            "de": "Langsam",
+            "en": "Slow",
+            "nb": "Sakte"
+          }
+        },
+        {
+          "value": "normal",
+          "label": {
+            "de": "Normal",
+            "en": "Normal",
+            "nb": "Normal"
+          }
+        },
+        {
+          "value": "pausen",
+          "label": {
+            "de": "Mit Pausen",
+            "en": "With breaks",
+            "nb": "Med pauser"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sicherheit",
+      "type": "multiselect",
+      "label": {
+        "de": "Sicherheitsaspekte",
+        "en": "Safety aspects",
+        "nb": "Sikkerhetsaspekter"
+      },
+      "required": false,
+      "options": [
+        {
+          "value": "sitzposition",
+          "label": {
+            "de": "Aufrechte Sitzposition",
+            "en": "Upright sitting position",
+            "nb": "Oppreist sittestilling"
+          }
+        },
+        {
+          "value": "aspiration",
+          "label": {
+            "de": "Aspirationsgefahr beachtet",
+            "en": "Aspiration risk considered",
+            "nb": "Aspirasjonsrisiko vurdert"
+          }
+        },
+        {
+          "value": "schluckreflex",
+          "label": {
+            "de": "Schluckreflex beobachtet",
+            "en": "Swallowing reflex observed",
+            "nb": "Svelgerefleks observert"
+          }
+        },
+        {
+          "value": "husten",
+          "label": {
+            "de": "Hustenreflex überwacht",
+            "en": "Cough reflex monitored",
+            "nb": "Hosterefleks overvåket"
+          }
+        }
+      ]
+    },
+    {
+      "id": "notes",
+      "type": "textarea",
+      "label": {
+        "de": "Bemerkungen",
+        "en": "Notes",
+        "nb": "Merknader"
+      },
+      "required": false
+    }
+  ]
+}

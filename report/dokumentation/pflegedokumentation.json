@@ -1,0 +1,16 @@
+{
+  "id": "pflegedokumentation",
+  "name": {"de": "Pflegedokumentation aktualisieren", "en": "Update care documentation", "nb": "Oppdatere pleiedokumentasjon"},
+  "description": {"de": "Dokumentation aller Pflegemaßnahmen", "en": "Documentation of all care measures", "nb": "Dokumentasjon av alle pleietiltak"},
+  "properties": [
+    {"id": "art", "type": "multiselect", "label": {"de": "Art der Dokumentation", "en": "Type of documentation", "nb": "Type dokumentasjon"}, "required": true,
+      "options": [
+        {"value": "pflegebericht", "label": {"de": "Pflegebericht", "en": "Care report", "nb": "Pleierapport"}},
+        {"value": "leistung", "label": {"de": "Leistungsnachweis", "en": "Performance record", "nb": "Ytelsesdokumentasjon"}},
+        {"value": "planung", "label": {"de": "Pflegeplanung", "en": "Care planning", "nb": "Pleieplanlegging"}},
+        {"value": "evaluation", "label": {"de": "Evaluation", "en": "Evaluation", "nb": "Evaluering"}}
+      ]},
+    {"id": "inhalt", "type": "textarea", "label": {"de": "Dokumentationsinhalt", "en": "Documentation content", "nb": "Dokumentasjonsinnhold"}, "required": true},
+    {"id": "zeitpunkt", "type": "datetime", "label": {"de": "Zeitpunkt", "en": "Time", "nb": "Tidspunkt"}, "required": true}
+  ]
+}

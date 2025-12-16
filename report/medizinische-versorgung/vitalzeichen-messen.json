@@ -1,0 +1,145 @@
+{
+  "id": "vitalzeichen-messen",
+  "name": {
+    "de": "Vitalzeichen messen",
+    "en": "Measure vital signs",
+    "nb": "Måle vitale tegn"
+  },
+  "description": {
+    "de": "Messung von Blutdruck, Puls, Temperatur usw.",
+    "en": "Measurement of blood pressure, pulse, temperature etc.",
+    "nb": "Måling av blodtrykk, puls, temperatur osv."
+  },
+  "properties": [
+    {
+      "id": "blutdruck_sys",
+      "type": "number",
+      "label": {
+        "de": "Blutdruck systolisch (mmHg)",
+        "en": "Blood pressure systolic (mmHg)",
+        "nb": "Blodtrykk systolisk (mmHg)"
+      },
+      "required": false,
+      "min": 50,
+      "max": 250,
+      "unit": {
+        "de": "mmHg",
+        "en": "mmHg",
+        "nb": "mmHg"
+      }
+    },
+    {
+      "id": "blutdruck_dia",
+      "type": "number",
+      "label": {
+        "de": "Blutdruck diastolisch (mmHg)",
+        "en": "Blood pressure diastolic (mmHg)",
+        "nb": "Blodtrykk diastolisk (mmHg)"
+      },
+      "required": false,
+      "min": 30,
+      "max": 150,
+      "unit": {
+        "de": "mmHg",
+        "en": "mmHg",
+        "nb": "mmHg"
+      }
+    },
+    {
+      "id": "puls",
+      "type": "number",
+      "label": {
+        "de": "Puls (Schläge/min)",
+        "en": "Pulse (beats/min)",
+        "nb": "Puls (slag/min)"
+      },
+      "required": false,
+      "min": 30,
+      "max": 200,
+      "unit": {
+        "de": "/min",
+        "en": "/min",
+        "nb": "/min"
+      }
+    },
+    {
+      "id": "temperatur",
+      "type": "number",
+      "label": {
+        "de": "Temperatur (°C)",
+        "en": "Temperature (°C)",
+        "nb": "Temperatur (°C)"
+      },
+      "required": false,
+      "min": 34.0,
+      "max": 42.0,
+      "step": 0.1,
+      "unit": {
+        "de": "°C",
+        "en": "°C",
+        "nb": "°C"
+      }
+    },
+    {
+      "id": "blutzucker",
+      "type": "number",
+      "label": {
+        "de": "Blutzucker (mg/dl)",
+        "en": "Blood sugar (mg/dl)",
+        "nb": "Blodsukker (mg/dl)"
+      },
+      "required": false,
+      "min": 20,
+      "max": 600,
+      "unit": {
+        "de": "mg/dl",
+        "en": "mg/dl",
+        "nb": "mg/dl"
+      }
+    },
+    {
+      "id": "sauerstoffsaettigung",
+      "type": "number",
+      "label": {
+        "de": "Sauerstoffsättigung SpO2 (%)",
+        "en": "Oxygen saturation SpO2 (%)",
+        "nb": "Oksygenmetning SpO2 (%)"
+      },
+      "required": false,
+      "min": 50,
+      "max": 100,
+      "unit": {
+        "de": "%",
+        "en": "%",
+        "nb": "%"
+      }
+    },
+    {
+      "id": "atemfrequenz",
+      "type": "number",
+      "label": {
+        "de": "Atemfrequenz (Atemzüge/min)",
+        "en": "Respiratory rate (breaths/min)",
+        "nb": "Respirasjonsfrekvens (pust/min)"
+      },
+      "required": false,
+      "min": 5,
+      "max": 60,
+      "unit": {
+        "de": "/min",
+        "en": "/min",
+        "nb": "/min"
+      }
+    },
+    {
+      "id": "notes",
+      "type": "textarea",
+      "label": {
+        "de": "Bemerkungen",
+        "en": "Notes",
+        "nb": "Merknader"
+      },
+      "required": false
+    }
+  ]
+}

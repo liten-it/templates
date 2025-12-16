@@ -1,0 +1,226 @@
+{
+  "id": "mobilisieren",
+  "name": {
+    "de": "Mobilisieren",
+    "en": "Mobilize",
+    "nb": "Mobilisere"
+  },
+  "description": {
+    "de": "Unterstützung beim Gehen und Bewegen",
+    "en": "Support with walking and moving",
+    "nb": "Støtte ved gå og bevegelse"
+  },
+  "properties": [
+    {
+      "id": "gehhilfe",
+      "type": "select",
+      "label": {
+        "de": "Gehhilfe",
+        "en": "Walking aid",
+        "nb": "Ganghjelp"
+      },
+      "required": true,
+      "options": [
+        {
+          "value": "keine",
+          "label": {
+            "de": "Keine Hilfsmittel",
+            "en": "No aids",
+            "nb": "Ingen hjelpemidler"
+          }
+        },
+        {
+          "value": "gehstock",
+          "label": {
+            "de": "Gehstock",
+            "en": "Walking stick",
+            "nb": "Gangstokk"
+          }
+        },
+        {
+          "value": "rollator",
+          "label": {
+            "de": "Gehgestell/Rollator",
+            "en": "Walker/rollator",
+            "nb": "Rullator"
+          }
+        },
+        {
+          "value": "gehhilfen",
+          "label": {
+            "de": "Unterarmgehstützen",
+            "en": "Forearm crutches",
+            "nb": "Underarmskrykker"
+          }
+        },
+        {
+          "value": "vierpunkt",
+          "label": {
+            "de": "Vierpunktstock",
+            "en": "Quad cane",
+            "nb": "Firepunktsstokk"
+          }
+        }
+      ]
+    },
+    {
+      "id": "unterstuetzung",
+      "type": "select",
+      "label": {
+        "de": "Unterstützung",
+        "en": "Support",
+        "nb": "Støtte"
+      },
+      "required": true,
+      "options": [
+        {
+          "value": "selbststaendig",
+          "label": {
+            "de": "Selbstständig",
+            "en": "Independent",
+            "nb": "Selvstendig"
+          }
+        },
+        {
+          "value": "leicht",
+          "label": {
+            "de": "Leichte Unterstützung",
+            "en": "Light support",
+            "nb": "Lett støtte"
+          }
+        },
+        {
+          "value": "fuehrung",
+          "label": {
+            "de": "Mit Führung",
+            "en": "With guidance",
+            "nb": "Med veiledning"
+          }
+        },
+        {
+          "value": "beide_seiten",
+          "label": {
+            "de": "An beiden Seiten gestützt",
+            "en": "Supported on both sides",
+            "nb": "Støttet på begge sider"
+          }
+        }
+      ]
+    },
+    {
+      "id": "strecke",
+      "type": "select",
+      "label": {
+        "de": "Strecke",
+        "en": "Distance",
+        "nb": "Avstand"
+      },
+      "required": true,
+      "options": [
+        {
+          "value": "zimmer",
+          "label": {
+            "de": "Im Zimmer",
+            "en": "In room",
+            "nb": "I rommet"
+          }
+        },
+        {
+          "value": "flur",
+          "label": {
+            "de": "Auf dem Flur",
+            "en": "In corridor",
+            "nb": "I korridoren"
+          }
+        },
+        {
+          "value": "garten",
+          "label": {
+            "de": "Im Garten",
+            "en": "In garden",
+            "nb": "I hagen"
+          }
+        },
+        {
+          "value": "laenger",
+          "label": {
+            "de": "Längere Strecke",
+            "en": "Longer distance",
+            "nb": "Lengre avstand"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dauer",
+      "type": "number",
+      "label": {
+        "de": "Dauer (Minuten)",
+        "en": "Duration (minutes)",
+        "nb": "Varighet (minutter)"
+      },
+      "required": false,
+      "min": 1,
+      "max": 120,
+      "unit": {
+        "de": "Min",
+        "en": "Min",
+        "nb": "Min"
+      }
+    },
+    {
+      "id": "sicherheit",
+      "type": "multiselect",
+      "label": {
+        "de": "Sicherheitsmaßnahmen",
+        "en": "Safety measures",
+        "nb": "Sikkerhetstiltak"
+      },
+      "required": false,
+      "options": [
+        {
+          "value": "schuhe",
+          "label": {
+            "de": "Rutschfeste Schuhe",
+            "en": "Non-slip shoes",
+            "nb": "Sklisikre sko"
+          }
+        },
+        {
+          "value": "huefte",
+          "label": {
+            "de": "Hüftprotektor",
+            "en": "Hip protector",
+            "nb": "Hoftebeskytter"
+          }
+        },
+        {
+          "value": "begleitung",
+          "label": {
+            "de": "Dauerhafte Begleitung",
+            "en": "Continuous accompaniment",
+            "nb": "Kontinuerlig ledsagelse"
+          }
+        },
+        {
+          "value": "gelaender",
+          "label": {
+            "de": "Geländer genutzt",
+            "en": "Handrail used",
+            "nb": "Gelender brukt"
+          }
+        }
+      ]
+    },
+    {
+      "id": "notes",
+      "type": "textarea",
+      "label": {
+        "de": "Bemerkungen",
+        "en": "Notes",
+        "nb": "Merknader"
+      },
+      "required": false
+    }
+  ]
+}

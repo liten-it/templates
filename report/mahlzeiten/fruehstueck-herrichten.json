@@ -1,0 +1,217 @@
+{
+  "id": "fruehstueck-herrichten",
+  "name": {
+    "de": "Frühstück herrichten",
+    "en": "Prepare breakfast",
+    "nb": "Forberede frokost"
+  },
+  "description": {
+    "de": "Frühstück vorbereiten und servieren",
+    "en": "Prepare and serve breakfast",
+    "nb": "Forberede og servere frokost"
+  },
+  "properties": [
+    {
+      "id": "getraenke",
+      "type": "multiselect",
+      "label": {
+        "de": "Getränke",
+        "en": "Beverages",
+        "nb": "Drikkevarer"
+      },
+      "required": true,
+      "options": [
+        {
+          "value": "kaffee",
+          "label": {
+            "de": "Kaffee",
+            "en": "Coffee",
+            "nb": "Kaffe"
+          }
+        },
+        {
+          "value": "tee",
+          "label": {
+            "de": "Tee",
+            "en": "Tea",
+            "nb": "Te"
+          }
+        },
+        {
+          "value": "kakao",
+          "label": {
+            "de": "Kakao",
+            "en": "Cocoa",
+            "nb": "Kakao"
+          }
+        },
+        {
+          "value": "saft",
+          "label": {
+            "de": "Saft",
+            "en": "Juice",
+            "nb": "Juice"
+          }
+        },
+        {
+          "value": "wasser",
+          "label": {
+            "de": "Wasser",
+            "en": "Water",
+            "nb": "Vann"
+          }
+        }
+      ]
+    },
+    {
+      "id": "speisen",
+      "type": "multiselect",
+      "label": {
+        "de": "Speisen",
+        "en": "Food",
+        "nb": "Mat"
+      },
+      "required": true,
+      "options": [
+        {
+          "value": "brot",
+          "label": {
+            "de": "Brot/Brötchen",
+            "en": "Bread/rolls",
+            "nb": "Brød/rundstykker"
+          }
+        },
+        {
+          "value": "aufschnitt",
+          "label": {
+            "de": "Aufschnitt",
+            "en": "Cold cuts",
+            "nb": "Pålegg"
+          }
+        },
+        {
+          "value": "marmelade",
+          "label": {
+            "de": "Marmelade",
+            "en": "Jam",
+            "nb": "Syltetøy"
+          }
+        },
+        {
+          "value": "muesli",
+          "label": {
+            "de": "Müsli",
+            "en": "Muesli",
+            "nb": "Müsli"
+          }
+        },
+        {
+          "value": "joghurt",
+          "label": {
+            "de": "Joghurt",
+            "en": "Yogurt",
+            "nb": "Yoghurt"
+          }
+        },
+        {
+          "value": "obst",
+          "label": {
+            "de": "Obst",
+            "en": "Fruit",
+            "nb": "Frukt"
+          }
+        }
+      ]
+    },
+    {
+      "id": "konsistenz",
+      "type": "select",
+      "label": {
+        "de": "Konsistenz",
+        "en": "Consistency",
+        "nb": "Konsistens"
+      },
+      "required": true,
+      "options": [
+        {
+          "value": "normal",
+          "label": {
+            "de": "Normal",
+            "en": "Normal",
+            "nb": "Normal"
+          }
+        },
+        {
+          "value": "weich",
+          "label": {
+            "de": "Weich",
+            "en": "Soft",
+            "nb": "Myk"
+          }
+        },
+        {
+          "value": "pueriert",
+          "label": {
+            "de": "Püriert",
+            "en": "Pureed",
+            "nb": "Purert"
+          }
+        },
+        {
+          "value": "angedickt",
+          "label": {
+            "de": "Flüssig angedickt",
+            "en": "Thickened liquid",
+            "nb": "Tyknet væske"
+          }
+        }
+      ]
+    },
+    {
+      "id": "portionsgroesse",
+      "type": "select",
+      "label": {
+        "de": "Portionsgröße",
+        "en": "Portion size",
+        "nb": "Porsjonsstørrelse"
+      },
+      "required": true,
+      "options": [
+        {
+          "value": "klein",
+          "label": {
+            "de": "Klein",
+            "en": "Small",
+            "nb": "Liten"
+          }
+        },
+        {
+          "value": "normal",
+          "label": {
+            "de": "Normal",
+            "en": "Normal",
+            "nb": "Normal"
+          }
+        },
+        {
+          "value": "gross",
+          "label": {
+            "de": "Groß",
+            "en": "Large",
+            "nb": "Stor"
+          }
+        }
+      ]
+    },
+    {
+      "id": "notes",
+      "type": "textarea",
+      "label": {
+        "de": "Bemerkungen",
+        "en": "Notes",
+        "nb": "Merknader"
+      },
+      "required": false
+    }
+  ]
+}

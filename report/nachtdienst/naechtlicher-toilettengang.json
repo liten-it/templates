@@ -1,0 +1,22 @@
+{
+  "id": "naechtlicher-toilettengang",
+  "name": {"de": "Nächtlicher Toilettengang", "en": "Night toilet visit", "nb": "Nattlig toalettbesøk"},
+  "description": {"de": "Unterstützung bei nächtlichem Toilettengang", "en": "Support with night toilet visit", "nb": "Støtte ved nattlig toalettbesøk"},
+  "properties": [
+    {"id": "uhrzeit", "type": "time", "label": {"de": "Uhrzeit", "en": "Time", "nb": "Tidspunkt"}, "required": true},
+    {"id": "anlass", "type": "select", "label": {"de": "Anlass", "en": "Reason", "nb": "Årsak"}, "required": true,
+      "options": [
+        {"value": "klingeln", "label": {"de": "Auf Klingeln", "en": "On call", "nb": "Ved ringing"}},
+        {"value": "prophylaktisch", "label": {"de": "Prophylaktisch", "en": "Prophylactically", "nb": "Forebyggende"}},
+        {"value": "unruhe", "label": {"de": "Wegen Unruhe", "en": "Due to restlessness", "nb": "På grunn av uro"}}
+      ]},
+    {"id": "art", "type": "select", "label": {"de": "Art", "en": "Type", "nb": "Type"}, "required": true,
+      "options": [
+        {"value": "toilette", "label": {"de": "Zur Toilette begleitet", "en": "Accompanied to toilet", "nb": "Ledsaget til toalettet"}},
+        {"value": "toilettenstuhl", "label": {"de": "Toilettenstuhl", "en": "Commode chair", "nb": "Toalettstol"}},
+        {"value": "urinflasche", "label": {"de": "Urinflasche", "en": "Urinal", "nb": "Urinbeholder"}},
+        {"value": "steckbecken", "label": {"de": "Steckbecken", "en": "Bedpan", "nb": "Bekkenstøtte"}}
+      ]},
+    {"id": "notes", "type": "textarea", "label": {"de": "Bemerkungen", "en": "Notes", "nb": "Merknader"}, "required": false}
+  ]
+}
