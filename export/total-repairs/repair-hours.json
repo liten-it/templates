@@ -1,0 +1,15 @@
+{
+  "id": "repair-hours",
+  "title": "Total Repair Hours",
+  "timeframe": "weekly",
+  "formula": [
+    {
+      "id": "val-repair-duration-1",
+      "type": "value",
+      "categoryId": "maintenance",
+      "actionId": "repair",
+      "propertyId": "duration",
+      "label": "Repair → Duration (hours)"
+    }
+  ]
+}

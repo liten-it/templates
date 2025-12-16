@@ -1,0 +1,14 @@
+{
+  "id": "total-repairs",
+  "title": "Total Repairs",
+  "timeframe": "weekly",
+  "formula": [
+    {
+      "id": "occ-repair-1",
+      "type": "occurrence",
+      "categoryId": "maintenance",
+      "actionId": "repair",
+      "label": "Repair occurrences"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "ok-inspections",
+  "title": "OK Status",
+  "timeframe": "weekly",
+  "formula": [
+    {
+      "id": "val-inspection-status-ok-1",
+      "type": "value",
+      "categoryId": "maintenance",
+      "actionId": "inspection",
+      "propertyId": "status",
+      "optionId": "ok",
+      "label": "Inspection → Status (OK)"
+    }
+  ]
+}

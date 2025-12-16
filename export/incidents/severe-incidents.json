@@ -1,0 +1,16 @@
+{
+  "id": "severe-incidents",
+  "title": "Severe Incidents",
+  "timeframe": "weekly",
+  "formula": [
+    {
+      "id": "val-accident-severity-severe-1",
+      "type": "value",
+      "categoryId": "incidents",
+      "actionId": "accident",
+      "propertyId": "severity",
+      "optionId": "severe",
+      "label": "Accident → Severity (Severe)"
+    }
+  ]
+}

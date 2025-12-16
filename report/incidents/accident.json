@@ -1,0 +1,86 @@
+{
+  "id": "accident",
+  "name": {
+    "default": "Accident",
+    "translations": {
+      "nb": "Ulykke",
+      "de": "Unfall"
+    }
+  },
+  "icon": "mdi:alert-circle",
+  "properties": [
+    {
+      "id": "severity",
+      "label": {
+        "default": "Severity",
+        "translations": {
+          "nb": "Alvorlighetsgrad",
+          "de": "Schweregrad"
+        }
+      },
+      "type": "radio",
+      "required": true,
+      "options": [
+        {
+          "id": "minor",
+          "label": {
+            "default": "Minor",
+            "translations": {
+              "nb": "Mindre",
+              "de": "Geringfügig"
+            }
+          }
+        },
+        {
+          "id": "moderate",
+          "label": {
+            "default": "Moderate",
+            "translations": {
+              "nb": "Moderat",
+              "de": "Moderat"
+            }
+          }
+        },
+        {
+          "id": "severe",
+          "label": {
+            "default": "Severe",
+            "translations": {
+              "nb": "Alvorlig",
+              "de": "Schwerwiegend"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "incident-photo",
+      "label": {
+        "default": "Photo/Video",
+        "translations": {
+          "nb": "Bilde/Video",
+          "de": "Foto/Video"
+        }
+      },
+      "type": "media",
+      "mode": "any",
+      "sources": ["camera", "library"]
+    },
+    {
+      "id": "people-involved",
+      "label": {
+        "default": "Number of People Involved",
+        "translations": {
+          "nb": "Antall personer involvert",
+          "de": "Anzahl der beteiligten Personen"
+        }
+      },
+      "type": "number",
+      "min": 0,
+      "max": 100,
+      "step": 1
+    }
+  ],
+  "visibilityFilter": null,
+  "boundToProperties": []
+}

@@ -1,0 +1,26 @@
+{
+  "id": "efficiency-score",
+  "title": "Efficiency Score",
+  "timeframe": "weekly",
+  "formula": [
+    {
+      "id": "occ-inspection-2",
+      "type": "occurrence",
+      "categoryId": "maintenance",
+      "actionId": "inspection",
+      "label": "Inspection occurrences"
+    },
+    {
+      "id": "op-1",
+      "type": "operator",
+      "operator": "-"
+    },
+    {
+      "id": "occ-accident-2",
+      "type": "occurrence",
+      "categoryId": "incidents",
+      "actionId": "accident",
+      "label": "Accident occurrences"
+    }
+  ]
+}

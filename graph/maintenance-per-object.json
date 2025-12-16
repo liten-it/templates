@@ -1,0 +1,33 @@
+{
+  "id": "maintenance-per-object",
+  "title": {
+    "default": "Maintenance Per Object",
+    "translations": {
+      "nb": "Vedlikehold Per Objekt",
+      "de": "Wartung Pro Objekt"
+    }
+  },
+  "chartType": "bar",
+  "timeframe": "monthly",
+  "scope": "perObject",
+  "dataSeries": [
+    {
+      "id": "ds-inspection-per-obj-1",
+      "type": "occurrence",
+      "categoryId": "maintenance",
+      "actionId": "inspection",
+      "label": "Inspections",
+      "color": "#06b6d4"
+    },
+    {
+      "id": "ds-repair-per-obj-1",
+      "type": "occurrence",
+      "categoryId": "maintenance",
+      "actionId": "repair",
+      "label": "Repairs",
+      "color": "#8b5cf6"
+    }
+  ],
+  "visibilityFilter": null,
+  "showOnMatch": true
+}

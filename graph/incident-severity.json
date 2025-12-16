@@ -1,0 +1,47 @@
+{
+  "id": "incident-severity",
+  "title": {
+    "default": "Incident Severity Distribution",
+    "translations": {
+      "nb": "Hendelsesalvorlighet Fordeling",
+      "de": "Vorfallschweregrad Verteilung"
+    }
+  },
+  "chartType": "pie",
+  "timeframe": "monthly",
+  "scope": "all",
+  "dataSeries": [
+    {
+      "id": "ds-severity-minor-1",
+      "type": "value",
+      "categoryId": "incidents",
+      "actionId": "accident",
+      "propertyId": "severity",
+      "optionId": "minor",
+      "label": "Minor",
+      "color": "#10b981"
+    },
+    {
+      "id": "ds-severity-moderate-1",
+      "type": "value",
+      "categoryId": "incidents",
+      "actionId": "accident",
+      "propertyId": "severity",
+      "optionId": "moderate",
+      "label": "Moderate",
+      "color": "#f59e0b"
+    },
+    {
+      "id": "ds-severity-severe-1",
+      "type": "value",
+      "categoryId": "incidents",
+      "actionId": "accident",
+      "propertyId": "severity",
+      "optionId": "severe",
+      "label": "Severe",
+      "color": "#dc2626"
+    }
+  ],
+  "visibilityFilter": null,
+  "showOnMatch": true
+}

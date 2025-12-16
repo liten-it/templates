@@ -1,0 +1,15 @@
+{
+  "id": "people-affected",
+  "title": "People Affected",
+  "timeframe": "weekly",
+  "formula": [
+    {
+      "id": "val-accident-people-1",
+      "type": "value",
+      "categoryId": "incidents",
+      "actionId": "accident",
+      "propertyId": "people-involved",
+      "label": "Accident → Number of People Involved"
+    }
+  ]
+}

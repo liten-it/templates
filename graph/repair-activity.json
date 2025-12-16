@@ -1,0 +1,25 @@
+{
+  "id": "repair-activity",
+  "title": {
+    "default": "Repair Activity",
+    "translations": {
+      "nb": "Reparasjonsaktivitet",
+      "de": "Reparaturaktivität"
+    }
+  },
+  "chartType": "line",
+  "timeframe": "daily",
+  "scope": "all",
+  "dataSeries": [
+    {
+      "id": "ds-repair-occ-1",
+      "type": "occurrence",
+      "categoryId": "maintenance",
+      "actionId": "repair",
+      "label": "Repairs",
+      "color": "#3b82f6"
+    }
+  ],
+  "visibilityFilter": null,
+  "showOnMatch": true
+}

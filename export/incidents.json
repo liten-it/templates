@@ -1,0 +1,14 @@
+{
+  "id": "incidents",
+  "title": "Total Incidents",
+  "timeframe": "weekly",
+  "formula": [
+    {
+      "id": "occ-accident-1",
+      "type": "occurrence",
+      "categoryId": "incidents",
+      "actionId": "accident",
+      "label": "Accident occurrences"
+    }
+  ]
+}

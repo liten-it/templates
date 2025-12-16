@@ -1,0 +1,75 @@
+{
+  "id": "repair",
+  "name": {
+    "default": "Repair",
+    "translations": {
+      "nb": "Reparasjon",
+      "de": "Reparatur"
+    }
+  },
+  "icon": "mdi:tools",
+  "properties": [
+    {
+      "id": "repair-type",
+      "label": {
+        "default": "Repair Type",
+        "translations": {
+          "nb": "Reparasjonstype",
+          "de": "Reparaturtyp"
+        }
+      },
+      "type": "radio",
+      "required": true,
+      "options": [
+        {
+          "id": "minor",
+          "label": {
+            "default": "Minor",
+            "translations": {
+              "nb": "Mindre",
+              "de": "Geringfügig"
+            }
+          }
+        },
+        {
+          "id": "major",
+          "label": {
+            "default": "Major",
+            "translations": {
+              "nb": "Større",
+              "de": "Umfangreich"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "duration",
+      "label": {
+        "default": "Duration (hours)",
+        "translations": {
+          "nb": "Varighet (timer)",
+          "de": "Dauer (Stunden)"
+        }
+      },
+      "type": "number",
+      "min": 0,
+      "max": 24,
+      "step": 0.5,
+      "suffix": "h"
+    },
+    {
+      "id": "repair-location",
+      "label": {
+        "default": "Location",
+        "translations": {
+          "nb": "Sted",
+          "de": "Standort"
+        }
+      },
+      "type": "location"
+    }
+  ],
+  "visibilityFilter": null,
+  "boundToProperties": []
+}

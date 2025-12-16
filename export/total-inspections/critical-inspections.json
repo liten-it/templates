@@ -1,0 +1,16 @@
+{
+  "id": "critical-inspections",
+  "title": "Critical Status",
+  "timeframe": "weekly",
+  "formula": [
+    {
+      "id": "val-inspection-status-critical-1",
+      "type": "value",
+      "categoryId": "maintenance",
+      "actionId": "inspection",
+      "propertyId": "status",
+      "optionId": "critical",
+      "label": "Inspection → Status (Critical)"
+    }
+  ]
+}

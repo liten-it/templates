@@ -1,0 +1,14 @@
+{
+  "id": "total-inspections",
+  "title": "Total Inspections",
+  "timeframe": "weekly",
+  "formula": [
+    {
+      "id": "occ-inspection-1",
+      "type": "occurrence",
+      "categoryId": "maintenance",
+      "actionId": "inspection",
+      "label": "Inspection occurrences"
+    }
+  ]
+}

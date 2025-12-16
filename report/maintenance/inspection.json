@@ -1,0 +1,115 @@
+{
+  "id": "inspection",
+  "name": {
+    "default": "Inspection",
+    "translations": {
+      "nb": "Inspeksjon",
+      "de": "Inspektion"
+    }
+  },
+  "icon": "mdi:clipboard-check",
+  "properties": [
+    {
+      "id": "status",
+      "label": {
+        "default": "Status",
+        "translations": {
+          "nb": "Status",
+          "de": "Status"
+        }
+      },
+      "type": "radio",
+      "required": true,
+      "options": [
+        {
+          "id": "ok",
+          "label": {
+            "default": "OK",
+            "translations": {
+              "nb": "OK",
+              "de": "OK"
+            }
+          }
+        },
+        {
+          "id": "needs-attention",
+          "label": {
+            "default": "Needs Attention",
+            "translations": {
+              "nb": "Trenger oppmerksomhet",
+              "de": "Benötigt Aufmerksamkeit"
+            }
+          }
+        },
+        {
+          "id": "critical",
+          "label": {
+            "default": "Critical",
+            "translations": {
+              "nb": "Kritisk",
+              "de": "Kritisch"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "inspection-photo",
+      "label": {
+        "default": "Photo",
+        "translations": {
+          "nb": "Bilde",
+          "de": "Foto"
+        }
+      },
+      "type": "media",
+      "mode": "photo",
+      "sources": ["camera", "library"]
+    },
+    {
+      "id": "notes",
+      "label": {
+        "default": "Notes",
+        "translations": {
+          "nb": "Notater",
+          "de": "Notizen"
+        }
+      },
+      "type": "checkbox",
+      "options": [
+        {
+          "id": "clean",
+          "label": {
+            "default": "Clean",
+            "translations": {
+              "nb": "Ren",
+              "de": "Sauber"
+            }
+          }
+        },
+        {
+          "id": "damaged",
+          "label": {
+            "default": "Damaged",
+            "translations": {
+              "nb": "Skadet",
+              "de": "Beschädigt"
+            }
+          }
+        },
+        {
+          "id": "worn",
+          "label": {
+            "default": "Worn",
+            "translations": {
+              "nb": "Slitt",
+              "de": "Abgenutzt"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "visibilityFilter": null,
+  "boundToProperties": []
+}

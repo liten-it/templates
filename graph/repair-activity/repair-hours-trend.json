@@ -1,0 +1,26 @@
+{
+  "id": "repair-hours-trend",
+  "title": {
+    "default": "Repair Hours Trend",
+    "translations": {
+      "nb": "Reparasjonstimer Trend",
+      "de": "Reparaturstunden Trend"
+    }
+  },
+  "chartType": "line",
+  "timeframe": "weekly",
+  "scope": "all",
+  "dataSeries": [
+    {
+      "id": "ds-repair-duration-1",
+      "type": "value",
+      "categoryId": "maintenance",
+      "actionId": "repair",
+      "propertyId": "duration",
+      "label": "Hours",
+      "color": "#8b5cf6"
+    }
+  ],
+  "visibilityFilter": null,
+  "showOnMatch": true
+}
