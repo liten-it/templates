@@ -1,0 +1,23 @@
+{
+  "firstname": {
+    "type": "text",
+    "label": "Firstname"
+  },
+  "lastname": {
+    "type": "text",
+    "label": "Lastname"
+  },
+  "Birthdate": {
+    "type": "date",
+    "label": "Birthdate"
+  },
+  "gender": {
+    "type": "dropdown",
+    "label": "Gender",
+    "options": [
+      "Male",
+      "Female",
+      "Other"
+    ]
+  }
+}
