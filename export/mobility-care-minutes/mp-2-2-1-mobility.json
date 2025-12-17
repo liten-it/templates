@@ -1,0 +1,56 @@
+{
+  "id": "mp-2-2-1-mobility",
+  "name": {
+    "de": "MP 2.2.1 Mobilität, Motorik, Sensorik",
+    "en": "MP 2.2.1 Mobility, Motor Skills, Sensory",
+    "nb": "MP 2.2.1 Mobilitet, motorikk, sensorisk"
+  },
+  "description": {
+    "de": "Leistungen zur Erhaltung/Wiederherstellung/Kompensation der Mobilität, Motorik und Sensorik",
+    "en": "Services for maintenance/restoration/compensation of mobility, motor skills and sensory functions",
+    "nb": "Tjenester for vedlikehold/gjenoppretting/kompensasjon av mobilitet, motorikk og sensoriske funksjoner"
+  },
+  "unit": {
+    "de": "Min/Tag",
+    "en": "Min/Day",
+    "nb": "Min/Dag"
+  },
+  "calculation": {
+    "type": "besa_item_sum_with_cooperation",
+    "parameters": {
+      "frequency_weight": {
+        "below_average": 0.5,
+        "normal": 1.0,
+        "above_average": 1.5
+      },
+      "staff_presence_weight": {
+        "low": 0.15,
+        "medium": 0.45,
+        "high": 0.85
+      },
+      "cooperation_factor": {
+        "facilitates_greatly": 0.7,
+        "facilitates_somewhat": 0.85,
+        "neutral": 1.0,
+        "hinders_somewhat": 1.15,
+        "hinders_greatly": 1.3
+      },
+      "base_minutes_per_occurrence": {
+        "repositioning_bed": 6,
+        "repositioning_chair": 5,
+        "patient_lifter": 12,
+        "toilet_accompaniment": 8,
+        "meal_accompaniment": 6,
+        "transfer": 10,
+        "walking_accompaniment": 12,
+        "mobility_exercises": 20,
+        "standing_mobilization": 15,
+        "prosthesis_orthosis": 8,
+        "gait_training": 25,
+        "compression_stockings": 10
+      }
+    }
+  },
+  "icon": "activity",
+  "color": "#2196F3"
+}

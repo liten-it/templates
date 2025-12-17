@@ -1,0 +1,74 @@
+{
+  "id": "care-level",
+  "name": {
+    "de": "BESA Pflegestufe",
+    "en": "BESA Care Level",
+    "nb": "BESA Pleienivå"
+  },
+  "description": {
+    "de": "Zugeordnete Pflegestufe (1-12) basierend auf Gesamtpflegeminuten",
+    "en": "Assigned care level (1-12) based on total care minutes",
+    "nb": "Tildelt pleienivå (1-12) basert på totale pleieminutter"
+  },
+  "unit": {
+    "de": "Stufe",
+    "en": "Level",
+    "nb": "Nivå"
+  },
+  "calculation": {
+    "type": "care_level_mapping",
+    "source": "total-care-minutes",
+    "mapping": {
+      "1": {
+        "min": 0,
+        "max": 20
+      },
+      "2": {
+        "min": 21,
+        "max": 40
+      },
+      "3": {
+        "min": 41,
+        "max": 60
+      },
+      "4": {
+        "min": 61,
+        "max": 80
+      },
+      "5": {
+        "min": 81,
+        "max": 100
+      },
+      "6": {
+        "min": 101,
+        "max": 120
+      },
+      "7": {
+        "min": 121,
+        "max": 140
+      },
+      "8": {
+        "min": 141,
+        "max": 160
+      },
+      "9": {
+        "min": 161,
+        "max": 180
+      },
+      "10": {
+        "min": 181,
+        "max": 200
+      },
+      "11": {
+        "min": 201,
+        "max": 220
+      },
+      "12": {
+        "min": 221,
+        "max": 999
+      }
+    }
+  },
+  "icon": "bar-chart-2",
+  "color": "#FF5722"
+}

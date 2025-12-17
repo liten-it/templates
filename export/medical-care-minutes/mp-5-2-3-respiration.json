@@ -1,0 +1,44 @@
+{
+  "id": "mp-5-2-3-respiration",
+  "name": {
+    "de": "MP 5.2.3 Atmung und Sauerstoffversorgung",
+    "en": "MP 5.2.3 Respiration and Oxygen Supply",
+    "nb": "MP 5.2.3 Respirasjon og oksygentilførsel"
+  },
+  "description": {
+    "de": "Leistungen im Rahmen der Atmung und Sauerstoffversorgung",
+    "en": "Services related to respiration and oxygen supply",
+    "nb": "Tjenester knyttet til respirasjon og oksygentilførsel"
+  },
+  "unit": {
+    "de": "Min/Tag",
+    "en": "Min/Day",
+    "nb": "Min/Dag"
+  },
+  "calculation": {
+    "type": "besa_item_sum_with_cooperation",
+    "parameters": {
+      "frequency_weight": {
+        "1-3_per_day": 2,
+        "2-4_per_day": 3
+      },
+      "cooperation_factor": {
+        "facilitates_greatly": 0.7,
+        "facilitates_somewhat": 0.85,
+        "neutral": 1.0,
+        "hinders_somewhat": 1.15,
+        "hinders_greatly": 1.3
+      },
+      "base_minutes_per_occurrence": {
+        "inhalation": 12,
+        "coughing_support": 8,
+        "suctioning": 10,
+        "cannula_care": 15,
+        "oxygen_administration": 10,
+        "inhalation_device_training": 15
+      }
+    }
+  },
+  "icon": "wind",
+  "color": "#03A9F4"
+}

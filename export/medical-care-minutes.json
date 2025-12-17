@@ -1,0 +1,28 @@
+{
+  "id": "medical-care-minutes",
+  "name": {
+    "de": "Medizinische Pflege (Minuten)",
+    "en": "Medical Care (Minutes)",
+    "nb": "Medisinsk pleie (Minutter)"
+  },
+  "description": {
+    "de": "Massnahmenpakete 5.2.1 bis 5.2.3",
+    "en": "Measure packages 5.2.1 to 5.2.3",
+    "nb": "Tiltakspakker 5.2.1 til 5.2.3"
+  },
+  "unit": {
+    "de": "Min/Tag",
+    "en": "Min/Day",
+    "nb": "Min/Dag"
+  },
+  "calculation": {
+    "type": "sum",
+    "sources": [
+      "mp-5-2-1-medication",
+      "mp-5-2-2-wound-care",
+      "mp-5-2-3-respiration"
+    ]
+  },
+  "icon": "heart-pulse",
+  "color": "#F44336"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "total-care-minutes",
+  "name": {
+    "de": "Gesamtpflegeminuten",
+    "en": "Total Care Minutes",
+    "nb": "Totale pleieminutter"
+  },
+  "description": {
+    "de": "Summe aller Pflegeminuten nach BESA LK2020",
+    "en": "Sum of all care minutes according to BESA LK2020",
+    "nb": "Sum av alle pleieminutter etter BESA LK2020"
+  },
+  "unit": {
+    "de": "Minuten/Tag",
+    "en": "Minutes/Day",
+    "nb": "Minutter/Dag"
+  },
+  "calculation": {
+    "type": "sum",
+    "sources": [
+      "psychogeriatric-care-minutes",
+      "mobility-care-minutes",
+      "body-care-minutes",
+      "nutrition-care-minutes",
+      "medical-care-minutes",
+      "cross-sectional-services-minutes"
+    ]
+  },
+  "icon": "clock",
+  "color": "#2196F3"
+}

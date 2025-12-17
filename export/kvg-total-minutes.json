@@ -1,0 +1,24 @@
+{
+  "id": "kvg-total-minutes",
+  "name": {
+    "de": "KVG Pflegeminuten Total",
+    "en": "KVG Care Minutes Total",
+    "nb": "KVG Pleieminutter Totalt"
+  },
+  "description": {
+    "de": "Alle KVG-relevanten Pflegeminuten (MP 1-6)",
+    "en": "All KVG-relevant care minutes (MP 1-6)",
+    "nb": "Alle KVG-relevante pleieminutter (MP 1-6)"
+  },
+  "unit": {
+    "de": "Min/Tag",
+    "en": "Min/Day",
+    "nb": "Min/Dag"
+  },
+  "calculation": {
+    "type": "direct",
+    "source": "total-care-minutes"
+  },
+  "icon": "clipboard-check",
+  "color": "#4CAF50"
+}

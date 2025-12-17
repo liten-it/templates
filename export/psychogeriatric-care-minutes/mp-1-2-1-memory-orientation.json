@@ -1,0 +1,42 @@
+{
+  "id": "mp-1-2-1-memory-orientation",
+  "name": {
+    "de": "MP 1.2.1 Gedächtnis und Orientierung",
+    "en": "MP 1.2.1 Memory and Orientation",
+    "nb": "MP 1.2.1 Hukommelse og orientering"
+  },
+  "description": {
+    "de": "Leistungen zur Erhaltung/Wiederherstellung/Kompensation von Gedächtnis und Orientierung",
+    "en": "Services for maintenance/restoration/compensation of memory and orientation",
+    "nb": "Tjenester for vedlikehold/gjenoppretting/kompensasjon av hukommelse og orientering"
+  },
+  "unit": {
+    "de": "Min/Tag",
+    "en": "Min/Day",
+    "nb": "Min/Dag"
+  },
+  "calculation": {
+    "type": "besa_item_sum",
+    "parameters": {
+      "frequency_weight": {
+        "below_average": 0.5,
+        "normal": 1.0,
+        "above_average": 1.5
+      },
+      "staff_presence_weight": {
+        "low": 0.15,
+        "medium": 0.45,
+        "high": 0.85
+      },
+      "base_minutes_per_occurrence": {
+        "orientation_info": 3,
+        "spatial_orientation": 4,
+        "accompaniment": 8,
+        "short_term_memory_training": 15,
+        "long_term_memory_training": 20
+      }
+    }
+  },
+  "icon": "brain",
+  "color": "#9C27B0"
+}

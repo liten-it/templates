@@ -1,0 +1,29 @@
+{
+  "id": "cross-sectional-services-minutes",
+  "name": {
+    "de": "Querschnittleistungen (Minuten)",
+    "en": "Cross-Sectional Services (Minutes)",
+    "nb": "Tverrgående tjenester (Minutter)"
+  },
+  "description": {
+    "de": "Massnahmenpaket 6 - Prozessbegleitende Leistungen",
+    "en": "Measure package 6 - Process-accompanying services",
+    "nb": "Tiltakspakke 6 - Prosessfølgende tjenester"
+  },
+  "unit": {
+    "de": "Min/Tag",
+    "en": "Min/Day",
+    "nb": "Min/Dag"
+  },
+  "calculation": {
+    "type": "formula",
+    "formula": "calculateCrossSectionalServices(totalDirectCare, residentProfile)",
+    "description": {
+      "de": "Berechnet basierend auf Gesamtpflegeaufwand und Bewohnerprofil",
+      "en": "Calculated based on total care effort and resident profile",
+      "nb": "Beregnet basert på total pleieinnsats og beboerprofil"
+    }
+  },
+  "icon": "file-text",
+  "color": "#9C27B0"
+}

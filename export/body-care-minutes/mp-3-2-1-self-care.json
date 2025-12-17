@@ -1,0 +1,53 @@
+{
+  "id": "mp-3-2-1-self-care",
+  "name": {
+    "de": "MP 3.2.1 Selbstpflegefähigkeit des Körpers",
+    "en": "MP 3.2.1 Body Self-Care Ability",
+    "nb": "MP 3.2.1 Kroppens egenomsorg"
+  },
+  "description": {
+    "de": "Leistungen zur Erhaltung/Wiederherstellung/Kompensation der Selbstpflegefähigkeit",
+    "en": "Services for maintenance/restoration/compensation of self-care ability",
+    "nb": "Tjenester for vedlikehold/gjenoppretting/kompensasjon av egenomsorg"
+  },
+  "unit": {
+    "de": "Min/Tag",
+    "en": "Min/Day",
+    "nb": "Min/Dag"
+  },
+  "calculation": {
+    "type": "besa_item_sum_with_cooperation",
+    "parameters": {
+      "frequency_weight": {
+        "1-3_per_day": 2,
+        "2-4_per_week": 0.4,
+        "1-3_per_week": 0.3,
+        "1-3_per_month": 0.07
+      },
+      "cooperation_factor": {
+        "facilitates_greatly": 0.7,
+        "facilitates_somewhat": 0.85,
+        "neutral": 1.0,
+        "hinders_somewhat": 1.15,
+        "hinders_greatly": 1.3
+      },
+      "base_minutes_per_occurrence": {
+        "partial_body_wash": 15,
+        "full_body_wash": 35,
+        "bathing_showering": 45,
+        "hand_care": 12,
+        "foot_care": 20,
+        "making_bed": 8,
+        "dressing_undressing": 15,
+        "shaving": 10,
+        "hair_washing": 15,
+        "oral_care": 8,
+        "saliva_stimulation": 5,
+        "aids_training": 10,
+        "self_care_training": 20
+      }
+    }
+  },
+  "icon": "droplet",
+  "color": "#00BCD4"
+}

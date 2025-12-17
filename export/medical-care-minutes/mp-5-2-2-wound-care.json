@@ -1,0 +1,42 @@
+{
+  "id": "mp-5-2-2-wound-care",
+  "name": {
+    "de": "MP 5.2.2 Wund- und Hautversorgung",
+    "en": "MP 5.2.2 Wound and Skin Care",
+    "nb": "MP 5.2.2 Sår- og hudpleie"
+  },
+  "description": {
+    "de": "Leistungen im Rahmen der Wund- und Hautversorgung",
+    "en": "Services related to wound and skin care",
+    "nb": "Tjenester knyttet til sår- og hudpleie"
+  },
+  "unit": {
+    "de": "Min/Tag",
+    "en": "Min/Day",
+    "nb": "Min/Dag"
+  },
+  "calculation": {
+    "type": "besa_item_sum_with_cooperation",
+    "parameters": {
+      "frequency_weight": {
+        "2-4_per_week": 0.4,
+        "5-10_per_week": 1.0
+      },
+      "cooperation_factor": {
+        "facilitates_greatly": 0.7,
+        "facilitates_somewhat": 0.85,
+        "neutral": 1.0,
+        "hinders_somewhat": 1.15,
+        "hinders_greatly": 1.3
+      },
+      "base_minutes_per_occurrence": {
+        "wound_care_up_to_10min": 10,
+        "wound_care_10_to_30min": 20,
+        "wound_care_30_to_60min": 45,
+        "skin_mucosa_inspection": 8
+      }
+    }
+  },
+  "icon": "bandage",
+  "color": "#E91E63"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "nutrition-care-minutes",
+  "name": {
+    "de": "Ernährung und Flüssigkeit (Minuten)",
+    "en": "Nutrition and Hydration (Minutes)",
+    "nb": "Ernæring og væske (Minutter)"
+  },
+  "description": {
+    "de": "Massnahmenpaket 4.2.1",
+    "en": "Measure package 4.2.1",
+    "nb": "Tiltakspakke 4.2.1"
+  },
+  "unit": {
+    "de": "Min/Tag",
+    "en": "Min/Day",
+    "nb": "Min/Dag"
+  },
+  "calculation": {
+    "type": "direct",
+    "source": "mp-4-2-1-nutrition"
+  },
+  "icon": "utensils",
+  "color": "#FF9800"
+}

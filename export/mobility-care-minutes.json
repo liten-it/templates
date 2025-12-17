@@ -1,0 +1,24 @@
+{
+  "id": "mobility-care-minutes",
+  "name": {
+    "de": "Mobilität, Motorik, Sensorik (Minuten)",
+    "en": "Mobility, Motor Skills, Sensory (Minutes)",
+    "nb": "Mobilitet, motorikk, sensorisk (Minutter)"
+  },
+  "description": {
+    "de": "Massnahmenpaket 2.2.1",
+    "en": "Measure package 2.2.1",
+    "nb": "Tiltakspakke 2.2.1"
+  },
+  "unit": {
+    "de": "Min/Tag",
+    "en": "Min/Day",
+    "nb": "Min/Dag"
+  },
+  "calculation": {
+    "type": "direct",
+    "source": "mp-2-2-1-mobility"
+  },
+  "icon": "activity",
+  "color": "#2196F3"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "body-care-minutes",
+  "name": {
+    "de": "Körperpflege (Minuten)",
+    "en": "Body Care (Minutes)",
+    "nb": "Kroppspleie (Minutter)"
+  },
+  "description": {
+    "de": "Massnahmenpakete 3.2.1 und 3.2.2",
+    "en": "Measure packages 3.2.1 and 3.2.2",
+    "nb": "Tiltakspakker 3.2.1 og 3.2.2"
+  },
+  "unit": {
+    "de": "Min/Tag",
+    "en": "Min/Day",
+    "nb": "Min/Dag"
+  },
+  "calculation": {
+    "type": "sum",
+    "sources": [
+      "mp-3-2-1-self-care",
+      "mp-3-2-2-continence"
+    ]
+  },
+  "icon": "droplet",
+  "color": "#00BCD4"
+}
