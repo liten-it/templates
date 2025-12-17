@@ -1,0 +1,44 @@
+{
+  "name": {
+    "type": "text",
+    "label": "Picture Name"
+  },
+  "artist": {
+    "type": "text",
+    "label": "Artist"
+  },
+  "year": {
+    "type": "number",
+    "label": "Year Created"
+  },
+  "medium": {
+    "type": "dropdown",
+    "label": "Medium",
+    "options": ["Oil on Canvas", "Watercolor", "Acrylic", "Digital", "Mixed Media", "Other"]
+  },
+  "style": {
+    "type": "dropdown",
+    "label": "Art Style",
+    "options": ["Abstract", "Realism", "Impressionism", "Expressionism", "Surrealism", "Contemporary", "Other"]
+  },
+  "dimensions": {
+    "type": "text",
+    "label": "Dimensions (cm)"
+  },
+  "image": {
+    "type": "image",
+    "label": "Picture Image"
+  },
+  "authenticated": {
+    "type": "boolean",
+    "label": "Authenticated"
+  },
+  "location": {
+    "type": "text",
+    "label": "Current Location"
+  },
+  "value": {
+    "type": "number",
+    "label": "Estimated Value (USD)"
+  }
+}
