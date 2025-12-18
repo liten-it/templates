@@ -49,7 +49,7 @@ class TemplateValidator:
             self.error(str(rel_path), f"Failed to read file: {e}")
             return None, str(rel_path)
 
-    def validate_translated_text(self, data: Any, field_name: str, file_path: str, required: bool = True) -> bool:
+    def validate_translated_text(self, data: Any, field_name: str, file_path: str, required: bool = True, allow_string: bool = True) -> bool:
         """Validate TranslatedText structure."""
         if data is None:
             if required:
@@ -58,7 +58,10 @@ class TemplateValidator:
             return True
 
         if isinstance(data, str):
-            # Simple string is valid
+            # Simple string is only valid if allowed
+            if not allow_string:
+                self.error(file_path, f"'{field_name}' must be a TranslatedText object with 'default' and 'translations' fields")
+                return False
             return True
 
         if not isinstance(data, dict):
@@ -136,7 +139,24 @@ class TemplateValidator:
         if 'name' not in data:
             self.error(rel_path, "Missing required field 'name'")
         else:
-            self.validate_translated_text(data['name'], 'name', rel_path)
+            # Category names must be TranslatedText objects, not plain strings
+            self.validate_translated_text(data['name'], 'name', rel_path, allow_string=False)
+
+        # Optional description field
+        if 'description' in data:
+            self.validate_translated_text(data['description'], 'description', rel_path, required=False)
+
+        # Optional icon field
+        if 'icon' in data and not isinstance(data['icon'], str):
+            self.error(rel_path, "'icon' must be a string")
+
+        # Optional color field
+        if 'color' in data:
+            color = data['color']
+            if not isinstance(color, str):
+                self.error(rel_path, "'color' must be a string")
+            elif not (color.startswith('#') or color.startswith('rgb')):
+                self.warning(rel_path, "'color' should be hex or rgb format")
 
         # visibilityFilter can be null or object
         if 'visibilityFilter' in data and data['visibilityFilter'] is not None:
@@ -169,9 +189,21 @@ class TemplateValidator:
         else:
             self.validate_translated_text(data['name'], 'name', rel_path)
 
+        # Optional description field
+        if 'description' in data:
+            self.validate_translated_text(data['description'], 'description', rel_path, required=False)
+
         # icon is optional but should be string
         if 'icon' in data and not isinstance(data['icon'], str):
             self.error(rel_path, "'icon' must be a string")
+
+        # Optional color field
+        if 'color' in data:
+            color = data['color']
+            if not isinstance(color, str):
+                self.error(rel_path, "'color' must be a string")
+            elif not (color.startswith('#') or color.startswith('rgb')):
+                self.warning(rel_path, "'color' should be hex or rgb format")
 
         # properties array
         if 'properties' in data:
@@ -285,7 +317,8 @@ class TemplateValidator:
         if 'title' not in data:
             self.error(rel_path, "Missing required field 'title'")
         else:
-            self.validate_translated_text(data['title'], 'title', rel_path)
+            # Export titles must be TranslatedText objects, not plain strings
+            self.validate_translated_text(data['title'], 'title', rel_path, allow_string=False)
 
         if 'timeframe' in data:
             if data['timeframe'] not in ['daily', 'weekly', 'monthly', 'yearly']:
@@ -343,7 +376,8 @@ class TemplateValidator:
         if 'title' not in data:
             self.error(rel_path, "Missing required field 'title'")
         else:
-            self.validate_translated_text(data['title'], 'title', rel_path)
+            # Graph titles must be TranslatedText objects, not plain strings
+            self.validate_translated_text(data['title'], 'title', rel_path, allow_string=False)
 
         if 'chartType' in data:
             valid_chart_types = ['bar', 'line', 'pie', 'doughnut', 'area']
