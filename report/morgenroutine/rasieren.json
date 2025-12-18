@@ -1,95 +1,123 @@
 {
   "id": "rasieren",
   "name": {
-    "de": "Rasieren",
-    "en": "Shaving",
-    "nb": "Barbering"
+    "default": "Rasieren",
+    "translations": {
+      "en": "Shaving",
+      "nb": "Barbering"
+    }
   },
   "description": {
-    "de": "Unterstützung bei der Rasur",
-    "en": "Support with shaving",
-    "nb": "Støtte med barbering"
+    "default": "Unterstützung bei der Rasur",
+    "translations": {
+      "en": "Support with shaving",
+      "nb": "Støtte med barbering"
+    }
   },
   "properties": [
     {
       "id": "rasurart",
-      "type": "select",
+      "type": "dropdown",
       "label": {
-        "de": "Art der Rasur",
-        "en": "Type of shave",
-        "nb": "Type barbering"
+        "default": "Art der Rasur",
+        "translations": {
+          "en": "Type of shave",
+          "nb": "Type barbering"
+        }
       },
       "required": true,
       "options": [
         {
           "value": "nass",
           "label": {
-            "de": "Nassrasur",
-            "en": "Wet shave",
-            "nb": "Våtbarbering"
-          }
+            "default": "Nassrasur",
+            "translations": {
+              "en": "Wet shave",
+              "nb": "Våtbarbering"
+            }
+          },
+          "id": "nass"
         },
         {
           "value": "trocken",
           "label": {
-            "de": "Trockenrasur (elektrisch)",
-            "en": "Dry shave (electric)",
-            "nb": "Tørrbarbering (elektrisk)"
-          }
+            "default": "Trockenrasur (elektrisch)",
+            "translations": {
+              "en": "Dry shave (electric)",
+              "nb": "Tørrbarbering (elektrisk)"
+            }
+          },
+          "id": "trocken"
         },
         {
           "value": "bart",
           "label": {
-            "de": "Bartpflege",
-            "en": "Beard care",
-            "nb": "Skjeggpleie"
-          }
+            "default": "Bartpflege",
+            "translations": {
+              "en": "Beard care",
+              "nb": "Skjeggpleie"
+            }
+          },
+          "id": "bart"
         }
       ]
     },
     {
       "id": "durchfuehrung",
-      "type": "select",
+      "type": "dropdown",
       "label": {
-        "de": "Durchführung",
-        "en": "Execution",
-        "nb": "Utførelse"
+        "default": "Durchführung",
+        "translations": {
+          "en": "Execution",
+          "nb": "Utførelse"
+        }
       },
       "required": true,
       "options": [
         {
           "value": "selbststaendig",
           "label": {
-            "de": "Selbstständig",
-            "en": "Independent",
-            "nb": "Selvstendig"
-          }
+            "default": "Selbstständig",
+            "translations": {
+              "en": "Independent",
+              "nb": "Selvstendig"
+            }
+          },
+          "id": "selbststaendig"
         },
         {
           "value": "unterstuetzung",
           "label": {
-            "de": "Mit Unterstützung",
-            "en": "With support",
-            "nb": "Med støtte"
-          }
+            "default": "Mit Unterstützung",
+            "translations": {
+              "en": "With support",
+              "nb": "Med støtte"
+            }
+          },
+          "id": "unterstuetzung"
         },
         {
           "value": "uebernahme",
           "label": {
-            "de": "Vollständige Übernahme",
-            "en": "Complete takeover",
-            "nb": "Full overtagelse"
-          }
+            "default": "Vollständige Übernahme",
+            "translations": {
+              "en": "Complete takeover",
+              "nb": "Full overtagelse"
+            }
+          },
+          "id": "uebernahme"
         }
       ]
     },
     {
       "id": "notes",
-      "type": "textarea",
+      "type": "text",
       "label": {
-        "de": "Bemerkungen",
-        "en": "Notes",
-        "nb": "Merknader"
+        "default": "Bemerkungen",
+        "translations": {
+          "en": "Notes",
+          "nb": "Merknader"
+        }
       },
       "required": false
     }

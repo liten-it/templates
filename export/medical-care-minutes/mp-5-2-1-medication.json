@@ -1,19 +1,25 @@
 {
   "id": "mp-5-2-1-medication",
   "name": {
-    "de": "MP 5.2.1 Medikation und Schmerzmanagement",
-    "en": "MP 5.2.1 Medication and Pain Management",
-    "nb": "MP 5.2.1 Medisinering og smertebehandling"
+    "default": "MP 5.2.1 Medikation und Schmerzmanagement",
+    "translations": {
+      "en": "MP 5.2.1 Medication and Pain Management",
+      "nb": "MP 5.2.1 Medisinering og smertebehandling"
+    }
   },
   "description": {
-    "de": "Leistungen im Rahmen der Medikation und des Schmerzmanagements",
-    "en": "Services related to medication and pain management",
-    "nb": "Tjenester knyttet til medisinering og smertebehandling"
+    "default": "Leistungen im Rahmen der Medikation und des Schmerzmanagements",
+    "translations": {
+      "en": "Services related to medication and pain management",
+      "nb": "Tjenester knyttet til medisinering og smertebehandling"
+    }
   },
   "unit": {
-    "de": "Min/Tag",
-    "en": "Min/Day",
-    "nb": "Min/Dag"
+    "default": "Min/Tag",
+    "translations": {
+      "en": "Min/Day",
+      "nb": "Min/Dag"
+    }
   },
   "calculation": {
     "type": "besa_item_sum_with_cooperation",
@@ -50,5 +56,12 @@
     }
   },
   "icon": "pill",
-  "color": "#F44336"
+  "color": "#F44336",
+  "title": {
+    "default": "MP 5.2.1 Medikation und Schmerzmanagement",
+    "translations": {
+      "en": "MP 5.2.1 Medication and Pain Management",
+      "nb": "MP 5.2.1 Medisinering og smertebehandling"
+    }
+  }
 }

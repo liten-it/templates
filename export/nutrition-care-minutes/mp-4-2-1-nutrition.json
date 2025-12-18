@@ -1,19 +1,25 @@
 {
   "id": "mp-4-2-1-nutrition",
   "name": {
-    "de": "MP 4.2.1 Nahrungs- und Flüssigkeitsaufnahme",
-    "en": "MP 4.2.1 Food and Fluid Intake",
-    "nb": "MP 4.2.1 Mat- og væskeinntak"
+    "default": "MP 4.2.1 Nahrungs- und Flüssigkeitsaufnahme",
+    "translations": {
+      "en": "MP 4.2.1 Food and Fluid Intake",
+      "nb": "MP 4.2.1 Mat- og væskeinntak"
+    }
   },
   "description": {
-    "de": "Leistungen zur Erhaltung/Wiederherstellung/Kompensation der Nahrungs- und Flüssigkeitsaufnahme",
-    "en": "Services for maintenance/restoration/compensation of food and fluid intake",
-    "nb": "Tjenester for vedlikehold/gjenoppretting/kompensasjon av mat- og væskeinntak"
+    "default": "Leistungen zur Erhaltung/Wiederherstellung/Kompensation der Nahrungs- und Flüssigkeitsaufnahme",
+    "translations": {
+      "en": "Services for maintenance/restoration/compensation of food and fluid intake",
+      "nb": "Tjenester for vedlikehold/gjenoppretting/kompensasjon av mat- og væskeinntak"
+    }
   },
   "unit": {
-    "de": "Min/Tag",
-    "en": "Min/Day",
-    "nb": "Min/Dag"
+    "default": "Min/Tag",
+    "translations": {
+      "en": "Min/Day",
+      "nb": "Min/Dag"
+    }
   },
   "calculation": {
     "type": "besa_item_sum_with_cooperation",
@@ -46,5 +52,12 @@
     }
   },
   "icon": "utensils",
-  "color": "#FF9800"
+  "color": "#FF9800",
+  "title": {
+    "default": "MP 4.2.1 Nahrungs- und Flüssigkeitsaufnahme",
+    "translations": {
+      "en": "MP 4.2.1 Food and Fluid Intake",
+      "nb": "MP 4.2.1 Mat- og væskeinntak"
+    }
+  }
 }

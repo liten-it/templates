@@ -24,7 +24,7 @@ class TemplateValidator:
             'text', 'number', 'boolean', 'dropdown', 'radio', 'checkbox',
             'media', 'image', 'date', 'time', 'datetime', 'location'
         }
-        self.valid_languages = {'nb', 'de'}
+        self.valid_languages = {'nb', 'de', 'en', 'it', 'ro'}
         self.categories: Dict[str, Dict] = {}
         self.actions: Dict[str, Dict[str, Dict]] = {}
 

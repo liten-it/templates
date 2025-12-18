@@ -1,16 +1,101 @@
 {
   "id": "zimmer-aufraeumen",
-  "name": {"de": "Zimmer aufräumen", "en": "Tidy room", "nb": "Rydde rom"},
-  "description": {"de": "Ordnung im Bewohnerzimmer schaffen", "en": "Create order in resident room", "nb": "Skape orden i beboerrom"},
+  "name": {
+    "default": "Zimmer aufräumen",
+    "translations": {
+      "en": "Tidy room",
+      "nb": "Rydde rom"
+    }
+  },
+  "description": {
+    "default": "Ordnung im Bewohnerzimmer schaffen",
+    "translations": {
+      "en": "Create order in resident room",
+      "nb": "Skape orden i beboerrom"
+    }
+  },
   "properties": [
-    {"id": "bereiche", "type": "multiselect", "label": {"de": "Aufgeräumte Bereiche", "en": "Tidied areas", "nb": "Ryddede områder"}, "required": true,
+    {
+      "id": "bereiche",
+      "type": "checkbox",
+      "label": {
+        "default": "Aufgeräumte Bereiche",
+        "translations": {
+          "en": "Tidied areas",
+          "nb": "Ryddede områder"
+        }
+      },
+      "required": true,
       "options": [
-        {"value": "nachttisch", "label": {"de": "Nachttisch", "en": "Bedside table", "nb": "Nattbord"}},
-        {"value": "schrank", "label": {"de": "Kleiderschrank", "en": "Wardrobe", "nb": "Klesskap"}},
-        {"value": "tisch", "label": {"de": "Schreibtisch", "en": "Desk", "nb": "Skrivebord"}},
-        {"value": "bad", "label": {"de": "Badezimmer", "en": "Bathroom", "nb": "Baderom"}}
-      ]},
-    {"id": "mit_bewohner", "type": "checkbox", "label": {"de": "Zusammen mit Bewohner", "en": "Together with resident", "nb": "Sammen med beboer"}, "required": false},
-    {"id": "notes", "type": "textarea", "label": {"de": "Bemerkungen", "en": "Notes", "nb": "Merknader"}, "required": false}
+        {
+          "value": "nachttisch",
+          "label": {
+            "default": "Nachttisch",
+            "translations": {
+              "en": "Bedside table",
+              "nb": "Nattbord"
+            }
+          },
+          "id": "nachttisch"
+        },
+        {
+          "value": "schrank",
+          "label": {
+            "default": "Kleiderschrank",
+            "translations": {
+              "en": "Wardrobe",
+              "nb": "Klesskap"
+            }
+          },
+          "id": "schrank"
+        },
+        {
+          "value": "tisch",
+          "label": {
+            "default": "Schreibtisch",
+            "translations": {
+              "en": "Desk",
+              "nb": "Skrivebord"
+            }
+          },
+          "id": "tisch"
+        },
+        {
+          "value": "bad",
+          "label": {
+            "default": "Badezimmer",
+            "translations": {
+              "en": "Bathroom",
+              "nb": "Baderom"
+            }
+          },
+          "id": "bad"
+        }
+      ]
+    },
+    {
+      "id": "mit_bewohner",
+      "type": "boolean",
+      "label": {
+        "default": "Zusammen mit Bewohner",
+        "translations": {
+          "en": "Together with resident",
+          "nb": "Sammen med beboer"
+        }
+      },
+      "required": false
+    },
+    {
+      "id": "notes",
+      "type": "text",
+      "label": {
+        "default": "Bemerkungen",
+        "translations": {
+          "en": "Notes",
+          "nb": "Merknader"
+        }
+      },
+      "required": false
+    }
   ]
 }

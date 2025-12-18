@@ -1,183 +1,239 @@
 {
   "id": "anziehen",
   "name": {
-    "de": "Beim Anziehen helfen",
-    "en": "Help with dressing",
-    "nb": "Hjelpe med påkledning"
+    "default": "Beim Anziehen helfen",
+    "translations": {
+      "en": "Help with dressing",
+      "nb": "Hjelpe med påkledning"
+    }
   },
   "description": {
-    "de": "Unterstützung beim Anziehen und Kleidungsauswahl",
-    "en": "Support with dressing and clothing selection",
-    "nb": "Støtte med påkledning og klevalg"
+    "default": "Unterstützung beim Anziehen und Kleidungsauswahl",
+    "translations": {
+      "en": "Support with dressing and clothing selection",
+      "nb": "Støtte med påkledning og klevalg"
+    }
   },
   "properties": [
     {
       "id": "kleidungsstuecke",
-      "type": "multiselect",
+      "type": "checkbox",
       "label": {
-        "de": "Angezogene Kleidungsstücke",
-        "en": "Clothes put on",
-        "nb": "Klær påført"
+        "default": "Angezogene Kleidungsstücke",
+        "translations": {
+          "en": "Clothes put on",
+          "nb": "Klær påført"
+        }
       },
       "required": true,
       "options": [
         {
           "value": "unterwaesche",
           "label": {
-            "de": "Unterwäsche",
-            "en": "Underwear",
-            "nb": "Undertøy"
-          }
+            "default": "Unterwäsche",
+            "translations": {
+              "en": "Underwear",
+              "nb": "Undertøy"
+            }
+          },
+          "id": "unterwaesche"
         },
         {
           "value": "oberbekleidung",
           "label": {
-            "de": "Oberbekleidung",
-            "en": "Outer clothing",
-            "nb": "Ytterklær"
-          }
+            "default": "Oberbekleidung",
+            "translations": {
+              "en": "Outer clothing",
+              "nb": "Ytterklær"
+            }
+          },
+          "id": "oberbekleidung"
         },
         {
           "value": "struempfe",
           "label": {
-            "de": "Strümpfe/Kompressionsstrümpfe",
-            "en": "Stockings/compression stockings",
-            "nb": "Strømper/kompresjonstrømper"
-          }
+            "default": "Strümpfe/Kompressionsstrümpfe",
+            "translations": {
+              "en": "Stockings/compression stockings",
+              "nb": "Strømper/kompresjonstrømper"
+            }
+          },
+          "id": "struempfe"
         },
         {
           "value": "schuhe",
           "label": {
-            "de": "Schuhe",
-            "en": "Shoes",
-            "nb": "Sko"
-          }
+            "default": "Schuhe",
+            "translations": {
+              "en": "Shoes",
+              "nb": "Sko"
+            }
+          },
+          "id": "schuhe"
         }
       ]
     },
     {
       "id": "auswahl",
-      "type": "select",
+      "type": "dropdown",
       "label": {
-        "de": "Kleidungsauswahl",
-        "en": "Clothing selection",
-        "nb": "Klevalg"
+        "default": "Kleidungsauswahl",
+        "translations": {
+          "en": "Clothing selection",
+          "nb": "Klevalg"
+        }
       },
       "required": true,
       "options": [
         {
           "value": "bewohner",
           "label": {
-            "de": "Bewohner wählt selbst",
-            "en": "Resident chooses",
-            "nb": "Beboer velger selv"
-          }
+            "default": "Bewohner wählt selbst",
+            "translations": {
+              "en": "Resident chooses",
+              "nb": "Beboer velger selv"
+            }
+          },
+          "id": "bewohner"
         },
         {
           "value": "vorschlaege",
           "label": {
-            "de": "Vorschläge gemacht",
-            "en": "Suggestions made",
-            "nb": "Forslag gjort"
-          }
+            "default": "Vorschläge gemacht",
+            "translations": {
+              "en": "Suggestions made",
+              "nb": "Forslag gjort"
+            }
+          },
+          "id": "vorschlaege"
         },
         {
           "value": "pflegekraft",
           "label": {
-            "de": "Pflegekraft wählt",
-            "en": "Caregiver chooses",
-            "nb": "Pleier velger"
-          }
+            "default": "Pflegekraft wählt",
+            "translations": {
+              "en": "Caregiver chooses",
+              "nb": "Pleier velger"
+            }
+          },
+          "id": "pflegekraft"
         }
       ]
     },
     {
       "id": "hilfsmittel",
-      "type": "multiselect",
+      "type": "checkbox",
       "label": {
-        "de": "Verwendete Hilfsmittel",
-        "en": "Aids used",
-        "nb": "Hjelpemidler brukt"
+        "default": "Verwendete Hilfsmittel",
+        "translations": {
+          "en": "Aids used",
+          "nb": "Hjelpemidler brukt"
+        }
       },
       "required": false,
       "options": [
         {
           "value": "knoepfhilfe",
           "label": {
-            "de": "Knöpfhilfe",
-            "en": "Button aid",
-            "nb": "Knappehjelp"
-          }
+            "default": "Knöpfhilfe",
+            "translations": {
+              "en": "Button aid",
+              "nb": "Knappehjelp"
+            }
+          },
+          "id": "knoepfhilfe"
         },
         {
           "value": "schuhanzieher",
           "label": {
-            "de": "Schuhanzieher",
-            "en": "Shoe horn",
-            "nb": "Skotrekker"
-          }
+            "default": "Schuhanzieher",
+            "translations": {
+              "en": "Shoe horn",
+              "nb": "Skotrekker"
+            }
+          },
+          "id": "schuhanzieher"
         },
         {
           "value": "strumpfanzieher",
           "label": {
-            "de": "Strumpfanzieher",
-            "en": "Stocking aid",
-            "nb": "Strømpepåtrekker"
-          }
+            "default": "Strumpfanzieher",
+            "translations": {
+              "en": "Stocking aid",
+              "nb": "Strømpepåtrekker"
+            }
+          },
+          "id": "strumpfanzieher"
         }
       ]
     },
     {
       "id": "besonderheiten",
-      "type": "multiselect",
+      "type": "checkbox",
       "label": {
-        "de": "Besonderheiten",
-        "en": "Special notes",
-        "nb": "Særegenheter"
+        "default": "Besonderheiten",
+        "translations": {
+          "en": "Special notes",
+          "nb": "Særegenheter"
+        }
       },
       "required": false,
       "options": [
         {
           "value": "inkontinenz",
           "label": {
-            "de": "Inkontinenzmaterial",
-            "en": "Incontinence material",
-            "nb": "Inkontinensmateriale"
-          }
+            "default": "Inkontinenzmaterial",
+            "translations": {
+              "en": "Incontinence material",
+              "nb": "Inkontinensmateriale"
+            }
+          },
+          "id": "inkontinenz"
         },
         {
           "value": "kompression",
           "label": {
-            "de": "Kompressionsstrümpfe",
-            "en": "Compression stockings",
-            "nb": "Kompresjonstrømper"
-          }
+            "default": "Kompressionsstrümpfe",
+            "translations": {
+              "en": "Compression stockings",
+              "nb": "Kompresjonstrømper"
+            }
+          },
+          "id": "kompression"
         },
         {
           "value": "orthesen",
           "label": {
-            "de": "Orthesen",
-            "en": "Orthoses",
-            "nb": "Ortoser"
-          }
+            "default": "Orthesen",
+            "translations": {
+              "en": "Orthoses",
+              "nb": "Ortoser"
+            }
+          },
+          "id": "orthesen"
         },
         {
           "value": "prothesen",
           "label": {
-            "de": "Prothesen",
-            "en": "Prostheses",
-            "nb": "Proteser"
-          }
+            "default": "Prothesen",
+            "translations": {
+              "en": "Prostheses",
+              "nb": "Proteser"
+            }
+          },
+          "id": "prothesen"
         }
       ]
     },
     {
       "id": "notes",
-      "type": "textarea",
+      "type": "text",
       "label": {
-        "de": "Bemerkungen",
-        "en": "Notes",
-        "nb": "Merknader"
+        "default": "Bemerkungen",
+        "translations": {
+          "en": "Notes",
+          "nb": "Merknader"
+        }
       },
       "required": false
     }

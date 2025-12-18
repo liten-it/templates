@@ -1,215 +1,283 @@
 {
   "id": "fruehstueck-herrichten",
   "name": {
-    "de": "Frühstück herrichten",
-    "en": "Prepare breakfast",
-    "nb": "Forberede frokost"
+    "default": "Frühstück herrichten",
+    "translations": {
+      "en": "Prepare breakfast",
+      "nb": "Forberede frokost"
+    }
   },
   "description": {
-    "de": "Frühstück vorbereiten und servieren",
-    "en": "Prepare and serve breakfast",
-    "nb": "Forberede og servere frokost"
+    "default": "Frühstück vorbereiten und servieren",
+    "translations": {
+      "en": "Prepare and serve breakfast",
+      "nb": "Forberede og servere frokost"
+    }
   },
   "properties": [
     {
       "id": "getraenke",
-      "type": "multiselect",
+      "type": "checkbox",
       "label": {
-        "de": "Getränke",
-        "en": "Beverages",
-        "nb": "Drikkevarer"
+        "default": "Getränke",
+        "translations": {
+          "en": "Beverages",
+          "nb": "Drikkevarer"
+        }
       },
       "required": true,
       "options": [
         {
           "value": "kaffee",
           "label": {
-            "de": "Kaffee",
-            "en": "Coffee",
-            "nb": "Kaffe"
-          }
+            "default": "Kaffee",
+            "translations": {
+              "en": "Coffee",
+              "nb": "Kaffe"
+            }
+          },
+          "id": "kaffee"
         },
         {
           "value": "tee",
           "label": {
-            "de": "Tee",
-            "en": "Tea",
-            "nb": "Te"
-          }
+            "default": "Tee",
+            "translations": {
+              "en": "Tea",
+              "nb": "Te"
+            }
+          },
+          "id": "tee"
         },
         {
           "value": "kakao",
           "label": {
-            "de": "Kakao",
-            "en": "Cocoa",
-            "nb": "Kakao"
-          }
+            "default": "Kakao",
+            "translations": {
+              "en": "Cocoa",
+              "nb": "Kakao"
+            }
+          },
+          "id": "kakao"
         },
         {
           "value": "saft",
           "label": {
-            "de": "Saft",
-            "en": "Juice",
-            "nb": "Juice"
-          }
+            "default": "Saft",
+            "translations": {
+              "en": "Juice",
+              "nb": "Juice"
+            }
+          },
+          "id": "saft"
         },
         {
           "value": "wasser",
           "label": {
-            "de": "Wasser",
-            "en": "Water",
-            "nb": "Vann"
-          }
+            "default": "Wasser",
+            "translations": {
+              "en": "Water",
+              "nb": "Vann"
+            }
+          },
+          "id": "wasser"
         }
       ]
     },
     {
       "id": "speisen",
-      "type": "multiselect",
+      "type": "checkbox",
       "label": {
-        "de": "Speisen",
-        "en": "Food",
-        "nb": "Mat"
+        "default": "Speisen",
+        "translations": {
+          "en": "Food",
+          "nb": "Mat"
+        }
       },
       "required": true,
       "options": [
         {
           "value": "brot",
           "label": {
-            "de": "Brot/Brötchen",
-            "en": "Bread/rolls",
-            "nb": "Brød/rundstykker"
-          }
+            "default": "Brot/Brötchen",
+            "translations": {
+              "en": "Bread/rolls",
+              "nb": "Brød/rundstykker"
+            }
+          },
+          "id": "brot"
         },
         {
           "value": "aufschnitt",
           "label": {
-            "de": "Aufschnitt",
-            "en": "Cold cuts",
-            "nb": "Pålegg"
-          }
+            "default": "Aufschnitt",
+            "translations": {
+              "en": "Cold cuts",
+              "nb": "Pålegg"
+            }
+          },
+          "id": "aufschnitt"
         },
         {
           "value": "marmelade",
           "label": {
-            "de": "Marmelade",
-            "en": "Jam",
-            "nb": "Syltetøy"
-          }
+            "default": "Marmelade",
+            "translations": {
+              "en": "Jam",
+              "nb": "Syltetøy"
+            }
+          },
+          "id": "marmelade"
         },
         {
           "value": "muesli",
           "label": {
-            "de": "Müsli",
-            "en": "Muesli",
-            "nb": "Müsli"
-          }
+            "default": "Müsli",
+            "translations": {
+              "en": "Muesli",
+              "nb": "Müsli"
+            }
+          },
+          "id": "muesli"
         },
         {
           "value": "joghurt",
           "label": {
-            "de": "Joghurt",
-            "en": "Yogurt",
-            "nb": "Yoghurt"
-          }
+            "default": "Joghurt",
+            "translations": {
+              "en": "Yogurt",
+              "nb": "Yoghurt"
+            }
+          },
+          "id": "joghurt"
         },
         {
           "value": "obst",
           "label": {
-            "de": "Obst",
-            "en": "Fruit",
-            "nb": "Frukt"
-          }
+            "default": "Obst",
+            "translations": {
+              "en": "Fruit",
+              "nb": "Frukt"
+            }
+          },
+          "id": "obst"
         }
       ]
     },
     {
       "id": "konsistenz",
-      "type": "select",
+      "type": "dropdown",
       "label": {
-        "de": "Konsistenz",
-        "en": "Consistency",
-        "nb": "Konsistens"
+        "default": "Konsistenz",
+        "translations": {
+          "en": "Consistency",
+          "nb": "Konsistens"
+        }
       },
       "required": true,
       "options": [
         {
           "value": "normal",
           "label": {
-            "de": "Normal",
-            "en": "Normal",
-            "nb": "Normal"
-          }
+            "default": "Normal",
+            "translations": {
+              "en": "Normal",
+              "nb": "Normal"
+            }
+          },
+          "id": "normal"
         },
         {
           "value": "weich",
           "label": {
-            "de": "Weich",
-            "en": "Soft",
-            "nb": "Myk"
-          }
+            "default": "Weich",
+            "translations": {
+              "en": "Soft",
+              "nb": "Myk"
+            }
+          },
+          "id": "weich"
         },
         {
           "value": "pueriert",
           "label": {
-            "de": "Püriert",
-            "en": "Pureed",
-            "nb": "Purert"
-          }
+            "default": "Püriert",
+            "translations": {
+              "en": "Pureed",
+              "nb": "Purert"
+            }
+          },
+          "id": "pueriert"
         },
         {
           "value": "angedickt",
           "label": {
-            "de": "Flüssig angedickt",
-            "en": "Thickened liquid",
-            "nb": "Tyknet væske"
-          }
+            "default": "Flüssig angedickt",
+            "translations": {
+              "en": "Thickened liquid",
+              "nb": "Tyknet væske"
+            }
+          },
+          "id": "angedickt"
         }
       ]
     },
     {
       "id": "portionsgroesse",
-      "type": "select",
+      "type": "dropdown",
       "label": {
-        "de": "Portionsgröße",
-        "en": "Portion size",
-        "nb": "Porsjonsstørrelse"
+        "default": "Portionsgröße",
+        "translations": {
+          "en": "Portion size",
+          "nb": "Porsjonsstørrelse"
+        }
       },
       "required": true,
       "options": [
         {
           "value": "klein",
           "label": {
-            "de": "Klein",
-            "en": "Small",
-            "nb": "Liten"
-          }
+            "default": "Klein",
+            "translations": {
+              "en": "Small",
+              "nb": "Liten"
+            }
+          },
+          "id": "klein"
         },
         {
           "value": "normal",
           "label": {
-            "de": "Normal",
-            "en": "Normal",
-            "nb": "Normal"
-          }
+            "default": "Normal",
+            "translations": {
+              "en": "Normal",
+              "nb": "Normal"
+            }
+          },
+          "id": "normal"
         },
         {
           "value": "gross",
           "label": {
-            "de": "Groß",
-            "en": "Large",
-            "nb": "Stor"
-          }
+            "default": "Groß",
+            "translations": {
+              "en": "Large",
+              "nb": "Stor"
+            }
+          },
+          "id": "gross"
         }
       ]
     },
     {
       "id": "notes",
-      "type": "textarea",
+      "type": "text",
       "label": {
-        "de": "Bemerkungen",
-        "en": "Notes",
-        "nb": "Merknader"
+        "default": "Bemerkungen",
+        "translations": {
+          "en": "Notes",
+          "nb": "Merknader"
+        }
       },
       "required": false
     }

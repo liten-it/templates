@@ -1,26 +1,172 @@
 {
   "id": "nachtlagerung",
-  "name": {"de": "Nachtlagerung", "en": "Night positioning", "nb": "Natteleiring"},
-  "description": {"de": "Bequeme Lagerung für die Nacht", "en": "Comfortable positioning for the night", "nb": "Komfortabel leiring for natten"},
+  "name": {
+    "default": "Nachtlagerung",
+    "translations": {
+      "en": "Night positioning",
+      "nb": "Natteleiring"
+    }
+  },
+  "description": {
+    "default": "Bequeme Lagerung für die Nacht",
+    "translations": {
+      "en": "Comfortable positioning for the night",
+      "nb": "Komfortabel leiring for natten"
+    }
+  },
   "properties": [
-    {"id": "position", "type": "select", "label": {"de": "Schlafposition", "en": "Sleep position", "nb": "Soveposisjon"}, "required": true,
+    {
+      "id": "position",
+      "type": "dropdown",
+      "label": {
+        "default": "Schlafposition",
+        "translations": {
+          "en": "Sleep position",
+          "nb": "Soveposisjon"
+        }
+      },
+      "required": true,
       "options": [
-        {"value": "ruecken", "label": {"de": "Rückenlage", "en": "Supine position", "nb": "Ryggleie"}},
-        {"value": "seite_rechts", "label": {"de": "Seitenlage rechts", "en": "Right lateral", "nb": "Høyre sideleie"}},
-        {"value": "seite_links", "label": {"de": "Seitenlage links", "en": "Left lateral", "nb": "Venstre sideleie"}},
-        {"value": "hochgelagert", "label": {"de": "Oberkörper hochgelagert", "en": "Upper body elevated", "nb": "Overkropp hevet"}}
-      ]},
-    {"id": "hilfsmittel", "type": "multiselect", "label": {"de": "Lagerungshilfsmittel", "en": "Positioning aids", "nb": "Leiringshjelpemidler"}, "required": false,
+        {
+          "value": "ruecken",
+          "label": {
+            "default": "Rückenlage",
+            "translations": {
+              "en": "Supine position",
+              "nb": "Ryggleie"
+            }
+          },
+          "id": "ruecken"
+        },
+        {
+          "value": "seite_rechts",
+          "label": {
+            "default": "Seitenlage rechts",
+            "translations": {
+              "en": "Right lateral",
+              "nb": "Høyre sideleie"
+            }
+          },
+          "id": "seite_rechts"
+        },
+        {
+          "value": "seite_links",
+          "label": {
+            "default": "Seitenlage links",
+            "translations": {
+              "en": "Left lateral",
+              "nb": "Venstre sideleie"
+            }
+          },
+          "id": "seite_links"
+        },
+        {
+          "value": "hochgelagert",
+          "label": {
+            "default": "Oberkörper hochgelagert",
+            "translations": {
+              "en": "Upper body elevated",
+              "nb": "Overkropp hevet"
+            }
+          },
+          "id": "hochgelagert"
+        }
+      ]
+    },
+    {
+      "id": "hilfsmittel",
+      "type": "checkbox",
+      "label": {
+        "default": "Lagerungshilfsmittel",
+        "translations": {
+          "en": "Positioning aids",
+          "nb": "Leiringshjelpemidler"
+        }
+      },
+      "required": false,
       "options": [
-        {"value": "kissen", "label": {"de": "Lagerungskissen", "en": "Positioning pillows", "nb": "Leiringsputer"}},
-        {"value": "fersen", "label": {"de": "Fersenschoner", "en": "Heel protectors", "nb": "Hælbeskyttere"}}
-      ]},
-    {"id": "decke", "type": "select", "label": {"de": "Decke", "en": "Blanket", "nb": "Teppe"}, "required": false,
+        {
+          "value": "kissen",
+          "label": {
+            "default": "Lagerungskissen",
+            "translations": {
+              "en": "Positioning pillows",
+              "nb": "Leiringsputer"
+            }
+          },
+          "id": "kissen"
+        },
+        {
+          "value": "fersen",
+          "label": {
+            "default": "Fersenschoner",
+            "translations": {
+              "en": "Heel protectors",
+              "nb": "Hælbeskyttere"
+            }
+          },
+          "id": "fersen"
+        }
+      ]
+    },
+    {
+      "id": "decke",
+      "type": "dropdown",
+      "label": {
+        "default": "Decke",
+        "translations": {
+          "en": "Blanket",
+          "nb": "Teppe"
+        }
+      },
+      "required": false,
       "options": [
-        {"value": "normal", "label": {"de": "Normale Bettdecke", "en": "Normal blanket", "nb": "Normalt teppe"}},
-        {"value": "leicht", "label": {"de": "Leichte Decke", "en": "Light blanket", "nb": "Lett teppe"}},
-        {"value": "schwer", "label": {"de": "Schwere Decke", "en": "Heavy blanket", "nb": "Tungt teppe"}}
-      ]},
-    {"id": "notes", "type": "textarea", "label": {"de": "Bemerkungen", "en": "Notes", "nb": "Merknader"}, "required": false}
+        {
+          "value": "normal",
+          "label": {
+            "default": "Normale Bettdecke",
+            "translations": {
+              "en": "Normal blanket",
+              "nb": "Normalt teppe"
+            }
+          },
+          "id": "normal"
+        },
+        {
+          "value": "leicht",
+          "label": {
+            "default": "Leichte Decke",
+            "translations": {
+              "en": "Light blanket",
+              "nb": "Lett teppe"
+            }
+          },
+          "id": "leicht"
+        },
+        {
+          "value": "schwer",
+          "label": {
+            "default": "Schwere Decke",
+            "translations": {
+              "en": "Heavy blanket",
+              "nb": "Tungt teppe"
+            }
+          },
+          "id": "schwer"
+        }
+      ]
+    },
+    {
+      "id": "notes",
+      "type": "text",
+      "label": {
+        "default": "Bemerkungen",
+        "translations": {
+          "en": "Notes",
+          "nb": "Merknader"
+        }
+      },
+      "required": false
+    }
   ]
 }

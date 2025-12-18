@@ -1,155 +1,203 @@
 {
   "id": "fruehstueck-bringen",
   "name": {
-    "de": "Zum Frühstück bringen",
-    "en": "Bring to breakfast",
-    "nb": "Bringe til frokost"
+    "default": "Zum Frühstück bringen",
+    "translations": {
+      "en": "Bring to breakfast",
+      "nb": "Bringe til frokost"
+    }
   },
   "description": {
-    "de": "Transport zum Frühstücksraum oder Service am Bett",
-    "en": "Transport to breakfast room or service in bed",
-    "nb": "Transport til frokostrom eller service i seng"
+    "default": "Transport zum Frühstücksraum oder Service am Bett",
+    "translations": {
+      "en": "Transport to breakfast room or service in bed",
+      "nb": "Transport til frokostrom eller service i seng"
+    }
   },
   "properties": [
     {
       "id": "ort",
-      "type": "select",
+      "type": "dropdown",
       "label": {
-        "de": "Ort",
-        "en": "Location",
-        "nb": "Sted"
+        "default": "Ort",
+        "translations": {
+          "en": "Location",
+          "nb": "Sted"
+        }
       },
       "required": true,
       "options": [
         {
           "value": "gemeinschaft",
           "label": {
-            "de": "Gemeinschaftsraum",
-            "en": "Common room",
-            "nb": "Fellesrom"
-          }
+            "default": "Gemeinschaftsraum",
+            "translations": {
+              "en": "Common room",
+              "nb": "Fellesrom"
+            }
+          },
+          "id": "gemeinschaft"
         },
         {
           "value": "zimmer",
           "label": {
-            "de": "Eigenes Zimmer",
-            "en": "Own room",
-            "nb": "Eget rom"
-          }
+            "default": "Eigenes Zimmer",
+            "translations": {
+              "en": "Own room",
+              "nb": "Eget rom"
+            }
+          },
+          "id": "zimmer"
         },
         {
           "value": "bett",
           "label": {
-            "de": "Im Bett",
-            "en": "In bed",
-            "nb": "I sengen"
-          }
+            "default": "Im Bett",
+            "translations": {
+              "en": "In bed",
+              "nb": "I sengen"
+            }
+          },
+          "id": "bett"
         },
         {
           "value": "balkon",
           "label": {
-            "de": "Auf dem Balkon",
-            "en": "On the balcony",
-            "nb": "På balkongen"
-          }
+            "default": "Auf dem Balkon",
+            "translations": {
+              "en": "On the balcony",
+              "nb": "På balkongen"
+            }
+          },
+          "id": "balkon"
         }
       ]
     },
     {
       "id": "transport",
-      "type": "select",
+      "type": "dropdown",
       "label": {
-        "de": "Transportart",
-        "en": "Mode of transport",
-        "nb": "Transportmåte"
+        "default": "Transportart",
+        "translations": {
+          "en": "Mode of transport",
+          "nb": "Transportmåte"
+        }
       },
       "required": true,
       "options": [
         {
           "value": "gehend",
           "label": {
-            "de": "Selbstständig gehend",
-            "en": "Walking independently",
-            "nb": "Går selvstendig"
-          }
+            "default": "Selbstständig gehend",
+            "translations": {
+              "en": "Walking independently",
+              "nb": "Går selvstendig"
+            }
+          },
+          "id": "gehend"
         },
         {
           "value": "gehwagen",
           "label": {
-            "de": "Mit Gehwagen",
-            "en": "With walker",
-            "nb": "Med gåstol"
-          }
+            "default": "Mit Gehwagen",
+            "translations": {
+              "en": "With walker",
+              "nb": "Med gåstol"
+            }
+          },
+          "id": "gehwagen"
         },
         {
           "value": "rollstuhl",
           "label": {
-            "de": "Im Rollstuhl",
-            "en": "In wheelchair",
-            "nb": "I rullestol"
-          }
+            "default": "Im Rollstuhl",
+            "translations": {
+              "en": "In wheelchair",
+              "nb": "I rullestol"
+            }
+          },
+          "id": "rollstuhl"
         },
         {
           "value": "begleitung",
           "label": {
-            "de": "Mit Begleitung",
-            "en": "With accompaniment",
-            "nb": "Med følge"
-          }
+            "default": "Mit Begleitung",
+            "translations": {
+              "en": "With accompaniment",
+              "nb": "Med følge"
+            }
+          },
+          "id": "begleitung"
         }
       ]
     },
     {
       "id": "sitzposition",
-      "type": "select",
+      "type": "dropdown",
       "label": {
-        "de": "Sitzposition",
-        "en": "Sitting position",
-        "nb": "Sitteposisjon"
+        "default": "Sitzposition",
+        "translations": {
+          "en": "Sitting position",
+          "nb": "Sitteposisjon"
+        }
       },
       "required": true,
       "options": [
         {
           "value": "tisch",
           "label": {
-            "de": "Am Tisch",
-            "en": "At table",
-            "nb": "Ved bordet"
-          }
+            "default": "Am Tisch",
+            "translations": {
+              "en": "At table",
+              "nb": "Ved bordet"
+            }
+          },
+          "id": "tisch"
         },
         {
           "value": "sessel",
           "label": {
-            "de": "Im Sessel",
-            "en": "In armchair",
-            "nb": "I lenestol"
-          }
+            "default": "Im Sessel",
+            "translations": {
+              "en": "In armchair",
+              "nb": "I lenestol"
+            }
+          },
+          "id": "sessel"
         },
         {
           "value": "bett",
           "label": {
-            "de": "Im Bett aufgerichtet",
-            "en": "Upright in bed",
-            "nb": "Oppreist i seng"
-          }
+            "default": "Im Bett aufgerichtet",
+            "translations": {
+              "en": "Upright in bed",
+              "nb": "Oppreist i seng"
+            }
+          },
+          "id": "bett"
         },
         {
           "value": "rollstuhl",
           "label": {
-            "de": "Im Rollstuhl",
-            "en": "In wheelchair",
-            "nb": "I rullestol"
-          }
+            "default": "Im Rollstuhl",
+            "translations": {
+              "en": "In wheelchair",
+              "nb": "I rullestol"
+            }
+          },
+          "id": "rollstuhl"
         }
       ]
     },
     {
       "id": "notes",
-      "type": "textarea",
+      "type": "text",
       "label": {
-        "de": "Bemerkungen",
-        "en": "Notes",
-        "nb": "Merknader"
+        "default": "Bemerkungen",
+        "translations": {
+          "en": "Notes",
+          "nb": "Merknader"
+        }
       },
       "required": false
     }

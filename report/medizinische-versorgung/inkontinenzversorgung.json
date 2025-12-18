@@ -1,181 +1,237 @@
 {
   "id": "inkontinenzversorgung",
   "name": {
-    "de": "Inkontinenzversorgung",
-    "en": "Incontinence care",
-    "nb": "Inkontinenspleie"
+    "default": "Inkontinenzversorgung",
+    "translations": {
+      "en": "Incontinence care",
+      "nb": "Inkontinenspleie"
+    }
   },
   "description": {
-    "de": "Unterstützung bei Inkontinenz",
-    "en": "Support with incontinence",
-    "nb": "Støtte ved inkontinens"
+    "default": "Unterstützung bei Inkontinenz",
+    "translations": {
+      "en": "Support with incontinence",
+      "nb": "Støtte ved inkontinens"
+    }
   },
   "properties": [
     {
       "id": "inkontinenzform",
-      "type": "select",
+      "type": "dropdown",
       "label": {
-        "de": "Inkontinenzform",
-        "en": "Type of incontinence",
-        "nb": "Type inkontinens"
+        "default": "Inkontinenzform",
+        "translations": {
+          "en": "Type of incontinence",
+          "nb": "Type inkontinens"
+        }
       },
       "required": true,
       "options": [
         {
           "value": "harn",
           "label": {
-            "de": "Harninkontinenz",
-            "en": "Urinary incontinence",
-            "nb": "Urininkontinens"
-          }
+            "default": "Harninkontinenz",
+            "translations": {
+              "en": "Urinary incontinence",
+              "nb": "Urininkontinens"
+            }
+          },
+          "id": "harn"
         },
         {
           "value": "stuhl",
           "label": {
-            "de": "Stuhlinkontinenz",
-            "en": "Fecal incontinence",
-            "nb": "Fekal inkontinens"
-          }
+            "default": "Stuhlinkontinenz",
+            "translations": {
+              "en": "Fecal incontinence",
+              "nb": "Fekal inkontinens"
+            }
+          },
+          "id": "stuhl"
         },
         {
           "value": "doppel",
           "label": {
-            "de": "Doppelinkontinenz",
-            "en": "Double incontinence",
-            "nb": "Dobbel inkontinens"
-          }
+            "default": "Doppelinkontinenz",
+            "translations": {
+              "en": "Double incontinence",
+              "nb": "Dobbel inkontinens"
+            }
+          },
+          "id": "doppel"
         }
       ]
     },
     {
       "id": "hilfsmittel",
-      "type": "multiselect",
+      "type": "checkbox",
       "label": {
-        "de": "Verwendete Hilfsmittel",
-        "en": "Aids used",
-        "nb": "Hjelpemidler brukt"
+        "default": "Verwendete Hilfsmittel",
+        "translations": {
+          "en": "Aids used",
+          "nb": "Hjelpemidler brukt"
+        }
       },
       "required": true,
       "options": [
         {
           "value": "einlagen_klein",
           "label": {
-            "de": "Einlagen klein",
-            "en": "Small pads",
-            "nb": "Små innlegg"
-          }
+            "default": "Einlagen klein",
+            "translations": {
+              "en": "Small pads",
+              "nb": "Små innlegg"
+            }
+          },
+          "id": "einlagen_klein"
         },
         {
           "value": "einlagen_mittel",
           "label": {
-            "de": "Einlagen mittel",
-            "en": "Medium pads",
-            "nb": "Middels innlegg"
-          }
+            "default": "Einlagen mittel",
+            "translations": {
+              "en": "Medium pads",
+              "nb": "Middels innlegg"
+            }
+          },
+          "id": "einlagen_mittel"
         },
         {
           "value": "einlagen_gross",
           "label": {
-            "de": "Einlagen groß",
-            "en": "Large pads",
-            "nb": "Store innlegg"
-          }
+            "default": "Einlagen groß",
+            "translations": {
+              "en": "Large pads",
+              "nb": "Store innlegg"
+            }
+          },
+          "id": "einlagen_gross"
         },
         {
           "value": "pants",
           "label": {
-            "de": "Pants",
-            "en": "Pull-ups",
-            "nb": "Trekkbukse"
-          }
+            "default": "Pants",
+            "translations": {
+              "en": "Pull-ups",
+              "nb": "Trekkbukse"
+            }
+          },
+          "id": "pants"
         },
         {
           "value": "windelhosen",
           "label": {
-            "de": "Windelhosen",
-            "en": "Adult diapers",
-            "nb": "Bleie"
-          }
+            "default": "Windelhosen",
+            "translations": {
+              "en": "Adult diapers",
+              "nb": "Bleie"
+            }
+          },
+          "id": "windelhosen"
         },
         {
           "value": "vorlagen",
           "label": {
-            "de": "Vorlagen",
-            "en": "Inserts",
-            "nb": "Innlegg"
-          }
+            "default": "Vorlagen",
+            "translations": {
+              "en": "Inserts",
+              "nb": "Innlegg"
+            }
+          },
+          "id": "vorlagen"
         },
         {
           "value": "bettschutz",
           "label": {
-            "de": "Bettschutzeinlagen",
-            "en": "Bed pads",
-            "nb": "Sengeputer"
-          }
+            "default": "Bettschutzeinlagen",
+            "translations": {
+              "en": "Bed pads",
+              "nb": "Sengeputer"
+            }
+          },
+          "id": "bettschutz"
         }
       ]
     },
     {
       "id": "wechselgrund",
-      "type": "select",
+      "type": "dropdown",
       "label": {
-        "de": "Grund für Wechsel",
-        "en": "Reason for change",
-        "nb": "Grunn til bytte"
+        "default": "Grund für Wechsel",
+        "translations": {
+          "en": "Reason for change",
+          "nb": "Grunn til bytte"
+        }
       },
       "required": true,
       "options": [
         {
           "value": "routinemaessig",
           "label": {
-            "de": "Routinemäßig",
-            "en": "Routine",
-            "nb": "Rutinemessig"
-          }
+            "default": "Routinemäßig",
+            "translations": {
+              "en": "Routine",
+              "nb": "Rutinemessig"
+            }
+          },
+          "id": "routinemaessig"
         },
         {
           "value": "durchnaesst",
           "label": {
-            "de": "Durchnässt",
-            "en": "Soaked",
-            "nb": "Gjennomvåt"
-          }
+            "default": "Durchnässt",
+            "translations": {
+              "en": "Soaked",
+              "nb": "Gjennomvåt"
+            }
+          },
+          "id": "durchnaesst"
         },
         {
           "value": "stuhlgang",
           "label": {
-            "de": "Stuhlgang",
-            "en": "Bowel movement",
-            "nb": "Avføring"
-          }
+            "default": "Stuhlgang",
+            "translations": {
+              "en": "Bowel movement",
+              "nb": "Avføring"
+            }
+          },
+          "id": "stuhlgang"
         },
         {
           "value": "kontrollrunde",
           "label": {
-            "de": "Kontrollrunde",
-            "en": "Control round",
-            "nb": "Kontrollrunde"
-          }
+            "default": "Kontrollrunde",
+            "translations": {
+              "en": "Control round",
+              "nb": "Kontrollrunde"
+            }
+          },
+          "id": "kontrollrunde"
         }
       ]
     },
     {
       "id": "hautpflege",
-      "type": "checkbox",
+      "type": "boolean",
       "label": {
-        "de": "Hautpflege durchgeführt",
-        "en": "Skin care performed",
-        "nb": "Hudpleie utført"
+        "default": "Hautpflege durchgeführt",
+        "translations": {
+          "en": "Skin care performed",
+          "nb": "Hudpleie utført"
+        }
       },
       "required": false
     },
     {
       "id": "notes",
-      "type": "textarea",
+      "type": "text",
       "label": {
-        "de": "Bemerkungen",
-        "en": "Notes",
-        "nb": "Merknader"
+        "default": "Bemerkungen",
+        "translations": {
+          "en": "Notes",
+          "nb": "Merknader"
+        }
       },
       "required": false
     }

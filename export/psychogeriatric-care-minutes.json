@@ -1,19 +1,25 @@
 {
   "id": "psychogeriatric-care-minutes",
   "name": {
-    "de": "Psychogeriatrische Pflege (Minuten)",
-    "en": "Psychogeriatric Care (Minutes)",
-    "nb": "Psykogeriatrisk pleie (Minutter)"
+    "default": "Psychogeriatrische Pflege (Minuten)",
+    "translations": {
+      "en": "Psychogeriatric Care (Minutes)",
+      "nb": "Psykogeriatrisk pleie (Minutter)"
+    }
   },
   "description": {
-    "de": "Massnahmenpakete 1.2.1 bis 1.2.3",
-    "en": "Measure packages 1.2.1 to 1.2.3",
-    "nb": "Tiltakspakker 1.2.1 til 1.2.3"
+    "default": "Massnahmenpakete 1.2.1 bis 1.2.3",
+    "translations": {
+      "en": "Measure packages 1.2.1 to 1.2.3",
+      "nb": "Tiltakspakker 1.2.1 til 1.2.3"
+    }
   },
   "unit": {
-    "de": "Min/Tag",
-    "en": "Min/Day",
-    "nb": "Min/Dag"
+    "default": "Min/Tag",
+    "translations": {
+      "en": "Min/Day",
+      "nb": "Min/Dag"
+    }
   },
   "calculation": {
     "type": "sum",
@@ -24,5 +30,12 @@
     ]
   },
   "icon": "brain",
-  "color": "#9C27B0"
+  "color": "#9C27B0",
+  "title": {
+    "default": "Psychogeriatrische Pflege (Minuten)",
+    "translations": {
+      "en": "Psychogeriatric Care (Minutes)",
+      "nb": "Psykogeriatrisk pleie (Minutter)"
+    }
+  }
 }

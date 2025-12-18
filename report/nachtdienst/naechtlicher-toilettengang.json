@@ -1,22 +1,148 @@
 {
   "id": "naechtlicher-toilettengang",
-  "name": {"de": "Nächtlicher Toilettengang", "en": "Night toilet visit", "nb": "Nattlig toalettbesøk"},
-  "description": {"de": "Unterstützung bei nächtlichem Toilettengang", "en": "Support with night toilet visit", "nb": "Støtte ved nattlig toalettbesøk"},
+  "name": {
+    "default": "Nächtlicher Toilettengang",
+    "translations": {
+      "en": "Night toilet visit",
+      "nb": "Nattlig toalettbesøk"
+    }
+  },
+  "description": {
+    "default": "Unterstützung bei nächtlichem Toilettengang",
+    "translations": {
+      "en": "Support with night toilet visit",
+      "nb": "Støtte ved nattlig toalettbesøk"
+    }
+  },
   "properties": [
-    {"id": "uhrzeit", "type": "time", "label": {"de": "Uhrzeit", "en": "Time", "nb": "Tidspunkt"}, "required": true},
-    {"id": "anlass", "type": "select", "label": {"de": "Anlass", "en": "Reason", "nb": "Årsak"}, "required": true,
+    {
+      "id": "uhrzeit",
+      "type": "time",
+      "label": {
+        "default": "Uhrzeit",
+        "translations": {
+          "en": "Time",
+          "nb": "Tidspunkt"
+        }
+      },
+      "required": true
+    },
+    {
+      "id": "anlass",
+      "type": "dropdown",
+      "label": {
+        "default": "Anlass",
+        "translations": {
+          "en": "Reason",
+          "nb": "Årsak"
+        }
+      },
+      "required": true,
       "options": [
-        {"value": "klingeln", "label": {"de": "Auf Klingeln", "en": "On call", "nb": "Ved ringing"}},
-        {"value": "prophylaktisch", "label": {"de": "Prophylaktisch", "en": "Prophylactically", "nb": "Forebyggende"}},
-        {"value": "unruhe", "label": {"de": "Wegen Unruhe", "en": "Due to restlessness", "nb": "På grunn av uro"}}
-      ]},
-    {"id": "art", "type": "select", "label": {"de": "Art", "en": "Type", "nb": "Type"}, "required": true,
+        {
+          "value": "klingeln",
+          "label": {
+            "default": "Auf Klingeln",
+            "translations": {
+              "en": "On call",
+              "nb": "Ved ringing"
+            }
+          },
+          "id": "klingeln"
+        },
+        {
+          "value": "prophylaktisch",
+          "label": {
+            "default": "Prophylaktisch",
+            "translations": {
+              "en": "Prophylactically",
+              "nb": "Forebyggende"
+            }
+          },
+          "id": "prophylaktisch"
+        },
+        {
+          "value": "unruhe",
+          "label": {
+            "default": "Wegen Unruhe",
+            "translations": {
+              "en": "Due to restlessness",
+              "nb": "På grunn av uro"
+            }
+          },
+          "id": "unruhe"
+        }
+      ]
+    },
+    {
+      "id": "art",
+      "type": "dropdown",
+      "label": {
+        "default": "Art",
+        "translations": {
+          "en": "Type",
+          "nb": "Type"
+        }
+      },
+      "required": true,
       "options": [
-        {"value": "toilette", "label": {"de": "Zur Toilette begleitet", "en": "Accompanied to toilet", "nb": "Ledsaget til toalettet"}},
-        {"value": "toilettenstuhl", "label": {"de": "Toilettenstuhl", "en": "Commode chair", "nb": "Toalettstol"}},
-        {"value": "urinflasche", "label": {"de": "Urinflasche", "en": "Urinal", "nb": "Urinbeholder"}},
-        {"value": "steckbecken", "label": {"de": "Steckbecken", "en": "Bedpan", "nb": "Bekkenstøtte"}}
-      ]},
-    {"id": "notes", "type": "textarea", "label": {"de": "Bemerkungen", "en": "Notes", "nb": "Merknader"}, "required": false}
+        {
+          "value": "toilette",
+          "label": {
+            "default": "Zur Toilette begleitet",
+            "translations": {
+              "en": "Accompanied to toilet",
+              "nb": "Ledsaget til toalettet"
+            }
+          },
+          "id": "toilette"
+        },
+        {
+          "value": "toilettenstuhl",
+          "label": {
+            "default": "Toilettenstuhl",
+            "translations": {
+              "en": "Commode chair",
+              "nb": "Toalettstol"
+            }
+          },
+          "id": "toilettenstuhl"
+        },
+        {
+          "value": "urinflasche",
+          "label": {
+            "default": "Urinflasche",
+            "translations": {
+              "en": "Urinal",
+              "nb": "Urinbeholder"
+            }
+          },
+          "id": "urinflasche"
+        },
+        {
+          "value": "steckbecken",
+          "label": {
+            "default": "Steckbecken",
+            "translations": {
+              "en": "Bedpan",
+              "nb": "Bekkenstøtte"
+            }
+          },
+          "id": "steckbecken"
+        }
+      ]
+    },
+    {
+      "id": "notes",
+      "type": "text",
+      "label": {
+        "default": "Bemerkungen",
+        "translations": {
+          "en": "Notes",
+          "nb": "Merknader"
+        }
+      },
+      "required": false
+    }
   ]
 }

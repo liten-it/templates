@@ -1,27 +1,207 @@
 {
   "id": "besondere-vorkommnisse",
-  "name": {"de": "Besondere Vorkommnisse dokumentieren", "en": "Document special incidents", "nb": "Dokumentere spesielle hendelser"},
-  "description": {"de": "Dokumentation außergewöhnlicher Ereignisse", "en": "Documentation of unusual events", "nb": "Dokumentasjon av uvanlige hendelser"},
+  "name": {
+    "default": "Besondere Vorkommnisse dokumentieren",
+    "translations": {
+      "en": "Document special incidents",
+      "nb": "Dokumentere spesielle hendelser"
+    }
+  },
+  "description": {
+    "default": "Dokumentation außergewöhnlicher Ereignisse",
+    "translations": {
+      "en": "Documentation of unusual events",
+      "nb": "Dokumentasjon av uvanlige hendelser"
+    }
+  },
   "properties": [
-    {"id": "art", "type": "select", "label": {"de": "Art des Vorkommnisses", "en": "Type of incident", "nb": "Type hendelse"}, "required": true,
+    {
+      "id": "art",
+      "type": "dropdown",
+      "label": {
+        "default": "Art des Vorkommnisses",
+        "translations": {
+          "en": "Type of incident",
+          "nb": "Type hendelse"
+        }
+      },
+      "required": true,
       "options": [
-        {"value": "sturz", "label": {"de": "Sturz", "en": "Fall", "nb": "Fall"}},
-        {"value": "weglauftendenz", "label": {"de": "Weglauftendenz", "en": "Wandering tendency", "nb": "Vandretendens"}},
-        {"value": "aggression", "label": {"de": "Aggressives Verhalten", "en": "Aggressive behavior", "nb": "Aggressiv adferd"}},
-        {"value": "erkrankung", "label": {"de": "Akute Erkrankung", "en": "Acute illness", "nb": "Akutt sykdom"}},
-        {"value": "unruhe", "label": {"de": "Starke Unruhe", "en": "Severe restlessness", "nb": "Alvorlig uro"}},
-        {"value": "todesfall", "label": {"de": "Todesfall", "en": "Death", "nb": "Dødsfall"}}
-      ]},
-    {"id": "uhrzeit", "type": "time", "label": {"de": "Uhrzeit", "en": "Time", "nb": "Tidspunkt"}, "required": true},
-    {"id": "hergang", "type": "textarea", "label": {"de": "Hergang", "en": "Course of events", "nb": "Hendelsesforløp"}, "required": true},
-    {"id": "massnahmen", "type": "textarea", "label": {"de": "Sofortmaßnahmen", "en": "Immediate measures", "nb": "Umiddelbare tiltak"}, "required": true},
-    {"id": "benachrichtigt", "type": "multiselect", "label": {"de": "Benachrichtigt", "en": "Notified", "nb": "Varslet"}, "required": false,
+        {
+          "value": "sturz",
+          "label": {
+            "default": "Sturz",
+            "translations": {
+              "en": "Fall",
+              "nb": "Fall"
+            }
+          },
+          "id": "sturz"
+        },
+        {
+          "value": "weglauftendenz",
+          "label": {
+            "default": "Weglauftendenz",
+            "translations": {
+              "en": "Wandering tendency",
+              "nb": "Vandretendens"
+            }
+          },
+          "id": "weglauftendenz"
+        },
+        {
+          "value": "aggression",
+          "label": {
+            "default": "Aggressives Verhalten",
+            "translations": {
+              "en": "Aggressive behavior",
+              "nb": "Aggressiv adferd"
+            }
+          },
+          "id": "aggression"
+        },
+        {
+          "value": "erkrankung",
+          "label": {
+            "default": "Akute Erkrankung",
+            "translations": {
+              "en": "Acute illness",
+              "nb": "Akutt sykdom"
+            }
+          },
+          "id": "erkrankung"
+        },
+        {
+          "value": "unruhe",
+          "label": {
+            "default": "Starke Unruhe",
+            "translations": {
+              "en": "Severe restlessness",
+              "nb": "Alvorlig uro"
+            }
+          },
+          "id": "unruhe"
+        },
+        {
+          "value": "todesfall",
+          "label": {
+            "default": "Todesfall",
+            "translations": {
+              "en": "Death",
+              "nb": "Dødsfall"
+            }
+          },
+          "id": "todesfall"
+        }
+      ]
+    },
+    {
+      "id": "uhrzeit",
+      "type": "time",
+      "label": {
+        "default": "Uhrzeit",
+        "translations": {
+          "en": "Time",
+          "nb": "Tidspunkt"
+        }
+      },
+      "required": true
+    },
+    {
+      "id": "hergang",
+      "type": "text",
+      "label": {
+        "default": "Hergang",
+        "translations": {
+          "en": "Course of events",
+          "nb": "Hendelsesforløp"
+        }
+      },
+      "required": true
+    },
+    {
+      "id": "massnahmen",
+      "type": "text",
+      "label": {
+        "default": "Sofortmaßnahmen",
+        "translations": {
+          "en": "Immediate measures",
+          "nb": "Umiddelbare tiltak"
+        }
+      },
+      "required": true
+    },
+    {
+      "id": "benachrichtigt",
+      "type": "checkbox",
+      "label": {
+        "default": "Benachrichtigt",
+        "translations": {
+          "en": "Notified",
+          "nb": "Varslet"
+        }
+      },
+      "required": false,
       "options": [
-        {"value": "arzt", "label": {"de": "Arzt", "en": "Doctor", "nb": "Lege"}},
-        {"value": "angehoerige", "label": {"de": "Angehörige", "en": "Relatives", "nb": "Pårørende"}},
-        {"value": "leitung", "label": {"de": "Leitung", "en": "Management", "nb": "Ledelse"}},
-        {"value": "rettungsdienst", "label": {"de": "Rettungsdienst", "en": "Emergency services", "nb": "Ambulanse"}}
-      ]},
-    {"id": "photos", "type": "media", "label": {"de": "Fotos", "en": "Photos", "nb": "Bilder"}, "required": false, "mediaType": "image", "maxCount": 5}
+        {
+          "value": "arzt",
+          "label": {
+            "default": "Arzt",
+            "translations": {
+              "en": "Doctor",
+              "nb": "Lege"
+            }
+          },
+          "id": "arzt"
+        },
+        {
+          "value": "angehoerige",
+          "label": {
+            "default": "Angehörige",
+            "translations": {
+              "en": "Relatives",
+              "nb": "Pårørende"
+            }
+          },
+          "id": "angehoerige"
+        },
+        {
+          "value": "leitung",
+          "label": {
+            "default": "Leitung",
+            "translations": {
+              "en": "Management",
+              "nb": "Ledelse"
+            }
+          },
+          "id": "leitung"
+        },
+        {
+          "value": "rettungsdienst",
+          "label": {
+            "default": "Rettungsdienst",
+            "translations": {
+              "en": "Emergency services",
+              "nb": "Ambulanse"
+            }
+          },
+          "id": "rettungsdienst"
+        }
+      ]
+    },
+    {
+      "id": "photos",
+      "type": "media",
+      "label": {
+        "default": "Fotos",
+        "translations": {
+          "en": "Photos",
+          "nb": "Bilder"
+        }
+      },
+      "required": false,
+      "mediaType": "image",
+      "maxCount": 5
+    }
   ]
 }

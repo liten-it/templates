@@ -1,14 +1,18 @@
 {
   "id": "mahlzeiten",
   "name": {
-    "de": "Mahlzeiten",
-    "en": "Meals",
-    "nb": "Måltider"
+    "default": "Mahlzeiten",
+    "translations": {
+      "en": "Meals",
+      "nb": "Måltider"
+    }
   },
   "description": {
-    "de": "Unterstützung bei Ernährung und Flüssigkeitsaufnahme",
-    "en": "Support with nutrition and fluid intake",
-    "nb": "Støtte med ernæring og væskeinntak"
+    "default": "Unterstützung bei Ernährung und Flüssigkeitsaufnahme",
+    "translations": {
+      "en": "Support with nutrition and fluid intake",
+      "nb": "Støtte med ernæring og væskeinntak"
+    }
   },
   "icon": "utensils",
   "color": "#4CAF50"

@@ -1,14 +1,78 @@
 {
   "id": "waesche-verteilen",
-  "name": {"de": "Wäsche verteilen", "en": "Distribute laundry", "nb": "Distribuere tøy"},
-  "description": {"de": "Schmutzwäsche wegbringen und saubere Wäsche einräumen", "en": "Remove dirty laundry and put away clean laundry", "nb": "Fjerne skittentøy og rydde rent tøy"},
+  "name": {
+    "default": "Wäsche verteilen",
+    "translations": {
+      "en": "Distribute laundry",
+      "nb": "Distribuere tøy"
+    }
+  },
+  "description": {
+    "default": "Schmutzwäsche wegbringen und saubere Wäsche einräumen",
+    "translations": {
+      "en": "Remove dirty laundry and put away clean laundry",
+      "nb": "Fjerne skittentøy og rydde rent tøy"
+    }
+  },
   "properties": [
-    {"id": "typ", "type": "select", "label": {"de": "Typ", "en": "Type", "nb": "Type"}, "required": true,
+    {
+      "id": "typ",
+      "type": "dropdown",
+      "label": {
+        "default": "Typ",
+        "translations": {
+          "en": "Type",
+          "nb": "Type"
+        }
+      },
+      "required": true,
       "options": [
-        {"value": "schmutz", "label": {"de": "Schmutzwäsche weggebracht", "en": "Dirty laundry removed", "nb": "Skittentøy fjernet"}},
-        {"value": "sauber", "label": {"de": "Saubere Wäsche eingeräumt", "en": "Clean laundry put away", "nb": "Rent tøy ryddet"}},
-        {"value": "beides", "label": {"de": "Beides", "en": "Both", "nb": "Begge"}}
-      ]},
-    {"id": "notes", "type": "textarea", "label": {"de": "Bemerkungen", "en": "Notes", "nb": "Merknader"}, "required": false}
+        {
+          "value": "schmutz",
+          "label": {
+            "default": "Schmutzwäsche weggebracht",
+            "translations": {
+              "en": "Dirty laundry removed",
+              "nb": "Skittentøy fjernet"
+            }
+          },
+          "id": "schmutz"
+        },
+        {
+          "value": "sauber",
+          "label": {
+            "default": "Saubere Wäsche eingeräumt",
+            "translations": {
+              "en": "Clean laundry put away",
+              "nb": "Rent tøy ryddet"
+            }
+          },
+          "id": "sauber"
+        },
+        {
+          "value": "beides",
+          "label": {
+            "default": "Beides",
+            "translations": {
+              "en": "Both",
+              "nb": "Begge"
+            }
+          },
+          "id": "beides"
+        }
+      ]
+    },
+    {
+      "id": "notes",
+      "type": "text",
+      "label": {
+        "default": "Bemerkungen",
+        "translations": {
+          "en": "Notes",
+          "nb": "Merknader"
+        }
+      },
+      "required": false
+    }
   ]
 }

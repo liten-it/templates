@@ -1,19 +1,25 @@
 {
   "id": "medical-care-minutes",
   "name": {
-    "de": "Medizinische Pflege (Minuten)",
-    "en": "Medical Care (Minutes)",
-    "nb": "Medisinsk pleie (Minutter)"
+    "default": "Medizinische Pflege (Minuten)",
+    "translations": {
+      "en": "Medical Care (Minutes)",
+      "nb": "Medisinsk pleie (Minutter)"
+    }
   },
   "description": {
-    "de": "Massnahmenpakete 5.2.1 bis 5.2.3",
-    "en": "Measure packages 5.2.1 to 5.2.3",
-    "nb": "Tiltakspakker 5.2.1 til 5.2.3"
+    "default": "Massnahmenpakete 5.2.1 bis 5.2.3",
+    "translations": {
+      "en": "Measure packages 5.2.1 to 5.2.3",
+      "nb": "Tiltakspakker 5.2.1 til 5.2.3"
+    }
   },
   "unit": {
-    "de": "Min/Tag",
-    "en": "Min/Day",
-    "nb": "Min/Dag"
+    "default": "Min/Tag",
+    "translations": {
+      "en": "Min/Day",
+      "nb": "Min/Dag"
+    }
   },
   "calculation": {
     "type": "sum",
@@ -24,5 +30,12 @@
     ]
   },
   "icon": "heart-pulse",
-  "color": "#F44336"
+  "color": "#F44336",
+  "title": {
+    "default": "Medizinische Pflege (Minuten)",
+    "translations": {
+      "en": "Medical Care (Minutes)",
+      "nb": "Medisinsk pleie (Minutter)"
+    }
+  }
 }

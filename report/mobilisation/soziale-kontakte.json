@@ -1,23 +1,168 @@
 {
   "id": "soziale-kontakte",
-  "name": {"de": "Soziale Kontakte fördern", "en": "Promote social contacts", "nb": "Fremme sosiale kontakter"},
-  "description": {"de": "Förderung von Kommunikation und Kontakten", "en": "Promotion of communication and contacts", "nb": "Fremming av kommunikasjon og kontakter"},
+  "name": {
+    "default": "Soziale Kontakte fördern",
+    "translations": {
+      "en": "Promote social contacts",
+      "nb": "Fremme sosiale kontakter"
+    }
+  },
+  "description": {
+    "default": "Förderung von Kommunikation und Kontakten",
+    "translations": {
+      "en": "Promotion of communication and contacts",
+      "nb": "Fremming av kommunikasjon og kontakter"
+    }
+  },
   "properties": [
-    {"id": "form", "type": "select", "label": {"de": "Gesprächsform", "en": "Form of conversation", "nb": "Samtaleform"}, "required": true,
+    {
+      "id": "form",
+      "type": "dropdown",
+      "label": {
+        "default": "Gesprächsform",
+        "translations": {
+          "en": "Form of conversation",
+          "nb": "Samtaleform"
+        }
+      },
+      "required": true,
       "options": [
-        {"value": "einzel", "label": {"de": "Einzelgespräch", "en": "Individual conversation", "nb": "Individuell samtale"}},
-        {"value": "gruppe", "label": {"de": "Gruppengespräch", "en": "Group conversation", "nb": "Gruppesamtale"}},
-        {"value": "angehoerige", "label": {"de": "Angehörigengespräch", "en": "Conversation with relatives", "nb": "Samtale med pårørende"}}
-      ]},
-    {"id": "themen", "type": "multiselect", "label": {"de": "Gesprächsthemen", "en": "Conversation topics", "nb": "Samtaletemaer"}, "required": false,
+        {
+          "value": "einzel",
+          "label": {
+            "default": "Einzelgespräch",
+            "translations": {
+              "en": "Individual conversation",
+              "nb": "Individuell samtale"
+            }
+          },
+          "id": "einzel"
+        },
+        {
+          "value": "gruppe",
+          "label": {
+            "default": "Gruppengespräch",
+            "translations": {
+              "en": "Group conversation",
+              "nb": "Gruppesamtale"
+            }
+          },
+          "id": "gruppe"
+        },
+        {
+          "value": "angehoerige",
+          "label": {
+            "default": "Angehörigengespräch",
+            "translations": {
+              "en": "Conversation with relatives",
+              "nb": "Samtale med pårørende"
+            }
+          },
+          "id": "angehoerige"
+        }
+      ]
+    },
+    {
+      "id": "themen",
+      "type": "checkbox",
+      "label": {
+        "default": "Gesprächsthemen",
+        "translations": {
+          "en": "Conversation topics",
+          "nb": "Samtaletemaer"
+        }
+      },
+      "required": false,
       "options": [
-        {"value": "biografie", "label": {"de": "Biografie", "en": "Biography", "nb": "Biografi"}},
-        {"value": "aktuell", "label": {"de": "Aktuelle Ereignisse", "en": "Current events", "nb": "Aktuelle hendelser"}},
-        {"value": "familie", "label": {"de": "Familie", "en": "Family", "nb": "Familie"}},
-        {"value": "hobbys", "label": {"de": "Hobbys", "en": "Hobbies", "nb": "Hobbyer"}},
-        {"value": "erinnerungen", "label": {"de": "Erinnerungen", "en": "Memories", "nb": "Minner"}}
-      ]},
-    {"id": "dauer", "type": "number", "label": {"de": "Dauer (Min)", "en": "Duration (min)", "nb": "Varighet (min)"}, "required": false, "min": 5, "max": 120, "unit": {"de": "Min", "en": "min", "nb": "min"}},
-    {"id": "notes", "type": "textarea", "label": {"de": "Bemerkungen", "en": "Notes", "nb": "Merknader"}, "required": false}
+        {
+          "value": "biografie",
+          "label": {
+            "default": "Biografie",
+            "translations": {
+              "en": "Biography",
+              "nb": "Biografi"
+            }
+          },
+          "id": "biografie"
+        },
+        {
+          "value": "aktuell",
+          "label": {
+            "default": "Aktuelle Ereignisse",
+            "translations": {
+              "en": "Current events",
+              "nb": "Aktuelle hendelser"
+            }
+          },
+          "id": "aktuell"
+        },
+        {
+          "value": "familie",
+          "label": {
+            "default": "Familie",
+            "translations": {
+              "en": "Family",
+              "nb": "Familie"
+            }
+          },
+          "id": "familie"
+        },
+        {
+          "value": "hobbys",
+          "label": {
+            "default": "Hobbys",
+            "translations": {
+              "en": "Hobbies",
+              "nb": "Hobbyer"
+            }
+          },
+          "id": "hobbys"
+        },
+        {
+          "value": "erinnerungen",
+          "label": {
+            "default": "Erinnerungen",
+            "translations": {
+              "en": "Memories",
+              "nb": "Minner"
+            }
+          },
+          "id": "erinnerungen"
+        }
+      ]
+    },
+    {
+      "id": "dauer",
+      "type": "number",
+      "label": {
+        "default": "Dauer (Min)",
+        "translations": {
+          "en": "Duration (min)",
+          "nb": "Varighet (min)"
+        }
+      },
+      "required": false,
+      "min": 5,
+      "max": 120,
+      "unit": {
+        "default": "Min",
+        "translations": {
+          "en": "min",
+          "nb": "min"
+        }
+      }
+    },
+    {
+      "id": "notes",
+      "type": "text",
+      "label": {
+        "default": "Bemerkungen",
+        "translations": {
+          "en": "Notes",
+          "nb": "Merknader"
+        }
+      },
+      "required": false
+    }
   ]
 }

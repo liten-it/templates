@@ -1,183 +1,239 @@
 {
   "id": "spaziergang",
   "name": {
-    "de": "Spaziergang durchführen",
-    "en": "Go for a walk",
-    "nb": "Gå tur"
+    "default": "Spaziergang durchführen",
+    "translations": {
+      "en": "Go for a walk",
+      "nb": "Gå tur"
+    }
   },
   "description": {
-    "de": "Spaziergang im Freien",
-    "en": "Outdoor walk",
-    "nb": "Utendørs spasertur"
+    "default": "Spaziergang im Freien",
+    "translations": {
+      "en": "Outdoor walk",
+      "nb": "Utendørs spasertur"
+    }
   },
   "properties": [
     {
       "id": "dauer",
-      "type": "select",
+      "type": "dropdown",
       "label": {
-        "de": "Dauer",
-        "en": "Duration",
-        "nb": "Varighet"
+        "default": "Dauer",
+        "translations": {
+          "en": "Duration",
+          "nb": "Varighet"
+        }
       },
       "required": true,
       "options": [
         {
           "value": "15",
           "label": {
-            "de": "15 Minuten",
-            "en": "15 minutes",
-            "nb": "15 minutter"
-          }
+            "default": "15 Minuten",
+            "translations": {
+              "en": "15 minutes",
+              "nb": "15 minutter"
+            }
+          },
+          "id": "15"
         },
         {
           "value": "30",
           "label": {
-            "de": "30 Minuten",
-            "en": "30 minutes",
-            "nb": "30 minutter"
-          }
+            "default": "30 Minuten",
+            "translations": {
+              "en": "30 minutes",
+              "nb": "30 minutter"
+            }
+          },
+          "id": "30"
         },
         {
           "value": "45",
           "label": {
-            "de": "45 Minuten",
-            "en": "45 minutes",
-            "nb": "45 minutter"
-          }
+            "default": "45 Minuten",
+            "translations": {
+              "en": "45 minutes",
+              "nb": "45 minutter"
+            }
+          },
+          "id": "45"
         },
         {
           "value": "60",
           "label": {
-            "de": "1 Stunde",
-            "en": "1 hour",
-            "nb": "1 time"
-          }
+            "default": "1 Stunde",
+            "translations": {
+              "en": "1 hour",
+              "nb": "1 time"
+            }
+          },
+          "id": "60"
         }
       ]
     },
     {
       "id": "route",
-      "type": "select",
+      "type": "dropdown",
       "label": {
-        "de": "Route",
-        "en": "Route",
-        "nb": "Rute"
+        "default": "Route",
+        "translations": {
+          "en": "Route",
+          "nb": "Rute"
+        }
       },
       "required": true,
       "options": [
         {
           "value": "garten",
           "label": {
-            "de": "Im Garten",
-            "en": "In garden",
-            "nb": "I hagen"
-          }
+            "default": "Im Garten",
+            "translations": {
+              "en": "In garden",
+              "nb": "I hagen"
+            }
+          },
+          "id": "garten"
         },
         {
           "value": "gebaeude",
           "label": {
-            "de": "Um das Gebäude",
-            "en": "Around building",
-            "nb": "Rundt bygningen"
-          }
+            "default": "Um das Gebäude",
+            "translations": {
+              "en": "Around building",
+              "nb": "Rundt bygningen"
+            }
+          },
+          "id": "gebaeude"
         },
         {
           "value": "ort",
           "label": {
-            "de": "Im Ort",
-            "en": "In town",
-            "nb": "I byen"
-          }
+            "default": "Im Ort",
+            "translations": {
+              "en": "In town",
+              "nb": "I byen"
+            }
+          },
+          "id": "ort"
         },
         {
           "value": "park",
           "label": {
-            "de": "Im Park",
-            "en": "In park",
-            "nb": "I parken"
-          }
+            "default": "Im Park",
+            "translations": {
+              "en": "In park",
+              "nb": "I parken"
+            }
+          },
+          "id": "park"
         }
       ]
     },
     {
       "id": "wetter",
-      "type": "select",
+      "type": "dropdown",
       "label": {
-        "de": "Wetter",
-        "en": "Weather",
-        "nb": "Vær"
+        "default": "Wetter",
+        "translations": {
+          "en": "Weather",
+          "nb": "Vær"
+        }
       },
       "required": false,
       "options": [
         {
           "value": "schoen",
           "label": {
-            "de": "Schönes Wetter",
-            "en": "Nice weather",
-            "nb": "Fint vær"
-          }
+            "default": "Schönes Wetter",
+            "translations": {
+              "en": "Nice weather",
+              "nb": "Fint vær"
+            }
+          },
+          "id": "schoen"
         },
         {
           "value": "regen",
           "label": {
-            "de": "Regenwetter (mit Schirm)",
-            "en": "Rainy (with umbrella)",
-            "nb": "Regnvær (med paraply)"
-          }
+            "default": "Regenwetter (mit Schirm)",
+            "translations": {
+              "en": "Rainy (with umbrella)",
+              "nb": "Regnvær (med paraply)"
+            }
+          },
+          "id": "regen"
         },
         {
           "value": "trocken",
           "label": {
-            "de": "Nur bei trockenem Wetter",
-            "en": "Dry weather only",
-            "nb": "Kun tørt vær"
-          }
+            "default": "Nur bei trockenem Wetter",
+            "translations": {
+              "en": "Dry weather only",
+              "nb": "Kun tørt vær"
+            }
+          },
+          "id": "trocken"
         }
       ]
     },
     {
       "id": "begleitung",
-      "type": "select",
+      "type": "dropdown",
       "label": {
-        "de": "Begleitung",
-        "en": "Accompaniment",
-        "nb": "Ledsagelse"
+        "default": "Begleitung",
+        "translations": {
+          "en": "Accompaniment",
+          "nb": "Ledsagelse"
+        }
       },
       "required": false,
       "options": [
         {
           "value": "einzeln",
           "label": {
-            "de": "Einzeln",
-            "en": "Individual",
-            "nb": "Individuelt"
-          }
+            "default": "Einzeln",
+            "translations": {
+              "en": "Individual",
+              "nb": "Individuelt"
+            }
+          },
+          "id": "einzeln"
         },
         {
           "value": "gruppe",
           "label": {
-            "de": "In Kleingruppe",
-            "en": "In small group",
-            "nb": "I liten gruppe"
-          }
+            "default": "In Kleingruppe",
+            "translations": {
+              "en": "In small group",
+              "nb": "I liten gruppe"
+            }
+          },
+          "id": "gruppe"
         },
         {
           "value": "angehoerige",
           "label": {
-            "de": "Mit Angehörigen",
-            "en": "With relatives",
-            "nb": "Med pårørende"
-          }
+            "default": "Mit Angehörigen",
+            "translations": {
+              "en": "With relatives",
+              "nb": "Med pårørende"
+            }
+          },
+          "id": "angehoerige"
         }
       ]
     },
     {
       "id": "notes",
-      "type": "textarea",
+      "type": "text",
       "label": {
-        "de": "Bemerkungen",
-        "en": "Notes",
-        "nb": "Merknader"
+        "default": "Bemerkungen",
+        "translations": {
+          "en": "Notes",
+          "nb": "Merknader"
+        }
       },
       "required": false
     }

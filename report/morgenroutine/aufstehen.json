@@ -1,191 +1,250 @@
 {
   "id": "aufstehen",
   "name": {
-    "de": "Beim Aufstehen unterstützen",
-    "en": "Support getting up",
-    "nb": "Støtte ved å stå opp"
+    "default": "Beim Aufstehen unterstützen",
+    "translations": {
+      "en": "Support getting up",
+      "nb": "Støtte ved å stå opp"
+    }
   },
   "description": {
-    "de": "Unterstützung beim Aufstehen und Aufsetzen",
-    "en": "Support with standing up and sitting up",
-    "nb": "Støtte ved å stå opp og sette seg opp"
+    "default": "Unterstützung beim Aufstehen und Aufsetzen",
+    "translations": {
+      "en": "Support with standing up and sitting up",
+      "nb": "Støtte ved å stå opp og sette seg opp"
+    }
   },
   "properties": [
     {
       "id": "unterstuetzung",
-      "type": "select",
+      "type": "dropdown",
       "label": {
-        "de": "Unterstützungsbedarf",
-        "en": "Support needed",
-        "nb": "Støtte nødvendig"
+        "default": "Unterstützungsbedarf",
+        "translations": {
+          "en": "Support needed",
+          "nb": "Støtte nødvendig"
+        }
       },
       "required": true,
       "options": [
         {
           "value": "selbststaendig",
           "label": {
-            "de": "Selbstständig",
-            "en": "Independent",
-            "nb": "Selvstendig"
-          }
+            "default": "Selbstständig",
+            "translations": {
+              "en": "Independent",
+              "nb": "Selvstendig"
+            }
+          },
+          "id": "selbststaendig"
         },
         {
           "value": "teilweise",
           "label": {
-            "de": "Teilweise Unterstützung",
-            "en": "Partial support",
-            "nb": "Delvis støtte"
-          }
+            "default": "Teilweise Unterstützung",
+            "translations": {
+              "en": "Partial support",
+              "nb": "Delvis støtte"
+            }
+          },
+          "id": "teilweise"
         },
         {
           "value": "vollstaendig",
           "label": {
-            "de": "Vollständige Übernahme",
-            "en": "Complete takeover",
-            "nb": "Full overtagelse"
-          }
+            "default": "Vollständige Übernahme",
+            "translations": {
+              "en": "Complete takeover",
+              "nb": "Full overtagelse"
+            }
+          },
+          "id": "vollstaendig"
         },
         {
           "value": "zwei_personen",
           "label": {
-            "de": "Mit 2 Personen",
-            "en": "With 2 persons",
-            "nb": "Med 2 personer"
-          }
+            "default": "Mit 2 Personen",
+            "translations": {
+              "en": "With 2 persons",
+              "nb": "Med 2 personer"
+            }
+          },
+          "id": "zwei_personen"
         }
       ]
     },
     {
       "id": "hilfsmittel",
-      "type": "multiselect",
+      "type": "checkbox",
       "label": {
-        "de": "Verwendete Hilfsmittel",
-        "en": "Aids used",
-        "nb": "Hjelpemidler brukt"
+        "default": "Verwendete Hilfsmittel",
+        "translations": {
+          "en": "Aids used",
+          "nb": "Hjelpemidler brukt"
+        }
       },
       "required": false,
       "options": [
         {
           "value": "bettgalgen",
           "label": {
-            "de": "Bettgalgen",
-            "en": "Bed grab bar",
-            "nb": "Sengehest"
-          }
+            "default": "Bettgalgen",
+            "translations": {
+              "en": "Bed grab bar",
+              "nb": "Sengehest"
+            }
+          },
+          "id": "bettgalgen"
         },
         {
           "value": "aufrichthilfe",
           "label": {
-            "de": "Aufrichthilfe",
-            "en": "Raising aid",
-            "nb": "Reisehjelp"
-          }
+            "default": "Aufrichthilfe",
+            "translations": {
+              "en": "Raising aid",
+              "nb": "Reisehjelp"
+            }
+          },
+          "id": "aufrichthilfe"
         },
         {
           "value": "rutschbrett",
           "label": {
-            "de": "Rutschbrett",
-            "en": "Sliding board",
-            "nb": "Glidebrett"
-          }
+            "default": "Rutschbrett",
+            "translations": {
+              "en": "Sliding board",
+              "nb": "Glidebrett"
+            }
+          },
+          "id": "rutschbrett"
         },
         {
           "value": "lifter",
           "label": {
-            "de": "Lifter",
-            "en": "Lifter",
-            "nb": "Løfter"
-          }
+            "default": "Lifter",
+            "translations": {
+              "en": "Lifter",
+              "nb": "Løfter"
+            }
+          },
+          "id": "lifter"
         }
       ]
     },
     {
       "id": "transfer",
-      "type": "select",
+      "type": "dropdown",
       "label": {
-        "de": "Transfer",
-        "en": "Transfer",
-        "nb": "Overføring"
+        "default": "Transfer",
+        "translations": {
+          "en": "Transfer",
+          "nb": "Overføring"
+        }
       },
       "required": true,
       "options": [
         {
           "value": "liegen_sitzen",
           "label": {
-            "de": "Vom Liegen zum Sitzen",
-            "en": "From lying to sitting",
-            "nb": "Fra liggende til sittende"
-          }
+            "default": "Vom Liegen zum Sitzen",
+            "translations": {
+              "en": "From lying to sitting",
+              "nb": "Fra liggende til sittende"
+            }
+          },
+          "id": "liegen_sitzen"
         },
         {
           "value": "bett_rollstuhl",
           "label": {
-            "de": "Vom Bett zum Rollstuhl",
-            "en": "From bed to wheelchair",
-            "nb": "Fra seng til rullestol"
-          }
+            "default": "Vom Bett zum Rollstuhl",
+            "translations": {
+              "en": "From bed to wheelchair",
+              "nb": "Fra seng til rullestol"
+            }
+          },
+          "id": "bett_rollstuhl"
         },
         {
           "value": "bett_bettkante",
           "label": {
-            "de": "Vom Bett zur Bettkante",
-            "en": "From bed to edge",
-            "nb": "Fra seng til sengekant"
-          }
+            "default": "Vom Bett zur Bettkante",
+            "translations": {
+              "en": "From bed to edge",
+              "nb": "Fra seng til sengekant"
+            }
+          },
+          "id": "bett_bettkante"
         }
       ]
     },
     {
       "id": "sicherheit",
-      "type": "multiselect",
+      "type": "checkbox",
       "label": {
-        "de": "Sicherheitsmaßnahmen",
-        "en": "Safety measures",
-        "nb": "Sikkerhetstiltak"
+        "default": "Sicherheitsmaßnahmen",
+        "translations": {
+          "en": "Safety measures",
+          "nb": "Sikkerhetstiltak"
+        }
       },
       "required": false,
       "options": [
         {
           "value": "sturzprophylaxe",
           "label": {
-            "de": "Sturzprophylaxe",
-            "en": "Fall prevention",
-            "nb": "Fallforebygging"
-          }
+            "default": "Sturzprophylaxe",
+            "translations": {
+              "en": "Fall prevention",
+              "nb": "Fallforebygging"
+            }
+          },
+          "id": "sturzprophylaxe"
         },
         {
           "value": "hueftprotektor",
           "label": {
-            "de": "Hüftprotektor anlegen",
-            "en": "Apply hip protector",
-            "nb": "Påføre hoftebeskytter"
-          }
+            "default": "Hüftprotektor anlegen",
+            "translations": {
+              "en": "Apply hip protector",
+              "nb": "Påføre hoftebeskytter"
+            }
+          },
+          "id": "hueftprotektor"
         },
         {
           "value": "schuhe",
           "label": {
-            "de": "Rutschfeste Schuhe",
-            "en": "Non-slip shoes",
-            "nb": "Sklisikre sko"
-          }
+            "default": "Rutschfeste Schuhe",
+            "translations": {
+              "en": "Non-slip shoes",
+              "nb": "Sklisikre sko"
+            }
+          },
+          "id": "schuhe"
         },
         {
           "value": "gehhilfe",
           "label": {
-            "de": "Gehhilfe bereitstellen",
-            "en": "Provide walking aid",
-            "nb": "Tilby ganghjelp"
-          }
+            "default": "Gehhilfe bereitstellen",
+            "translations": {
+              "en": "Provide walking aid",
+              "nb": "Tilby ganghjelp"
+            }
+          },
+          "id": "gehhilfe"
         }
       ]
     },
     {
       "id": "notes",
-      "type": "textarea",
+      "type": "text",
       "label": {
-        "de": "Bemerkungen",
-        "en": "Notes",
-        "nb": "Merknader"
+        "default": "Bemerkungen",
+        "translations": {
+          "en": "Notes",
+          "nb": "Merknader"
+        }
       },
       "required": false
     }

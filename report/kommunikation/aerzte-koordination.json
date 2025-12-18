@@ -1,23 +1,159 @@
 {
   "id": "aerzte-koordination",
-  "name": {"de": "Koordination mit Ärzten", "en": "Coordination with doctors", "nb": "Koordinering med leger"},
-  "description": {"de": "Austausch mit Ärzten und Therapeuten", "en": "Exchange with doctors and therapists", "nb": "Utveksling med leger og terapeuter"},
+  "name": {
+    "default": "Koordination mit Ärzten",
+    "translations": {
+      "en": "Coordination with doctors",
+      "nb": "Koordinering med leger"
+    }
+  },
+  "description": {
+    "default": "Austausch mit Ärzten und Therapeuten",
+    "translations": {
+      "en": "Exchange with doctors and therapists",
+      "nb": "Utveksling med leger og terapeuter"
+    }
+  },
   "properties": [
-    {"id": "kontaktart", "type": "select", "label": {"de": "Kontaktart", "en": "Type of contact", "nb": "Kontakttype"}, "required": true,
+    {
+      "id": "kontaktart",
+      "type": "dropdown",
+      "label": {
+        "default": "Kontaktart",
+        "translations": {
+          "en": "Type of contact",
+          "nb": "Kontakttype"
+        }
+      },
+      "required": true,
       "options": [
-        {"value": "visite", "label": {"de": "Arztvisite", "en": "Doctor's visit", "nb": "Legevisitt"}},
-        {"value": "telefon", "label": {"de": "Telefonisch", "en": "By phone", "nb": "Telefonisk"}},
-        {"value": "fax", "label": {"de": "Fax", "en": "Fax", "nb": "Faks"}}
-      ]},
-    {"id": "arzt_typ", "type": "select", "label": {"de": "Arzt/Therapeut", "en": "Doctor/Therapist", "nb": "Lege/Terapeut"}, "required": true,
+        {
+          "value": "visite",
+          "label": {
+            "default": "Arztvisite",
+            "translations": {
+              "en": "Doctor's visit",
+              "nb": "Legevisitt"
+            }
+          },
+          "id": "visite"
+        },
+        {
+          "value": "telefon",
+          "label": {
+            "default": "Telefonisch",
+            "translations": {
+              "en": "By phone",
+              "nb": "Telefonisk"
+            }
+          },
+          "id": "telefon"
+        },
+        {
+          "value": "fax",
+          "label": {
+            "default": "Fax",
+            "translations": {
+              "en": "Fax",
+              "nb": "Faks"
+            }
+          },
+          "id": "fax"
+        }
+      ]
+    },
+    {
+      "id": "arzt_typ",
+      "type": "dropdown",
+      "label": {
+        "default": "Arzt/Therapeut",
+        "translations": {
+          "en": "Doctor/Therapist",
+          "nb": "Lege/Terapeut"
+        }
+      },
+      "required": true,
       "options": [
-        {"value": "hausarzt", "label": {"de": "Hausarzt", "en": "General practitioner", "nb": "Fastlege"}},
-        {"value": "facharzt", "label": {"de": "Facharzt", "en": "Specialist", "nb": "Spesialist"}},
-        {"value": "physiotherapie", "label": {"de": "Physiotherapie", "en": "Physiotherapy", "nb": "Fysioterapi"}},
-        {"value": "ergotherapie", "label": {"de": "Ergotherapie", "en": "Occupational therapy", "nb": "Ergoterapi"}},
-        {"value": "logopaedie", "label": {"de": "Logopädie", "en": "Speech therapy", "nb": "Logopedi"}}
-      ]},
-    {"id": "inhalt", "type": "textarea", "label": {"de": "Inhalt", "en": "Content", "nb": "Innhold"}, "required": true},
-    {"id": "massnahmen", "type": "textarea", "label": {"de": "Vereinbarte Maßnahmen", "en": "Agreed measures", "nb": "Avtalte tiltak"}, "required": false}
+        {
+          "value": "hausarzt",
+          "label": {
+            "default": "Hausarzt",
+            "translations": {
+              "en": "General practitioner",
+              "nb": "Fastlege"
+            }
+          },
+          "id": "hausarzt"
+        },
+        {
+          "value": "facharzt",
+          "label": {
+            "default": "Facharzt",
+            "translations": {
+              "en": "Specialist",
+              "nb": "Spesialist"
+            }
+          },
+          "id": "facharzt"
+        },
+        {
+          "value": "physiotherapie",
+          "label": {
+            "default": "Physiotherapie",
+            "translations": {
+              "en": "Physiotherapy",
+              "nb": "Fysioterapi"
+            }
+          },
+          "id": "physiotherapie"
+        },
+        {
+          "value": "ergotherapie",
+          "label": {
+            "default": "Ergotherapie",
+            "translations": {
+              "en": "Occupational therapy",
+              "nb": "Ergoterapi"
+            }
+          },
+          "id": "ergotherapie"
+        },
+        {
+          "value": "logopaedie",
+          "label": {
+            "default": "Logopädie",
+            "translations": {
+              "en": "Speech therapy",
+              "nb": "Logopedi"
+            }
+          },
+          "id": "logopaedie"
+        }
+      ]
+    },
+    {
+      "id": "inhalt",
+      "type": "text",
+      "label": {
+        "default": "Inhalt",
+        "translations": {
+          "en": "Content",
+          "nb": "Innhold"
+        }
+      },
+      "required": true
+    },
+    {
+      "id": "massnahmen",
+      "type": "text",
+      "label": {
+        "default": "Vereinbarte Maßnahmen",
+        "translations": {
+          "en": "Agreed measures",
+          "nb": "Avtalte tiltak"
+        }
+      },
+      "required": false
+    }
   ]
 }

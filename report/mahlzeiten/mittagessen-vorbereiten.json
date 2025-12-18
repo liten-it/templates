@@ -1,163 +1,214 @@
 {
   "id": "mittagessen-vorbereiten",
   "name": {
-    "de": "Mittagessen vorbereiten",
-    "en": "Prepare lunch",
-    "nb": "Forberede lunsj"
+    "default": "Mittagessen vorbereiten",
+    "translations": {
+      "en": "Prepare lunch",
+      "nb": "Forberede lunsj"
+    }
   },
   "description": {
-    "de": "Mittagessen herrichten und servieren",
-    "en": "Prepare and serve lunch",
-    "nb": "Forberede og servere lunsj"
+    "default": "Mittagessen herrichten und servieren",
+    "translations": {
+      "en": "Prepare and serve lunch",
+      "nb": "Forberede og servere lunsj"
+    }
   },
   "properties": [
     {
       "id": "menue",
-      "type": "select",
+      "type": "dropdown",
       "label": {
-        "de": "Menüwahl",
-        "en": "Menu choice",
-        "nb": "Menyvalg"
+        "default": "Menüwahl",
+        "translations": {
+          "en": "Menu choice",
+          "nb": "Menyvalg"
+        }
       },
       "required": true,
       "options": [
         {
           "value": "menu1",
           "label": {
-            "de": "Menü 1",
-            "en": "Menu 1",
-            "nb": "Meny 1"
-          }
+            "default": "Menü 1",
+            "translations": {
+              "en": "Menu 1",
+              "nb": "Meny 1"
+            }
+          },
+          "id": "menu1"
         },
         {
           "value": "menu2",
           "label": {
-            "de": "Menü 2",
-            "en": "Menu 2",
-            "nb": "Meny 2"
-          }
+            "default": "Menü 2",
+            "translations": {
+              "en": "Menu 2",
+              "nb": "Meny 2"
+            }
+          },
+          "id": "menu2"
         },
         {
           "value": "vegetarisch",
           "label": {
-            "de": "Vegetarisch",
-            "en": "Vegetarian",
-            "nb": "Vegetarisk"
-          }
+            "default": "Vegetarisch",
+            "translations": {
+              "en": "Vegetarian",
+              "nb": "Vegetarisk"
+            }
+          },
+          "id": "vegetarisch"
         },
         {
           "value": "schonkost",
           "label": {
-            "de": "Schonkost",
-            "en": "Bland diet",
-            "nb": "Lettfordøyelig mat"
-          }
+            "default": "Schonkost",
+            "translations": {
+              "en": "Bland diet",
+              "nb": "Lettfordøyelig mat"
+            }
+          },
+          "id": "schonkost"
         },
         {
           "value": "diabetiker",
           "label": {
-            "de": "Diabetikerkost",
-            "en": "Diabetic diet",
-            "nb": "Diabetikerkost"
-          }
+            "default": "Diabetikerkost",
+            "translations": {
+              "en": "Diabetic diet",
+              "nb": "Diabetikerkost"
+            }
+          },
+          "id": "diabetiker"
         }
       ]
     },
     {
       "id": "konsistenz",
-      "type": "select",
+      "type": "dropdown",
       "label": {
-        "de": "Konsistenz",
-        "en": "Consistency",
-        "nb": "Konsistens"
+        "default": "Konsistenz",
+        "translations": {
+          "en": "Consistency",
+          "nb": "Konsistens"
+        }
       },
       "required": true,
       "options": [
         {
           "value": "normal",
           "label": {
-            "de": "Normal",
-            "en": "Normal",
-            "nb": "Normal"
-          }
+            "default": "Normal",
+            "translations": {
+              "en": "Normal",
+              "nb": "Normal"
+            }
+          },
+          "id": "normal"
         },
         {
           "value": "weich",
           "label": {
-            "de": "Weich gekocht",
-            "en": "Soft cooked",
-            "nb": "Mykkokt"
-          }
+            "default": "Weich gekocht",
+            "translations": {
+              "en": "Soft cooked",
+              "nb": "Mykkokt"
+            }
+          },
+          "id": "weich"
         },
         {
           "value": "pueriert",
           "label": {
-            "de": "Püriert",
-            "en": "Pureed",
-            "nb": "Purert"
-          }
+            "default": "Püriert",
+            "translations": {
+              "en": "Pureed",
+              "nb": "Purert"
+            }
+          },
+          "id": "pueriert"
         },
         {
           "value": "passiert",
           "label": {
-            "de": "Passiert",
-            "en": "Strained",
-            "nb": "Silt"
-          }
+            "default": "Passiert",
+            "translations": {
+              "en": "Strained",
+              "nb": "Silt"
+            }
+          },
+          "id": "passiert"
         }
       ]
     },
     {
       "id": "komponenten",
-      "type": "multiselect",
+      "type": "checkbox",
       "label": {
-        "de": "Servierte Komponenten",
-        "en": "Served components",
-        "nb": "Serverte komponenter"
+        "default": "Servierte Komponenten",
+        "translations": {
+          "en": "Served components",
+          "nb": "Serverte komponenter"
+        }
       },
       "required": true,
       "options": [
         {
           "value": "suppe",
           "label": {
-            "de": "Suppe/Vorspeise",
-            "en": "Soup/starter",
-            "nb": "Suppe/forrett"
-          }
+            "default": "Suppe/Vorspeise",
+            "translations": {
+              "en": "Soup/starter",
+              "nb": "Suppe/forrett"
+            }
+          },
+          "id": "suppe"
         },
         {
           "value": "hauptgericht",
           "label": {
-            "de": "Hauptgericht",
-            "en": "Main course",
-            "nb": "Hovedrett"
-          }
+            "default": "Hauptgericht",
+            "translations": {
+              "en": "Main course",
+              "nb": "Hovedrett"
+            }
+          },
+          "id": "hauptgericht"
         },
         {
           "value": "beilage",
           "label": {
-            "de": "Beilage",
-            "en": "Side dish",
-            "nb": "Tilbehør"
-          }
+            "default": "Beilage",
+            "translations": {
+              "en": "Side dish",
+              "nb": "Tilbehør"
+            }
+          },
+          "id": "beilage"
         },
         {
           "value": "nachtisch",
           "label": {
-            "de": "Nachtisch",
-            "en": "Dessert",
-            "nb": "Dessert"
-          }
+            "default": "Nachtisch",
+            "translations": {
+              "en": "Dessert",
+              "nb": "Dessert"
+            }
+          },
+          "id": "nachtisch"
         }
       ]
     },
     {
       "id": "notes",
-      "type": "textarea",
+      "type": "text",
       "label": {
-        "de": "Bemerkungen",
-        "en": "Notes",
-        "nb": "Merknader"
+        "default": "Bemerkungen",
+        "translations": {
+          "en": "Notes",
+          "nb": "Merknader"
+        }
       },
       "required": false
     }

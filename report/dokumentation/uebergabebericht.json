@@ -1,15 +1,90 @@
 {
   "id": "uebergabebericht",
-  "name": {"de": "Übergabebericht schreiben", "en": "Write handover report", "nb": "Skrive overføringsrapport"},
-  "description": {"de": "Übergabe für die nächste Schicht", "en": "Handover for next shift", "nb": "Overføring til neste skift"},
+  "name": {
+    "default": "Übergabebericht schreiben",
+    "translations": {
+      "en": "Write handover report",
+      "nb": "Skrive overføringsrapport"
+    }
+  },
+  "description": {
+    "default": "Übergabe für die nächste Schicht",
+    "translations": {
+      "en": "Handover for next shift",
+      "nb": "Overføring til neste skift"
+    }
+  },
   "properties": [
-    {"id": "schicht", "type": "select", "label": {"de": "Für Schicht", "en": "For shift", "nb": "For skift"}, "required": true,
+    {
+      "id": "schicht",
+      "type": "dropdown",
+      "label": {
+        "default": "Für Schicht",
+        "translations": {
+          "en": "For shift",
+          "nb": "For skift"
+        }
+      },
+      "required": true,
       "options": [
-        {"value": "frueh", "label": {"de": "Frühschicht", "en": "Early shift", "nb": "Tidlig skift"}},
-        {"value": "spaet", "label": {"de": "Spätschicht", "en": "Late shift", "nb": "Sen skift"}},
-        {"value": "nacht", "label": {"de": "Nachtschicht", "en": "Night shift", "nb": "Nattskift"}}
-      ]},
-    {"id": "besonderheiten", "type": "textarea", "label": {"de": "Besondere Vorkommnisse", "en": "Special incidents", "nb": "Spesielle hendelser"}, "required": true},
-    {"id": "aufgaben", "type": "textarea", "label": {"de": "Ausstehende Aufgaben", "en": "Pending tasks", "nb": "Ventende oppgaver"}, "required": false}
+        {
+          "value": "frueh",
+          "label": {
+            "default": "Frühschicht",
+            "translations": {
+              "en": "Early shift",
+              "nb": "Tidlig skift"
+            }
+          },
+          "id": "frueh"
+        },
+        {
+          "value": "spaet",
+          "label": {
+            "default": "Spätschicht",
+            "translations": {
+              "en": "Late shift",
+              "nb": "Sen skift"
+            }
+          },
+          "id": "spaet"
+        },
+        {
+          "value": "nacht",
+          "label": {
+            "default": "Nachtschicht",
+            "translations": {
+              "en": "Night shift",
+              "nb": "Nattskift"
+            }
+          },
+          "id": "nacht"
+        }
+      ]
+    },
+    {
+      "id": "besonderheiten",
+      "type": "text",
+      "label": {
+        "default": "Besondere Vorkommnisse",
+        "translations": {
+          "en": "Special incidents",
+          "nb": "Spesielle hendelser"
+        }
+      },
+      "required": true
+    },
+    {
+      "id": "aufgaben",
+      "type": "text",
+      "label": {
+        "default": "Ausstehende Aufgaben",
+        "translations": {
+          "en": "Pending tasks",
+          "nb": "Ventende oppgaver"
+        }
+      },
+      "required": false
+    }
   ]
 }

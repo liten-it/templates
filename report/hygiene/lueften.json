@@ -1,20 +1,125 @@
 {
   "id": "lueften",
-  "name": {"de": "Lüften", "en": "Ventilate", "nb": "Lufte"},
-  "description": {"de": "Regelmäßiges Lüften der Zimmer", "en": "Regular ventilation of rooms", "nb": "Regelmessig lufting av rom"},
+  "name": {
+    "default": "Lüften",
+    "translations": {
+      "en": "Ventilate",
+      "nb": "Lufte"
+    }
+  },
+  "description": {
+    "default": "Regelmäßiges Lüften der Zimmer",
+    "translations": {
+      "en": "Regular ventilation of rooms",
+      "nb": "Regelmessig lufting av rom"
+    }
+  },
   "properties": [
-    {"id": "dauer", "type": "select", "label": {"de": "Dauer", "en": "Duration", "nb": "Varighet"}, "required": true,
+    {
+      "id": "dauer",
+      "type": "dropdown",
+      "label": {
+        "default": "Dauer",
+        "translations": {
+          "en": "Duration",
+          "nb": "Varighet"
+        }
+      },
+      "required": true,
       "options": [
-        {"value": "5", "label": {"de": "5 Minuten", "en": "5 minutes", "nb": "5 minutter"}},
-        {"value": "10", "label": {"de": "10 Minuten", "en": "10 minutes", "nb": "10 minutter"}},
-        {"value": "15", "label": {"de": "15 Minuten", "en": "15 minutes", "nb": "15 minutter"}}
-      ]},
-    {"id": "art", "type": "select", "label": {"de": "Art", "en": "Type", "nb": "Type"}, "required": true,
+        {
+          "value": "5",
+          "label": {
+            "default": "5 Minuten",
+            "translations": {
+              "en": "5 minutes",
+              "nb": "5 minutter"
+            }
+          },
+          "id": "5"
+        },
+        {
+          "value": "10",
+          "label": {
+            "default": "10 Minuten",
+            "translations": {
+              "en": "10 minutes",
+              "nb": "10 minutter"
+            }
+          },
+          "id": "10"
+        },
+        {
+          "value": "15",
+          "label": {
+            "default": "15 Minuten",
+            "translations": {
+              "en": "15 minutes",
+              "nb": "15 minutter"
+            }
+          },
+          "id": "15"
+        }
+      ]
+    },
+    {
+      "id": "art",
+      "type": "dropdown",
+      "label": {
+        "default": "Art",
+        "translations": {
+          "en": "Type",
+          "nb": "Type"
+        }
+      },
+      "required": true,
       "options": [
-        {"value": "stoss", "label": {"de": "Stoßlüftung", "en": "Shock ventilation", "nb": "Støtlufting"}},
-        {"value": "quer", "label": {"de": "Querlüftung", "en": "Cross ventilation", "nb": "Tverrluftlufting"}},
-        {"value": "kippen", "label": {"de": "Fenster gekippt", "en": "Window tilted", "nb": "Vindu på gløtt"}}
-      ]},
-    {"id": "notes", "type": "textarea", "label": {"de": "Bemerkungen", "en": "Notes", "nb": "Merknader"}, "required": false}
+        {
+          "value": "stoss",
+          "label": {
+            "default": "Stoßlüftung",
+            "translations": {
+              "en": "Shock ventilation",
+              "nb": "Støtlufting"
+            }
+          },
+          "id": "stoss"
+        },
+        {
+          "value": "quer",
+          "label": {
+            "default": "Querlüftung",
+            "translations": {
+              "en": "Cross ventilation",
+              "nb": "Tverrluftlufting"
+            }
+          },
+          "id": "quer"
+        },
+        {
+          "value": "kippen",
+          "label": {
+            "default": "Fenster gekippt",
+            "translations": {
+              "en": "Window tilted",
+              "nb": "Vindu på gløtt"
+            }
+          },
+          "id": "kippen"
+        }
+      ]
+    },
+    {
+      "id": "notes",
+      "type": "text",
+      "label": {
+        "default": "Bemerkungen",
+        "translations": {
+          "en": "Notes",
+          "nb": "Merknader"
+        }
+      },
+      "required": false
+    }
   ]
 }

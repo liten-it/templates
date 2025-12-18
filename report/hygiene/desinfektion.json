@@ -1,20 +1,125 @@
 {
   "id": "desinfektion",
-  "name": {"de": "Desinfektion durchführen", "en": "Perform disinfection", "nb": "Utføre desinfeksjon"},
-  "description": {"de": "Hygienemaßnahmen und Desinfektion", "en": "Hygiene measures and disinfection", "nb": "Hygieniske tiltak og desinfeksjon"},
+  "name": {
+    "default": "Desinfektion durchführen",
+    "translations": {
+      "en": "Perform disinfection",
+      "nb": "Utføre desinfeksjon"
+    }
+  },
+  "description": {
+    "default": "Hygienemaßnahmen und Desinfektion",
+    "translations": {
+      "en": "Hygiene measures and disinfection",
+      "nb": "Hygieniske tiltak og desinfeksjon"
+    }
+  },
   "properties": [
-    {"id": "art", "type": "multiselect", "label": {"de": "Art der Desinfektion", "en": "Type of disinfection", "nb": "Type desinfeksjon"}, "required": true,
+    {
+      "id": "art",
+      "type": "checkbox",
+      "label": {
+        "default": "Art der Desinfektion",
+        "translations": {
+          "en": "Type of disinfection",
+          "nb": "Type desinfeksjon"
+        }
+      },
+      "required": true,
       "options": [
-        {"value": "haende", "label": {"de": "Händedesinfektion", "en": "Hand disinfection", "nb": "Hånddesinfeksjon"}},
-        {"value": "flaeche", "label": {"de": "Flächendesinfektion", "en": "Surface disinfection", "nb": "Overflatedesinfeksjon"}},
-        {"value": "geraete", "label": {"de": "Gerätedesinfektion", "en": "Device disinfection", "nb": "Utstyrsdesinfeksjon"}}
-      ]},
-    {"id": "bereiche", "type": "multiselect", "label": {"de": "Bereiche", "en": "Areas", "nb": "Områder"}, "required": false,
+        {
+          "value": "haende",
+          "label": {
+            "default": "Händedesinfektion",
+            "translations": {
+              "en": "Hand disinfection",
+              "nb": "Hånddesinfeksjon"
+            }
+          },
+          "id": "haende"
+        },
+        {
+          "value": "flaeche",
+          "label": {
+            "default": "Flächendesinfektion",
+            "translations": {
+              "en": "Surface disinfection",
+              "nb": "Overflatedesinfeksjon"
+            }
+          },
+          "id": "flaeche"
+        },
+        {
+          "value": "geraete",
+          "label": {
+            "default": "Gerätedesinfektion",
+            "translations": {
+              "en": "Device disinfection",
+              "nb": "Utstyrsdesinfeksjon"
+            }
+          },
+          "id": "geraete"
+        }
+      ]
+    },
+    {
+      "id": "bereiche",
+      "type": "checkbox",
+      "label": {
+        "default": "Bereiche",
+        "translations": {
+          "en": "Areas",
+          "nb": "Områder"
+        }
+      },
+      "required": false,
       "options": [
-        {"value": "arbeitsflächen", "label": {"de": "Arbeitsflächen", "en": "Work surfaces", "nb": "Arbeidsflater"}},
-        {"value": "klinken", "label": {"de": "Türklinken", "en": "Door handles", "nb": "Dørhåndtak"}},
-        {"value": "sanitär", "label": {"de": "Sanitärbereiche", "en": "Sanitary areas", "nb": "Sanitærområder"}}
-      ]},
-    {"id": "notes", "type": "textarea", "label": {"de": "Bemerkungen", "en": "Notes", "nb": "Merknader"}, "required": false}
+        {
+          "value": "arbeitsflächen",
+          "label": {
+            "default": "Arbeitsflächen",
+            "translations": {
+              "en": "Work surfaces",
+              "nb": "Arbeidsflater"
+            }
+          },
+          "id": "arbeitsflächen"
+        },
+        {
+          "value": "klinken",
+          "label": {
+            "default": "Türklinken",
+            "translations": {
+              "en": "Door handles",
+              "nb": "Dørhåndtak"
+            }
+          },
+          "id": "klinken"
+        },
+        {
+          "value": "sanitär",
+          "label": {
+            "default": "Sanitärbereiche",
+            "translations": {
+              "en": "Sanitary areas",
+              "nb": "Sanitærområder"
+            }
+          },
+          "id": "sanitär"
+        }
+      ]
+    },
+    {
+      "id": "notes",
+      "type": "text",
+      "label": {
+        "default": "Bemerkungen",
+        "translations": {
+          "en": "Notes",
+          "nb": "Merknader"
+        }
+      },
+      "required": false
+    }
   ]
 }

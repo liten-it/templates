@@ -1,24 +1,37 @@
 {
   "id": "kvg-total-minutes",
   "name": {
-    "de": "KVG Pflegeminuten Total",
-    "en": "KVG Care Minutes Total",
-    "nb": "KVG Pleieminutter Totalt"
+    "default": "KVG Pflegeminuten Total",
+    "translations": {
+      "en": "KVG Care Minutes Total",
+      "nb": "KVG Pleieminutter Totalt"
+    }
   },
   "description": {
-    "de": "Alle KVG-relevanten Pflegeminuten (MP 1-6)",
-    "en": "All KVG-relevant care minutes (MP 1-6)",
-    "nb": "Alle KVG-relevante pleieminutter (MP 1-6)"
+    "default": "Alle KVG-relevanten Pflegeminuten (MP 1-6)",
+    "translations": {
+      "en": "All KVG-relevant care minutes (MP 1-6)",
+      "nb": "Alle KVG-relevante pleieminutter (MP 1-6)"
+    }
   },
   "unit": {
-    "de": "Min/Tag",
-    "en": "Min/Day",
-    "nb": "Min/Dag"
+    "default": "Min/Tag",
+    "translations": {
+      "en": "Min/Day",
+      "nb": "Min/Dag"
+    }
   },
   "calculation": {
     "type": "direct",
     "source": "total-care-minutes"
   },
   "icon": "clipboard-check",
-  "color": "#4CAF50"
+  "color": "#4CAF50",
+  "title": {
+    "default": "KVG Pflegeminuten Total",
+    "translations": {
+      "en": "KVG Care Minutes Total",
+      "nb": "KVG Pleieminutter Totalt"
+    }
+  }
 }

@@ -1,147 +1,192 @@
 {
   "id": "frisieren",
   "name": {
-    "de": "Kämmen und Frisieren",
-    "en": "Combing and hairdressing",
-    "nb": "Greie og style hår"
+    "default": "Kämmen und Frisieren",
+    "translations": {
+      "en": "Combing and hairdressing",
+      "nb": "Greie og style hår"
+    }
   },
   "description": {
-    "de": "Haarpflege und Frisur",
-    "en": "Hair care and styling",
-    "nb": "Hårpleie og styling"
+    "default": "Haarpflege und Frisur",
+    "translations": {
+      "en": "Hair care and styling",
+      "nb": "Hårpleie og styling"
+    }
   },
   "properties": [
     {
       "id": "frisur",
-      "type": "select",
+      "type": "dropdown",
       "label": {
-        "de": "Frisur",
-        "en": "Hairstyle",
-        "nb": "Frisyre"
+        "default": "Frisur",
+        "translations": {
+          "en": "Hairstyle",
+          "nb": "Frisyre"
+        }
       },
       "required": true,
       "options": [
         {
           "value": "wunsch",
           "label": {
-            "de": "Nach persönlichem Wunsch",
-            "en": "According to personal wish",
-            "nb": "Etter personlig ønske"
-          }
+            "default": "Nach persönlichem Wunsch",
+            "translations": {
+              "en": "According to personal wish",
+              "nb": "Etter personlig ønske"
+            }
+          },
+          "id": "wunsch"
         },
         {
           "value": "gewohnt",
           "label": {
-            "de": "Gewohnte Frisur",
-            "en": "Usual hairstyle",
-            "nb": "Vanlig frisyre"
-          }
+            "default": "Gewohnte Frisur",
+            "translations": {
+              "en": "Usual hairstyle",
+              "nb": "Vanlig frisyre"
+            }
+          },
+          "id": "gewohnt"
         },
         {
           "value": "festlich",
           "label": {
-            "de": "Festlicher Anlass",
-            "en": "Festive occasion",
-            "nb": "Festlig anledning"
-          }
+            "default": "Festlicher Anlass",
+            "translations": {
+              "en": "Festive occasion",
+              "nb": "Festlig anledning"
+            }
+          },
+          "id": "festlich"
         },
         {
           "value": "einfach",
           "label": {
-            "de": "Einfache Pflege",
-            "en": "Simple care",
-            "nb": "Enkel pleie"
-          }
+            "default": "Einfache Pflege",
+            "translations": {
+              "en": "Simple care",
+              "nb": "Enkel pleie"
+            }
+          },
+          "id": "einfach"
         }
       ]
     },
     {
       "id": "hilfsmittel",
-      "type": "multiselect",
+      "type": "checkbox",
       "label": {
-        "de": "Verwendete Hilfsmittel",
-        "en": "Tools used",
-        "nb": "Verktøy brukt"
+        "default": "Verwendete Hilfsmittel",
+        "translations": {
+          "en": "Tools used",
+          "nb": "Verktøy brukt"
+        }
       },
       "required": false,
       "options": [
         {
           "value": "kamm",
           "label": {
-            "de": "Kamm",
-            "en": "Comb",
-            "nb": "Kam"
-          }
+            "default": "Kamm",
+            "translations": {
+              "en": "Comb",
+              "nb": "Kam"
+            }
+          },
+          "id": "kamm"
         },
         {
           "value": "buerste",
           "label": {
-            "de": "Bürste",
-            "en": "Brush",
-            "nb": "Børste"
-          }
+            "default": "Bürste",
+            "translations": {
+              "en": "Brush",
+              "nb": "Børste"
+            }
+          },
+          "id": "buerste"
         },
         {
           "value": "spangen",
           "label": {
-            "de": "Haarspangen",
-            "en": "Hair clips",
-            "nb": "Hårspenne"
-          }
+            "default": "Haarspangen",
+            "translations": {
+              "en": "Hair clips",
+              "nb": "Hårspenne"
+            }
+          },
+          "id": "spangen"
         },
         {
           "value": "styling",
           "label": {
-            "de": "Haarspray/Gel",
-            "en": "Hair spray/gel",
-            "nb": "Hårspray/gel"
-          }
+            "default": "Haarspray/Gel",
+            "translations": {
+              "en": "Hair spray/gel",
+              "nb": "Hårspray/gel"
+            }
+          },
+          "id": "styling"
         }
       ]
     },
     {
       "id": "besonderheiten",
-      "type": "multiselect",
+      "type": "checkbox",
       "label": {
-        "de": "Besonderheiten",
-        "en": "Special notes",
-        "nb": "Særegenheter"
+        "default": "Besonderheiten",
+        "translations": {
+          "en": "Special notes",
+          "nb": "Særegenheter"
+        }
       },
       "required": false,
       "options": [
         {
           "value": "peruecke",
           "label": {
-            "de": "Perücke richten",
-            "en": "Adjust wig",
-            "nb": "Justere parykk"
-          }
+            "default": "Perücke richten",
+            "translations": {
+              "en": "Adjust wig",
+              "nb": "Justere parykk"
+            }
+          },
+          "id": "peruecke"
         },
         {
           "value": "kopfbedeckung",
           "label": {
-            "de": "Kopfbedeckung",
-            "en": "Headwear",
-            "nb": "Hodeplagg"
-          }
+            "default": "Kopfbedeckung",
+            "translations": {
+              "en": "Headwear",
+              "nb": "Hodeplagg"
+            }
+          },
+          "id": "kopfbedeckung"
         },
         {
           "value": "haarteil",
           "label": {
-            "de": "Haarteil",
-            "en": "Hairpiece",
-            "nb": "Hårfyll"
-          }
+            "default": "Haarteil",
+            "translations": {
+              "en": "Hairpiece",
+              "nb": "Hårfyll"
+            }
+          },
+          "id": "haarteil"
         }
       ]
     },
     {
       "id": "notes",
-      "type": "textarea",
+      "type": "text",
       "label": {
-        "de": "Bemerkungen",
-        "en": "Notes",
-        "nb": "Merknader"
+        "default": "Bemerkungen",
+        "translations": {
+          "en": "Notes",
+          "nb": "Merknader"
+        }
       },
       "required": false
     }

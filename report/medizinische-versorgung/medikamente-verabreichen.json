@@ -1,236 +1,311 @@
 {
   "id": "medikamente-verabreichen",
   "name": {
-    "de": "Medikamente verabreichen",
-    "en": "Administer medication",
-    "nb": "Administrere medisin"
+    "default": "Medikamente verabreichen",
+    "translations": {
+      "en": "Administer medication",
+      "nb": "Administrere medisin"
+    }
   },
   "description": {
-    "de": "Medikamentengabe nach ärztlicher Verordnung",
-    "en": "Medication administration according to prescription",
-    "nb": "Medikamentadministrasjon etter resept"
+    "default": "Medikamentengabe nach ärztlicher Verordnung",
+    "translations": {
+      "en": "Medication administration according to prescription",
+      "nb": "Medikamentadministrasjon etter resept"
+    }
   },
   "properties": [
     {
       "id": "zeitpunkt",
-      "type": "select",
+      "type": "dropdown",
       "label": {
-        "de": "Zeitpunkt",
-        "en": "Time",
-        "nb": "Tidspunkt"
+        "default": "Zeitpunkt",
+        "translations": {
+          "en": "Time",
+          "nb": "Tidspunkt"
+        }
       },
       "required": true,
       "options": [
         {
           "value": "morgens_nuechtern",
           "label": {
-            "de": "Morgens nüchtern",
-            "en": "Morning fasting",
-            "nb": "Morgen fastende"
-          }
+            "default": "Morgens nüchtern",
+            "translations": {
+              "en": "Morning fasting",
+              "nb": "Morgen fastende"
+            }
+          },
+          "id": "morgens_nuechtern"
         },
         {
           "value": "morgens",
           "label": {
-            "de": "Morgens zum Frühstück",
-            "en": "Morning with breakfast",
-            "nb": "Morgen med frokost"
-          }
+            "default": "Morgens zum Frühstück",
+            "translations": {
+              "en": "Morning with breakfast",
+              "nb": "Morgen med frokost"
+            }
+          },
+          "id": "morgens"
         },
         {
           "value": "mittags",
           "label": {
-            "de": "Mittags",
-            "en": "Midday",
-            "nb": "Middag"
-          }
+            "default": "Mittags",
+            "translations": {
+              "en": "Midday",
+              "nb": "Middag"
+            }
+          },
+          "id": "mittags"
         },
         {
           "value": "abends",
           "label": {
-            "de": "Abends",
-            "en": "Evening",
-            "nb": "Kveld"
-          }
+            "default": "Abends",
+            "translations": {
+              "en": "Evening",
+              "nb": "Kveld"
+            }
+          },
+          "id": "abends"
         },
         {
           "value": "nacht",
           "label": {
-            "de": "Zur Nacht",
-            "en": "At night",
-            "nb": "Om natten"
-          }
+            "default": "Zur Nacht",
+            "translations": {
+              "en": "At night",
+              "nb": "Om natten"
+            }
+          },
+          "id": "nacht"
         },
         {
           "value": "bedarf",
           "label": {
-            "de": "Nach Bedarf",
-            "en": "As needed",
-            "nb": "Etter behov"
-          }
+            "default": "Nach Bedarf",
+            "translations": {
+              "en": "As needed",
+              "nb": "Etter behov"
+            }
+          },
+          "id": "bedarf"
         }
       ]
     },
     {
       "id": "darreichungsform",
-      "type": "multiselect",
+      "type": "checkbox",
       "label": {
-        "de": "Darreichungsform",
-        "en": "Form of administration",
-        "nb": "Administrasjonsform"
+        "default": "Darreichungsform",
+        "translations": {
+          "en": "Form of administration",
+          "nb": "Administrasjonsform"
+        }
       },
       "required": true,
       "options": [
         {
           "value": "tabletten",
           "label": {
-            "de": "Tabletten",
-            "en": "Tablets",
-            "nb": "Tabletter"
-          }
+            "default": "Tabletten",
+            "translations": {
+              "en": "Tablets",
+              "nb": "Tabletter"
+            }
+          },
+          "id": "tabletten"
         },
         {
           "value": "tropfen",
           "label": {
-            "de": "Tropfen",
-            "en": "Drops",
-            "nb": "Dråper"
-          }
+            "default": "Tropfen",
+            "translations": {
+              "en": "Drops",
+              "nb": "Dråper"
+            }
+          },
+          "id": "tropfen"
         },
         {
           "value": "saft",
           "label": {
-            "de": "Saft",
-            "en": "Liquid",
-            "nb": "Væske"
-          }
+            "default": "Saft",
+            "translations": {
+              "en": "Liquid",
+              "nb": "Væske"
+            }
+          },
+          "id": "saft"
         },
         {
           "value": "injektion",
           "label": {
-            "de": "Injektion (subkutan)",
-            "en": "Injection (subcutaneous)",
-            "nb": "Injeksjon (subkutan)"
-          }
+            "default": "Injektion (subkutan)",
+            "translations": {
+              "en": "Injection (subcutaneous)",
+              "nb": "Injeksjon (subkutan)"
+            }
+          },
+          "id": "injektion"
         },
         {
           "value": "pflaster",
           "label": {
-            "de": "Pflaster",
-            "en": "Patch",
-            "nb": "Plaster"
-          }
+            "default": "Pflaster",
+            "translations": {
+              "en": "Patch",
+              "nb": "Plaster"
+            }
+          },
+          "id": "pflaster"
         },
         {
           "value": "salbe",
           "label": {
-            "de": "Salbe",
-            "en": "Ointment",
-            "nb": "Salve"
-          }
+            "default": "Salbe",
+            "translations": {
+              "en": "Ointment",
+              "nb": "Salve"
+            }
+          },
+          "id": "salbe"
         },
         {
           "value": "augentropfen",
           "label": {
-            "de": "Augentropfen",
-            "en": "Eye drops",
-            "nb": "Øyedråper"
-          }
+            "default": "Augentropfen",
+            "translations": {
+              "en": "Eye drops",
+              "nb": "Øyedråper"
+            }
+          },
+          "id": "augentropfen"
         },
         {
           "value": "inhalation",
           "label": {
-            "de": "Inhalation",
-            "en": "Inhalation",
-            "nb": "Inhalasjon"
-          }
+            "default": "Inhalation",
+            "translations": {
+              "en": "Inhalation",
+              "nb": "Inhalasjon"
+            }
+          },
+          "id": "inhalation"
         }
       ]
     },
     {
       "id": "einnahme",
-      "type": "select",
+      "type": "dropdown",
       "label": {
-        "de": "Einnahme",
-        "en": "Intake",
-        "nb": "Inntak"
+        "default": "Einnahme",
+        "translations": {
+          "en": "Intake",
+          "nb": "Inntak"
+        }
       },
       "required": false,
       "options": [
         {
           "value": "mit_wasser",
           "label": {
-            "de": "Mit Wasser",
-            "en": "With water",
-            "nb": "Med vann"
-          }
+            "default": "Mit Wasser",
+            "translations": {
+              "en": "With water",
+              "nb": "Med vann"
+            }
+          },
+          "id": "mit_wasser"
         },
         {
           "value": "mit_nahrung",
           "label": {
-            "de": "Mit Nahrung",
-            "en": "With food",
-            "nb": "Med mat"
-          }
+            "default": "Mit Nahrung",
+            "translations": {
+              "en": "With food",
+              "nb": "Med mat"
+            }
+          },
+          "id": "mit_nahrung"
         },
         {
           "value": "vor_essen",
           "label": {
-            "de": "Vor dem Essen",
-            "en": "Before meals",
-            "nb": "Før måltider"
-          }
+            "default": "Vor dem Essen",
+            "translations": {
+              "en": "Before meals",
+              "nb": "Før måltider"
+            }
+          },
+          "id": "vor_essen"
         },
         {
           "value": "nuechtern",
           "label": {
-            "de": "Nüchtern",
-            "en": "Fasting",
-            "nb": "Fastende"
-          }
+            "default": "Nüchtern",
+            "translations": {
+              "en": "Fasting",
+              "nb": "Fastende"
+            }
+          },
+          "id": "nuechtern"
         },
         {
           "value": "sublingual",
           "label": {
-            "de": "Sublingual",
-            "en": "Sublingual",
-            "nb": "Sublingual"
-          }
+            "default": "Sublingual",
+            "translations": {
+              "en": "Sublingual",
+              "nb": "Sublingual"
+            }
+          },
+          "id": "sublingual"
         }
       ]
     },
     {
       "id": "medikamente",
-      "type": "textarea",
+      "type": "text",
       "label": {
-        "de": "Verabreichte Medikamente",
-        "en": "Administered medications",
-        "nb": "Administrerte medikamenter"
+        "default": "Verabreichte Medikamente",
+        "translations": {
+          "en": "Administered medications",
+          "nb": "Administrerte medikamenter"
+        }
       },
       "required": true,
       "placeholder": {
-        "de": "z.B. ASS 100mg, Ramipril 5mg...",
-        "en": "e.g. ASA 100mg, Ramipril 5mg...",
-        "nb": "f.eks. ASA 100mg, Ramipril 5mg..."
+        "default": "z.B. ASS 100mg, Ramipril 5mg...",
+        "translations": {
+          "en": "e.g. ASA 100mg, Ramipril 5mg...",
+          "nb": "f.eks. ASA 100mg, Ramipril 5mg..."
+        }
       }
     },
     {
       "id": "einnahme_ueberwacht",
-      "type": "checkbox",
+      "type": "boolean",
       "label": {
-        "de": "Einnahme überwacht",
-        "en": "Intake monitored",
-        "nb": "Inntak overvåket"
+        "default": "Einnahme überwacht",
+        "translations": {
+          "en": "Intake monitored",
+          "nb": "Inntak overvåket"
+        }
       },
       "required": false
     },
     {
       "id": "notes",
-      "type": "textarea",
+      "type": "text",
       "label": {
-        "de": "Bemerkungen",
-        "en": "Notes",
-        "nb": "Merknader"
+        "default": "Bemerkungen",
+        "translations": {
+          "en": "Notes",
+          "nb": "Merknader"
+        }
       },
       "required": false
     }

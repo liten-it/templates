@@ -1,65 +1,86 @@
 {
   "id": "nahrungsaufnahme-dokumentieren",
   "name": {
-    "de": "Nahrungsaufnahme dokumentieren",
-    "en": "Document food intake",
-    "nb": "Dokumentere matinntak"
+    "default": "Nahrungsaufnahme dokumentieren",
+    "translations": {
+      "en": "Document food intake",
+      "nb": "Dokumentere matinntak"
+    }
   },
   "description": {
-    "de": "Dokumentation von Essen und Trinken",
-    "en": "Documentation of eating and drinking",
-    "nb": "Dokumentasjon av spising og drikking"
+    "default": "Dokumentation von Essen und Trinken",
+    "translations": {
+      "en": "Documentation of eating and drinking",
+      "nb": "Dokumentasjon av spising og drikking"
+    }
   },
   "properties": [
     {
       "id": "nahrungsmenge",
-      "type": "select",
+      "type": "dropdown",
       "label": {
-        "de": "Gegessene Menge",
-        "en": "Amount eaten",
-        "nb": "Mengde spist"
+        "default": "Gegessene Menge",
+        "translations": {
+          "en": "Amount eaten",
+          "nb": "Mengde spist"
+        }
       },
       "required": true,
       "options": [
         {
           "value": "alles",
           "label": {
-            "de": "Alles gegessen",
-            "en": "Everything eaten",
-            "nb": "Alt spist"
-          }
+            "default": "Alles gegessen",
+            "translations": {
+              "en": "Everything eaten",
+              "nb": "Alt spist"
+            }
+          },
+          "id": "alles"
         },
         {
           "value": "drei_viertel",
           "label": {
-            "de": "¾ gegessen",
-            "en": "¾ eaten",
-            "nb": "¾ spist"
-          }
+            "default": "¾ gegessen",
+            "translations": {
+              "en": "¾ eaten",
+              "nb": "¾ spist"
+            }
+          },
+          "id": "drei_viertel"
         },
         {
           "value": "halb",
           "label": {
-            "de": "½ gegessen",
-            "en": "½ eaten",
-            "nb": "½ spist"
-          }
+            "default": "½ gegessen",
+            "translations": {
+              "en": "½ eaten",
+              "nb": "½ spist"
+            }
+          },
+          "id": "halb"
         },
         {
           "value": "viertel",
           "label": {
-            "de": "¼ gegessen",
-            "en": "¼ eaten",
-            "nb": "¼ spist"
-          }
+            "default": "¼ gegessen",
+            "translations": {
+              "en": "¼ eaten",
+              "nb": "¼ spist"
+            }
+          },
+          "id": "viertel"
         },
         {
           "value": "nichts",
           "label": {
-            "de": "Nichts gegessen",
-            "en": "Nothing eaten",
-            "nb": "Ingenting spist"
-          }
+            "default": "Nichts gegessen",
+            "translations": {
+              "en": "Nothing eaten",
+              "nb": "Ingenting spist"
+            }
+          },
+          "id": "nichts"
         }
       ]
     },
@@ -67,130 +88,170 @@
       "id": "fluessigkeitsmenge",
       "type": "number",
       "label": {
-        "de": "Flüssigkeitsmenge (ml)",
-        "en": "Fluid amount (ml)",
-        "nb": "Væskemengde (ml)"
+        "default": "Flüssigkeitsmenge (ml)",
+        "translations": {
+          "en": "Fluid amount (ml)",
+          "nb": "Væskemengde (ml)"
+        }
       },
       "required": true,
       "min": 0,
       "max": 5000,
       "unit": {
-        "de": "ml",
-        "en": "ml",
-        "nb": "ml"
+        "default": "ml",
+        "translations": {
+          "en": "ml",
+          "nb": "ml"
+        }
       }
     },
     {
       "id": "mahlzeit",
-      "type": "select",
+      "type": "dropdown",
       "label": {
-        "de": "Mahlzeit",
-        "en": "Meal",
-        "nb": "Måltid"
+        "default": "Mahlzeit",
+        "translations": {
+          "en": "Meal",
+          "nb": "Måltid"
+        }
       },
       "required": true,
       "options": [
         {
           "value": "fruehstueck",
           "label": {
-            "de": "Frühstück",
-            "en": "Breakfast",
-            "nb": "Frokost"
-          }
+            "default": "Frühstück",
+            "translations": {
+              "en": "Breakfast",
+              "nb": "Frokost"
+            }
+          },
+          "id": "fruehstueck"
         },
         {
           "value": "zwischenmahlzeit_vorm",
           "label": {
-            "de": "Zwischenmahlzeit vormittags",
-            "en": "Morning snack",
-            "nb": "Mellommåltid formiddag"
-          }
+            "default": "Zwischenmahlzeit vormittags",
+            "translations": {
+              "en": "Morning snack",
+              "nb": "Mellommåltid formiddag"
+            }
+          },
+          "id": "zwischenmahlzeit_vorm"
         },
         {
           "value": "mittagessen",
           "label": {
-            "de": "Mittagessen",
-            "en": "Lunch",
-            "nb": "Lunsj"
-          }
+            "default": "Mittagessen",
+            "translations": {
+              "en": "Lunch",
+              "nb": "Lunsj"
+            }
+          },
+          "id": "mittagessen"
         },
         {
           "value": "zwischenmahlzeit_nachm",
           "label": {
-            "de": "Zwischenmahlzeit nachmittags",
-            "en": "Afternoon snack",
-            "nb": "Mellommåltid ettermiddag"
-          }
+            "default": "Zwischenmahlzeit nachmittags",
+            "translations": {
+              "en": "Afternoon snack",
+              "nb": "Mellommåltid ettermiddag"
+            }
+          },
+          "id": "zwischenmahlzeit_nachm"
         },
         {
           "value": "abendessen",
           "label": {
-            "de": "Abendessen",
-            "en": "Dinner",
-            "nb": "Middag"
-          }
+            "default": "Abendessen",
+            "translations": {
+              "en": "Dinner",
+              "nb": "Middag"
+            }
+          },
+          "id": "abendessen"
         },
         {
           "value": "spaetmahlzeit",
           "label": {
-            "de": "Spätmahlzeit",
-            "en": "Late meal",
-            "nb": "Sent måltid"
-          }
+            "default": "Spätmahlzeit",
+            "translations": {
+              "en": "Late meal",
+              "nb": "Sent måltid"
+            }
+          },
+          "id": "spaetmahlzeit"
         }
       ]
     },
     {
       "id": "besonderheiten",
-      "type": "multiselect",
+      "type": "checkbox",
       "label": {
-        "de": "Besonderheiten",
-        "en": "Special notes",
-        "nb": "Særegenheter"
+        "default": "Besonderheiten",
+        "translations": {
+          "en": "Special notes",
+          "nb": "Særegenheter"
+        }
       },
       "required": false,
       "options": [
         {
           "value": "verweigerung",
           "label": {
-            "de": "Nahrungsverweigerung",
-            "en": "Food refusal",
-            "nb": "Matnektelse"
-          }
+            "default": "Nahrungsverweigerung",
+            "translations": {
+              "en": "Food refusal",
+              "nb": "Matnektelse"
+            }
+          },
+          "id": "verweigerung"
         },
         {
           "value": "uebelkeit",
           "label": {
-            "de": "Übelkeit",
-            "en": "Nausea",
-            "nb": "Kvalme"
-          }
+            "default": "Übelkeit",
+            "translations": {
+              "en": "Nausea",
+              "nb": "Kvalme"
+            }
+          },
+          "id": "uebelkeit"
         },
         {
           "value": "erbrechen",
           "label": {
-            "de": "Erbrechen",
-            "en": "Vomiting",
-            "nb": "Oppkast"
-          }
+            "default": "Erbrechen",
+            "translations": {
+              "en": "Vomiting",
+              "nb": "Oppkast"
+            }
+          },
+          "id": "erbrechen"
         },
         {
           "value": "vorlieben",
           "label": {
-            "de": "Besondere Vorlieben/Abneigungen",
-            "en": "Special preferences/dislikes",
-            "nb": "Spesielle preferanser/motvilje"
-          }
+            "default": "Besondere Vorlieben/Abneigungen",
+            "translations": {
+              "en": "Special preferences/dislikes",
+              "nb": "Spesielle preferanser/motvilje"
+            }
+          },
+          "id": "vorlieben"
         }
       ]
     },
     {
       "id": "notes",
-      "type": "textarea",
+      "type": "text",
       "label": {
-        "de": "Bemerkungen",
-        "en": "Notes",
-        "nb": "Merknader"
+        "default": "Bemerkungen",
+        "translations": {
+          "en": "Notes",
+          "nb": "Merknader"
+        }
       },
       "required": false
     }

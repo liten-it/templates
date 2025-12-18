@@ -1,19 +1,25 @@
 {
   "id": "mp-3-2-2-continence",
   "name": {
-    "de": "MP 3.2.2 Kontinenz und Inkontinenz",
-    "en": "MP 3.2.2 Continence and Incontinence",
-    "nb": "MP 3.2.2 Kontinens og inkontinens"
+    "default": "MP 3.2.2 Kontinenz und Inkontinenz",
+    "translations": {
+      "en": "MP 3.2.2 Continence and Incontinence",
+      "nb": "MP 3.2.2 Kontinens og inkontinens"
+    }
   },
   "description": {
-    "de": "Leistungen zur Erhaltung/Wiederherstellung der Kontinenz und Kompensation der Inkontinenz",
-    "en": "Services for maintenance/restoration of continence and compensation of incontinence",
-    "nb": "Tjenester for vedlikehold/gjenoppretting av kontinens og kompensasjon av inkontinens"
+    "default": "Leistungen zur Erhaltung/Wiederherstellung der Kontinenz und Kompensation der Inkontinenz",
+    "translations": {
+      "en": "Services for maintenance/restoration of continence and compensation of incontinence",
+      "nb": "Tjenester for vedlikehold/gjenoppretting av kontinens og kompensasjon av inkontinens"
+    }
   },
   "unit": {
-    "de": "Min/Tag",
-    "en": "Min/Day",
-    "nb": "Min/Dag"
+    "default": "Min/Tag",
+    "translations": {
+      "en": "Min/Day",
+      "nb": "Min/Dag"
+    }
   },
   "calculation": {
     "type": "besa_item_sum_with_cooperation",
@@ -45,5 +51,12 @@
     }
   },
   "icon": "shield",
-  "color": "#009688"
+  "color": "#009688",
+  "title": {
+    "default": "MP 3.2.2 Kontinenz und Inkontinenz",
+    "translations": {
+      "en": "MP 3.2.2 Continence and Incontinence",
+      "nb": "MP 3.2.2 Kontinens og inkontinens"
+    }
+  }
 }

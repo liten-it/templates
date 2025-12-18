@@ -1,161 +1,213 @@
 {
   "id": "aktivitaeten-begleiten",
   "name": {
-    "de": "Zu Aktivitäten begleiten",
-    "en": "Accompany to activities",
-    "nb": "Ledsage til aktiviteter"
+    "default": "Zu Aktivitäten begleiten",
+    "translations": {
+      "en": "Accompany to activities",
+      "nb": "Ledsage til aktiviteter"
+    }
   },
   "description": {
-    "de": "Begleitung zu Veranstaltungen",
-    "en": "Accompaniment to events",
-    "nb": "Ledsagelse til arrangementer"
+    "default": "Begleitung zu Veranstaltungen",
+    "translations": {
+      "en": "Accompaniment to events",
+      "nb": "Ledsagelse til arrangementer"
+    }
   },
   "properties": [
     {
       "id": "aktivitaet",
-      "type": "select",
+      "type": "dropdown",
       "label": {
-        "de": "Art der Aktivität",
-        "en": "Type of activity",
-        "nb": "Type aktivitet"
+        "default": "Art der Aktivität",
+        "translations": {
+          "en": "Type of activity",
+          "nb": "Type aktivitet"
+        }
       },
       "required": true,
       "options": [
         {
           "value": "gymnastik",
           "label": {
-            "de": "Gruppengymnastik",
-            "en": "Group exercise",
-            "nb": "Gruppegymnastikk"
-          }
+            "default": "Gruppengymnastik",
+            "translations": {
+              "en": "Group exercise",
+              "nb": "Gruppegymnastikk"
+            }
+          },
+          "id": "gymnastik"
         },
         {
           "value": "gedaechtnis",
           "label": {
-            "de": "Gedächtnistraining",
-            "en": "Memory training",
-            "nb": "Hukommelsestrening"
-          }
+            "default": "Gedächtnistraining",
+            "translations": {
+              "en": "Memory training",
+              "nb": "Hukommelsestrening"
+            }
+          },
+          "id": "gedaechtnis"
         },
         {
           "value": "singkreis",
           "label": {
-            "de": "Singkreis",
-            "en": "Singing circle",
-            "nb": "Sangkrets"
-          }
+            "default": "Singkreis",
+            "translations": {
+              "en": "Singing circle",
+              "nb": "Sangkrets"
+            }
+          },
+          "id": "singkreis"
         },
         {
           "value": "gottesdienst",
           "label": {
-            "de": "Gottesdienst",
-            "en": "Church service",
-            "nb": "Gudstjeneste"
-          }
+            "default": "Gottesdienst",
+            "translations": {
+              "en": "Church service",
+              "nb": "Gudstjeneste"
+            }
+          },
+          "id": "gottesdienst"
         },
         {
           "value": "ausflug",
           "label": {
-            "de": "Ausflug",
-            "en": "Outing",
-            "nb": "Utflukt"
-          }
+            "default": "Ausflug",
+            "translations": {
+              "en": "Outing",
+              "nb": "Utflukt"
+            }
+          },
+          "id": "ausflug"
         },
         {
           "value": "fest",
           "label": {
-            "de": "Fest/Feier",
-            "en": "Party/celebration",
-            "nb": "Fest/feiring"
-          }
+            "default": "Fest/Feier",
+            "translations": {
+              "en": "Party/celebration",
+              "nb": "Fest/feiring"
+            }
+          },
+          "id": "fest"
         },
         {
           "value": "konzert",
           "label": {
-            "de": "Konzert",
-            "en": "Concert",
-            "nb": "Konsert"
-          }
+            "default": "Konzert",
+            "translations": {
+              "en": "Concert",
+              "nb": "Konsert"
+            }
+          },
+          "id": "konzert"
         },
         {
           "value": "kino",
           "label": {
-            "de": "Kinoabend",
-            "en": "Movie night",
-            "nb": "Kinokveld"
-          }
+            "default": "Kinoabend",
+            "translations": {
+              "en": "Movie night",
+              "nb": "Kinokveld"
+            }
+          },
+          "id": "kino"
         }
       ]
     },
     {
       "id": "transport",
-      "type": "select",
+      "type": "dropdown",
       "label": {
-        "de": "Transport",
-        "en": "Transport",
-        "nb": "Transport"
+        "default": "Transport",
+        "translations": {
+          "en": "Transport",
+          "nb": "Transport"
+        }
       },
       "required": true,
       "options": [
         {
           "value": "fuss",
           "label": {
-            "de": "Zu Fuß",
-            "en": "Walking",
-            "nb": "Til fots"
-          }
+            "default": "Zu Fuß",
+            "translations": {
+              "en": "Walking",
+              "nb": "Til fots"
+            }
+          },
+          "id": "fuss"
         },
         {
           "value": "rollstuhl",
           "label": {
-            "de": "Mit Rollstuhl",
-            "en": "With wheelchair",
-            "nb": "Med rullestol"
-          }
+            "default": "Mit Rollstuhl",
+            "translations": {
+              "en": "With wheelchair",
+              "nb": "Med rullestol"
+            }
+          },
+          "id": "rollstuhl"
         },
         {
           "value": "rollator",
           "label": {
-            "de": "Mit Rollator",
-            "en": "With rollator",
-            "nb": "Med rullator"
-          }
+            "default": "Mit Rollator",
+            "translations": {
+              "en": "With rollator",
+              "nb": "Med rullator"
+            }
+          },
+          "id": "rollator"
         }
       ]
     },
     {
       "id": "teilnahme",
-      "type": "select",
+      "type": "dropdown",
       "label": {
-        "de": "Art der Teilnahme",
-        "en": "Type of participation",
-        "nb": "Type deltakelse"
+        "default": "Art der Teilnahme",
+        "translations": {
+          "en": "Type of participation",
+          "nb": "Type deltakelse"
+        }
       },
       "required": false,
       "options": [
         {
           "value": "aktiv",
           "label": {
-            "de": "Aktiv",
-            "en": "Active",
-            "nb": "Aktiv"
-          }
+            "default": "Aktiv",
+            "translations": {
+              "en": "Active",
+              "nb": "Aktiv"
+            }
+          },
+          "id": "aktiv"
         },
         {
           "value": "passiv",
           "label": {
-            "de": "Passiv/Zuschauend",
-            "en": "Passive/watching",
-            "nb": "Passiv/tilskuende"
-          }
+            "default": "Passiv/Zuschauend",
+            "translations": {
+              "en": "Passive/watching",
+              "nb": "Passiv/tilskuende"
+            }
+          },
+          "id": "passiv"
         },
         {
           "value": "interesse",
           "label": {
-            "de": "Nach Interesse",
-            "en": "According to interest",
-            "nb": "Etter interesse"
-          }
+            "default": "Nach Interesse",
+            "translations": {
+              "en": "According to interest",
+              "nb": "Etter interesse"
+            }
+          },
+          "id": "interesse"
         }
       ]
     },
@@ -163,26 +215,32 @@
       "id": "dauer",
       "type": "number",
       "label": {
-        "de": "Dauer (Minuten)",
-        "en": "Duration (minutes)",
-        "nb": "Varighet (minutter)"
+        "default": "Dauer (Minuten)",
+        "translations": {
+          "en": "Duration (minutes)",
+          "nb": "Varighet (minutter)"
+        }
       },
       "required": false,
       "min": 15,
       "max": 300,
       "unit": {
-        "de": "Min",
-        "en": "Min",
-        "nb": "Min"
+        "default": "Min",
+        "translations": {
+          "en": "Min",
+          "nb": "Min"
+        }
       }
     },
     {
       "id": "notes",
-      "type": "textarea",
+      "type": "text",
       "label": {
-        "de": "Bemerkungen",
-        "en": "Notes",
-        "nb": "Merknader"
+        "default": "Bemerkungen",
+        "translations": {
+          "en": "Notes",
+          "nb": "Merknader"
+        }
       },
       "required": false
     }

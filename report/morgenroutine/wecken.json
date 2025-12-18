@@ -1,113 +1,146 @@
 {
   "id": "wecken",
   "name": {
-    "de": "Bewohner wecken",
-    "en": "Wake residents",
-    "nb": "Vekke beboere"
+    "default": "Bewohner wecken",
+    "translations": {
+      "en": "Wake residents",
+      "nb": "Vekke beboere"
+    }
   },
   "description": {
-    "de": "Wecken zu vereinbarten Zeiten",
-    "en": "Wake at agreed times",
-    "nb": "Vekke til avtalt tid"
+    "default": "Wecken zu vereinbarten Zeiten",
+    "translations": {
+      "en": "Wake at agreed times",
+      "nb": "Vekke til avtalt tid"
+    }
   },
   "properties": [
     {
       "id": "weckzeit",
       "type": "time",
       "label": {
-        "de": "Weckzeit",
-        "en": "Wake time",
-        "nb": "Vekketid"
+        "default": "Weckzeit",
+        "translations": {
+          "en": "Wake time",
+          "nb": "Vekketid"
+        }
       },
       "required": true
     },
     {
       "id": "weckart",
-      "type": "multiselect",
+      "type": "checkbox",
       "label": {
-        "de": "Weckart",
-        "en": "Wake method",
-        "nb": "Vekkemetode"
+        "default": "Weckart",
+        "translations": {
+          "en": "Wake method",
+          "nb": "Vekkemetode"
+        }
       },
       "required": true,
       "options": [
         {
           "value": "ansprechen",
           "label": {
-            "de": "Sanftes Ansprechen",
-            "en": "Gentle speaking",
-            "nb": "Forsiktig tiltale"
-          }
+            "default": "Sanftes Ansprechen",
+            "translations": {
+              "en": "Gentle speaking",
+              "nb": "Forsiktig tiltale"
+            }
+          },
+          "id": "ansprechen"
         },
         {
           "value": "licht",
           "label": {
-            "de": "Licht einschalten",
-            "en": "Turn on light",
-            "nb": "Slå på lys"
-          }
+            "default": "Licht einschalten",
+            "translations": {
+              "en": "Turn on light",
+              "nb": "Slå på lys"
+            }
+          },
+          "id": "licht"
         },
         {
           "value": "beruehrung",
           "label": {
-            "de": "Berührung",
-            "en": "Touch",
-            "nb": "Berøring"
-          }
+            "default": "Berührung",
+            "translations": {
+              "en": "Touch",
+              "nb": "Berøring"
+            }
+          },
+          "id": "beruehrung"
         },
         {
           "value": "vorhaenge",
           "label": {
-            "de": "Vorhänge öffnen",
-            "en": "Open curtains",
-            "nb": "Åpne gardiner"
-          }
+            "default": "Vorhänge öffnen",
+            "translations": {
+              "en": "Open curtains",
+              "nb": "Åpne gardiner"
+            }
+          },
+          "id": "vorhaenge"
         }
       ]
     },
     {
       "id": "besonderheiten",
-      "type": "multiselect",
+      "type": "checkbox",
       "label": {
-        "de": "Besonderheiten",
-        "en": "Special notes",
-        "nb": "Særegenheter"
+        "default": "Besonderheiten",
+        "translations": {
+          "en": "Special notes",
+          "nb": "Særegenheter"
+        }
       },
       "required": false,
       "options": [
         {
           "value": "hoergeraet",
           "label": {
-            "de": "Hörgerät einsetzen",
-            "en": "Insert hearing aid",
-            "nb": "Sette inn høreapparat"
-          }
+            "default": "Hörgerät einsetzen",
+            "translations": {
+              "en": "Insert hearing aid",
+              "nb": "Sette inn høreapparat"
+            }
+          },
+          "id": "hoergeraet"
         },
         {
           "value": "brille",
           "label": {
-            "de": "Brille aufsetzen",
-            "en": "Put on glasses",
-            "nb": "Ta på briller"
-          }
+            "default": "Brille aufsetzen",
+            "translations": {
+              "en": "Put on glasses",
+              "nb": "Ta på briller"
+            }
+          },
+          "id": "brille"
         },
         {
           "value": "orientierung",
           "label": {
-            "de": "Orientierung geben",
-            "en": "Provide orientation",
-            "nb": "Gi orientering"
-          }
+            "default": "Orientierung geben",
+            "translations": {
+              "en": "Provide orientation",
+              "nb": "Gi orientering"
+            }
+          },
+          "id": "orientierung"
         }
       ]
     },
     {
       "id": "notes",
-      "type": "textarea",
+      "type": "text",
       "label": {
-        "de": "Bemerkungen",
-        "en": "Notes",
-        "nb": "Merknader"
+        "default": "Bemerkungen",
+        "translations": {
+          "en": "Notes",
+          "nb": "Merknader"
+        }
       },
       "required": false
     }

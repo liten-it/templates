@@ -1,21 +1,136 @@
 {
   "id": "betten-machen",
-  "name": {"de": "Betten machen", "en": "Make beds", "nb": "Re senger"},
-  "description": {"de": "Bett herrichten und Wäsche wechseln", "en": "Prepare bed and change linen", "nb": "Klargjøre seng og bytte sengetøy"},
+  "name": {
+    "default": "Betten machen",
+    "translations": {
+      "en": "Make beds",
+      "nb": "Re senger"
+    }
+  },
+  "description": {
+    "default": "Bett herrichten und Wäsche wechseln",
+    "translations": {
+      "en": "Prepare bed and change linen",
+      "nb": "Klargjøre seng og bytte sengetøy"
+    }
+  },
   "properties": [
-    {"id": "wechsel", "type": "multiselect", "label": {"de": "Gewechselte Wäsche", "en": "Changed linen", "nb": "Byttet sengetøy"}, "required": true,
+    {
+      "id": "wechsel",
+      "type": "checkbox",
+      "label": {
+        "default": "Gewechselte Wäsche",
+        "translations": {
+          "en": "Changed linen",
+          "nb": "Byttet sengetøy"
+        }
+      },
+      "required": true,
       "options": [
-        {"value": "bezug", "label": {"de": "Bettbezug", "en": "Duvet cover", "nb": "Dynetrekk"}},
-        {"value": "laken", "label": {"de": "Bettlaken", "en": "Bed sheet", "nb": "Laken"}},
-        {"value": "kissen", "label": {"de": "Kopfkissenbezug", "en": "Pillowcase", "nb": "Putetrekk"}},
-        {"value": "schutz", "label": {"de": "Bettschutzeinlage", "en": "Bed pad", "nb": "Sengepute"}}
-      ]},
-    {"id": "grund", "type": "select", "label": {"de": "Grund für Wechsel", "en": "Reason for change", "nb": "Grunn til bytte"}, "required": true,
+        {
+          "value": "bezug",
+          "label": {
+            "default": "Bettbezug",
+            "translations": {
+              "en": "Duvet cover",
+              "nb": "Dynetrekk"
+            }
+          },
+          "id": "bezug"
+        },
+        {
+          "value": "laken",
+          "label": {
+            "default": "Bettlaken",
+            "translations": {
+              "en": "Bed sheet",
+              "nb": "Laken"
+            }
+          },
+          "id": "laken"
+        },
+        {
+          "value": "kissen",
+          "label": {
+            "default": "Kopfkissenbezug",
+            "translations": {
+              "en": "Pillowcase",
+              "nb": "Putetrekk"
+            }
+          },
+          "id": "kissen"
+        },
+        {
+          "value": "schutz",
+          "label": {
+            "default": "Bettschutzeinlage",
+            "translations": {
+              "en": "Bed pad",
+              "nb": "Sengepute"
+            }
+          },
+          "id": "schutz"
+        }
+      ]
+    },
+    {
+      "id": "grund",
+      "type": "dropdown",
+      "label": {
+        "default": "Grund für Wechsel",
+        "translations": {
+          "en": "Reason for change",
+          "nb": "Grunn til bytte"
+        }
+      },
+      "required": true,
       "options": [
-        {"value": "routinemaessig", "label": {"de": "Routinemäßig", "en": "Routine", "nb": "Rutinemessig"}},
-        {"value": "verschmutzung", "label": {"de": "Verschmutzung", "en": "Soiling", "nb": "Tilsmussing"}},
-        {"value": "wunsch", "label": {"de": "Bewohnerwunsch", "en": "Resident request", "nb": "Beboerønske"}}
-      ]},
-    {"id": "notes", "type": "textarea", "label": {"de": "Bemerkungen", "en": "Notes", "nb": "Merknader"}, "required": false}
+        {
+          "value": "routinemaessig",
+          "label": {
+            "default": "Routinemäßig",
+            "translations": {
+              "en": "Routine",
+              "nb": "Rutinemessig"
+            }
+          },
+          "id": "routinemaessig"
+        },
+        {
+          "value": "verschmutzung",
+          "label": {
+            "default": "Verschmutzung",
+            "translations": {
+              "en": "Soiling",
+              "nb": "Tilsmussing"
+            }
+          },
+          "id": "verschmutzung"
+        },
+        {
+          "value": "wunsch",
+          "label": {
+            "default": "Bewohnerwunsch",
+            "translations": {
+              "en": "Resident request",
+              "nb": "Beboerønske"
+            }
+          },
+          "id": "wunsch"
+        }
+      ]
+    },
+    {
+      "id": "notes",
+      "type": "text",
+      "label": {
+        "default": "Bemerkungen",
+        "translations": {
+          "en": "Notes",
+          "nb": "Merknader"
+        }
+      },
+      "required": false
+    }
   ]
 }

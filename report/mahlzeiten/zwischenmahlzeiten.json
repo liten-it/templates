@@ -1,163 +1,214 @@
 {
   "id": "zwischenmahlzeiten",
   "name": {
-    "de": "Zwischenmahlzeiten anbieten",
-    "en": "Offer snacks",
-    "nb": "Tilby mellommåltider"
+    "default": "Zwischenmahlzeiten anbieten",
+    "translations": {
+      "en": "Offer snacks",
+      "nb": "Tilby mellommåltider"
+    }
   },
   "description": {
-    "de": "Zwischenmahlzeiten und Getränke bereitstellen",
-    "en": "Provide snacks and beverages",
-    "nb": "Tilby snacks og drikke"
+    "default": "Zwischenmahlzeiten und Getränke bereitstellen",
+    "translations": {
+      "en": "Provide snacks and beverages",
+      "nb": "Tilby snacks og drikke"
+    }
   },
   "properties": [
     {
       "id": "zeitpunkt",
-      "type": "select",
+      "type": "dropdown",
       "label": {
-        "de": "Zeitpunkt",
-        "en": "Time",
-        "nb": "Tidspunkt"
+        "default": "Zeitpunkt",
+        "translations": {
+          "en": "Time",
+          "nb": "Tidspunkt"
+        }
       },
       "required": true,
       "options": [
         {
           "value": "vormittag",
           "label": {
-            "de": "Vormittags (ca. 10:00)",
-            "en": "Morning (approx. 10:00)",
-            "nb": "Formiddag (ca. 10:00)"
-          }
+            "default": "Vormittags (ca. 10:00)",
+            "translations": {
+              "en": "Morning (approx. 10:00)",
+              "nb": "Formiddag (ca. 10:00)"
+            }
+          },
+          "id": "vormittag"
         },
         {
           "value": "nachmittag",
           "label": {
-            "de": "Nachmittags (ca. 15:00)",
-            "en": "Afternoon (approx. 15:00)",
-            "nb": "Ettermiddag (ca. 15:00)"
-          }
+            "default": "Nachmittags (ca. 15:00)",
+            "translations": {
+              "en": "Afternoon (approx. 15:00)",
+              "nb": "Ettermiddag (ca. 15:00)"
+            }
+          },
+          "id": "nachmittag"
         },
         {
           "value": "abend",
           "label": {
-            "de": "Abends (ca. 20:00)",
-            "en": "Evening (approx. 20:00)",
-            "nb": "Kveld (ca. 20:00)"
-          }
+            "default": "Abends (ca. 20:00)",
+            "translations": {
+              "en": "Evening (approx. 20:00)",
+              "nb": "Kveld (ca. 20:00)"
+            }
+          },
+          "id": "abend"
         },
         {
           "value": "bedarf",
           "label": {
-            "de": "Nach Bedarf",
-            "en": "As needed",
-            "nb": "Etter behov"
-          }
+            "default": "Nach Bedarf",
+            "translations": {
+              "en": "As needed",
+              "nb": "Etter behov"
+            }
+          },
+          "id": "bedarf"
         }
       ]
     },
     {
       "id": "speisen",
-      "type": "multiselect",
+      "type": "checkbox",
       "label": {
-        "de": "Angebotene Speisen",
-        "en": "Food offered",
-        "nb": "Tilbudt mat"
+        "default": "Angebotene Speisen",
+        "translations": {
+          "en": "Food offered",
+          "nb": "Tilbudt mat"
+        }
       },
       "required": false,
       "options": [
         {
           "value": "obst",
           "label": {
-            "de": "Obst",
-            "en": "Fruit",
-            "nb": "Frukt"
-          }
+            "default": "Obst",
+            "translations": {
+              "en": "Fruit",
+              "nb": "Frukt"
+            }
+          },
+          "id": "obst"
         },
         {
           "value": "joghurt",
           "label": {
-            "de": "Joghurt",
-            "en": "Yogurt",
-            "nb": "Yoghurt"
-          }
+            "default": "Joghurt",
+            "translations": {
+              "en": "Yogurt",
+              "nb": "Yoghurt"
+            }
+          },
+          "id": "joghurt"
         },
         {
           "value": "kuchen",
           "label": {
-            "de": "Kuchen",
-            "en": "Cake",
-            "nb": "Kake"
-          }
+            "default": "Kuchen",
+            "translations": {
+              "en": "Cake",
+              "nb": "Kake"
+            }
+          },
+          "id": "kuchen"
         },
         {
           "value": "kekse",
           "label": {
-            "de": "Kekse",
-            "en": "Cookies",
-            "nb": "Kjeks"
-          }
+            "default": "Kekse",
+            "translations": {
+              "en": "Cookies",
+              "nb": "Kjeks"
+            }
+          },
+          "id": "kekse"
         },
         {
           "value": "brot",
           "label": {
-            "de": "Brot",
-            "en": "Bread",
-            "nb": "Brød"
-          }
+            "default": "Brot",
+            "translations": {
+              "en": "Bread",
+              "nb": "Brød"
+            }
+          },
+          "id": "brot"
         }
       ]
     },
     {
       "id": "getraenke",
-      "type": "multiselect",
+      "type": "checkbox",
       "label": {
-        "de": "Angebotene Getränke",
-        "en": "Beverages offered",
-        "nb": "Tilbudt drikke"
+        "default": "Angebotene Getränke",
+        "translations": {
+          "en": "Beverages offered",
+          "nb": "Tilbudt drikke"
+        }
       },
       "required": true,
       "options": [
         {
           "value": "wasser",
           "label": {
-            "de": "Wasser",
-            "en": "Water",
-            "nb": "Vann"
-          }
+            "default": "Wasser",
+            "translations": {
+              "en": "Water",
+              "nb": "Vann"
+            }
+          },
+          "id": "wasser"
         },
         {
           "value": "saft",
           "label": {
-            "de": "Saft",
-            "en": "Juice",
-            "nb": "Juice"
-          }
+            "default": "Saft",
+            "translations": {
+              "en": "Juice",
+              "nb": "Juice"
+            }
+          },
+          "id": "saft"
         },
         {
           "value": "tee",
           "label": {
-            "de": "Tee",
-            "en": "Tea",
-            "nb": "Te"
-          }
+            "default": "Tee",
+            "translations": {
+              "en": "Tea",
+              "nb": "Te"
+            }
+          },
+          "id": "tee"
         },
         {
           "value": "kaffee",
           "label": {
-            "de": "Kaffee",
-            "en": "Coffee",
-            "nb": "Kaffe"
-          }
+            "default": "Kaffee",
+            "translations": {
+              "en": "Coffee",
+              "nb": "Kaffe"
+            }
+          },
+          "id": "kaffee"
         }
       ]
     },
     {
       "id": "notes",
-      "type": "textarea",
+      "type": "text",
       "label": {
-        "de": "Bemerkungen",
-        "en": "Notes",
-        "nb": "Merknader"
+        "default": "Bemerkungen",
+        "translations": {
+          "en": "Notes",
+          "nb": "Merknader"
+        }
       },
       "required": false
     }

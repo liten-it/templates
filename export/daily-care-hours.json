@@ -1,19 +1,25 @@
 {
   "id": "daily-care-hours",
   "name": {
-    "de": "Pflegestunden pro Tag",
-    "en": "Care Hours per Day",
-    "nb": "Pleietimer per dag"
+    "default": "Pflegestunden pro Tag",
+    "translations": {
+      "en": "Care Hours per Day",
+      "nb": "Pleietimer per dag"
+    }
   },
   "description": {
-    "de": "Gesamtpflegeminuten umgerechnet in Stunden",
-    "en": "Total care minutes converted to hours",
-    "nb": "Totale pleieminutter konvertert til timer"
+    "default": "Gesamtpflegeminuten umgerechnet in Stunden",
+    "translations": {
+      "en": "Total care minutes converted to hours",
+      "nb": "Totale pleieminutter konvertert til timer"
+    }
   },
   "unit": {
-    "de": "Std/Tag",
-    "en": "Hrs/Day",
-    "nb": "Timer/Dag"
+    "default": "Std/Tag",
+    "translations": {
+      "en": "Hrs/Day",
+      "nb": "Timer/Dag"
+    }
   },
   "calculation": {
     "type": "formula",
@@ -21,5 +27,12 @@
     "source": "total-care-minutes"
   },
   "icon": "clock",
-  "color": "#607D8B"
+  "color": "#607D8B",
+  "title": {
+    "default": "Pflegestunden pro Tag",
+    "translations": {
+      "en": "Care Hours per Day",
+      "nb": "Pleietimer per dag"
+    }
+  }
 }

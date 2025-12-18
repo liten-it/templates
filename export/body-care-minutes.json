@@ -1,19 +1,25 @@
 {
   "id": "body-care-minutes",
   "name": {
-    "de": "Körperpflege (Minuten)",
-    "en": "Body Care (Minutes)",
-    "nb": "Kroppspleie (Minutter)"
+    "default": "Körperpflege (Minuten)",
+    "translations": {
+      "en": "Body Care (Minutes)",
+      "nb": "Kroppspleie (Minutter)"
+    }
   },
   "description": {
-    "de": "Massnahmenpakete 3.2.1 und 3.2.2",
-    "en": "Measure packages 3.2.1 and 3.2.2",
-    "nb": "Tiltakspakker 3.2.1 og 3.2.2"
+    "default": "Massnahmenpakete 3.2.1 und 3.2.2",
+    "translations": {
+      "en": "Measure packages 3.2.1 and 3.2.2",
+      "nb": "Tiltakspakker 3.2.1 og 3.2.2"
+    }
   },
   "unit": {
-    "de": "Min/Tag",
-    "en": "Min/Day",
-    "nb": "Min/Dag"
+    "default": "Min/Tag",
+    "translations": {
+      "en": "Min/Day",
+      "nb": "Min/Dag"
+    }
   },
   "calculation": {
     "type": "sum",
@@ -23,5 +29,12 @@
     ]
   },
   "icon": "droplet",
-  "color": "#00BCD4"
+  "color": "#00BCD4",
+  "title": {
+    "default": "Körperpflege (Minuten)",
+    "translations": {
+      "en": "Body Care (Minutes)",
+      "nb": "Kroppspleie (Minutter)"
+    }
+  }
 }

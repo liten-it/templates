@@ -1,25 +1,181 @@
 {
   "id": "schlafstoerung",
-  "name": {"de": "Schlafstörung behandeln", "en": "Treat sleep disorder", "nb": "Behandle søvnforstyrrelse"},
-  "description": {"de": "Hilfe bei Schlafproblemen", "en": "Help with sleep problems", "nb": "Hjelp ved søvnproblemer"},
+  "name": {
+    "default": "Schlafstörung behandeln",
+    "translations": {
+      "en": "Treat sleep disorder",
+      "nb": "Behandle søvnforstyrrelse"
+    }
+  },
+  "description": {
+    "default": "Hilfe bei Schlafproblemen",
+    "translations": {
+      "en": "Help with sleep problems",
+      "nb": "Hjelp ved søvnproblemer"
+    }
+  },
   "properties": [
-    {"id": "uhrzeit", "type": "time", "label": {"de": "Uhrzeit", "en": "Time", "nb": "Tidspunkt"}, "required": true},
-    {"id": "ursache", "type": "select", "label": {"de": "Vermutete Ursache", "en": "Suspected cause", "nb": "Mistenkt årsak"}, "required": false,
+    {
+      "id": "uhrzeit",
+      "type": "time",
+      "label": {
+        "default": "Uhrzeit",
+        "translations": {
+          "en": "Time",
+          "nb": "Tidspunkt"
+        }
+      },
+      "required": true
+    },
+    {
+      "id": "ursache",
+      "type": "dropdown",
+      "label": {
+        "default": "Vermutete Ursache",
+        "translations": {
+          "en": "Suspected cause",
+          "nb": "Mistenkt årsak"
+        }
+      },
+      "required": false,
       "options": [
-        {"value": "schmerz", "label": {"de": "Schmerzen", "en": "Pain", "nb": "Smerte"}},
-        {"value": "harndrang", "label": {"de": "Harndrang", "en": "Urge to urinate", "nb": "Vannlatingstrang"}},
-        {"value": "angst", "label": {"de": "Angst", "en": "Anxiety", "nb": "Angst"}},
-        {"value": "verwirrtheit", "label": {"de": "Verwirrtheit", "en": "Confusion", "nb": "Forvirring"}},
-        {"value": "albtraum", "label": {"de": "Albtraum", "en": "Nightmare", "nb": "Mareritt"}}
-      ]},
-    {"id": "massnahmen", "type": "multiselect", "label": {"de": "Durchgeführte Maßnahmen", "en": "Measures taken", "nb": "Tiltak tatt"}, "required": true,
+        {
+          "value": "schmerz",
+          "label": {
+            "default": "Schmerzen",
+            "translations": {
+              "en": "Pain",
+              "nb": "Smerte"
+            }
+          },
+          "id": "schmerz"
+        },
+        {
+          "value": "harndrang",
+          "label": {
+            "default": "Harndrang",
+            "translations": {
+              "en": "Urge to urinate",
+              "nb": "Vannlatingstrang"
+            }
+          },
+          "id": "harndrang"
+        },
+        {
+          "value": "angst",
+          "label": {
+            "default": "Angst",
+            "translations": {
+              "en": "Anxiety",
+              "nb": "Angst"
+            }
+          },
+          "id": "angst"
+        },
+        {
+          "value": "verwirrtheit",
+          "label": {
+            "default": "Verwirrtheit",
+            "translations": {
+              "en": "Confusion",
+              "nb": "Forvirring"
+            }
+          },
+          "id": "verwirrtheit"
+        },
+        {
+          "value": "albtraum",
+          "label": {
+            "default": "Albtraum",
+            "translations": {
+              "en": "Nightmare",
+              "nb": "Mareritt"
+            }
+          },
+          "id": "albtraum"
+        }
+      ]
+    },
+    {
+      "id": "massnahmen",
+      "type": "checkbox",
+      "label": {
+        "default": "Durchgeführte Maßnahmen",
+        "translations": {
+          "en": "Measures taken",
+          "nb": "Tiltak tatt"
+        }
+      },
+      "required": true,
       "options": [
-        {"value": "gespraech", "label": {"de": "Ruhiges Gespräch", "en": "Calm conversation", "nb": "Rolig samtale"}},
-        {"value": "hand", "label": {"de": "Hand gehalten", "en": "Held hand", "nb": "Holdt hånd"}},
-        {"value": "lagerung", "label": {"de": "Lagerung geändert", "en": "Position changed", "nb": "Leiring endret"}},
-        {"value": "getraenk", "label": {"de": "Getränk angeboten", "en": "Beverage offered", "nb": "Drikke tilbudt"}},
-        {"value": "medikation", "label": {"de": "Bedarfsmedikation", "en": "As-needed medication", "nb": "Behovsmedikasjon"}}
-      ]},
-    {"id": "notes", "type": "textarea", "label": {"de": "Bemerkungen", "en": "Notes", "nb": "Merknader"}, "required": false}
+        {
+          "value": "gespraech",
+          "label": {
+            "default": "Ruhiges Gespräch",
+            "translations": {
+              "en": "Calm conversation",
+              "nb": "Rolig samtale"
+            }
+          },
+          "id": "gespraech"
+        },
+        {
+          "value": "hand",
+          "label": {
+            "default": "Hand gehalten",
+            "translations": {
+              "en": "Held hand",
+              "nb": "Holdt hånd"
+            }
+          },
+          "id": "hand"
+        },
+        {
+          "value": "lagerung",
+          "label": {
+            "default": "Lagerung geändert",
+            "translations": {
+              "en": "Position changed",
+              "nb": "Leiring endret"
+            }
+          },
+          "id": "lagerung"
+        },
+        {
+          "value": "getraenk",
+          "label": {
+            "default": "Getränk angeboten",
+            "translations": {
+              "en": "Beverage offered",
+              "nb": "Drikke tilbudt"
+            }
+          },
+          "id": "getraenk"
+        },
+        {
+          "value": "medikation",
+          "label": {
+            "default": "Bedarfsmedikation",
+            "translations": {
+              "en": "As-needed medication",
+              "nb": "Behovsmedikasjon"
+            }
+          },
+          "id": "medikation"
+        }
+      ]
+    },
+    {
+      "id": "notes",
+      "type": "text",
+      "label": {
+        "default": "Bemerkungen",
+        "translations": {
+          "en": "Notes",
+          "nb": "Merknader"
+        }
+      },
+      "required": false
+    }
   ]
 }

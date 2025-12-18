@@ -1,49 +1,64 @@
 {
   "id": "abendessen-servieren",
   "name": {
-    "de": "Abendessen servieren",
-    "en": "Serve dinner",
-    "nb": "Servere middag"
+    "default": "Abendessen servieren",
+    "translations": {
+      "en": "Serve dinner",
+      "nb": "Servere middag"
+    }
   },
   "description": {
-    "de": "Abendmahlzeit herrichten und servieren",
-    "en": "Prepare and serve evening meal",
-    "nb": "Forberede og servere kveldsmåltid"
+    "default": "Abendmahlzeit herrichten und servieren",
+    "translations": {
+      "en": "Prepare and serve evening meal",
+      "nb": "Forberede og servere kveldsmåltid"
+    }
   },
   "properties": [
     {
       "id": "art",
-      "type": "select",
+      "type": "dropdown",
       "label": {
-        "de": "Art der Mahlzeit",
-        "en": "Type of meal",
-        "nb": "Type måltid"
+        "default": "Art der Mahlzeit",
+        "translations": {
+          "en": "Type of meal",
+          "nb": "Type måltid"
+        }
       },
       "required": true,
       "options": [
         {
           "value": "warm",
           "label": {
-            "de": "Warme Mahlzeit",
-            "en": "Warm meal",
-            "nb": "Varm måltid"
-          }
+            "default": "Warme Mahlzeit",
+            "translations": {
+              "en": "Warm meal",
+              "nb": "Varm måltid"
+            }
+          },
+          "id": "warm"
         },
         {
           "value": "kalt",
           "label": {
-            "de": "Kalte Mahlzeit",
-            "en": "Cold meal",
-            "nb": "Kald måltid"
-          }
+            "default": "Kalte Mahlzeit",
+            "translations": {
+              "en": "Cold meal",
+              "nb": "Kald måltid"
+            }
+          },
+          "id": "kalt"
         },
         {
           "value": "brotzeit",
           "label": {
-            "de": "Brotzeit",
-            "en": "Bread meal",
-            "nb": "Brødmåltid"
-          }
+            "default": "Brotzeit",
+            "translations": {
+              "en": "Bread meal",
+              "nb": "Brødmåltid"
+            }
+          },
+          "id": "brotzeit"
         }
       ]
     },
@@ -51,71 +66,92 @@
       "id": "zeitpunkt",
       "type": "time",
       "label": {
-        "de": "Zeitpunkt",
-        "en": "Time",
-        "nb": "Tidspunkt"
+        "default": "Zeitpunkt",
+        "translations": {
+          "en": "Time",
+          "nb": "Tidspunkt"
+        }
       },
       "required": true
     },
     {
       "id": "speisen",
-      "type": "multiselect",
+      "type": "checkbox",
       "label": {
-        "de": "Servierte Speisen",
-        "en": "Food served",
-        "nb": "Servert mat"
+        "default": "Servierte Speisen",
+        "translations": {
+          "en": "Food served",
+          "nb": "Servert mat"
+        }
       },
       "required": true,
       "options": [
         {
           "value": "brot",
           "label": {
-            "de": "Brot",
-            "en": "Bread",
-            "nb": "Brød"
-          }
+            "default": "Brot",
+            "translations": {
+              "en": "Bread",
+              "nb": "Brød"
+            }
+          },
+          "id": "brot"
         },
         {
           "value": "aufschnitt",
           "label": {
-            "de": "Aufschnitt",
-            "en": "Cold cuts",
-            "nb": "Pålegg"
-          }
+            "default": "Aufschnitt",
+            "translations": {
+              "en": "Cold cuts",
+              "nb": "Pålegg"
+            }
+          },
+          "id": "aufschnitt"
         },
         {
           "value": "kaese",
           "label": {
-            "de": "Käse",
-            "en": "Cheese",
-            "nb": "Ost"
-          }
+            "default": "Käse",
+            "translations": {
+              "en": "Cheese",
+              "nb": "Ost"
+            }
+          },
+          "id": "kaese"
         },
         {
           "value": "salat",
           "label": {
-            "de": "Salat",
-            "en": "Salad",
-            "nb": "Salat"
-          }
+            "default": "Salat",
+            "translations": {
+              "en": "Salad",
+              "nb": "Salat"
+            }
+          },
+          "id": "salat"
         },
         {
           "value": "suppe",
           "label": {
-            "de": "Suppe",
-            "en": "Soup",
-            "nb": "Suppe"
-          }
+            "default": "Suppe",
+            "translations": {
+              "en": "Soup",
+              "nb": "Suppe"
+            }
+          },
+          "id": "suppe"
         }
       ]
     },
     {
       "id": "notes",
-      "type": "textarea",
+      "type": "text",
       "label": {
-        "de": "Bemerkungen",
-        "en": "Notes",
-        "nb": "Merknader"
+        "default": "Bemerkungen",
+        "translations": {
+          "en": "Notes",
+          "nb": "Merknader"
+        }
       },
       "required": false
     }

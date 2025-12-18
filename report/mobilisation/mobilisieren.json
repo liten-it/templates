@@ -1,153 +1,202 @@
 {
   "id": "mobilisieren",
   "name": {
-    "de": "Mobilisieren",
-    "en": "Mobilize",
-    "nb": "Mobilisere"
+    "default": "Mobilisieren",
+    "translations": {
+      "en": "Mobilize",
+      "nb": "Mobilisere"
+    }
   },
   "description": {
-    "de": "Unterstützung beim Gehen und Bewegen",
-    "en": "Support with walking and moving",
-    "nb": "Støtte ved gå og bevegelse"
+    "default": "Unterstützung beim Gehen und Bewegen",
+    "translations": {
+      "en": "Support with walking and moving",
+      "nb": "Støtte ved gå og bevegelse"
+    }
   },
   "properties": [
     {
       "id": "gehhilfe",
-      "type": "select",
+      "type": "dropdown",
       "label": {
-        "de": "Gehhilfe",
-        "en": "Walking aid",
-        "nb": "Ganghjelp"
+        "default": "Gehhilfe",
+        "translations": {
+          "en": "Walking aid",
+          "nb": "Ganghjelp"
+        }
       },
       "required": true,
       "options": [
         {
           "value": "keine",
           "label": {
-            "de": "Keine Hilfsmittel",
-            "en": "No aids",
-            "nb": "Ingen hjelpemidler"
-          }
+            "default": "Keine Hilfsmittel",
+            "translations": {
+              "en": "No aids",
+              "nb": "Ingen hjelpemidler"
+            }
+          },
+          "id": "keine"
         },
         {
           "value": "gehstock",
           "label": {
-            "de": "Gehstock",
-            "en": "Walking stick",
-            "nb": "Gangstokk"
-          }
+            "default": "Gehstock",
+            "translations": {
+              "en": "Walking stick",
+              "nb": "Gangstokk"
+            }
+          },
+          "id": "gehstock"
         },
         {
           "value": "rollator",
           "label": {
-            "de": "Gehgestell/Rollator",
-            "en": "Walker/rollator",
-            "nb": "Rullator"
-          }
+            "default": "Gehgestell/Rollator",
+            "translations": {
+              "en": "Walker/rollator",
+              "nb": "Rullator"
+            }
+          },
+          "id": "rollator"
         },
         {
           "value": "gehhilfen",
           "label": {
-            "de": "Unterarmgehstützen",
-            "en": "Forearm crutches",
-            "nb": "Underarmskrykker"
-          }
+            "default": "Unterarmgehstützen",
+            "translations": {
+              "en": "Forearm crutches",
+              "nb": "Underarmskrykker"
+            }
+          },
+          "id": "gehhilfen"
         },
         {
           "value": "vierpunkt",
           "label": {
-            "de": "Vierpunktstock",
-            "en": "Quad cane",
-            "nb": "Firepunktsstokk"
-          }
+            "default": "Vierpunktstock",
+            "translations": {
+              "en": "Quad cane",
+              "nb": "Firepunktsstokk"
+            }
+          },
+          "id": "vierpunkt"
         }
       ]
     },
     {
       "id": "unterstuetzung",
-      "type": "select",
+      "type": "dropdown",
       "label": {
-        "de": "Unterstützung",
-        "en": "Support",
-        "nb": "Støtte"
+        "default": "Unterstützung",
+        "translations": {
+          "en": "Support",
+          "nb": "Støtte"
+        }
       },
       "required": true,
       "options": [
         {
           "value": "selbststaendig",
           "label": {
-            "de": "Selbstständig",
-            "en": "Independent",
-            "nb": "Selvstendig"
-          }
+            "default": "Selbstständig",
+            "translations": {
+              "en": "Independent",
+              "nb": "Selvstendig"
+            }
+          },
+          "id": "selbststaendig"
         },
         {
           "value": "leicht",
           "label": {
-            "de": "Leichte Unterstützung",
-            "en": "Light support",
-            "nb": "Lett støtte"
-          }
+            "default": "Leichte Unterstützung",
+            "translations": {
+              "en": "Light support",
+              "nb": "Lett støtte"
+            }
+          },
+          "id": "leicht"
         },
         {
           "value": "fuehrung",
           "label": {
-            "de": "Mit Führung",
-            "en": "With guidance",
-            "nb": "Med veiledning"
-          }
+            "default": "Mit Führung",
+            "translations": {
+              "en": "With guidance",
+              "nb": "Med veiledning"
+            }
+          },
+          "id": "fuehrung"
         },
         {
           "value": "beide_seiten",
           "label": {
-            "de": "An beiden Seiten gestützt",
-            "en": "Supported on both sides",
-            "nb": "Støttet på begge sider"
-          }
+            "default": "An beiden Seiten gestützt",
+            "translations": {
+              "en": "Supported on both sides",
+              "nb": "Støttet på begge sider"
+            }
+          },
+          "id": "beide_seiten"
         }
       ]
     },
     {
       "id": "strecke",
-      "type": "select",
+      "type": "dropdown",
       "label": {
-        "de": "Strecke",
-        "en": "Distance",
-        "nb": "Avstand"
+        "default": "Strecke",
+        "translations": {
+          "en": "Distance",
+          "nb": "Avstand"
+        }
       },
       "required": true,
       "options": [
         {
           "value": "zimmer",
           "label": {
-            "de": "Im Zimmer",
-            "en": "In room",
-            "nb": "I rommet"
-          }
+            "default": "Im Zimmer",
+            "translations": {
+              "en": "In room",
+              "nb": "I rommet"
+            }
+          },
+          "id": "zimmer"
         },
         {
           "value": "flur",
           "label": {
-            "de": "Auf dem Flur",
-            "en": "In corridor",
-            "nb": "I korridoren"
-          }
+            "default": "Auf dem Flur",
+            "translations": {
+              "en": "In corridor",
+              "nb": "I korridoren"
+            }
+          },
+          "id": "flur"
         },
         {
           "value": "garten",
           "label": {
-            "de": "Im Garten",
-            "en": "In garden",
-            "nb": "I hagen"
-          }
+            "default": "Im Garten",
+            "translations": {
+              "en": "In garden",
+              "nb": "I hagen"
+            }
+          },
+          "id": "garten"
         },
         {
           "value": "laenger",
           "label": {
-            "de": "Längere Strecke",
-            "en": "Longer distance",
-            "nb": "Lengre avstand"
-          }
+            "default": "Längere Strecke",
+            "translations": {
+              "en": "Longer distance",
+              "nb": "Lengre avstand"
+            }
+          },
+          "id": "laenger"
         }
       ]
     },
@@ -155,70 +204,90 @@
       "id": "dauer",
       "type": "number",
       "label": {
-        "de": "Dauer (Minuten)",
-        "en": "Duration (minutes)",
-        "nb": "Varighet (minutter)"
+        "default": "Dauer (Minuten)",
+        "translations": {
+          "en": "Duration (minutes)",
+          "nb": "Varighet (minutter)"
+        }
       },
       "required": false,
       "min": 1,
       "max": 120,
       "unit": {
-        "de": "Min",
-        "en": "Min",
-        "nb": "Min"
+        "default": "Min",
+        "translations": {
+          "en": "Min",
+          "nb": "Min"
+        }
       }
     },
     {
       "id": "sicherheit",
-      "type": "multiselect",
+      "type": "checkbox",
       "label": {
-        "de": "Sicherheitsmaßnahmen",
-        "en": "Safety measures",
-        "nb": "Sikkerhetstiltak"
+        "default": "Sicherheitsmaßnahmen",
+        "translations": {
+          "en": "Safety measures",
+          "nb": "Sikkerhetstiltak"
+        }
       },
       "required": false,
       "options": [
         {
           "value": "schuhe",
           "label": {
-            "de": "Rutschfeste Schuhe",
-            "en": "Non-slip shoes",
-            "nb": "Sklisikre sko"
-          }
+            "default": "Rutschfeste Schuhe",
+            "translations": {
+              "en": "Non-slip shoes",
+              "nb": "Sklisikre sko"
+            }
+          },
+          "id": "schuhe"
         },
         {
           "value": "huefte",
           "label": {
-            "de": "Hüftprotektor",
-            "en": "Hip protector",
-            "nb": "Hoftebeskytter"
-          }
+            "default": "Hüftprotektor",
+            "translations": {
+              "en": "Hip protector",
+              "nb": "Hoftebeskytter"
+            }
+          },
+          "id": "huefte"
         },
         {
           "value": "begleitung",
           "label": {
-            "de": "Dauerhafte Begleitung",
-            "en": "Continuous accompaniment",
-            "nb": "Kontinuerlig ledsagelse"
-          }
+            "default": "Dauerhafte Begleitung",
+            "translations": {
+              "en": "Continuous accompaniment",
+              "nb": "Kontinuerlig ledsagelse"
+            }
+          },
+          "id": "begleitung"
         },
         {
           "value": "gelaender",
           "label": {
-            "de": "Geländer genutzt",
-            "en": "Handrail used",
-            "nb": "Gelender brukt"
-          }
+            "default": "Geländer genutzt",
+            "translations": {
+              "en": "Handrail used",
+              "nb": "Gelender brukt"
+            }
+          },
+          "id": "gelaender"
         }
       ]
     },
     {
       "id": "notes",
-      "type": "textarea",
+      "type": "text",
       "label": {
-        "de": "Bemerkungen",
-        "en": "Notes",
-        "nb": "Merknader"
+        "default": "Bemerkungen",
+        "translations": {
+          "en": "Notes",
+          "nb": "Merknader"
+        }
       },
       "required": false
     }

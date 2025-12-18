@@ -1,20 +1,125 @@
 {
   "id": "abendpflege",
-  "name": {"de": "Abendpflege durchführen", "en": "Perform evening care", "nb": "Utføre kveldspleie"},
-  "description": {"de": "Körperpflege am Abend", "en": "Body care in the evening", "nb": "Kroppspleie om kvelden"},
+  "name": {
+    "default": "Abendpflege durchführen",
+    "translations": {
+      "en": "Perform evening care",
+      "nb": "Utføre kveldspleie"
+    }
+  },
+  "description": {
+    "default": "Körperpflege am Abend",
+    "translations": {
+      "en": "Body care in the evening",
+      "nb": "Kroppspleie om kvelden"
+    }
+  },
   "properties": [
-    {"id": "umfang", "type": "multiselect", "label": {"de": "Umfang", "en": "Scope", "nb": "Omfang"}, "required": true,
+    {
+      "id": "umfang",
+      "type": "checkbox",
+      "label": {
+        "default": "Umfang",
+        "translations": {
+          "en": "Scope",
+          "nb": "Omfang"
+        }
+      },
+      "required": true,
       "options": [
-        {"value": "gesicht", "label": {"de": "Gesicht und Hände waschen", "en": "Wash face and hands", "nb": "Vaske ansikt og hender"}},
-        {"value": "intim", "label": {"de": "Intimhygiene", "en": "Intimate hygiene", "nb": "Intimhygiene"}},
-        {"value": "zaehne", "label": {"de": "Zähne putzen", "en": "Brush teeth", "nb": "Pusse tenner"}},
-        {"value": "haare", "label": {"de": "Haare kämmen", "en": "Comb hair", "nb": "Greie hår"}}
-      ]},
-    {"id": "produkte", "type": "multiselect", "label": {"de": "Verwendete Produkte", "en": "Products used", "nb": "Produkter brukt"}, "required": false,
+        {
+          "value": "gesicht",
+          "label": {
+            "default": "Gesicht und Hände waschen",
+            "translations": {
+              "en": "Wash face and hands",
+              "nb": "Vaske ansikt og hender"
+            }
+          },
+          "id": "gesicht"
+        },
+        {
+          "value": "intim",
+          "label": {
+            "default": "Intimhygiene",
+            "translations": {
+              "en": "Intimate hygiene",
+              "nb": "Intimhygiene"
+            }
+          },
+          "id": "intim"
+        },
+        {
+          "value": "zaehne",
+          "label": {
+            "default": "Zähne putzen",
+            "translations": {
+              "en": "Brush teeth",
+              "nb": "Pusse tenner"
+            }
+          },
+          "id": "zaehne"
+        },
+        {
+          "value": "haare",
+          "label": {
+            "default": "Haare kämmen",
+            "translations": {
+              "en": "Comb hair",
+              "nb": "Greie hår"
+            }
+          },
+          "id": "haare"
+        }
+      ]
+    },
+    {
+      "id": "produkte",
+      "type": "checkbox",
+      "label": {
+        "default": "Verwendete Produkte",
+        "translations": {
+          "en": "Products used",
+          "nb": "Produkter brukt"
+        }
+      },
+      "required": false,
       "options": [
-        {"value": "nachtcreme", "label": {"de": "Nachtcreme", "en": "Night cream", "nb": "Nattkrem"}},
-        {"value": "lippen", "label": {"de": "Lippenpflege", "en": "Lip care", "nb": "Leppepleie"}}
-      ]},
-    {"id": "notes", "type": "textarea", "label": {"de": "Bemerkungen", "en": "Notes", "nb": "Merknader"}, "required": false}
+        {
+          "value": "nachtcreme",
+          "label": {
+            "default": "Nachtcreme",
+            "translations": {
+              "en": "Night cream",
+              "nb": "Nattkrem"
+            }
+          },
+          "id": "nachtcreme"
+        },
+        {
+          "value": "lippen",
+          "label": {
+            "default": "Lippenpflege",
+            "translations": {
+              "en": "Lip care",
+              "nb": "Leppepleie"
+            }
+          },
+          "id": "lippen"
+        }
+      ]
+    },
+    {
+      "id": "notes",
+      "type": "text",
+      "label": {
+        "default": "Bemerkungen",
+        "translations": {
+          "en": "Notes",
+          "nb": "Merknader"
+        }
+      },
+      "required": false
+    }
   ]
 }

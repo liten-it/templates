@@ -1,117 +1,155 @@
 {
   "id": "physiotherapie",
   "name": {
-    "de": "Physiotherapeutische Übungen",
-    "en": "Physiotherapy exercises",
-    "nb": "Fysioterapiøvelser"
+    "default": "Physiotherapeutische Übungen",
+    "translations": {
+      "en": "Physiotherapy exercises",
+      "nb": "Fysioterapiøvelser"
+    }
   },
   "description": {
-    "de": "Unterstützung bei therapeutischen Übungen",
-    "en": "Support with therapeutic exercises",
-    "nb": "Støtte med terapeutiske øvelser"
+    "default": "Unterstützung bei therapeutischen Übungen",
+    "translations": {
+      "en": "Support with therapeutic exercises",
+      "nb": "Støtte med terapeutiske øvelser"
+    }
   },
   "properties": [
     {
       "id": "uebungsart",
-      "type": "multiselect",
+      "type": "checkbox",
       "label": {
-        "de": "Übungsart",
-        "en": "Type of exercise",
-        "nb": "Type øvelse"
+        "default": "Übungsart",
+        "translations": {
+          "en": "Type of exercise",
+          "nb": "Type øvelse"
+        }
       },
       "required": true,
       "options": [
         {
           "value": "passiv",
           "label": {
-            "de": "Passive Bewegung",
-            "en": "Passive movement",
-            "nb": "Passiv bevegelse"
-          }
+            "default": "Passive Bewegung",
+            "translations": {
+              "en": "Passive movement",
+              "nb": "Passiv bevegelse"
+            }
+          },
+          "id": "passiv"
         },
         {
           "value": "aktiv_assistiv",
           "label": {
-            "de": "Aktiv-assistive Bewegung",
-            "en": "Active-assistive movement",
-            "nb": "Aktiv-assistiv bevegelse"
-          }
+            "default": "Aktiv-assistive Bewegung",
+            "translations": {
+              "en": "Active-assistive movement",
+              "nb": "Aktiv-assistiv bevegelse"
+            }
+          },
+          "id": "aktiv_assistiv"
         },
         {
           "value": "aktiv",
           "label": {
-            "de": "Aktive Bewegung",
-            "en": "Active movement",
-            "nb": "Aktiv bevegelse"
-          }
+            "default": "Aktive Bewegung",
+            "translations": {
+              "en": "Active movement",
+              "nb": "Aktiv bevegelse"
+            }
+          },
+          "id": "aktiv"
         },
         {
           "value": "gehtraining",
           "label": {
-            "de": "Gehtraining",
-            "en": "Gait training",
-            "nb": "Gangtrening"
-          }
+            "default": "Gehtraining",
+            "translations": {
+              "en": "Gait training",
+              "nb": "Gangtrening"
+            }
+          },
+          "id": "gehtraining"
         },
         {
           "value": "gleichgewicht",
           "label": {
-            "de": "Gleichgewichtsübungen",
-            "en": "Balance exercises",
-            "nb": "Balanseøvelser"
-          }
+            "default": "Gleichgewichtsübungen",
+            "translations": {
+              "en": "Balance exercises",
+              "nb": "Balanseøvelser"
+            }
+          },
+          "id": "gleichgewicht"
         },
         {
           "value": "atmung",
           "label": {
-            "de": "Atemübungen",
-            "en": "Breathing exercises",
-            "nb": "Pusteøvelser"
-          }
+            "default": "Atemübungen",
+            "translations": {
+              "en": "Breathing exercises",
+              "nb": "Pusteøvelser"
+            }
+          },
+          "id": "atmung"
         }
       ]
     },
     {
       "id": "koerperregion",
-      "type": "multiselect",
+      "type": "checkbox",
       "label": {
-        "de": "Körperregion",
-        "en": "Body region",
-        "nb": "Kroppsregion"
+        "default": "Körperregion",
+        "translations": {
+          "en": "Body region",
+          "nb": "Kroppsregion"
+        }
       },
       "required": true,
       "options": [
         {
           "value": "obe_extremitaeten",
           "label": {
-            "de": "Obere Extremitäten",
-            "en": "Upper extremities",
-            "nb": "Øvre ekstremiteter"
-          }
+            "default": "Obere Extremitäten",
+            "translations": {
+              "en": "Upper extremities",
+              "nb": "Øvre ekstremiteter"
+            }
+          },
+          "id": "obe_extremitaeten"
         },
         {
           "value": "untere_extremitaeten",
           "label": {
-            "de": "Untere Extremitäten",
-            "en": "Lower extremities",
-            "nb": "Nedre ekstremiteter"
-          }
+            "default": "Untere Extremitäten",
+            "translations": {
+              "en": "Lower extremities",
+              "nb": "Nedre ekstremiteter"
+            }
+          },
+          "id": "untere_extremitaeten"
         },
         {
           "value": "rumpf",
           "label": {
-            "de": "Rumpf",
-            "en": "Trunk",
-            "nb": "Torso"
-          }
+            "default": "Rumpf",
+            "translations": {
+              "en": "Trunk",
+              "nb": "Torso"
+            }
+          },
+          "id": "rumpf"
         },
         {
           "value": "hals_nacken",
           "label": {
-            "de": "Hals/Nacken",
-            "en": "Neck",
-            "nb": "Hals/nakke"
-          }
+            "default": "Hals/Nacken",
+            "translations": {
+              "en": "Neck",
+              "nb": "Hals/nakke"
+            }
+          },
+          "id": "hals_nacken"
         }
       ]
     },
@@ -119,78 +157,101 @@
       "id": "dauer",
       "type": "number",
       "label": {
-        "de": "Dauer (Minuten)",
-        "en": "Duration (minutes)",
-        "nb": "Varighet (minutter)"
+        "default": "Dauer (Minuten)",
+        "translations": {
+          "en": "Duration (minutes)",
+          "nb": "Varighet (minutter)"
+        }
       },
       "required": true,
       "min": 5,
       "max": 120,
       "unit": {
-        "de": "Min",
-        "en": "Min",
-        "nb": "Min"
+        "default": "Min",
+        "translations": {
+          "en": "Min",
+          "nb": "Min"
+        }
       }
     },
     {
       "id": "hilfsmittel",
-      "type": "multiselect",
+      "type": "checkbox",
       "label": {
-        "de": "Verwendete Hilfsmittel",
-        "en": "Equipment used",
-        "nb": "Utstyr brukt"
+        "default": "Verwendete Hilfsmittel",
+        "translations": {
+          "en": "Equipment used",
+          "nb": "Utstyr brukt"
+        }
       },
       "required": false,
       "options": [
         {
           "value": "theraband",
           "label": {
-            "de": "Theraband",
-            "en": "Resistance band",
-            "nb": "Treningsband"
-          }
+            "default": "Theraband",
+            "translations": {
+              "en": "Resistance band",
+              "nb": "Treningsband"
+            }
+          },
+          "id": "theraband"
         },
         {
           "value": "gewichte",
           "label": {
-            "de": "Gewichte",
-            "en": "Weights",
-            "nb": "Vekter"
-          }
+            "default": "Gewichte",
+            "translations": {
+              "en": "Weights",
+              "nb": "Vekter"
+            }
+          },
+          "id": "gewichte"
         },
         {
           "value": "ball",
           "label": {
-            "de": "Gymnastikball",
-            "en": "Exercise ball",
-            "nb": "Treningsball"
-          }
+            "default": "Gymnastikball",
+            "translations": {
+              "en": "Exercise ball",
+              "nb": "Treningsball"
+            }
+          },
+          "id": "ball"
         },
         {
           "value": "gehbarren",
           "label": {
-            "de": "Gehbarren",
-            "en": "Parallel bars",
-            "nb": "Gangstativ"
-          }
+            "default": "Gehbarren",
+            "translations": {
+              "en": "Parallel bars",
+              "nb": "Gangstativ"
+            }
+          },
+          "id": "gehbarren"
         },
         {
           "value": "hantel",
           "label": {
-            "de": "Hantel",
-            "en": "Dumbbell",
-            "nb": "Håndvekter"
-          }
+            "default": "Hantel",
+            "translations": {
+              "en": "Dumbbell",
+              "nb": "Håndvekter"
+            }
+          },
+          "id": "hantel"
         }
       ]
     },
     {
       "id": "notes",
-      "type": "textarea",
+      "type": "text",
       "label": {
-        "de": "Bemerkungen",
-        "en": "Notes",
-        "nb": "Merknader"
+        "default": "Bemerkungen",
+        "translations": {
+          "en": "Notes",
+          "nb": "Merknader"
+        }
       },
       "required": false
     }

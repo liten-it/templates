@@ -1,125 +1,166 @@
 {
   "id": "wundversorgung",
   "name": {
-    "de": "Wundversorgung durchführen",
-    "en": "Perform wound care",
-    "nb": "Utføre sårbehandling"
+    "default": "Wundversorgung durchführen",
+    "translations": {
+      "en": "Perform wound care",
+      "nb": "Utføre sårbehandling"
+    }
   },
   "description": {
-    "de": "Verbandswechsel und Wundpflege",
-    "en": "Dressing change and wound care",
-    "nb": "Bandbytte og sårpleie"
+    "default": "Verbandswechsel und Wundpflege",
+    "translations": {
+      "en": "Dressing change and wound care",
+      "nb": "Bandbytte og sårpleie"
+    }
   },
   "properties": [
     {
       "id": "wundart",
-      "type": "select",
+      "type": "dropdown",
       "label": {
-        "de": "Wundart",
-        "en": "Wound type",
-        "nb": "Sårtype"
+        "default": "Wundart",
+        "translations": {
+          "en": "Wound type",
+          "nb": "Sårtype"
+        }
       },
       "required": true,
       "options": [
         {
           "value": "chronisch",
           "label": {
-            "de": "Chronische Wunde",
-            "en": "Chronic wound",
-            "nb": "Kronisk sår"
-          }
+            "default": "Chronische Wunde",
+            "translations": {
+              "en": "Chronic wound",
+              "nb": "Kronisk sår"
+            }
+          },
+          "id": "chronisch"
         },
         {
           "value": "dekubitus",
           "label": {
-            "de": "Dekubitus",
-            "en": "Pressure ulcer",
-            "nb": "Trykkår"
-          }
+            "default": "Dekubitus",
+            "translations": {
+              "en": "Pressure ulcer",
+              "nb": "Trykkår"
+            }
+          },
+          "id": "dekubitus"
         },
         {
           "value": "diabetisch",
           "label": {
-            "de": "Diabetisches Ulkus",
-            "en": "Diabetic ulcer",
-            "nb": "Diabetisk sår"
-          }
+            "default": "Diabetisches Ulkus",
+            "translations": {
+              "en": "Diabetic ulcer",
+              "nb": "Diabetisk sår"
+            }
+          },
+          "id": "diabetisch"
         },
         {
           "value": "operation",
           "label": {
-            "de": "Operationswunde",
-            "en": "Surgical wound",
-            "nb": "Operasjonssår"
-          }
+            "default": "Operationswunde",
+            "translations": {
+              "en": "Surgical wound",
+              "nb": "Operasjonssår"
+            }
+          },
+          "id": "operation"
         },
         {
           "value": "schuerfwunde",
           "label": {
-            "de": "Schürfwunde",
-            "en": "Abrasion",
-            "nb": "Skrubbsår"
-          }
+            "default": "Schürfwunde",
+            "translations": {
+              "en": "Abrasion",
+              "nb": "Skrubbsår"
+            }
+          },
+          "id": "schuerfwunde"
         },
         {
           "value": "hauteinriss",
           "label": {
-            "de": "Hauteinriss",
-            "en": "Skin tear",
-            "nb": "Hudrift"
-          }
+            "default": "Hauteinriss",
+            "translations": {
+              "en": "Skin tear",
+              "nb": "Hudrift"
+            }
+          },
+          "id": "hauteinriss"
         }
       ]
     },
     {
       "id": "lokalisation",
-      "type": "select",
+      "type": "dropdown",
       "label": {
-        "de": "Lokalisation",
-        "en": "Location",
-        "nb": "Lokalisering"
+        "default": "Lokalisation",
+        "translations": {
+          "en": "Location",
+          "nb": "Lokalisering"
+        }
       },
       "required": true,
       "options": [
         {
           "value": "ferse",
           "label": {
-            "de": "Ferse",
-            "en": "Heel",
-            "nb": "Hæl"
-          }
+            "default": "Ferse",
+            "translations": {
+              "en": "Heel",
+              "nb": "Hæl"
+            }
+          },
+          "id": "ferse"
         },
         {
           "value": "steissbein",
           "label": {
-            "de": "Steißbein",
-            "en": "Coccyx",
-            "nb": "Halebein"
-          }
+            "default": "Steißbein",
+            "translations": {
+              "en": "Coccyx",
+              "nb": "Halebein"
+            }
+          },
+          "id": "steissbein"
         },
         {
           "value": "huefte",
           "label": {
-            "de": "Hüfte",
-            "en": "Hip",
-            "nb": "Hofte"
-          }
+            "default": "Hüfte",
+            "translations": {
+              "en": "Hip",
+              "nb": "Hofte"
+            }
+          },
+          "id": "huefte"
         },
         {
           "value": "unterschenkel",
           "label": {
-            "de": "Unterschenkel",
-            "en": "Lower leg",
-            "nb": "Legg"
-          }
+            "default": "Unterschenkel",
+            "translations": {
+              "en": "Lower leg",
+              "nb": "Legg"
+            }
+          },
+          "id": "unterschenkel"
         },
         {
           "value": "andere",
           "label": {
-            "de": "Andere Körperstelle",
-            "en": "Other body part",
-            "nb": "Annen kroppsdel"
-          }
+            "default": "Andere Körperstelle",
+            "translations": {
+              "en": "Other body part",
+              "nb": "Annen kroppsdel"
+            }
+          },
+          "id": "andere"
         }
       ]
     },
@@ -127,110 +168,145 @@
       "id": "wundgroesse",
       "type": "text",
       "label": {
-        "de": "Wundgröße (cm)",
-        "en": "Wound size (cm)",
-        "nb": "Sårstørrelse (cm)"
+        "default": "Wundgröße (cm)",
+        "translations": {
+          "en": "Wound size (cm)",
+          "nb": "Sårstørrelse (cm)"
+        }
       },
       "required": false,
       "placeholder": {
-        "de": "z.B. 3x2 cm",
-        "en": "e.g. 3x2 cm",
-        "nb": "f.eks. 3x2 cm"
+        "default": "z.B. 3x2 cm",
+        "translations": {
+          "en": "e.g. 3x2 cm",
+          "nb": "f.eks. 3x2 cm"
+        }
       }
     },
     {
       "id": "verbandmaterial",
-      "type": "multiselect",
+      "type": "checkbox",
       "label": {
-        "de": "Verwendetes Verbandmaterial",
-        "en": "Dressing material used",
-        "nb": "Bandasjemateriale brukt"
+        "default": "Verwendetes Verbandmaterial",
+        "translations": {
+          "en": "Dressing material used",
+          "nb": "Bandasjemateriale brukt"
+        }
       },
       "required": true,
       "options": [
         {
           "value": "kompresse",
           "label": {
-            "de": "Kompresse",
-            "en": "Gauze pad",
-            "nb": "Kompresse"
-          }
+            "default": "Kompresse",
+            "translations": {
+              "en": "Gauze pad",
+              "nb": "Kompresse"
+            }
+          },
+          "id": "kompresse"
         },
         {
           "value": "hydrokolloid",
           "label": {
-            "de": "Hydrokolloidverband",
-            "en": "Hydrocolloid dressing",
-            "nb": "Hydrokolloidbandasje"
-          }
+            "default": "Hydrokolloidverband",
+            "translations": {
+              "en": "Hydrocolloid dressing",
+              "nb": "Hydrokolloidbandasje"
+            }
+          },
+          "id": "hydrokolloid"
         },
         {
           "value": "schaum",
           "label": {
-            "de": "Schaumverband",
-            "en": "Foam dressing",
-            "nb": "Skumbandasje"
-          }
+            "default": "Schaumverband",
+            "translations": {
+              "en": "Foam dressing",
+              "nb": "Skumbandasje"
+            }
+          },
+          "id": "schaum"
         },
         {
           "value": "alginat",
           "label": {
-            "de": "Alginat",
-            "en": "Alginate",
-            "nb": "Alginat"
-          }
+            "default": "Alginat",
+            "translations": {
+              "en": "Alginate",
+              "nb": "Alginat"
+            }
+          },
+          "id": "alginat"
         },
         {
           "value": "gaze",
           "label": {
-            "de": "Wundgaze",
-            "en": "Wound gauze",
-            "nb": "Sårgaze"
-          }
+            "default": "Wundgaze",
+            "translations": {
+              "en": "Wound gauze",
+              "nb": "Sårgaze"
+            }
+          },
+          "id": "gaze"
         }
       ]
     },
     {
       "id": "exsudat",
-      "type": "select",
+      "type": "dropdown",
       "label": {
-        "de": "Exsudat",
-        "en": "Exudate",
-        "nb": "Ekssudat"
+        "default": "Exsudat",
+        "translations": {
+          "en": "Exudate",
+          "nb": "Ekssudat"
+        }
       },
       "required": false,
       "options": [
         {
           "value": "keine",
           "label": {
-            "de": "Keine",
-            "en": "None",
-            "nb": "Ingen"
-          }
+            "default": "Keine",
+            "translations": {
+              "en": "None",
+              "nb": "Ingen"
+            }
+          },
+          "id": "keine"
         },
         {
           "value": "gering",
           "label": {
-            "de": "Gering",
-            "en": "Minimal",
-            "nb": "Minimal"
-          }
+            "default": "Gering",
+            "translations": {
+              "en": "Minimal",
+              "nb": "Minimal"
+            }
+          },
+          "id": "gering"
         },
         {
           "value": "maessig",
           "label": {
-            "de": "Mäßig",
-            "en": "Moderate",
-            "nb": "Moderat"
-          }
+            "default": "Mäßig",
+            "translations": {
+              "en": "Moderate",
+              "nb": "Moderat"
+            }
+          },
+          "id": "maessig"
         },
         {
           "value": "stark",
           "label": {
-            "de": "Stark",
-            "en": "Heavy",
-            "nb": "Kraftig"
-          }
+            "default": "Stark",
+            "translations": {
+              "en": "Heavy",
+              "nb": "Kraftig"
+            }
+          },
+          "id": "stark"
         }
       ]
     },
@@ -238,9 +314,11 @@
       "id": "photos",
       "type": "media",
       "label": {
-        "de": "Wundfotos",
-        "en": "Wound photos",
-        "nb": "Sårbilder"
+        "default": "Wundfotos",
+        "translations": {
+          "en": "Wound photos",
+          "nb": "Sårbilder"
+        }
       },
       "required": false,
       "mediaType": "image",
@@ -248,11 +326,13 @@
     },
     {
       "id": "notes",
-      "type": "textarea",
+      "type": "text",
       "label": {
-        "de": "Bemerkungen",
-        "en": "Notes",
-        "nb": "Merknader"
+        "default": "Bemerkungen",
+        "translations": {
+          "en": "Notes",
+          "nb": "Merknader"
+        }
       },
       "required": false
     }

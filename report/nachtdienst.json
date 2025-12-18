@@ -1,14 +1,18 @@
 {
   "id": "nachtdienst",
   "name": {
-    "de": "Nachtdienst",
-    "en": "Night Shift",
-    "nb": "Nattevakt"
+    "default": "Nachtdienst",
+    "translations": {
+      "en": "Night Shift",
+      "nb": "Nattevakt"
+    }
   },
   "description": {
-    "de": "Überwachung und Betreuung während der Nacht",
-    "en": "Monitoring and care during the night",
-    "nb": "Overvåking og omsorg i løpet av natten"
+    "default": "Überwachung und Betreuung während der Nacht",
+    "translations": {
+      "en": "Monitoring and care during the night",
+      "nb": "Overvåking og omsorg i løpet av natten"
+    }
   },
   "icon": "moon",
   "color": "#3F51B5"

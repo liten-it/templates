@@ -1,19 +1,25 @@
 {
   "id": "mp-1-2-3-social-behavior",
   "name": {
-    "de": "MP 1.2.3 Sozialverhalten und Integration",
-    "en": "MP 1.2.3 Social Behavior and Integration",
-    "nb": "MP 1.2.3 Sosial adferd og integrasjon"
+    "default": "MP 1.2.3 Sozialverhalten und Integration",
+    "translations": {
+      "en": "MP 1.2.3 Social Behavior and Integration",
+      "nb": "MP 1.2.3 Sosial adferd og integrasjon"
+    }
   },
   "description": {
-    "de": "Leistungen zur Erhaltung/Wiederherstellung/Kompensation von Sozialverhalten und Integration",
-    "en": "Services for maintenance/restoration/compensation of social behavior and integration",
-    "nb": "Tjenester for vedlikehold/gjenoppretting/kompensasjon av sosial adferd og integrasjon"
+    "default": "Leistungen zur Erhaltung/Wiederherstellung/Kompensation von Sozialverhalten und Integration",
+    "translations": {
+      "en": "Services for maintenance/restoration/compensation of social behavior and integration",
+      "nb": "Tjenester for vedlikehold/gjenoppretting/kompensasjon av sosial adferd og integrasjon"
+    }
   },
   "unit": {
-    "de": "Min/Tag",
-    "en": "Min/Day",
-    "nb": "Min/Dag"
+    "default": "Min/Tag",
+    "translations": {
+      "en": "Min/Day",
+      "nb": "Min/Dag"
+    }
   },
   "calculation": {
     "type": "besa_item_sum",
@@ -37,5 +43,12 @@
     }
   },
   "icon": "users",
-  "color": "#673AB7"
+  "color": "#673AB7",
+  "title": {
+    "default": "MP 1.2.3 Sozialverhalten und Integration",
+    "translations": {
+      "en": "MP 1.2.3 Social Behavior and Integration",
+      "nb": "MP 1.2.3 Sosial adferd og integrasjon"
+    }
+  }
 }

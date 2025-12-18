@@ -1,19 +1,115 @@
 {
   "id": "zu-bett-bringen",
-  "name": {"de": "Zu Bett bringen", "en": "Bring to bed", "nb": "Bringe til sengs"},
-  "description": {"de": "Bewohner ins Bett bringen", "en": "Bring resident to bed", "nb": "Bringe beboer til sengs"},
+  "name": {
+    "default": "Zu Bett bringen",
+    "translations": {
+      "en": "Bring to bed",
+      "nb": "Bringe til sengs"
+    }
+  },
+  "description": {
+    "default": "Bewohner ins Bett bringen",
+    "translations": {
+      "en": "Bring resident to bed",
+      "nb": "Bringe beboer til sengs"
+    }
+  },
   "properties": [
-    {"id": "zeitpunkt", "type": "time", "label": {"de": "Zeitpunkt", "en": "Time", "nb": "Tidspunkt"}, "required": true},
-    {"id": "transfer", "type": "select", "label": {"de": "Transfer", "en": "Transfer", "nb": "Overføring"}, "required": true,
+    {
+      "id": "zeitpunkt",
+      "type": "time",
+      "label": {
+        "default": "Zeitpunkt",
+        "translations": {
+          "en": "Time",
+          "nb": "Tidspunkt"
+        }
+      },
+      "required": true
+    },
+    {
+      "id": "transfer",
+      "type": "dropdown",
+      "label": {
+        "default": "Transfer",
+        "translations": {
+          "en": "Transfer",
+          "nb": "Overføring"
+        }
+      },
+      "required": true,
       "options": [
-        {"value": "sessel", "label": {"de": "Vom Sessel ins Bett", "en": "From armchair to bed", "nb": "Fra lenestol til seng"}},
-        {"value": "rollstuhl", "label": {"de": "Vom Rollstuhl ins Bett", "en": "From wheelchair to bed", "nb": "Fra rullestol til seng"}}
-      ]},
-    {"id": "hilfsmittel", "type": "multiselect", "label": {"de": "Hilfsmittel", "en": "Aids", "nb": "Hjelpemidler"}, "required": false,
+        {
+          "value": "sessel",
+          "label": {
+            "default": "Vom Sessel ins Bett",
+            "translations": {
+              "en": "From armchair to bed",
+              "nb": "Fra lenestol til seng"
+            }
+          },
+          "id": "sessel"
+        },
+        {
+          "value": "rollstuhl",
+          "label": {
+            "default": "Vom Rollstuhl ins Bett",
+            "translations": {
+              "en": "From wheelchair to bed",
+              "nb": "Fra rullestol til seng"
+            }
+          },
+          "id": "rollstuhl"
+        }
+      ]
+    },
+    {
+      "id": "hilfsmittel",
+      "type": "checkbox",
+      "label": {
+        "default": "Hilfsmittel",
+        "translations": {
+          "en": "Aids",
+          "nb": "Hjelpemidler"
+        }
+      },
+      "required": false,
       "options": [
-        {"value": "lifter", "label": {"de": "Lifter", "en": "Lifter", "nb": "Løfter"}},
-        {"value": "zwei_personen", "label": {"de": "Mit 2 Personen", "en": "With 2 persons", "nb": "Med 2 personer"}}
-      ]},
-    {"id": "notes", "type": "textarea", "label": {"de": "Bemerkungen", "en": "Notes", "nb": "Merknader"}, "required": false}
+        {
+          "value": "lifter",
+          "label": {
+            "default": "Lifter",
+            "translations": {
+              "en": "Lifter",
+              "nb": "Løfter"
+            }
+          },
+          "id": "lifter"
+        },
+        {
+          "value": "zwei_personen",
+          "label": {
+            "default": "Mit 2 Personen",
+            "translations": {
+              "en": "With 2 persons",
+              "nb": "Med 2 personer"
+            }
+          },
+          "id": "zwei_personen"
+        }
+      ]
+    },
+    {
+      "id": "notes",
+      "type": "text",
+      "label": {
+        "default": "Bemerkungen",
+        "translations": {
+          "en": "Notes",
+          "nb": "Merknader"
+        }
+      },
+      "required": false
+    }
   ]
 }

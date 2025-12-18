@@ -1,19 +1,25 @@
 {
   "id": "mp-1-2-2-affect-impulse",
   "name": {
-    "de": "MP 1.2.2 Affektregulierung und Impulskontrolle",
-    "en": "MP 1.2.2 Affect Regulation and Impulse Control",
-    "nb": "MP 1.2.2 Affektregulering og impulskontroll"
+    "default": "MP 1.2.2 Affektregulierung und Impulskontrolle",
+    "translations": {
+      "en": "MP 1.2.2 Affect Regulation and Impulse Control",
+      "nb": "MP 1.2.2 Affektregulering og impulskontroll"
+    }
   },
   "description": {
-    "de": "Leistungen zur Erhaltung/Wiederherstellung/Kompensation von Affektregulierung und Impulskontrolle",
-    "en": "Services for maintenance/restoration/compensation of affect regulation and impulse control",
-    "nb": "Tjenester for vedlikehold/gjenoppretting/kompensasjon av affektregulering og impulskontroll"
+    "default": "Leistungen zur Erhaltung/Wiederherstellung/Kompensation von Affektregulierung und Impulskontrolle",
+    "translations": {
+      "en": "Services for maintenance/restoration/compensation of affect regulation and impulse control",
+      "nb": "Tjenester for vedlikehold/gjenoppretting/kompensasjon av affektregulering og impulskontroll"
+    }
   },
   "unit": {
-    "de": "Min/Tag",
-    "en": "Min/Day",
-    "nb": "Min/Dag"
+    "default": "Min/Tag",
+    "translations": {
+      "en": "Min/Day",
+      "nb": "Min/Dag"
+    }
   },
   "calculation": {
     "type": "besa_item_sum",
@@ -38,5 +44,12 @@
     }
   },
   "icon": "heart",
-  "color": "#E91E63"
+  "color": "#E91E63",
+  "title": {
+    "default": "MP 1.2.2 Affektregulierung und Impulskontrolle",
+    "translations": {
+      "en": "MP 1.2.2 Affect Regulation and Impulse Control",
+      "nb": "MP 1.2.2 Affektregulering og impulskontroll"
+    }
+  }
 }

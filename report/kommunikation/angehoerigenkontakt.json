@@ -1,22 +1,148 @@
 {
   "id": "angehoerigenkontakt",
-  "name": {"de": "Angehörigenkontakt", "en": "Contact with relatives", "nb": "Kontakt med pårørende"},
-  "description": {"de": "Austausch mit Angehörigen", "en": "Exchange with relatives", "nb": "Utveksling med pårørende"},
+  "name": {
+    "default": "Angehörigenkontakt",
+    "translations": {
+      "en": "Contact with relatives",
+      "nb": "Kontakt med pårørende"
+    }
+  },
+  "description": {
+    "default": "Austausch mit Angehörigen",
+    "translations": {
+      "en": "Exchange with relatives",
+      "nb": "Utveksling med pårørende"
+    }
+  },
   "properties": [
-    {"id": "form", "type": "select", "label": {"de": "Form", "en": "Form", "nb": "Form"}, "required": true,
+    {
+      "id": "form",
+      "type": "dropdown",
+      "label": {
+        "default": "Form",
+        "translations": {
+          "en": "Form",
+          "nb": "Form"
+        }
+      },
+      "required": true,
       "options": [
-        {"value": "telefon", "label": {"de": "Telefongespräch", "en": "Phone conversation", "nb": "Telefonsamtale"}},
-        {"value": "persoenlich", "label": {"de": "Persönliches Gespräch", "en": "Personal conversation", "nb": "Personlig samtale"}},
-        {"value": "geplant", "label": {"de": "Geplantes Gespräch", "en": "Scheduled conversation", "nb": "Planlagt samtale"}}
-      ]},
-    {"id": "anlass", "type": "select", "label": {"de": "Anlass", "en": "Occasion", "nb": "Anledning"}, "required": true,
+        {
+          "value": "telefon",
+          "label": {
+            "default": "Telefongespräch",
+            "translations": {
+              "en": "Phone conversation",
+              "nb": "Telefonsamtale"
+            }
+          },
+          "id": "telefon"
+        },
+        {
+          "value": "persoenlich",
+          "label": {
+            "default": "Persönliches Gespräch",
+            "translations": {
+              "en": "Personal conversation",
+              "nb": "Personlig samtale"
+            }
+          },
+          "id": "persoenlich"
+        },
+        {
+          "value": "geplant",
+          "label": {
+            "default": "Geplantes Gespräch",
+            "translations": {
+              "en": "Scheduled conversation",
+              "nb": "Planlagt samtale"
+            }
+          },
+          "id": "geplant"
+        }
+      ]
+    },
+    {
+      "id": "anlass",
+      "type": "dropdown",
+      "label": {
+        "default": "Anlass",
+        "translations": {
+          "en": "Occasion",
+          "nb": "Anledning"
+        }
+      },
+      "required": true,
       "options": [
-        {"value": "routine", "label": {"de": "Routinemäßig", "en": "Routine", "nb": "Rutinemessig"}},
-        {"value": "zustand", "label": {"de": "Zustandsveränderung", "en": "Change in condition", "nb": "Tilstandsendring"}},
-        {"value": "angehoerige_wunsch", "label": {"de": "Auf Wunsch Angehöriger", "en": "At relatives' request", "nb": "Etter pårørendes ønske"}},
-        {"value": "problem", "label": {"de": "Problembesprechung", "en": "Problem discussion", "nb": "Problemdiskusjon"}}
-      ]},
-    {"id": "inhalt", "type": "textarea", "label": {"de": "Gesprächsinhalt", "en": "Content", "nb": "Innhold"}, "required": true},
-    {"id": "notes", "type": "textarea", "label": {"de": "Vereinbarungen", "en": "Agreements", "nb": "Avtaler"}, "required": false}
+        {
+          "value": "routine",
+          "label": {
+            "default": "Routinemäßig",
+            "translations": {
+              "en": "Routine",
+              "nb": "Rutinemessig"
+            }
+          },
+          "id": "routine"
+        },
+        {
+          "value": "zustand",
+          "label": {
+            "default": "Zustandsveränderung",
+            "translations": {
+              "en": "Change in condition",
+              "nb": "Tilstandsendring"
+            }
+          },
+          "id": "zustand"
+        },
+        {
+          "value": "angehoerige_wunsch",
+          "label": {
+            "default": "Auf Wunsch Angehöriger",
+            "translations": {
+              "en": "At relatives' request",
+              "nb": "Etter pårørendes ønske"
+            }
+          },
+          "id": "angehoerige_wunsch"
+        },
+        {
+          "value": "problem",
+          "label": {
+            "default": "Problembesprechung",
+            "translations": {
+              "en": "Problem discussion",
+              "nb": "Problemdiskusjon"
+            }
+          },
+          "id": "problem"
+        }
+      ]
+    },
+    {
+      "id": "inhalt",
+      "type": "text",
+      "label": {
+        "default": "Gesprächsinhalt",
+        "translations": {
+          "en": "Content",
+          "nb": "Innhold"
+        }
+      },
+      "required": true
+    },
+    {
+      "id": "notes",
+      "type": "text",
+      "label": {
+        "default": "Vereinbarungen",
+        "translations": {
+          "en": "Agreements",
+          "nb": "Avtaler"
+        }
+      },
+      "required": false
+    }
   ]
 }

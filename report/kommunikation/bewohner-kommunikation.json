@@ -1,24 +1,179 @@
 {
   "id": "bewohner-kommunikation",
-  "name": {"de": "Mit Bewohnern kommunizieren", "en": "Communicate with residents", "nb": "Kommunisere med beboere"},
-  "description": {"de": "Gespräche und Zuwendung", "en": "Conversations and attention", "nb": "Samtaler og oppmerksomhet"},
+  "name": {
+    "default": "Mit Bewohnern kommunizieren",
+    "translations": {
+      "en": "Communicate with residents",
+      "nb": "Kommunisere med beboere"
+    }
+  },
+  "description": {
+    "default": "Gespräche und Zuwendung",
+    "translations": {
+      "en": "Conversations and attention",
+      "nb": "Samtaler og oppmerksomhet"
+    }
+  },
   "properties": [
-    {"id": "themen", "type": "multiselect", "label": {"de": "Gesprächsthemen", "en": "Conversation topics", "nb": "Samtaletemaer"}, "required": false,
+    {
+      "id": "themen",
+      "type": "checkbox",
+      "label": {
+        "default": "Gesprächsthemen",
+        "translations": {
+          "en": "Conversation topics",
+          "nb": "Samtaletemaer"
+        }
+      },
+      "required": false,
       "options": [
-        {"value": "befinden", "label": {"de": "Tagesbefinden", "en": "Daily well-being", "nb": "Daglig velvære"}},
-        {"value": "sorgen", "label": {"de": "Sorgen und Ängste", "en": "Worries and fears", "nb": "Bekymringer og frykt"}},
-        {"value": "wuensche", "label": {"de": "Wünsche", "en": "Wishes", "nb": "Ønsker"}},
-        {"value": "erinnerungen", "label": {"de": "Erinnerungen", "en": "Memories", "nb": "Minner"}},
-        {"value": "familie", "label": {"de": "Familie", "en": "Family", "nb": "Familie"}}
-      ]},
-    {"id": "dauer", "type": "number", "label": {"de": "Dauer (Min)", "en": "Duration (min)", "nb": "Varighet (min)"}, "required": false, "min": 1, "max": 120, "unit": {"de": "Min", "en": "min", "nb": "min"}},
-    {"id": "besonderheiten", "type": "multiselect", "label": {"de": "Kommunikationshilfen", "en": "Communication aids", "nb": "Kommunikasjonshjelp"}, "required": false,
+        {
+          "value": "befinden",
+          "label": {
+            "default": "Tagesbefinden",
+            "translations": {
+              "en": "Daily well-being",
+              "nb": "Daglig velvære"
+            }
+          },
+          "id": "befinden"
+        },
+        {
+          "value": "sorgen",
+          "label": {
+            "default": "Sorgen und Ängste",
+            "translations": {
+              "en": "Worries and fears",
+              "nb": "Bekymringer og frykt"
+            }
+          },
+          "id": "sorgen"
+        },
+        {
+          "value": "wuensche",
+          "label": {
+            "default": "Wünsche",
+            "translations": {
+              "en": "Wishes",
+              "nb": "Ønsker"
+            }
+          },
+          "id": "wuensche"
+        },
+        {
+          "value": "erinnerungen",
+          "label": {
+            "default": "Erinnerungen",
+            "translations": {
+              "en": "Memories",
+              "nb": "Minner"
+            }
+          },
+          "id": "erinnerungen"
+        },
+        {
+          "value": "familie",
+          "label": {
+            "default": "Familie",
+            "translations": {
+              "en": "Family",
+              "nb": "Familie"
+            }
+          },
+          "id": "familie"
+        }
+      ]
+    },
+    {
+      "id": "dauer",
+      "type": "number",
+      "label": {
+        "default": "Dauer (Min)",
+        "translations": {
+          "en": "Duration (min)",
+          "nb": "Varighet (min)"
+        }
+      },
+      "required": false,
+      "min": 1,
+      "max": 120,
+      "unit": {
+        "default": "Min",
+        "translations": {
+          "en": "min",
+          "nb": "min"
+        }
+      }
+    },
+    {
+      "id": "besonderheiten",
+      "type": "checkbox",
+      "label": {
+        "default": "Kommunikationshilfen",
+        "translations": {
+          "en": "Communication aids",
+          "nb": "Kommunikasjonshjelp"
+        }
+      },
+      "required": false,
       "options": [
-        {"value": "bildkarten", "label": {"de": "Bildkarten", "en": "Picture cards", "nb": "Bildekort"}},
-        {"value": "schreibtafel", "label": {"de": "Schreibtafel", "en": "Writing board", "nb": "Skrivetavle"}},
-        {"value": "gesten", "label": {"de": "Gesten", "en": "Gestures", "nb": "Gester"}},
-        {"value": "einfache_sprache", "label": {"de": "Vereinfachte Sprache", "en": "Simplified language", "nb": "Forenklet språk"}}
-      ]},
-    {"id": "notes", "type": "textarea", "label": {"de": "Bemerkungen", "en": "Notes", "nb": "Merknader"}, "required": false}
+        {
+          "value": "bildkarten",
+          "label": {
+            "default": "Bildkarten",
+            "translations": {
+              "en": "Picture cards",
+              "nb": "Bildekort"
+            }
+          },
+          "id": "bildkarten"
+        },
+        {
+          "value": "schreibtafel",
+          "label": {
+            "default": "Schreibtafel",
+            "translations": {
+              "en": "Writing board",
+              "nb": "Skrivetavle"
+            }
+          },
+          "id": "schreibtafel"
+        },
+        {
+          "value": "gesten",
+          "label": {
+            "default": "Gesten",
+            "translations": {
+              "en": "Gestures",
+              "nb": "Gester"
+            }
+          },
+          "id": "gesten"
+        },
+        {
+          "value": "einfache_sprache",
+          "label": {
+            "default": "Vereinfachte Sprache",
+            "translations": {
+              "en": "Simplified language",
+              "nb": "Forenklet språk"
+            }
+          },
+          "id": "einfache_sprache"
+        }
+      ]
+    },
+    {
+      "id": "notes",
+      "type": "text",
+      "label": {
+        "default": "Bemerkungen",
+        "translations": {
+          "en": "Notes",
+          "nb": "Merknader"
+        }
+      },
+      "required": false
+    }
   ]
 }
