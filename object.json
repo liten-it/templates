@@ -1,23 +1,109 @@
 {
+  "portrait": {
+    "type": "image",
+    "label": {
+      "default": "Portrait Picture",
+      "translations": {
+        "en": "Portrait Picture",
+        "de": "Portraitbild"
+      }
+    },
+    "visibility": {
+      "report": true,
+      "timeline": true,
+      "export": true
+    }
+  },
   "firstname": {
     "type": "text",
-    "label": "Firstname"
+    "label": {
+      "default": "First Name",
+      "translations": {
+        "en": "First Name",
+        "de": "Vorname"
+      }
+    },
+    "visibility": {
+      "report": true,
+      "timeline": true,
+      "export": true
+    }
   },
   "lastname": {
     "type": "text",
-    "label": "Lastname"
+    "label": {
+      "default": "Last Name",
+      "translations": {
+        "en": "Last Name",
+        "de": "Nachname"
+      }
+    },
+    "visibility": {
+      "report": true,
+      "timeline": true,
+      "export": true
+    }
   },
-  "Birthdate": {
-    "type": "date",
-    "label": "Birthdate"
+  "birthdate": {
+    "type": "text",
+    "label": {
+      "default": "Date of Birth",
+      "translations": {
+        "en": "Date of Birth",
+        "de": "Geburtstag"
+      }
+    },
+    "visibility": {
+      "report": false,
+      "timeline": false,
+      "export": false
+    }
   },
   "gender": {
     "type": "dropdown",
-    "label": "Gender",
+    "label": {
+      "default": "Gender",
+      "translations": {
+        "en": "Gender",
+        "de": "Geschlecht"
+      }
+    },
     "options": [
-      "Male",
-      "Female",
-      "Other"
-    ]
+      {
+        "value": "male",
+        "label": {
+          "default": "Male",
+          "translations": {
+            "en": "Male",
+            "de": "Männlich"
+          }
+        }
+      },
+      {
+        "value": "female",
+        "label": {
+          "default": "Female",
+          "translations": {
+            "en": "Female",
+            "de": "Weiblich"
+          }
+        }
+      },
+      {
+        "value": "other",
+        "label": {
+          "default": "Other",
+          "translations": {
+            "en": "Other",
+            "de": "Andere"
+          }
+        }
+      }
+    ],
+    "visibility": {
+      "report": false,
+      "timeline": false,
+      "export": false
+    }
   }
 }
