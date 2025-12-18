@@ -92,6 +92,49 @@ All user-facing text uses `TranslatedText` format with support for:
 - Norwegian Bokmål (nb)
 - German (de)
 
+## Validation
+
+### Local Validation
+
+Run the validation script to check the structure and schema of all template files:
+
+```bash
+python validate_structure.py .
+```
+
+The validator checks:
+- JSON syntax and structure
+- Required fields for each file type
+- Valid property types and configurations
+- TranslatedText format consistency
+- ID uniqueness within files
+- Formula and data series validity
+- File organization and hierarchy
+
+### Continuous Integration
+
+A GitHub Actions workflow automatically validates the template structure on every push and pull request. The workflow runs:
+
+1. JSON syntax validation for all `.json` files
+2. Schema validation using `validate_structure.py`
+
+See [.github/workflows/validate.yml](.github/workflows/validate.yml) for details.
+
+### Supported Property Types
+
+- `text` - Text input
+- `number` - Numeric input (with optional min, max, step)
+- `boolean` - True/false toggle
+- `dropdown` - Single selection from options
+- `radio` - Radio button selection
+- `checkbox` - Multiple selection checkboxes
+- `media` - Photo/video capture (with mode and sources)
+- `image` - Image upload
+- `date` - Date picker
+- `time` - Time picker
+- `datetime` - Date and time picker
+- `location` - Location/GPS coordinates
+
 ## Usage
 
 This structure allows for:
@@ -99,3 +142,4 @@ This structure allows for:
 - Partial template loading (load specific categories/actions)
 - Clear parent-child relationships via folder structure
 - Scalability for large templates
+- Automated validation to catch errors early
