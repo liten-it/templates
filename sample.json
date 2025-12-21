@@ -1,0 +1,159 @@
+{
+  "version": "2.0.0",
+  "id": "sample-template",
+  "meta": {
+    "name": {
+      "default": "Sample Template",
+      "translations": {}
+    },
+    "description": {
+      "default": "A simple sample template demonstrating the basic structure",
+      "translations": {}
+    },
+    "author": "Liten Team",
+    "created": "2025-12-21T00:00:00.000Z",
+    "updated": "2025-12-21T00:00:00.000Z",
+    "tags": [
+      "sample",
+      "demo"
+    ]
+  },
+  "objects": {
+    "name": {
+      "type": "text",
+      "label": {
+        "default": "Name",
+        "translations": {}
+      }
+    },
+    "date": {
+      "type": "date",
+      "label": {
+        "default": "Date",
+        "translations": {}
+      }
+    }
+  },
+  "reports": [
+    {
+      "id": "basic-info",
+      "name": {
+        "default": "Basic Information",
+        "translations": {}
+      },
+      "description": {
+        "default": "Collect basic information",
+        "translations": {}
+      },
+      "icon": "information-circle",
+      "color": "#3B82F6",
+      "actions": [
+        {
+          "id": "general",
+          "name": {
+            "default": "General",
+            "translations": {}
+          },
+          "icon": "document-text",
+          "properties": [
+            {
+              "id": "notes",
+              "label": {
+                "default": "Notes",
+                "translations": {}
+              },
+              "type": "text",
+              "required": false
+            },
+            {
+              "id": "rating",
+              "label": {
+                "default": "Rating",
+                "translations": {}
+              },
+              "type": "number",
+              "required": false,
+              "min": 1,
+              "max": 5,
+              "step": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "exports": [
+    {
+      "id": "summary",
+      "title": {
+        "default": "Summary Report",
+        "translations": {}
+      },
+      "formula": [],
+      "children": [
+        {
+          "id": "total-count",
+          "title": {
+            "default": "Total Count",
+            "translations": {}
+          },
+          "formula": [
+            {
+              "type": "count",
+              "config": {}
+            }
+          ],
+          "children": []
+        }
+      ]
+    }
+  ],
+  "graphs": [
+    {
+      "id": "overview",
+      "title": {
+        "default": "Overview",
+        "translations": {}
+      },
+      "chartType": "folder",
+      "dataSeries": [],
+      "timeframe": "all",
+      "scope": "all",
+      "children": [
+        {
+          "id": "rating-distribution",
+          "title": {
+            "default": "Rating Distribution",
+            "translations": {}
+          },
+          "chartType": "pie",
+          "dataSeries": [
+            {
+              "label": {
+                "default": "Ratings",
+                "translations": {}
+              },
+              "formula": [
+                {
+                  "type": "count",
+                  "config": {}
+                }
+              ],
+              "groupBy": {
+                "type": "property",
+                "propertyPath": [
+                  "basic-info",
+                  "general",
+                  "rating"
+                ]
+              }
+            }
+          ],
+          "timeframe": "all",
+          "scope": "all",
+          "children": []
+        }
+      ]
+    }
+  ]
+}
