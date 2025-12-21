@@ -126,7 +126,7 @@
       },
       "chartType": "folder",
       "dataSeries": [],
-      "timeframe": "all",
+      "timeframe": "monthly",
       "scope": "all",
       "position": 0,
       "children": [
@@ -159,7 +159,7 @@
               }
             }
           ],
-          "timeframe": "all",
+          "timeframe": "monthly",
           "scope": "all",
           "position": 0,
           "children": []
