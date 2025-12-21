@@ -36,7 +36,7 @@
   },
   "reports": [
     {
-      "id": "basic-info",
+      "id": "550e8400-e29b-41d4-a716-446655440001",
       "name": {
         "default": "Basic Information",
         "translations": {}
@@ -47,35 +47,42 @@
       },
       "icon": "information-circle",
       "color": "#3B82F6",
+      "position": 0,
       "actions": [
         {
-          "id": "general",
+          "id": "550e8400-e29b-41d4-a716-446655440002",
           "name": {
             "default": "General",
             "translations": {}
           },
           "icon": "document-text",
+          "position": 0,
           "properties": [
             {
-              "id": "notes",
+              "id": "550e8400-e29b-41d4-a716-446655440003",
               "label": {
                 "default": "Notes",
                 "translations": {}
               },
               "type": "text",
-              "required": false
+              "required": false,
+              "config": {},
+              "position": 0
             },
             {
-              "id": "rating",
+              "id": "550e8400-e29b-41d4-a716-446655440004",
               "label": {
                 "default": "Rating",
                 "translations": {}
               },
               "type": "number",
               "required": false,
-              "min": 1,
-              "max": 5,
-              "step": 1
+              "config": {
+                "min": 1,
+                "max": 5,
+                "step": 1
+              },
+              "position": 1
             }
           ]
         }
@@ -84,7 +91,7 @@
   ],
   "exports": [
     {
-      "id": "summary",
+      "id": "550e8400-e29b-41d4-a716-446655440005",
       "title": {
         "default": "Summary Report",
         "translations": {}
@@ -92,7 +99,7 @@
       "formula": [],
       "children": [
         {
-          "id": "total-count",
+          "id": "550e8400-e29b-41d4-a716-446655440006",
           "title": {
             "default": "Total Count",
             "translations": {}
@@ -110,7 +117,7 @@
   ],
   "graphs": [
     {
-      "id": "overview",
+      "id": "550e8400-e29b-41d4-a716-446655440007",
       "title": {
         "default": "Overview",
         "translations": {}
@@ -121,7 +128,7 @@
       "scope": "all",
       "children": [
         {
-          "id": "rating-distribution",
+          "id": "550e8400-e29b-41d4-a716-446655440008",
           "title": {
             "default": "Rating Distribution",
             "translations": {}
