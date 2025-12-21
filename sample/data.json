@@ -97,6 +97,7 @@
         "translations": {}
       },
       "formula": [],
+      "position": 0,
       "children": [
         {
           "id": "550e8400-e29b-41d4-a716-446655440006",
@@ -110,6 +111,7 @@
               "config": {}
             }
           ],
+          "position": 0,
           "children": []
         }
       ]
@@ -126,6 +128,7 @@
       "dataSeries": [],
       "timeframe": "all",
       "scope": "all",
+      "position": 0,
       "children": [
         {
           "id": "550e8400-e29b-41d4-a716-446655440008",
@@ -158,6 +161,7 @@
           ],
           "timeframe": "all",
           "scope": "all",
+          "position": 0,
           "children": []
         }
       ]
