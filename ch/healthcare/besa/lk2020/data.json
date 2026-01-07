@@ -89,7 +89,7 @@
                     "de": "Morgenpflege-Aktivitäten (MP 3.2.1 Körperpflege)"
                 }
             },
-            "icon": "sunrise",
+            "icon": "lucide:sunrise",
             "color": "#f59e0b",
             "actions": [
                 {
@@ -100,7 +100,7 @@
                             "de": "Wecke Bewohner/in"
                         }
                     },
-                    "icon": "sun",
+                    "icon": "lucide:sun",
                     "properties": [
                         {
                             "id": "92e61b4f-2339-4085-9c93-a4dc6a6ae22a",
@@ -152,7 +152,7 @@
                             "de": "Führe Teilkörper-Morgentoilette durch"
                         }
                     },
-                    "icon": "droplet",
+                    "icon": "lucide:droplet",
                     "properties": [
                         {
                             "id": "4e692145-6bb5-4af1-aa7e-c9e4a167ba5d",
@@ -275,7 +275,7 @@
                             "de": "Führe Ganzkörper-Morgentoilette durch"
                         }
                     },
-                    "icon": "droplets",
+                    "icon": "lucide:droplets",
                     "properties": [
                         {
                             "id": "ac9e0880-3411-4886-9d2f-f7541722838c",
@@ -376,7 +376,7 @@
                             "de": "Führe Mundpflege durch"
                         }
                     },
-                    "icon": "smile",
+                    "icon": "lucide:smile",
                     "properties": [
                         {
                             "id": "ad1b5ae3-7ac5-42cf-8150-696abd097e84",
@@ -477,7 +477,7 @@
                             "de": "Rasiere Bewohner/in"
                         }
                     },
-                    "icon": "scissors",
+                    "icon": "lucide:scissors",
                     "properties": [
                         {
                             "id": "84d08aa6-70f0-4623-b8fd-da83928f2b2e",
@@ -520,7 +520,7 @@
                             "de": "Kleide Bewohner/in an"
                         }
                     },
-                    "icon": "shirt",
+                    "icon": "lucide:shirt",
                     "properties": [
                         {
                             "id": "f3087e7e-6d35-4e2b-95ad-060b6a3c7e8f",
@@ -620,7 +620,7 @@
                     "de": "Bade- und Duschaktivitäten (MP 3.2.1 Körperpflege)"
                 }
             },
-            "icon": "bath",
+            "icon": "mdi:bathtub",
             "color": "#3b82f6",
             "actions": [
                 {
@@ -631,7 +631,7 @@
                             "de": "Dusche Bewohner/in"
                         }
                     },
-                    "icon": "droplets",
+                    "icon": "lucide:droplets",
                     "properties": [
                         {
                             "id": "c3e634fa-d39d-45c8-b82e-1f9f31154d43",
@@ -763,7 +763,7 @@
                             "de": "Bade Bewohner/in"
                         }
                     },
-                    "icon": "waves",
+                    "icon": "mdi:waves",
                     "properties": [
                         {
                             "id": "8b01e4c7-b501-4979-8564-f3ae85ac0933",
@@ -855,7 +855,7 @@
                             "de": "Wasche Haare separat"
                         }
                     },
-                    "icon": "wind",
+                    "icon": "lucide:wind",
                     "properties": [
                         {
                             "id": "866c8610-60e3-4708-952b-759f20612e0e",
@@ -915,7 +915,7 @@
                     "de": "Hand- und Fusspflege-Aktivitäten (MP 3.2.1 Körperpflege)"
                 }
             },
-            "icon": "hand",
+            "icon": "lucide:hand",
             "color": "#8b5cf6",
             "actions": [
                 {
@@ -926,7 +926,7 @@
                             "de": "Führe Handpflege durch"
                         }
                     },
-                    "icon": "hand",
+                    "icon": "lucide:hand",
                     "properties": [
                         {
                             "id": "a95c85d8-1bfa-4108-8898-6de8b8173817",
@@ -978,7 +978,7 @@
                             "de": "Führe Fusspflege durch"
                         }
                     },
-                    "icon": "footprints",
+                    "icon": "mdi:foot-print",
                     "properties": [
                         {
                             "id": "8f761620-72e9-4d13-9a09-db1211cc4833",
@@ -1069,7 +1069,7 @@
                     "de": "Mobilitäts- und Transferaktivitäten (MP 2.2.1 Mobilität, Motorik, Sensorik)"
                 }
             },
-            "icon": "move",
+            "icon": "lucide:move",
             "color": "#10b981",
             "actions": [
                 {
@@ -1080,7 +1080,7 @@
                             "de": "Lagere im Bett um"
                         }
                     },
-                    "icon": "rotate-cw",
+                    "icon": "lucide:rotate-cw",
                     "properties": [
                         {
                             "id": "36e75871-e56e-4df0-8c81-6b11a153fcb3",
@@ -1212,7 +1212,7 @@
                             "de": "Lagere im Sessel/Stuhl um"
                         }
                     },
-                    "icon": "armchair",
+                    "icon": "mdi:seat",
                     "properties": [
                         {
                             "id": "5384fd15-3c6b-4fc7-bf24-1bee14a227e0",
@@ -1264,7 +1264,7 @@
                             "de": "Transferiere von/zu Bett"
                         }
                     },
-                    "icon": "arrow-right-left",
+                    "icon": "lucide:arrow-right-left",
                     "properties": [
                         {
                             "id": "7949b727-adeb-45a5-bc63-d6af24649c34",
@@ -1405,7 +1405,7 @@
                             "de": "Setze Patientenheber ein"
                         }
                     },
-                    "icon": "crane",
+                    "icon": "mdi:crane",
                     "properties": [
                         {
                             "id": "b6793611-2b72-4257-bd9d-a950682f5a31",
@@ -1466,7 +1466,7 @@
                             "de": "Begleite zur Toilette"
                         }
                     },
-                    "icon": "door-open",
+                    "icon": "lucide:door-open",
                     "properties": [
                         {
                             "id": "463e95ca-9baa-4b8c-bccf-318e8e613965",
@@ -1567,7 +1567,7 @@
                             "de": "Begleite zum Essen"
                         }
                     },
-                    "icon": "utensils",
+                    "icon": "lucide:utensils",
                     "properties": [
                         {
                             "id": "234b9a61-8de9-4081-a2df-e5e9b380c611",
@@ -1668,7 +1668,7 @@
                             "de": "Begleite bei der Fortbewegung"
                         }
                     },
-                    "icon": "footprints",
+                    "icon": "mdi:foot-print",
                     "properties": [
                         {
                             "id": "fa91d8a0-f7ea-4aa8-8e2d-5954bedf8662",
@@ -1778,7 +1778,7 @@
                             "de": "Führe Bewegungsübungen durch"
                         }
                     },
-                    "icon": "activity",
+                    "icon": "lucide:activity",
                     "properties": [
                         {
                             "id": "3970f2e2-d45f-4bef-861c-0302b708737d",
@@ -1870,7 +1870,7 @@
                             "de": "Führe Geh-/Krafttraining durch"
                         }
                     },
-                    "icon": "dumbbell",
+                    "icon": "mdi:dumbbell",
                     "properties": [
                         {
                             "id": "a9d36888-5df7-4aea-bbe3-9980f6a2db18",
@@ -1922,7 +1922,7 @@
                             "de": "Mobilisiere mit Standing/Stehbrett"
                         }
                     },
-                    "icon": "arrow-up",
+                    "icon": "lucide:arrow-up",
                     "properties": [
                         {
                             "id": "71446294-1c66-49b2-a79b-8d6f97a1e365",
@@ -1949,7 +1949,7 @@
                             "de": "Bringe Orthese/Prothese an oder entferne sie"
                         }
                     },
-                    "icon": "tool",
+                    "icon": "lucide:wrench",
                     "properties": [
                         {
                             "id": "58dc1630-41e8-48dd-8bb1-fd1846a5c9f0",
@@ -2050,7 +2050,7 @@
                             "de": "Ziehe Kompressionsstrümpfe an/aus"
                         }
                     },
-                    "icon": "sock",
+                    "icon": "mdi:sock",
                     "properties": [
                         {
                             "id": "06176d45-c613-40d6-b021-13f7b0931d39",
@@ -2132,7 +2132,7 @@
                     "de": "Ernährungs- und Flüssigkeitsaktivitäten (MP 4.2.1 Nahrungs- und Flüssigkeitsaufnahme)"
                 }
             },
-            "icon": "utensils",
+            "icon": "lucide:utensils",
             "color": "#f97316",
             "actions": [
                 {
@@ -2143,7 +2143,7 @@
                             "de": "Bereite Mahlzeit vor"
                         }
                     },
-                    "icon": "clipboard-list",
+                    "icon": "lucide:clipboard-list",
                     "properties": [
                         {
                             "id": "ac854f36-57d7-4c44-9bdf-45aee89297c0",
@@ -2204,7 +2204,7 @@
                             "de": "Fordere zum Essen/Trinken auf"
                         }
                     },
-                    "icon": "message-square",
+                    "icon": "lucide:message-square",
                     "properties": [
                         {
                             "id": "123135e3-973c-4824-88dd-78faec4515b5",
@@ -2256,7 +2256,7 @@
                             "de": "Unterstütze beim Essen"
                         }
                     },
-                    "icon": "utensils",
+                    "icon": "lucide:utensils",
                     "properties": [
                         {
                             "id": "c9758270-2e68-40b5-8e54-f8a803de3a57",
@@ -2406,7 +2406,7 @@
                             "de": "Unterstütze beim Trinken"
                         }
                     },
-                    "icon": "cup-soda",
+                    "icon": "lucide:cup-soda",
                     "properties": [
                         {
                             "id": "90f2f767-ddb4-4905-abf2-45afaf06f05b",
@@ -2464,7 +2464,7 @@
                             "de": "Verabreiche Nährlösung via PEG-Sonde"
                         }
                     },
-                    "icon": "syringe",
+                    "icon": "mdi:syringe",
                     "properties": [
                         {
                             "id": "aa823f05-bf05-40e3-a4e1-363027c82ed1",
@@ -2531,7 +2531,7 @@
                             "de": "Führe Schlucktraining durch"
                         }
                     },
-                    "icon": "refresh-cw",
+                    "icon": "lucide:refresh-cw",
                     "properties": [
                         {
                             "id": "1c61f02e-be49-4a14-95da-4228f738ed02",
@@ -2558,7 +2558,7 @@
                             "de": "Übe Benutzung von Esshilfen"
                         }
                     },
-                    "icon": "tool",
+                    "icon": "lucide:wrench",
                     "properties": [
                         {
                             "id": "ff6d54b5-01ae-4e35-9e59-13ce28a5d21a",
@@ -2619,7 +2619,7 @@
                             "de": "Führe Zimmerservice durch"
                         }
                     },
-                    "icon": "home",
+                    "icon": "lucide:home",
                     "properties": [
                         {
                             "id": "d4b55391-22ec-4396-9ae0-80b027e381a6",
@@ -2728,7 +2728,7 @@
                     "de": "Kontinenz- und Inkontinenzversorgung (MP 3.2.2 Kontinenz und Kompensation der Inkontinenz)"
                 }
             },
-            "icon": "droplet",
+            "icon": "lucide:droplet",
             "color": "#06b6d4",
             "actions": [
                 {
@@ -2739,7 +2739,7 @@
                             "de": "Reinige nach Darmentleerung/Toilettengang"
                         }
                     },
-                    "icon": "sparkles",
+                    "icon": "lucide:sparkles",
                     "properties": [
                         {
                             "id": "1c469d6c-30c1-4b05-bb14-c64e1b715e2f",
@@ -2791,7 +2791,7 @@
                             "de": "Wechsle Inkontinenz-Einlage"
                         }
                     },
-                    "icon": "package",
+                    "icon": "lucide:package",
                     "properties": [
                         {
                             "id": "8e71d2eb-da1c-41cf-a060-41a865c08b85",
@@ -2883,7 +2883,7 @@
                             "de": "Reiche Bettschüssel/Urinflasche"
                         }
                     },
-                    "icon": "container",
+                    "icon": "mdi:cup",
                     "properties": [
                         {
                             "id": "461b5e6f-0b8d-41d4-9022-6398efa0a795",
@@ -2935,7 +2935,7 @@
                             "de": "Lege Katheter ein/wechsle ihn"
                         }
                     },
-                    "icon": "syringe",
+                    "icon": "mdi:syringe",
                     "properties": [
                         {
                             "id": "9ffcabe6-a54c-46ca-8e60-e5a39e553c5a",
@@ -3027,7 +3027,7 @@
                             "de": "Pflege Urinalsystem"
                         }
                     },
-                    "icon": "package",
+                    "icon": "lucide:package",
                     "properties": [
                         {
                             "id": "4cc61055-a839-4bbf-a16d-854d0bffdc30",
@@ -3079,7 +3079,7 @@
                             "de": "Versorge Stoma"
                         }
                     },
-                    "icon": "circle",
+                    "icon": "lucide:circle",
                     "properties": [
                         {
                             "id": "017040ce-3f96-4737-b75e-a06f6014c46b",
@@ -3171,7 +3171,7 @@
                             "de": "Verabreiche Einlauf/Klistier"
                         }
                     },
-                    "icon": "droplet",
+                    "icon": "lucide:droplet",
                     "properties": [
                         {
                             "id": "5f71c776-41be-4fe5-b81a-9031e245e504",
@@ -3214,7 +3214,7 @@
                             "de": "Führe digitales Ausräumen durch"
                         }
                     },
-                    "icon": "hand",
+                    "icon": "lucide:hand",
                     "properties": []
                 },
                 {
@@ -3225,7 +3225,7 @@
                             "de": "Führe Toilettentraining durch"
                         }
                     },
-                    "icon": "target",
+                    "icon": "lucide:target",
                     "properties": [
                         {
                             "id": "475b61f9-b9c7-46e6-a098-4616a64725a4",
@@ -3285,7 +3285,7 @@
                     "de": "Abendpflege-Aktivitäten (MP 3.2.1 Körperpflege)"
                 }
             },
-            "icon": "moon",
+            "icon": "lucide:moon",
             "color": "#6366f1",
             "actions": [
                 {
@@ -3296,7 +3296,7 @@
                             "de": "Führe Abendtoilette durch"
                         }
                     },
-                    "icon": "droplet",
+                    "icon": "lucide:droplet",
                     "properties": [
                         {
                             "id": "5af6fb62-456a-4a85-b06e-83ec4ae14ecf",
@@ -3379,7 +3379,7 @@
                             "de": "Kleide Bewohner/in aus"
                         }
                     },
-                    "icon": "shirt",
+                    "icon": "lucide:shirt",
                     "properties": [
                         {
                             "id": "52df4e5c-c6f5-4863-9785-49b147f0a4ec",
@@ -3471,7 +3471,7 @@
                             "de": "Ziehe Nachtwäsche an"
                         }
                     },
-                    "icon": "moon",
+                    "icon": "lucide:moon",
                     "properties": [
                         {
                             "id": "f7f9122a-7dd0-4d76-9de0-3ada7c10f50b",
@@ -3523,7 +3523,7 @@
                             "de": "Bringe ins Bett"
                         }
                     },
-                    "icon": "bed",
+                    "icon": "mdi:bed",
                     "properties": [
                         {
                             "id": "5d86e931-1c26-4e06-ab30-54df2e3ac00d",
@@ -3673,7 +3673,7 @@
                             "de": "Richte Bett her"
                         }
                     },
-                    "icon": "bed",
+                    "icon": "mdi:bed",
                     "properties": [
                         {
                             "id": "1f0bbc9c-35b7-462d-8c1a-ace920f95268",
@@ -3733,7 +3733,7 @@
                     "de": "Medikamentenverabreichung (MP 5.2.1 Medikation und Schmerzmanagement)"
                 }
             },
-            "icon": "pill",
+            "icon": "lucide:pill",
             "color": "#ef4444",
             "actions": [
                 {
@@ -3744,7 +3744,7 @@
                             "de": "Verabreiche orale Medikation"
                         }
                     },
-                    "icon": "pill",
+                    "icon": "lucide:pill",
                     "properties": [
                         {
                             "id": "78997abc-4851-480b-a253-bd7aa032eef8",
@@ -3854,7 +3854,7 @@
                             "de": "Appliziere transdermales Pflaster"
                         }
                     },
-                    "icon": "square",
+                    "icon": "lucide:square",
                     "properties": [
                         {
                             "id": "a1083781-5b6b-48aa-b0bb-0ecda13d7579",
@@ -3906,7 +3906,7 @@
                             "de": "Verabreiche Augen-/Ohren-/Nasentropfen oder -salben"
                         }
                     },
-                    "icon": "eye",
+                    "icon": "lucide:eye",
                     "properties": [
                         {
                             "id": "7e2ee3d2-a074-4647-9baf-11635ec9c3ba",
@@ -3976,7 +3976,7 @@
                             "de": "Trage rezeptpflichtige Salbe auf"
                         }
                     },
-                    "icon": "droplet",
+                    "icon": "lucide:droplet",
                     "properties": [
                         {
                             "id": "e5ca701c-c04f-489f-b1a9-7dece5a82f98",
@@ -4046,7 +4046,7 @@
                             "de": "Verabreiche Injektion"
                         }
                     },
-                    "icon": "syringe",
+                    "icon": "mdi:syringe",
                     "properties": [
                         {
                             "id": "204a3488-556c-43aa-bdd6-077ac6048219",
@@ -4147,7 +4147,7 @@
                             "de": "Bereite Infusion vor und überwache sie"
                         }
                     },
-                    "icon": "activity",
+                    "icon": "lucide:activity",
                     "properties": [
                         {
                             "id": "792f08e1-d28c-4e2d-91a6-7c6f25857e86",
@@ -4208,7 +4208,7 @@
                             "de": "Erfasse Schmerzen"
                         }
                     },
-                    "icon": "thermometer",
+                    "icon": "lucide:thermometer",
                     "properties": [
                         {
                             "id": "564947d5-d22a-41e5-a492-33102ab02940",
@@ -4269,7 +4269,7 @@
                             "de": "Messe Vitalzeichen"
                         }
                     },
-                    "icon": "heart-pulse",
+                    "icon": "lucide:heart-pulse",
                     "properties": [
                         {
                             "id": "d5914f98-ba99-4ed6-9049-2d18492353f1",
@@ -4348,7 +4348,7 @@
                             "de": "Bringe Wickel/Kompresse an"
                         }
                     },
-                    "icon": "bandage",
+                    "icon": "mdi:bandage",
                     "properties": [
                         {
                             "id": "68e2cad7-a17d-41f1-9929-946792ae7bb6",
@@ -4391,7 +4391,7 @@
                             "de": "Führe Bluttest durch"
                         }
                     },
-                    "icon": "droplet",
+                    "icon": "lucide:droplet",
                     "properties": [
                         {
                             "id": "b46bfe5c-207f-4b51-9b1c-852553745244",
@@ -4452,7 +4452,7 @@
                             "de": "Führe Urintest durch"
                         }
                     },
-                    "icon": "flask",
+                    "icon": "mdi:flask",
                     "properties": [
                         {
                             "id": "450df425-b476-4d12-afea-066aabf3f7bb",
@@ -4512,7 +4512,7 @@
                     "de": "Wund- und Hautversorgung (MP 5.2.2 Wund- und Hautversorgung)"
                 }
             },
-            "icon": "bandage",
+            "icon": "mdi:bandage",
             "color": "#dc2626",
             "actions": [
                 {
@@ -4523,7 +4523,7 @@
                             "de": "Versorge Wunde (bis 10 Min.)"
                         }
                     },
-                    "icon": "bandage",
+                    "icon": "mdi:bandage",
                     "properties": [
                         {
                             "id": "645569e5-9539-4331-8052-2f2f69ada747",
@@ -4624,7 +4624,7 @@
                             "de": "Versorge Wunde (10-30 Min.)"
                         }
                     },
-                    "icon": "bandage",
+                    "icon": "mdi:bandage",
                     "properties": [
                         {
                             "id": "bc3875c7-c65d-4264-abc8-9edab46237ea",
@@ -4685,7 +4685,7 @@
                             "de": "Versorge Wunde (30-60 Min.)"
                         }
                     },
-                    "icon": "bandage",
+                    "icon": "mdi:bandage",
                     "properties": [
                         {
                             "id": "1d85bcce-c278-4eb4-86fe-e8dcab218888",
@@ -4737,7 +4737,7 @@
                             "de": "Führe Haut-/Schleimhautkontrolle durch"
                         }
                     },
-                    "icon": "search",
+                    "icon": "lucide:search",
                     "properties": [
                         {
                             "id": "b28d3115-2ec1-42a5-8a57-ff9a6dac6c09",
@@ -4864,7 +4864,7 @@
                     "de": "Atmungs- und Sauerstoffversorgung (MP 5.2.3 Atmung und Sauerstoffversorgung)"
                 }
             },
-            "icon": "wind",
+            "icon": "lucide:wind",
             "color": "#0ea5e9",
             "actions": [
                 {
@@ -4875,7 +4875,7 @@
                             "de": "Verabreiche und überwache Inhalation"
                         }
                     },
-                    "icon": "wind",
+                    "icon": "lucide:wind",
                     "properties": [
                         {
                             "id": "cec46e1c-f70c-4025-88dc-a3d92ee0cbdc",
@@ -4927,7 +4927,7 @@
                             "de": "Unterstütze beim Abhusten"
                         }
                     },
-                    "icon": "activity",
+                    "icon": "lucide:activity",
                     "properties": [
                         {
                             "id": "1bdfb411-d2de-4ba6-9aab-4cf4a9685120",
@@ -4970,7 +4970,7 @@
                             "de": "Sauge Sekrete ab"
                         }
                     },
-                    "icon": "filter",
+                    "icon": "lucide:filter",
                     "properties": [
                         {
                             "id": "4d451e39-a4fd-416c-8144-eb73a924c535",
@@ -5022,7 +5022,7 @@
                             "de": "Pflege Trachealkanüle"
                         }
                     },
-                    "icon": "circle",
+                    "icon": "lucide:circle",
                     "properties": [
                         {
                             "id": "2af32653-6dd4-4756-a560-0497f82a3483",
@@ -5074,7 +5074,7 @@
                             "de": "Verabreiche Sauerstoff"
                         }
                     },
-                    "icon": "cloud",
+                    "icon": "lucide:cloud",
                     "properties": [
                         {
                             "id": "ee350c2d-d8cb-4d5e-bbd3-a729d58401e2",
@@ -5132,7 +5132,7 @@
                             "de": "Übe Benutzung von Inhalationsgeräten"
                         }
                     },
-                    "icon": "book-open",
+                    "icon": "lucide:book-open",
                     "properties": []
                 }
             ]
@@ -5151,7 +5151,7 @@
                     "de": "Psychogeriatrische Pflegeaktivitäten (MP 1.2.1 - 1.2.3)"
                 }
             },
-            "icon": "brain",
+            "icon": "lucide:brain",
             "color": "#a855f7",
             "actions": [
                 {
@@ -5162,7 +5162,7 @@
                             "de": "Gebe Orientierungshilfe"
                         }
                     },
-                    "icon": "compass",
+                    "icon": "lucide:compass",
                     "properties": [
                         {
                             "id": "76cd64f6-d6b2-4d38-a046-db71483de47e",
@@ -5223,7 +5223,7 @@
                             "de": "Begleite wegen Desorientierung"
                         }
                     },
-                    "icon": "users",
+                    "icon": "lucide:users",
                     "properties": [
                         {
                             "id": "898e8dc2-4906-45d3-b9f9-173318df9877",
@@ -5284,7 +5284,7 @@
                             "de": "Führe Gedächtnistraining durch"
                         }
                     },
-                    "icon": "lightbulb",
+                    "icon": "lucide:lightbulb",
                     "properties": [
                         {
                             "id": "d73e5a14-7bad-4a0d-8f71-1ec07291cf12",
@@ -5336,7 +5336,7 @@
                             "de": "Leiste emotionalen Beistand"
                         }
                     },
-                    "icon": "heart",
+                    "icon": "lucide:heart",
                     "properties": [
                         {
                             "id": "3607a0a6-82d0-40e9-aea0-0394b5933a91",
@@ -5446,7 +5446,7 @@
                             "de": "Plane individuelle Tagesstruktur"
                         }
                     },
-                    "icon": "calendar",
+                    "icon": "lucide:calendar",
                     "properties": []
                 },
                 {
@@ -5457,7 +5457,7 @@
                             "de": "Verhindere Selbstgefährdung"
                         }
                     },
-                    "icon": "shield",
+                    "icon": "lucide:shield",
                     "properties": [
                         {
                             "id": "cc726d1e-70ca-4ce7-ba7d-6f1a6363e34f",
@@ -5518,7 +5518,7 @@
                             "de": "Bringe Fixierung an/entferne sie"
                         }
                     },
-                    "icon": "lock",
+                    "icon": "lucide:lock",
                     "properties": [
                         {
                             "id": "edd5dd16-0692-4aca-9008-04b8eb28a860",
@@ -5601,7 +5601,7 @@
                             "de": "Unterstütze bei sozialen Kontakten"
                         }
                     },
-                    "icon": "users",
+                    "icon": "lucide:users",
                     "properties": [
                         {
                             "id": "1449ebbf-32f8-487a-81d8-29e7558d5a56",
@@ -5653,7 +5653,7 @@
                             "de": "Kontrolliere Stimmungslage"
                         }
                     },
-                    "icon": "activity",
+                    "icon": "lucide:activity",
                     "properties": [
                         {
                             "id": "3b6c812b-387b-4853-b1b8-37bc43c5873d",
@@ -5722,7 +5722,7 @@
                     "de": "Nächtliche Überwachungsaktivitäten"
                 }
             },
-            "icon": "moon",
+            "icon": "lucide:moon",
             "color": "#1e3a8a",
             "actions": [
                 {
@@ -5733,7 +5733,7 @@
                             "de": "Führe Nachtkontrolle durch"
                         }
                     },
-                    "icon": "eye",
+                    "icon": "lucide:eye",
                     "properties": [
                         {
                             "id": "085dded9-521b-4113-a463-77554d0bcfa4",
@@ -5834,7 +5834,7 @@
                             "de": "Unterstütze bei nächtlichem Toilettengang"
                         }
                     },
-                    "icon": "moon",
+                    "icon": "lucide:moon",
                     "properties": [
                         {
                             "id": "9750fc95-36af-4545-b84a-55d9ec33acdf",
@@ -5890,6 +5890,2648 @@
             ]
         }
     ],
-    "exports": [],
+    "exports": [
+        {
+            "id": "c09bddb3-787c-441b-a719-23a313a17139",
+            "title": {
+                "default": "Body Care Total",
+                "translations": {
+                    "de": "Körperpflege Gesamt"
+                }
+            },
+            "formula": [
+                {
+                    "id": "983fcd00-059a-4e8b-b2bb-ea2980edcd59",
+                    "type": "occurrence",
+                    "categoryId": "3eb7ed18-e1a3-4bf6-9845-b32c19da7a9f",
+                    "actionId": "f974314f-9f65-4ac2-a603-c171d50a7c08",
+                    "label": {
+                        "default": "Morning: Wecke Bewohner/in",
+                        "translations": {
+                            "de": "Morgen: Wecke Bewohner/in"
+                        }
+                    }
+                },
+                {
+                    "id": "16624c8e-b0e5-4012-a16b-71f118660048",
+                    "type": "operator",
+                    "operator": "+"
+                },
+                {
+                    "id": "783ff49b-20c6-443c-9791-84d403f4d6f1",
+                    "type": "occurrence",
+                    "categoryId": "3eb7ed18-e1a3-4bf6-9845-b32c19da7a9f",
+                    "actionId": "b5089c96-0717-40b5-be6f-50dc0ab1af78",
+                    "label": {
+                        "default": "Morning: Führe Teilkörper-Morgentoilette durch",
+                        "translations": {
+                            "de": "Morgen: Führe Teilkörper-Morgentoilette durch"
+                        }
+                    }
+                },
+                {
+                    "id": "717817c1-d41d-4e9f-b190-e4e2dd5efe83",
+                    "type": "operator",
+                    "operator": "+"
+                },
+                {
+                    "id": "517c484d-2d1f-4899-a30c-1d0024626f7c",
+                    "type": "occurrence",
+                    "categoryId": "3eb7ed18-e1a3-4bf6-9845-b32c19da7a9f",
+                    "actionId": "f61b72a9-8924-4a6a-be59-130dd95b8f85",
+                    "label": {
+                        "default": "Morning: Führe Ganzkörper-Morgentoilette durch",
+                        "translations": {
+                            "de": "Morgen: Führe Ganzkörper-Morgentoilette durch"
+                        }
+                    }
+                },
+                {
+                    "id": "8cf00c17-bd66-4d9a-9f8d-8ce4f948d471",
+                    "type": "operator",
+                    "operator": "+"
+                },
+                {
+                    "id": "886dc549-c915-4cf7-822b-9fa60f5ba97f",
+                    "type": "occurrence",
+                    "categoryId": "3eb7ed18-e1a3-4bf6-9845-b32c19da7a9f",
+                    "actionId": "3f9794c6-76bd-46ce-9248-eaf2c2386108",
+                    "label": {
+                        "default": "Morning: Führe Mundpflege durch",
+                        "translations": {
+                            "de": "Morgen: Führe Mundpflege durch"
+                        }
+                    }
+                },
+                {
+                    "id": "295eb9eb-dd62-41e8-9ee0-c99228365df4",
+                    "type": "operator",
+                    "operator": "+"
+                },
+                {
+                    "id": "67fd12e8-518c-4cbd-9130-d62d34647da1",
+                    "type": "occurrence",
+                    "categoryId": "3eb7ed18-e1a3-4bf6-9845-b32c19da7a9f",
+                    "actionId": "6df46ccf-84ca-47fa-b3f6-39ebcc18d817",
+                    "label": {
+                        "default": "Morning: Rasiere Bewohner/in",
+                        "translations": {
+                            "de": "Morgen: Rasiere Bewohner/in"
+                        }
+                    }
+                },
+                {
+                    "id": "eb33c176-3063-4c5e-999a-44a3016c54da",
+                    "type": "operator",
+                    "operator": "+"
+                },
+                {
+                    "id": "717361c7-7e1c-4387-bce2-0ac68e11c1ef",
+                    "type": "occurrence",
+                    "categoryId": "3eb7ed18-e1a3-4bf6-9845-b32c19da7a9f",
+                    "actionId": "c9230900-fd7c-4c24-838b-162fbebfdade",
+                    "label": {
+                        "default": "Morning: Kleide Bewohner/in an",
+                        "translations": {
+                            "de": "Morgen: Kleide Bewohner/in an"
+                        }
+                    }
+                },
+                {
+                    "id": "af7667f1-ce86-48e5-bb0c-9e8f047ce17f",
+                    "type": "operator",
+                    "operator": "+"
+                },
+                {
+                    "id": "9f2dc529-7331-498a-a4cc-af7051960c8e",
+                    "type": "occurrence",
+                    "categoryId": "4ca5c8c4-c1e2-4b22-a0f4-68fd6b3574a3",
+                    "actionId": "a98efbe2-27ff-47a0-8be1-0c3be1aa0597",
+                    "label": {
+                        "default": "Bath: Dusche Bewohner/in",
+                        "translations": {
+                            "de": "Baden: Dusche Bewohner/in"
+                        }
+                    }
+                },
+                {
+                    "id": "50906186-312e-452f-903f-60c6726093c2",
+                    "type": "operator",
+                    "operator": "+"
+                },
+                {
+                    "id": "8d60f067-80a3-48a9-9413-9815b9b4a5a9",
+                    "type": "occurrence",
+                    "categoryId": "4ca5c8c4-c1e2-4b22-a0f4-68fd6b3574a3",
+                    "actionId": "b7d93085-d080-403c-8165-6dec80efdb2d",
+                    "label": {
+                        "default": "Bath: Bade Bewohner/in",
+                        "translations": {
+                            "de": "Baden: Bade Bewohner/in"
+                        }
+                    }
+                },
+                {
+                    "id": "610b9453-e76c-4e30-b4e8-5782ce5b4868",
+                    "type": "operator",
+                    "operator": "+"
+                },
+                {
+                    "id": "efbe793c-1ad1-4b9d-a6e0-90e47d45fc03",
+                    "type": "occurrence",
+                    "categoryId": "4ca5c8c4-c1e2-4b22-a0f4-68fd6b3574a3",
+                    "actionId": "f33e5b0c-fd61-44fb-91c7-f23a115f1350",
+                    "label": {
+                        "default": "Bath: Wasche Haare separat",
+                        "translations": {
+                            "de": "Baden: Wasche Haare separat"
+                        }
+                    }
+                },
+                {
+                    "id": "9f5ca449-c8bf-4be0-9bd7-853cbf3dbe61",
+                    "type": "operator",
+                    "operator": "+"
+                },
+                {
+                    "id": "63909924-f340-4fdc-9241-d59d9ee362f5",
+                    "type": "occurrence",
+                    "categoryId": "9ed2b2f0-5a5b-46b7-b39f-fa6b59f3f830",
+                    "actionId": "d9b55a3c-aed3-4ad1-8f78-003b4cea0551",
+                    "label": {
+                        "default": "Evening: Führe Abendtoilette durch",
+                        "translations": {
+                            "de": "Abend: Führe Abendtoilette durch"
+                        }
+                    }
+                },
+                {
+                    "id": "09aa1990-8543-4b37-9c27-d97af9793281",
+                    "type": "operator",
+                    "operator": "+"
+                },
+                {
+                    "id": "738793fe-9b5c-4d58-8420-5d6eb51b2e08",
+                    "type": "occurrence",
+                    "categoryId": "9ed2b2f0-5a5b-46b7-b39f-fa6b59f3f830",
+                    "actionId": "b81038ce-57d0-49f2-8569-67d7c903e91e",
+                    "label": {
+                        "default": "Evening: Kleide Bewohner/in aus",
+                        "translations": {
+                            "de": "Abend: Kleide Bewohner/in aus"
+                        }
+                    }
+                },
+                {
+                    "id": "22000492-94eb-4952-8d59-63b9dbb14f89",
+                    "type": "operator",
+                    "operator": "+"
+                },
+                {
+                    "id": "01a6ded2-93cf-4481-947f-bc9b26fe789f",
+                    "type": "occurrence",
+                    "categoryId": "9ed2b2f0-5a5b-46b7-b39f-fa6b59f3f830",
+                    "actionId": "ed287c31-e455-4455-97be-b0547e41f9f4",
+                    "label": {
+                        "default": "Evening: Ziehe Nachtwäsche an",
+                        "translations": {
+                            "de": "Abend: Ziehe Nachtwäsche an"
+                        }
+                    }
+                },
+                {
+                    "id": "9cf38cf8-cb4f-4a85-a7b3-2c31c6e089c9",
+                    "type": "operator",
+                    "operator": "+"
+                },
+                {
+                    "id": "32a5728e-1dc6-4814-8315-37bfe773e1ac",
+                    "type": "occurrence",
+                    "categoryId": "9ed2b2f0-5a5b-46b7-b39f-fa6b59f3f830",
+                    "actionId": "75f42a95-193f-44a6-8e7e-4398dd97eb2b",
+                    "label": {
+                        "default": "Evening: Bringe ins Bett",
+                        "translations": {
+                            "de": "Abend: Bringe ins Bett"
+                        }
+                    }
+                },
+                {
+                    "id": "62ebea6f-882a-4518-b892-0d216c904054",
+                    "type": "operator",
+                    "operator": "+"
+                },
+                {
+                    "id": "2155f6d3-9b1a-4cbd-a2bb-ac8d1052323b",
+                    "type": "occurrence",
+                    "categoryId": "9ed2b2f0-5a5b-46b7-b39f-fa6b59f3f830",
+                    "actionId": "93561f27-4a97-4548-9656-d7fbad83b7ae",
+                    "label": {
+                        "default": "Evening: Richte Bett her",
+                        "translations": {
+                            "de": "Abend: Richte Bett her"
+                        }
+                    }
+                }
+            ],
+            "timeframe": "daily",
+            "children": []
+        },
+        {
+            "id": "bdf62394-da38-447e-97be-a410f0791df7",
+            "title": {
+                "default": "Mobilisation Total",
+                "translations": {
+                    "de": "Mobilisation Gesamt"
+                }
+            },
+            "formula": [
+                {
+                    "id": "1336ab9d-3991-468f-aefd-c0231879cc97",
+                    "type": "occurrence",
+                    "categoryId": "8ae48510-c5d3-40cd-9d5e-15882d285cdc",
+                    "actionId": "a41ecdb8-8443-43ba-bc86-fb109b8c966c",
+                    "label": {
+                        "default": "Lagere im Bett um",
+                        "translations": {
+                            "de": "Lagere im Bett um"
+                        }
+                    }
+                },
+                {
+                    "id": "6f032d10-cbd1-4618-ad60-3c007b5f459c",
+                    "type": "operator",
+                    "operator": "+"
+                },
+                {
+                    "id": "390eaae8-4533-46df-9916-78995347d529",
+                    "type": "occurrence",
+                    "categoryId": "8ae48510-c5d3-40cd-9d5e-15882d285cdc",
+                    "actionId": "42a92f63-95bf-46c4-b792-8421e3fbbc8f",
+                    "label": {
+                        "default": "Lagere im Sessel/Stuhl um",
+                        "translations": {
+                            "de": "Lagere im Sessel/Stuhl um"
+                        }
+                    }
+                },
+                {
+                    "id": "c8bd046e-3031-49ee-91d1-77c92a69f995",
+                    "type": "operator",
+                    "operator": "+"
+                },
+                {
+                    "id": "a9a9573d-803d-441a-ada7-67c7dd5c32f2",
+                    "type": "occurrence",
+                    "categoryId": "8ae48510-c5d3-40cd-9d5e-15882d285cdc",
+                    "actionId": "c7949ab3-8b99-420d-a796-4302856498a7",
+                    "label": {
+                        "default": "Transferiere von/zu Bett",
+                        "translations": {
+                            "de": "Transferiere von/zu Bett"
+                        }
+                    }
+                },
+                {
+                    "id": "e1e44026-bf27-4511-9452-e31890757a50",
+                    "type": "operator",
+                    "operator": "+"
+                },
+                {
+                    "id": "c23571e3-65ed-40a8-bf5c-91c216784fbc",
+                    "type": "occurrence",
+                    "categoryId": "8ae48510-c5d3-40cd-9d5e-15882d285cdc",
+                    "actionId": "afb4335d-5ff8-4c07-8259-b8342d0b214d",
+                    "label": {
+                        "default": "Setze Patientenheber ein",
+                        "translations": {
+                            "de": "Setze Patientenheber ein"
+                        }
+                    }
+                },
+                {
+                    "id": "ff6fef36-a392-483b-994c-922553922c51",
+                    "type": "operator",
+                    "operator": "+"
+                },
+                {
+                    "id": "d0b6b3be-85fa-4b68-ba61-d389cd005e62",
+                    "type": "occurrence",
+                    "categoryId": "8ae48510-c5d3-40cd-9d5e-15882d285cdc",
+                    "actionId": "f88522b3-e5c6-41f3-b9b1-1a918c7a4770",
+                    "label": {
+                        "default": "Begleite zur Toilette",
+                        "translations": {
+                            "de": "Begleite zur Toilette"
+                        }
+                    }
+                },
+                {
+                    "id": "174f829e-3fec-4dec-a711-c9d197ff867c",
+                    "type": "operator",
+                    "operator": "+"
+                },
+                {
+                    "id": "c9d39a79-d76f-4695-9e15-1bbb18097b4d",
+                    "type": "occurrence",
+                    "categoryId": "8ae48510-c5d3-40cd-9d5e-15882d285cdc",
+                    "actionId": "ba317d82-8e88-4151-9f12-e0287f6f661d",
+                    "label": {
+                        "default": "Begleite zum Essen",
+                        "translations": {
+                            "de": "Begleite zum Essen"
+                        }
+                    }
+                },
+                {
+                    "id": "1255ea51-b389-46d0-a038-f1512cabb373",
+                    "type": "operator",
+                    "operator": "+"
+                },
+                {
+                    "id": "7f246841-0969-458b-a98b-b19fc771a836",
+                    "type": "occurrence",
+                    "categoryId": "8ae48510-c5d3-40cd-9d5e-15882d285cdc",
+                    "actionId": "1335fb24-bb02-4d83-9541-b9448c90c78f",
+                    "label": {
+                        "default": "Begleite bei der Fortbewegung",
+                        "translations": {
+                            "de": "Begleite bei der Fortbewegung"
+                        }
+                    }
+                },
+                {
+                    "id": "b022f2c8-8756-4a0a-a796-a31c1ca3c269",
+                    "type": "operator",
+                    "operator": "+"
+                },
+                {
+                    "id": "7af13dfd-8d95-4267-a218-4c21915cadfe",
+                    "type": "occurrence",
+                    "categoryId": "8ae48510-c5d3-40cd-9d5e-15882d285cdc",
+                    "actionId": "e9e3aa8f-adb4-4744-94e2-950194f64acf",
+                    "label": {
+                        "default": "Führe Bewegungsübungen durch",
+                        "translations": {
+                            "de": "Führe Bewegungsübungen durch"
+                        }
+                    }
+                },
+                {
+                    "id": "50fdc3e0-b031-47f9-918c-b68ea205acd2",
+                    "type": "operator",
+                    "operator": "+"
+                },
+                {
+                    "id": "f0848d1a-7a55-4fc2-bfe7-b0728113c87a",
+                    "type": "occurrence",
+                    "categoryId": "8ae48510-c5d3-40cd-9d5e-15882d285cdc",
+                    "actionId": "ff2d3cbd-970b-4a0e-82b0-fc688966c403",
+                    "label": {
+                        "default": "Führe Geh-/Krafttraining durch",
+                        "translations": {
+                            "de": "Führe Geh-/Krafttraining durch"
+                        }
+                    }
+                },
+                {
+                    "id": "cdaaa7db-108e-410f-a01d-256d37cad287",
+                    "type": "operator",
+                    "operator": "+"
+                },
+                {
+                    "id": "50cfa4a5-17b8-4ccd-b013-e35dac3f2f5a",
+                    "type": "occurrence",
+                    "categoryId": "8ae48510-c5d3-40cd-9d5e-15882d285cdc",
+                    "actionId": "4e341b93-9ac6-4cf6-b4cf-4ad92a7f802f",
+                    "label": {
+                        "default": "Mobilisiere mit Standing/Stehbrett",
+                        "translations": {
+                            "de": "Mobilisiere mit Standing/Stehbrett"
+                        }
+                    }
+                },
+                {
+                    "id": "96804853-1442-401f-a1a1-c994115509e4",
+                    "type": "operator",
+                    "operator": "+"
+                },
+                {
+                    "id": "ed297825-1e78-485e-93e2-ac27e9d9a17a",
+                    "type": "occurrence",
+                    "categoryId": "8ae48510-c5d3-40cd-9d5e-15882d285cdc",
+                    "actionId": "077f6a59-858d-4bdd-b929-c9f17c459662",
+                    "label": {
+                        "default": "Bringe Orthese/Prothese an oder entferne sie",
+                        "translations": {
+                            "de": "Bringe Orthese/Prothese an oder entferne sie"
+                        }
+                    }
+                },
+                {
+                    "id": "eb4201b2-5877-4a28-a70f-df4cd6ac4aa9",
+                    "type": "operator",
+                    "operator": "+"
+                },
+                {
+                    "id": "3bde949b-da04-43df-914d-a181c9f35507",
+                    "type": "occurrence",
+                    "categoryId": "8ae48510-c5d3-40cd-9d5e-15882d285cdc",
+                    "actionId": "75c75a0f-2e18-4c54-85d9-aaaaf8761f60",
+                    "label": {
+                        "default": "Ziehe Kompressionsstrümpfe an/aus",
+                        "translations": {
+                            "de": "Ziehe Kompressionsstrümpfe an/aus"
+                        }
+                    }
+                }
+            ],
+            "timeframe": "daily",
+            "children": []
+        },
+        {
+            "id": "afaef82b-0c24-47ad-9f01-473f7a14f8e1",
+            "title": {
+                "default": "Nutrition Total",
+                "translations": {
+                    "de": "Ernährung Gesamt"
+                }
+            },
+            "formula": [
+                {
+                    "id": "f94303a8-23af-4a76-8cba-e1d638b1c565",
+                    "type": "occurrence",
+                    "categoryId": "8936265e-08b1-41ce-996e-65ddcadaedfa",
+                    "actionId": "c60c89b8-bae6-4847-bf4b-00f04043db97",
+                    "label": {
+                        "default": "Bereite Mahlzeit vor",
+                        "translations": {
+                            "de": "Bereite Mahlzeit vor"
+                        }
+                    }
+                },
+                {
+                    "id": "46c1ac22-088c-419f-a0bd-826a3032ed5b",
+                    "type": "operator",
+                    "operator": "+"
+                },
+                {
+                    "id": "3fb9fc80-902f-401a-9c14-ac5370a74735",
+                    "type": "occurrence",
+                    "categoryId": "8936265e-08b1-41ce-996e-65ddcadaedfa",
+                    "actionId": "6de0c9bb-537b-435b-9d02-fe8bd7426402",
+                    "label": {
+                        "default": "Fordere zum Essen/Trinken auf",
+                        "translations": {
+                            "de": "Fordere zum Essen/Trinken auf"
+                        }
+                    }
+                },
+                {
+                    "id": "c6829438-4a17-43f7-b18d-ab86a3aa2f54",
+                    "type": "operator",
+                    "operator": "+"
+                },
+                {
+                    "id": "d1f8d41a-e96b-4af0-a242-8c733fe8943b",
+                    "type": "occurrence",
+                    "categoryId": "8936265e-08b1-41ce-996e-65ddcadaedfa",
+                    "actionId": "5062d209-b632-4816-be0e-904e6d138dae",
+                    "label": {
+                        "default": "Unterstütze beim Essen",
+                        "translations": {
+                            "de": "Unterstütze beim Essen"
+                        }
+                    }
+                },
+                {
+                    "id": "b839aecb-4f2b-4125-babb-7d2cf5b8d4a2",
+                    "type": "operator",
+                    "operator": "+"
+                },
+                {
+                    "id": "ac141e24-c3b5-446d-9e77-5613ba5b5a57",
+                    "type": "occurrence",
+                    "categoryId": "8936265e-08b1-41ce-996e-65ddcadaedfa",
+                    "actionId": "c298f8c6-af51-43e3-a01a-939110bdea2e",
+                    "label": {
+                        "default": "Unterstütze beim Trinken",
+                        "translations": {
+                            "de": "Unterstütze beim Trinken"
+                        }
+                    }
+                },
+                {
+                    "id": "803b825a-1f11-4c1d-8a19-8310d2431d70",
+                    "type": "operator",
+                    "operator": "+"
+                },
+                {
+                    "id": "dff8f699-7322-4597-9002-e573d9905610",
+                    "type": "occurrence",
+                    "categoryId": "8936265e-08b1-41ce-996e-65ddcadaedfa",
+                    "actionId": "32ad7131-5ebc-462f-b880-3707e887c91e",
+                    "label": {
+                        "default": "Verabreiche Nährlösung via PEG-Sonde",
+                        "translations": {
+                            "de": "Verabreiche Nährlösung via PEG-Sonde"
+                        }
+                    }
+                },
+                {
+                    "id": "19ce9f24-6695-4d10-8e4b-67d1e84306a2",
+                    "type": "operator",
+                    "operator": "+"
+                },
+                {
+                    "id": "01da0691-eb29-40ea-9185-2e7644574d3f",
+                    "type": "occurrence",
+                    "categoryId": "8936265e-08b1-41ce-996e-65ddcadaedfa",
+                    "actionId": "969836c9-7b75-456e-9220-c55097498408",
+                    "label": {
+                        "default": "Führe Schlucktraining durch",
+                        "translations": {
+                            "de": "Führe Schlucktraining durch"
+                        }
+                    }
+                },
+                {
+                    "id": "99204a05-06a7-49f6-8542-0cffc6029748",
+                    "type": "operator",
+                    "operator": "+"
+                },
+                {
+                    "id": "d3d57b15-81a6-4f68-a9b3-1afbe2a91600",
+                    "type": "occurrence",
+                    "categoryId": "8936265e-08b1-41ce-996e-65ddcadaedfa",
+                    "actionId": "94c4ae13-da56-4609-9440-3333d6512f31",
+                    "label": {
+                        "default": "Übe Benutzung von Esshilfen",
+                        "translations": {
+                            "de": "Übe Benutzung von Esshilfen"
+                        }
+                    }
+                },
+                {
+                    "id": "a51127b3-c6b3-4582-b743-df95b4006c9d",
+                    "type": "operator",
+                    "operator": "+"
+                },
+                {
+                    "id": "9f91c10e-8e4c-4151-8297-60966ef6d789",
+                    "type": "occurrence",
+                    "categoryId": "8936265e-08b1-41ce-996e-65ddcadaedfa",
+                    "actionId": "2ae2bad4-d042-4780-a1b3-52b7a97ef430",
+                    "label": {
+                        "default": "Führe Zimmerservice durch",
+                        "translations": {
+                            "de": "Führe Zimmerservice durch"
+                        }
+                    }
+                }
+            ],
+            "timeframe": "daily",
+            "children": []
+        },
+        {
+            "id": "5be56a66-a858-4ba1-afab-359988942c4e",
+            "title": {
+                "default": "Continence Care Total",
+                "translations": {
+                    "de": "Kontinenzversorgung Gesamt"
+                }
+            },
+            "formula": [
+                {
+                    "id": "684a34d4-d036-4fb0-b033-86b36d1fb2f7",
+                    "type": "occurrence",
+                    "categoryId": "c18d5d88-1af0-419a-8eec-659b5b3ab7a7",
+                    "actionId": "f29b673d-607e-431b-969d-1ed49cc5f2b7",
+                    "label": {
+                        "default": "Reinige nach Darmentleerung/Toilettengang",
+                        "translations": {
+                            "de": "Reinige nach Darmentleerung/Toilettengang"
+                        }
+                    }
+                },
+                {
+                    "id": "86124333-e3a5-44e6-9b65-c16c071b15e2",
+                    "type": "operator",
+                    "operator": "+"
+                },
+                {
+                    "id": "ebcbfa58-664c-44f5-9f62-377c50a5f943",
+                    "type": "occurrence",
+                    "categoryId": "c18d5d88-1af0-419a-8eec-659b5b3ab7a7",
+                    "actionId": "766f7fc9-d5a5-4add-a9e8-c73c93464956",
+                    "label": {
+                        "default": "Wechsle Inkontinenz-Einlage",
+                        "translations": {
+                            "de": "Wechsle Inkontinenz-Einlage"
+                        }
+                    }
+                },
+                {
+                    "id": "2c07a9ee-fee9-40fd-b644-8895bc4ac475",
+                    "type": "operator",
+                    "operator": "+"
+                },
+                {
+                    "id": "3f146b4e-1f61-40fc-b6f0-06baeaedd6a0",
+                    "type": "occurrence",
+                    "categoryId": "c18d5d88-1af0-419a-8eec-659b5b3ab7a7",
+                    "actionId": "0f2daae2-40dc-4ea9-9b16-5851a06aef01",
+                    "label": {
+                        "default": "Reiche Bettschüssel/Urinflasche",
+                        "translations": {
+                            "de": "Reiche Bettschüssel/Urinflasche"
+                        }
+                    }
+                },
+                {
+                    "id": "7fe9498d-4af6-4a4a-9d95-ffdc03ab124b",
+                    "type": "operator",
+                    "operator": "+"
+                },
+                {
+                    "id": "c2c34da7-f8e2-410c-a49c-d2abe6cf92b2",
+                    "type": "occurrence",
+                    "categoryId": "c18d5d88-1af0-419a-8eec-659b5b3ab7a7",
+                    "actionId": "26bc1b00-de09-461c-8118-cecd1f3d2e39",
+                    "label": {
+                        "default": "Lege Katheter ein/wechsle ihn",
+                        "translations": {
+                            "de": "Lege Katheter ein/wechsle ihn"
+                        }
+                    }
+                },
+                {
+                    "id": "97a0804a-562c-4796-aeea-d920949a667d",
+                    "type": "operator",
+                    "operator": "+"
+                },
+                {
+                    "id": "77b22880-16a4-4e4c-aee1-fa23c72c6d6a",
+                    "type": "occurrence",
+                    "categoryId": "c18d5d88-1af0-419a-8eec-659b5b3ab7a7",
+                    "actionId": "04243c78-78db-41aa-9832-810891ce33da",
+                    "label": {
+                        "default": "Pflege Urinalsystem",
+                        "translations": {
+                            "de": "Pflege Urinalsystem"
+                        }
+                    }
+                },
+                {
+                    "id": "eea03f66-bf2a-4835-9e03-2d3fccc1af80",
+                    "type": "operator",
+                    "operator": "+"
+                },
+                {
+                    "id": "9dbf85ab-1600-419b-b392-6bc66feef8ac",
+                    "type": "occurrence",
+                    "categoryId": "c18d5d88-1af0-419a-8eec-659b5b3ab7a7",
+                    "actionId": "677f837d-1789-4b8d-9729-01d7887a0156",
+                    "label": {
+                        "default": "Versorge Stoma",
+                        "translations": {
+                            "de": "Versorge Stoma"
+                        }
+                    }
+                },
+                {
+                    "id": "76a8c9f4-b13a-4244-9015-4362c0ad7a3c",
+                    "type": "operator",
+                    "operator": "+"
+                },
+                {
+                    "id": "cde540a9-8b5e-470f-8ad4-d9a8f9a23170",
+                    "type": "occurrence",
+                    "categoryId": "c18d5d88-1af0-419a-8eec-659b5b3ab7a7",
+                    "actionId": "b0b529c0-5bce-4b0e-8d06-82b960c0dc58",
+                    "label": {
+                        "default": "Verabreiche Einlauf/Klistier",
+                        "translations": {
+                            "de": "Verabreiche Einlauf/Klistier"
+                        }
+                    }
+                },
+                {
+                    "id": "6cfb7027-1e64-4d7f-a591-9a2c7b800c98",
+                    "type": "operator",
+                    "operator": "+"
+                },
+                {
+                    "id": "083b7eef-56e7-47eb-80b5-bd2c940a81fd",
+                    "type": "occurrence",
+                    "categoryId": "c18d5d88-1af0-419a-8eec-659b5b3ab7a7",
+                    "actionId": "0ebc8d66-4860-42db-8576-64491282f6d2",
+                    "label": {
+                        "default": "Führe digitales Ausräumen durch",
+                        "translations": {
+                            "de": "Führe digitales Ausräumen durch"
+                        }
+                    }
+                },
+                {
+                    "id": "1791a39a-4137-4dc9-b2b8-001ceaafd62d",
+                    "type": "operator",
+                    "operator": "+"
+                },
+                {
+                    "id": "589a590d-80a4-4c55-a1b1-7873231c839e",
+                    "type": "occurrence",
+                    "categoryId": "c18d5d88-1af0-419a-8eec-659b5b3ab7a7",
+                    "actionId": "d3703ca3-168d-4064-b611-ee1a22b8b89a",
+                    "label": {
+                        "default": "Führe Toilettentraining durch",
+                        "translations": {
+                            "de": "Führe Toilettentraining durch"
+                        }
+                    }
+                }
+            ],
+            "timeframe": "daily",
+            "children": []
+        },
+        {
+            "id": "ee3f403c-5a14-412a-94cf-86ccb447b2fd",
+            "title": {
+                "default": "Medication Total",
+                "translations": {
+                    "de": "Medikation Gesamt"
+                }
+            },
+            "formula": [
+                {
+                    "id": "fb91a9f7-7665-4fe4-a864-25ba4c25ef3b",
+                    "type": "occurrence",
+                    "categoryId": "189ca942-3892-42fa-ae21-7ebd79882187",
+                    "actionId": "c0ff845e-1607-4959-9636-f0ed0782fc76",
+                    "label": {
+                        "default": "Verabreiche orale Medikation",
+                        "translations": {
+                            "de": "Verabreiche orale Medikation"
+                        }
+                    }
+                },
+                {
+                    "id": "5a0c234a-b978-4669-a6d2-0d06de80fe6c",
+                    "type": "operator",
+                    "operator": "+"
+                },
+                {
+                    "id": "65a74afd-a2f6-433a-a20d-9035db69852a",
+                    "type": "occurrence",
+                    "categoryId": "189ca942-3892-42fa-ae21-7ebd79882187",
+                    "actionId": "8f59851f-7223-4b3d-a0d6-8f4f11e07300",
+                    "label": {
+                        "default": "Appliziere transdermales Pflaster",
+                        "translations": {
+                            "de": "Appliziere transdermales Pflaster"
+                        }
+                    }
+                },
+                {
+                    "id": "a30964e6-d71a-4326-bb77-f23a766688be",
+                    "type": "operator",
+                    "operator": "+"
+                },
+                {
+                    "id": "117b7f51-fe7c-4abb-80de-938c004e16d1",
+                    "type": "occurrence",
+                    "categoryId": "189ca942-3892-42fa-ae21-7ebd79882187",
+                    "actionId": "ae1758c9-4dc3-4a42-9972-25adc018c78f",
+                    "label": {
+                        "default": "Verabreiche Augen-/Ohren-/Nasentropfen oder -salben",
+                        "translations": {
+                            "de": "Verabreiche Augen-/Ohren-/Nasentropfen oder -salben"
+                        }
+                    }
+                },
+                {
+                    "id": "f9eae0be-e671-42b4-af69-ff6b9ced1cfe",
+                    "type": "operator",
+                    "operator": "+"
+                },
+                {
+                    "id": "ba324d41-b5ad-4303-ac71-ffab87be431f",
+                    "type": "occurrence",
+                    "categoryId": "189ca942-3892-42fa-ae21-7ebd79882187",
+                    "actionId": "80e7ea5e-a9b1-4c33-ac03-a0c40510bae4",
+                    "label": {
+                        "default": "Trage rezeptpflichtige Salbe auf",
+                        "translations": {
+                            "de": "Trage rezeptpflichtige Salbe auf"
+                        }
+                    }
+                },
+                {
+                    "id": "347a8075-a8f6-47de-84b7-7a4aaba5e973",
+                    "type": "operator",
+                    "operator": "+"
+                },
+                {
+                    "id": "0e8eea60-545f-43f1-a3ea-4be8d31d3067",
+                    "type": "occurrence",
+                    "categoryId": "189ca942-3892-42fa-ae21-7ebd79882187",
+                    "actionId": "d4fdf694-d94f-4bc0-9d53-1a7760a0f6f3",
+                    "label": {
+                        "default": "Verabreiche Injektion",
+                        "translations": {
+                            "de": "Verabreiche Injektion"
+                        }
+                    }
+                },
+                {
+                    "id": "f59e4ca8-9346-4bd0-afb8-05da6be33167",
+                    "type": "operator",
+                    "operator": "+"
+                },
+                {
+                    "id": "53bb2ecd-20c6-4ca6-908c-937f812bda3d",
+                    "type": "occurrence",
+                    "categoryId": "189ca942-3892-42fa-ae21-7ebd79882187",
+                    "actionId": "c3e51d7b-3305-4def-969b-78b0ee0670fa",
+                    "label": {
+                        "default": "Bereite Infusion vor und überwache sie",
+                        "translations": {
+                            "de": "Bereite Infusion vor und überwache sie"
+                        }
+                    }
+                },
+                {
+                    "id": "74d3d8c1-42dc-4b72-b4b7-29cc6c80717d",
+                    "type": "operator",
+                    "operator": "+"
+                },
+                {
+                    "id": "2a90d15b-c4f5-45a1-be92-b6bfa738a689",
+                    "type": "occurrence",
+                    "categoryId": "189ca942-3892-42fa-ae21-7ebd79882187",
+                    "actionId": "8ae3c112-1078-46f6-94a9-2df15a44f9eb",
+                    "label": {
+                        "default": "Erfasse Schmerzen",
+                        "translations": {
+                            "de": "Erfasse Schmerzen"
+                        }
+                    }
+                },
+                {
+                    "id": "0bb994c7-ec5f-45ed-b722-0ba62713e6f2",
+                    "type": "operator",
+                    "operator": "+"
+                },
+                {
+                    "id": "a13e3c06-22e5-4d24-be3f-11596c9a325b",
+                    "type": "occurrence",
+                    "categoryId": "189ca942-3892-42fa-ae21-7ebd79882187",
+                    "actionId": "8fadda42-1522-40f2-8b6b-d6535341a07d",
+                    "label": {
+                        "default": "Messe Vitalzeichen",
+                        "translations": {
+                            "de": "Messe Vitalzeichen"
+                        }
+                    }
+                },
+                {
+                    "id": "e554dec1-1bc7-467b-860c-e0c3750bc253",
+                    "type": "operator",
+                    "operator": "+"
+                },
+                {
+                    "id": "542cf413-ac35-4d53-96a5-7ccc14f36920",
+                    "type": "occurrence",
+                    "categoryId": "189ca942-3892-42fa-ae21-7ebd79882187",
+                    "actionId": "be04fda4-dbf1-4feb-9f00-275543f4440b",
+                    "label": {
+                        "default": "Bringe Wickel/Kompresse an",
+                        "translations": {
+                            "de": "Bringe Wickel/Kompresse an"
+                        }
+                    }
+                },
+                {
+                    "id": "706816e6-4cae-487e-bea6-b7642ce3cf0b",
+                    "type": "operator",
+                    "operator": "+"
+                },
+                {
+                    "id": "77362f44-6040-4993-a228-708b9e9a2930",
+                    "type": "occurrence",
+                    "categoryId": "189ca942-3892-42fa-ae21-7ebd79882187",
+                    "actionId": "893e87dd-c3ff-44cb-a6d2-cb7785ee243e",
+                    "label": {
+                        "default": "Führe Bluttest durch",
+                        "translations": {
+                            "de": "Führe Bluttest durch"
+                        }
+                    }
+                },
+                {
+                    "id": "03e3d7f4-be41-4894-97d1-3f4d8c1f8879",
+                    "type": "operator",
+                    "operator": "+"
+                },
+                {
+                    "id": "6cac28ac-0623-4c52-9147-766d24a15637",
+                    "type": "occurrence",
+                    "categoryId": "189ca942-3892-42fa-ae21-7ebd79882187",
+                    "actionId": "0aaaa09b-357e-4fea-aeb9-d98fbb9c222d",
+                    "label": {
+                        "default": "Führe Urintest durch",
+                        "translations": {
+                            "de": "Führe Urintest durch"
+                        }
+                    }
+                }
+            ],
+            "timeframe": "daily",
+            "children": []
+        },
+        {
+            "id": "1867e2c5-da23-4fa3-a744-e00799251bbc",
+            "title": {
+                "default": "Wound Care Total",
+                "translations": {
+                    "de": "Wundversorgung Gesamt"
+                }
+            },
+            "formula": [
+                {
+                    "id": "b647ab8d-557d-4a21-b69d-659c9a520de5",
+                    "type": "occurrence",
+                    "categoryId": "291c08c9-11f6-4367-b9e5-6702efaa46e4",
+                    "actionId": "9eaf821b-a0df-46ce-86c1-1992f65bf487",
+                    "label": {
+                        "default": "Versorge Wunde (bis 10 Min.)",
+                        "translations": {
+                            "de": "Versorge Wunde (bis 10 Min.)"
+                        }
+                    }
+                },
+                {
+                    "id": "dfc18b06-4cfd-439b-bfe1-95300a0cfdee",
+                    "type": "operator",
+                    "operator": "+"
+                },
+                {
+                    "id": "65b09ef2-b8f7-4551-a40a-9ca3ee2f455f",
+                    "type": "occurrence",
+                    "categoryId": "291c08c9-11f6-4367-b9e5-6702efaa46e4",
+                    "actionId": "d0fcf2e2-d3ea-4a64-89fa-1192096f82c2",
+                    "label": {
+                        "default": "Versorge Wunde (10-30 Min.)",
+                        "translations": {
+                            "de": "Versorge Wunde (10-30 Min.)"
+                        }
+                    }
+                },
+                {
+                    "id": "4dccb6ae-fdd5-4019-a472-0c96f702c595",
+                    "type": "operator",
+                    "operator": "+"
+                },
+                {
+                    "id": "ae89f033-5ba4-4f5d-8287-38b89a98e74e",
+                    "type": "occurrence",
+                    "categoryId": "291c08c9-11f6-4367-b9e5-6702efaa46e4",
+                    "actionId": "6a6b0166-5e1c-4c22-b852-3cfb49dc1ebc",
+                    "label": {
+                        "default": "Versorge Wunde (30-60 Min.)",
+                        "translations": {
+                            "de": "Versorge Wunde (30-60 Min.)"
+                        }
+                    }
+                },
+                {
+                    "id": "aeec6e5c-884e-4dc1-b353-1731b5b83220",
+                    "type": "operator",
+                    "operator": "+"
+                },
+                {
+                    "id": "d3cd0a71-b980-4bb9-8165-88a5f90eea47",
+                    "type": "occurrence",
+                    "categoryId": "291c08c9-11f6-4367-b9e5-6702efaa46e4",
+                    "actionId": "8a02daf5-e644-45d3-b421-649f23804050",
+                    "label": {
+                        "default": "Führe Haut-/Schleimhautkontrolle durch",
+                        "translations": {
+                            "de": "Führe Haut-/Schleimhautkontrolle durch"
+                        }
+                    }
+                }
+            ],
+            "timeframe": "weekly",
+            "children": []
+        },
+        {
+            "id": "812937e8-9206-42e4-98b7-86ab13680918",
+            "title": {
+                "default": "Respiratory Care Total",
+                "translations": {
+                    "de": "Atmung/Sauerstoff Gesamt"
+                }
+            },
+            "formula": [
+                {
+                    "id": "66be3820-1960-4540-b1ea-aa2851c3a182",
+                    "type": "occurrence",
+                    "categoryId": "9d2b0558-be9e-4ae5-9123-64ddf10574b3",
+                    "actionId": "9dedf85c-be7b-4c56-8fdf-75464809a7bd",
+                    "label": {
+                        "default": "Verabreiche und überwache Inhalation",
+                        "translations": {
+                            "de": "Verabreiche und überwache Inhalation"
+                        }
+                    }
+                },
+                {
+                    "id": "a271c3ae-84b2-4086-b0ec-f91c5ef2366d",
+                    "type": "operator",
+                    "operator": "+"
+                },
+                {
+                    "id": "24ab6e1d-adf4-4195-b614-6f43b9a1a453",
+                    "type": "occurrence",
+                    "categoryId": "9d2b0558-be9e-4ae5-9123-64ddf10574b3",
+                    "actionId": "35040720-5fe7-4537-ba82-8e5288b267d4",
+                    "label": {
+                        "default": "Unterstütze beim Abhusten",
+                        "translations": {
+                            "de": "Unterstütze beim Abhusten"
+                        }
+                    }
+                },
+                {
+                    "id": "d3f8a939-c9b8-4a92-9d7f-9f960fea6263",
+                    "type": "operator",
+                    "operator": "+"
+                },
+                {
+                    "id": "55a1ca23-82da-4d57-b8ce-34d2738ce7d8",
+                    "type": "occurrence",
+                    "categoryId": "9d2b0558-be9e-4ae5-9123-64ddf10574b3",
+                    "actionId": "dcdf17d2-8500-4852-a6b2-b800e9be9cd3",
+                    "label": {
+                        "default": "Sauge Sekrete ab",
+                        "translations": {
+                            "de": "Sauge Sekrete ab"
+                        }
+                    }
+                },
+                {
+                    "id": "51da71e0-3cb6-4fbb-a0de-3c411792a5c6",
+                    "type": "operator",
+                    "operator": "+"
+                },
+                {
+                    "id": "9c49aeaf-b340-439e-bdab-603d6a196520",
+                    "type": "occurrence",
+                    "categoryId": "9d2b0558-be9e-4ae5-9123-64ddf10574b3",
+                    "actionId": "2e1eac36-4186-447c-a759-21f7658acb15",
+                    "label": {
+                        "default": "Pflege Trachealkanüle",
+                        "translations": {
+                            "de": "Pflege Trachealkanüle"
+                        }
+                    }
+                },
+                {
+                    "id": "74aaf1ab-42e5-448c-8904-b15292382d93",
+                    "type": "operator",
+                    "operator": "+"
+                },
+                {
+                    "id": "f0eb2e6e-f50f-4a03-8354-eb191f841316",
+                    "type": "occurrence",
+                    "categoryId": "9d2b0558-be9e-4ae5-9123-64ddf10574b3",
+                    "actionId": "b1ed9af1-506a-4dc5-9d00-4e3708da8199",
+                    "label": {
+                        "default": "Verabreiche Sauerstoff",
+                        "translations": {
+                            "de": "Verabreiche Sauerstoff"
+                        }
+                    }
+                },
+                {
+                    "id": "55c053b0-ab30-482c-89bd-e21fa6781636",
+                    "type": "operator",
+                    "operator": "+"
+                },
+                {
+                    "id": "ae7470b2-d646-44c1-bb3b-75ebca54e701",
+                    "type": "occurrence",
+                    "categoryId": "9d2b0558-be9e-4ae5-9123-64ddf10574b3",
+                    "actionId": "0e302d5a-9b4a-45fe-9458-36cae91bb005",
+                    "label": {
+                        "default": "Übe Benutzung von Inhalationsgeräten",
+                        "translations": {
+                            "de": "Übe Benutzung von Inhalationsgeräten"
+                        }
+                    }
+                }
+            ],
+            "timeframe": "daily",
+            "children": []
+        },
+        {
+            "id": "eb94740e-d38c-4c4d-b4fc-81840edc249a",
+            "title": {
+                "default": "Psychogeriatric Care Total",
+                "translations": {
+                    "de": "Psychogeriatrie Gesamt"
+                }
+            },
+            "formula": [
+                {
+                    "id": "dc29a74e-2788-463f-be8d-ccf6806896ed",
+                    "type": "occurrence",
+                    "categoryId": "52c7dcd3-ee1d-4c81-869e-13c98ac1d69f",
+                    "actionId": "6cbbafff-f72d-4b6b-8cd8-82dd1816468d",
+                    "label": {
+                        "default": "Gebe Orientierungshilfe",
+                        "translations": {
+                            "de": "Gebe Orientierungshilfe"
+                        }
+                    }
+                },
+                {
+                    "id": "866f877a-013c-4f18-9a0a-96a74ce7a718",
+                    "type": "operator",
+                    "operator": "+"
+                },
+                {
+                    "id": "31f5cba1-a8f0-4fa1-8579-794231883e69",
+                    "type": "occurrence",
+                    "categoryId": "52c7dcd3-ee1d-4c81-869e-13c98ac1d69f",
+                    "actionId": "72917230-8587-4b55-9cf2-4ef39b3d215a",
+                    "label": {
+                        "default": "Begleite wegen Desorientierung",
+                        "translations": {
+                            "de": "Begleite wegen Desorientierung"
+                        }
+                    }
+                },
+                {
+                    "id": "31cb132f-8d61-4b66-8253-12453eb3f77d",
+                    "type": "operator",
+                    "operator": "+"
+                },
+                {
+                    "id": "71a2aeda-5245-473e-b3df-8ccfa5b2367a",
+                    "type": "occurrence",
+                    "categoryId": "52c7dcd3-ee1d-4c81-869e-13c98ac1d69f",
+                    "actionId": "4a0d2b96-aef6-470b-83b5-6feb647e6a35",
+                    "label": {
+                        "default": "Führe Gedächtnistraining durch",
+                        "translations": {
+                            "de": "Führe Gedächtnistraining durch"
+                        }
+                    }
+                },
+                {
+                    "id": "90554355-2be6-407d-8fd3-b309ec5eae84",
+                    "type": "operator",
+                    "operator": "+"
+                },
+                {
+                    "id": "c2e77206-8762-4e93-b873-cbaaf887ddad",
+                    "type": "occurrence",
+                    "categoryId": "52c7dcd3-ee1d-4c81-869e-13c98ac1d69f",
+                    "actionId": "006a18bf-0965-4eb2-868c-07b168ceb7a2",
+                    "label": {
+                        "default": "Leiste emotionalen Beistand",
+                        "translations": {
+                            "de": "Leiste emotionalen Beistand"
+                        }
+                    }
+                },
+                {
+                    "id": "d92d5338-8aee-4119-b0de-10ff9c305917",
+                    "type": "operator",
+                    "operator": "+"
+                },
+                {
+                    "id": "8bdf4a5e-ae5c-4137-b254-82e8cfaf6b01",
+                    "type": "occurrence",
+                    "categoryId": "52c7dcd3-ee1d-4c81-869e-13c98ac1d69f",
+                    "actionId": "f2e3c984-774c-45ee-9a8e-eb3c08506d43",
+                    "label": {
+                        "default": "Plane individuelle Tagesstruktur",
+                        "translations": {
+                            "de": "Plane individuelle Tagesstruktur"
+                        }
+                    }
+                },
+                {
+                    "id": "67fa54d7-7bde-48c4-a3f7-600a8e83ca45",
+                    "type": "operator",
+                    "operator": "+"
+                },
+                {
+                    "id": "9dc34765-5a61-41e3-94f5-b639fea6c118",
+                    "type": "occurrence",
+                    "categoryId": "52c7dcd3-ee1d-4c81-869e-13c98ac1d69f",
+                    "actionId": "55e14d54-8bca-4a49-b677-16f849ef1304",
+                    "label": {
+                        "default": "Verhindere Selbstgefährdung",
+                        "translations": {
+                            "de": "Verhindere Selbstgefährdung"
+                        }
+                    }
+                },
+                {
+                    "id": "c4e3a81d-e789-4b50-be22-79ddae27ca0e",
+                    "type": "operator",
+                    "operator": "+"
+                },
+                {
+                    "id": "ef0d9695-9976-4898-8845-ac8da30b3c2e",
+                    "type": "occurrence",
+                    "categoryId": "52c7dcd3-ee1d-4c81-869e-13c98ac1d69f",
+                    "actionId": "aa39a9e1-84fc-477c-b2bd-e92c305c543b",
+                    "label": {
+                        "default": "Bringe Fixierung an/entferne sie",
+                        "translations": {
+                            "de": "Bringe Fixierung an/entferne sie"
+                        }
+                    }
+                },
+                {
+                    "id": "0a0459b3-636c-4b5b-a354-28d949a77094",
+                    "type": "operator",
+                    "operator": "+"
+                },
+                {
+                    "id": "55bdd2a9-3d64-48e0-bdc5-b30310c0e1ad",
+                    "type": "occurrence",
+                    "categoryId": "52c7dcd3-ee1d-4c81-869e-13c98ac1d69f",
+                    "actionId": "d161517b-783c-4019-9b57-fdfacc57c0ac",
+                    "label": {
+                        "default": "Unterstütze bei sozialen Kontakten",
+                        "translations": {
+                            "de": "Unterstütze bei sozialen Kontakten"
+                        }
+                    }
+                },
+                {
+                    "id": "81005de7-436a-4e1c-9601-03a36c746ba0",
+                    "type": "operator",
+                    "operator": "+"
+                },
+                {
+                    "id": "778d1bd1-7f1a-4924-ae5d-229e35d1d014",
+                    "type": "occurrence",
+                    "categoryId": "52c7dcd3-ee1d-4c81-869e-13c98ac1d69f",
+                    "actionId": "07ba8555-4d6d-4560-9104-d7b97e53eeef",
+                    "label": {
+                        "default": "Kontrolliere Stimmungslage",
+                        "translations": {
+                            "de": "Kontrolliere Stimmungslage"
+                        }
+                    }
+                }
+            ],
+            "timeframe": "daily",
+            "children": []
+        },
+        {
+            "id": "9760c317-d8b9-4921-afd2-7ad9cdd82555",
+            "title": {
+                "default": "Night Rounds Total",
+                "translations": {
+                    "de": "Nachtkontrollen Gesamt"
+                }
+            },
+            "formula": [
+                {
+                    "id": "3004af15-7f30-4e80-b9ae-f5bfc41ae9ab",
+                    "type": "occurrence",
+                    "categoryId": "1446fb78-6793-4b1f-b917-987bdf577891",
+                    "actionId": "9129544f-f5df-459b-8c0c-a73d681c304d",
+                    "label": {
+                        "default": "Führe Nachtkontrolle durch",
+                        "translations": {
+                            "de": "Führe Nachtkontrolle durch"
+                        }
+                    }
+                },
+                {
+                    "id": "a2f50a7d-ac3a-4dc7-8918-8cdd0708c676",
+                    "type": "operator",
+                    "operator": "+"
+                },
+                {
+                    "id": "083f303c-b732-41cd-a3fb-fda21ba4c355",
+                    "type": "occurrence",
+                    "categoryId": "1446fb78-6793-4b1f-b917-987bdf577891",
+                    "actionId": "77fff99b-1236-4037-a587-61ec82ce9ec6",
+                    "label": {
+                        "default": "Unterstütze bei nächtlichem Toilettengang",
+                        "translations": {
+                            "de": "Unterstütze bei nächtlichem Toilettengang"
+                        }
+                    }
+                }
+            ],
+            "timeframe": "daily",
+            "children": []
+        },
+        {
+            "id": "ef1566d3-b230-4102-99cd-e1bbb74d9bf9",
+            "title": {
+                "default": "BESA Care Packages Overview",
+                "translations": {
+                    "de": "BESA Massnahmenpakete Übersicht"
+                }
+            },
+            "formula": [],
+            "timeframe": "weekly",
+            "children": [
+                {
+                    "id": "124484f8-d7b6-4a39-96ac-98b3892b5c7d",
+                    "title": {
+                        "default": "MP 1 Psychogeriatric Services",
+                        "translations": {
+                            "de": "MP 1 Psychogeriatrische Leistungen"
+                        }
+                    },
+                    "formula": [
+                        {
+                            "id": "dc29a74e-2788-463f-be8d-ccf6806896ed",
+                            "type": "occurrence",
+                            "categoryId": "52c7dcd3-ee1d-4c81-869e-13c98ac1d69f",
+                            "actionId": "6cbbafff-f72d-4b6b-8cd8-82dd1816468d",
+                            "label": {
+                                "default": "Gebe Orientierungshilfe",
+                                "translations": {
+                                    "de": "Gebe Orientierungshilfe"
+                                }
+                            }
+                        },
+                        {
+                            "id": "866f877a-013c-4f18-9a0a-96a74ce7a718",
+                            "type": "operator",
+                            "operator": "+"
+                        },
+                        {
+                            "id": "31f5cba1-a8f0-4fa1-8579-794231883e69",
+                            "type": "occurrence",
+                            "categoryId": "52c7dcd3-ee1d-4c81-869e-13c98ac1d69f",
+                            "actionId": "72917230-8587-4b55-9cf2-4ef39b3d215a",
+                            "label": {
+                                "default": "Begleite wegen Desorientierung",
+                                "translations": {
+                                    "de": "Begleite wegen Desorientierung"
+                                }
+                            }
+                        },
+                        {
+                            "id": "31cb132f-8d61-4b66-8253-12453eb3f77d",
+                            "type": "operator",
+                            "operator": "+"
+                        },
+                        {
+                            "id": "71a2aeda-5245-473e-b3df-8ccfa5b2367a",
+                            "type": "occurrence",
+                            "categoryId": "52c7dcd3-ee1d-4c81-869e-13c98ac1d69f",
+                            "actionId": "4a0d2b96-aef6-470b-83b5-6feb647e6a35",
+                            "label": {
+                                "default": "Führe Gedächtnistraining durch",
+                                "translations": {
+                                    "de": "Führe Gedächtnistraining durch"
+                                }
+                            }
+                        },
+                        {
+                            "id": "90554355-2be6-407d-8fd3-b309ec5eae84",
+                            "type": "operator",
+                            "operator": "+"
+                        },
+                        {
+                            "id": "c2e77206-8762-4e93-b873-cbaaf887ddad",
+                            "type": "occurrence",
+                            "categoryId": "52c7dcd3-ee1d-4c81-869e-13c98ac1d69f",
+                            "actionId": "006a18bf-0965-4eb2-868c-07b168ceb7a2",
+                            "label": {
+                                "default": "Leiste emotionalen Beistand",
+                                "translations": {
+                                    "de": "Leiste emotionalen Beistand"
+                                }
+                            }
+                        },
+                        {
+                            "id": "d92d5338-8aee-4119-b0de-10ff9c305917",
+                            "type": "operator",
+                            "operator": "+"
+                        },
+                        {
+                            "id": "8bdf4a5e-ae5c-4137-b254-82e8cfaf6b01",
+                            "type": "occurrence",
+                            "categoryId": "52c7dcd3-ee1d-4c81-869e-13c98ac1d69f",
+                            "actionId": "f2e3c984-774c-45ee-9a8e-eb3c08506d43",
+                            "label": {
+                                "default": "Plane individuelle Tagesstruktur",
+                                "translations": {
+                                    "de": "Plane individuelle Tagesstruktur"
+                                }
+                            }
+                        },
+                        {
+                            "id": "67fa54d7-7bde-48c4-a3f7-600a8e83ca45",
+                            "type": "operator",
+                            "operator": "+"
+                        },
+                        {
+                            "id": "9dc34765-5a61-41e3-94f5-b639fea6c118",
+                            "type": "occurrence",
+                            "categoryId": "52c7dcd3-ee1d-4c81-869e-13c98ac1d69f",
+                            "actionId": "55e14d54-8bca-4a49-b677-16f849ef1304",
+                            "label": {
+                                "default": "Verhindere Selbstgefährdung",
+                                "translations": {
+                                    "de": "Verhindere Selbstgefährdung"
+                                }
+                            }
+                        },
+                        {
+                            "id": "c4e3a81d-e789-4b50-be22-79ddae27ca0e",
+                            "type": "operator",
+                            "operator": "+"
+                        },
+                        {
+                            "id": "ef0d9695-9976-4898-8845-ac8da30b3c2e",
+                            "type": "occurrence",
+                            "categoryId": "52c7dcd3-ee1d-4c81-869e-13c98ac1d69f",
+                            "actionId": "aa39a9e1-84fc-477c-b2bd-e92c305c543b",
+                            "label": {
+                                "default": "Bringe Fixierung an/entferne sie",
+                                "translations": {
+                                    "de": "Bringe Fixierung an/entferne sie"
+                                }
+                            }
+                        },
+                        {
+                            "id": "0a0459b3-636c-4b5b-a354-28d949a77094",
+                            "type": "operator",
+                            "operator": "+"
+                        },
+                        {
+                            "id": "55bdd2a9-3d64-48e0-bdc5-b30310c0e1ad",
+                            "type": "occurrence",
+                            "categoryId": "52c7dcd3-ee1d-4c81-869e-13c98ac1d69f",
+                            "actionId": "d161517b-783c-4019-9b57-fdfacc57c0ac",
+                            "label": {
+                                "default": "Unterstütze bei sozialen Kontakten",
+                                "translations": {
+                                    "de": "Unterstütze bei sozialen Kontakten"
+                                }
+                            }
+                        },
+                        {
+                            "id": "81005de7-436a-4e1c-9601-03a36c746ba0",
+                            "type": "operator",
+                            "operator": "+"
+                        },
+                        {
+                            "id": "778d1bd1-7f1a-4924-ae5d-229e35d1d014",
+                            "type": "occurrence",
+                            "categoryId": "52c7dcd3-ee1d-4c81-869e-13c98ac1d69f",
+                            "actionId": "07ba8555-4d6d-4560-9104-d7b97e53eeef",
+                            "label": {
+                                "default": "Kontrolliere Stimmungslage",
+                                "translations": {
+                                    "de": "Kontrolliere Stimmungslage"
+                                }
+                            }
+                        }
+                    ],
+                    "timeframe": "weekly",
+                    "children": []
+                },
+                {
+                    "id": "06ce926d-853f-44a4-8bea-d7c8ff3b2cc5",
+                    "title": {
+                        "default": "MP 2 Mobility",
+                        "translations": {
+                            "de": "MP 2 Mobilität, Motorik, Sensorik"
+                        }
+                    },
+                    "formula": [
+                        {
+                            "id": "1336ab9d-3991-468f-aefd-c0231879cc97",
+                            "type": "occurrence",
+                            "categoryId": "8ae48510-c5d3-40cd-9d5e-15882d285cdc",
+                            "actionId": "a41ecdb8-8443-43ba-bc86-fb109b8c966c",
+                            "label": {
+                                "default": "Lagere im Bett um",
+                                "translations": {
+                                    "de": "Lagere im Bett um"
+                                }
+                            }
+                        },
+                        {
+                            "id": "6f032d10-cbd1-4618-ad60-3c007b5f459c",
+                            "type": "operator",
+                            "operator": "+"
+                        },
+                        {
+                            "id": "390eaae8-4533-46df-9916-78995347d529",
+                            "type": "occurrence",
+                            "categoryId": "8ae48510-c5d3-40cd-9d5e-15882d285cdc",
+                            "actionId": "42a92f63-95bf-46c4-b792-8421e3fbbc8f",
+                            "label": {
+                                "default": "Lagere im Sessel/Stuhl um",
+                                "translations": {
+                                    "de": "Lagere im Sessel/Stuhl um"
+                                }
+                            }
+                        },
+                        {
+                            "id": "c8bd046e-3031-49ee-91d1-77c92a69f995",
+                            "type": "operator",
+                            "operator": "+"
+                        },
+                        {
+                            "id": "a9a9573d-803d-441a-ada7-67c7dd5c32f2",
+                            "type": "occurrence",
+                            "categoryId": "8ae48510-c5d3-40cd-9d5e-15882d285cdc",
+                            "actionId": "c7949ab3-8b99-420d-a796-4302856498a7",
+                            "label": {
+                                "default": "Transferiere von/zu Bett",
+                                "translations": {
+                                    "de": "Transferiere von/zu Bett"
+                                }
+                            }
+                        },
+                        {
+                            "id": "e1e44026-bf27-4511-9452-e31890757a50",
+                            "type": "operator",
+                            "operator": "+"
+                        },
+                        {
+                            "id": "c23571e3-65ed-40a8-bf5c-91c216784fbc",
+                            "type": "occurrence",
+                            "categoryId": "8ae48510-c5d3-40cd-9d5e-15882d285cdc",
+                            "actionId": "afb4335d-5ff8-4c07-8259-b8342d0b214d",
+                            "label": {
+                                "default": "Setze Patientenheber ein",
+                                "translations": {
+                                    "de": "Setze Patientenheber ein"
+                                }
+                            }
+                        },
+                        {
+                            "id": "ff6fef36-a392-483b-994c-922553922c51",
+                            "type": "operator",
+                            "operator": "+"
+                        },
+                        {
+                            "id": "d0b6b3be-85fa-4b68-ba61-d389cd005e62",
+                            "type": "occurrence",
+                            "categoryId": "8ae48510-c5d3-40cd-9d5e-15882d285cdc",
+                            "actionId": "f88522b3-e5c6-41f3-b9b1-1a918c7a4770",
+                            "label": {
+                                "default": "Begleite zur Toilette",
+                                "translations": {
+                                    "de": "Begleite zur Toilette"
+                                }
+                            }
+                        },
+                        {
+                            "id": "174f829e-3fec-4dec-a711-c9d197ff867c",
+                            "type": "operator",
+                            "operator": "+"
+                        },
+                        {
+                            "id": "c9d39a79-d76f-4695-9e15-1bbb18097b4d",
+                            "type": "occurrence",
+                            "categoryId": "8ae48510-c5d3-40cd-9d5e-15882d285cdc",
+                            "actionId": "ba317d82-8e88-4151-9f12-e0287f6f661d",
+                            "label": {
+                                "default": "Begleite zum Essen",
+                                "translations": {
+                                    "de": "Begleite zum Essen"
+                                }
+                            }
+                        },
+                        {
+                            "id": "1255ea51-b389-46d0-a038-f1512cabb373",
+                            "type": "operator",
+                            "operator": "+"
+                        },
+                        {
+                            "id": "7f246841-0969-458b-a98b-b19fc771a836",
+                            "type": "occurrence",
+                            "categoryId": "8ae48510-c5d3-40cd-9d5e-15882d285cdc",
+                            "actionId": "1335fb24-bb02-4d83-9541-b9448c90c78f",
+                            "label": {
+                                "default": "Begleite bei der Fortbewegung",
+                                "translations": {
+                                    "de": "Begleite bei der Fortbewegung"
+                                }
+                            }
+                        },
+                        {
+                            "id": "b022f2c8-8756-4a0a-a796-a31c1ca3c269",
+                            "type": "operator",
+                            "operator": "+"
+                        },
+                        {
+                            "id": "7af13dfd-8d95-4267-a218-4c21915cadfe",
+                            "type": "occurrence",
+                            "categoryId": "8ae48510-c5d3-40cd-9d5e-15882d285cdc",
+                            "actionId": "e9e3aa8f-adb4-4744-94e2-950194f64acf",
+                            "label": {
+                                "default": "Führe Bewegungsübungen durch",
+                                "translations": {
+                                    "de": "Führe Bewegungsübungen durch"
+                                }
+                            }
+                        },
+                        {
+                            "id": "50fdc3e0-b031-47f9-918c-b68ea205acd2",
+                            "type": "operator",
+                            "operator": "+"
+                        },
+                        {
+                            "id": "f0848d1a-7a55-4fc2-bfe7-b0728113c87a",
+                            "type": "occurrence",
+                            "categoryId": "8ae48510-c5d3-40cd-9d5e-15882d285cdc",
+                            "actionId": "ff2d3cbd-970b-4a0e-82b0-fc688966c403",
+                            "label": {
+                                "default": "Führe Geh-/Krafttraining durch",
+                                "translations": {
+                                    "de": "Führe Geh-/Krafttraining durch"
+                                }
+                            }
+                        },
+                        {
+                            "id": "cdaaa7db-108e-410f-a01d-256d37cad287",
+                            "type": "operator",
+                            "operator": "+"
+                        },
+                        {
+                            "id": "50cfa4a5-17b8-4ccd-b013-e35dac3f2f5a",
+                            "type": "occurrence",
+                            "categoryId": "8ae48510-c5d3-40cd-9d5e-15882d285cdc",
+                            "actionId": "4e341b93-9ac6-4cf6-b4cf-4ad92a7f802f",
+                            "label": {
+                                "default": "Mobilisiere mit Standing/Stehbrett",
+                                "translations": {
+                                    "de": "Mobilisiere mit Standing/Stehbrett"
+                                }
+                            }
+                        },
+                        {
+                            "id": "96804853-1442-401f-a1a1-c994115509e4",
+                            "type": "operator",
+                            "operator": "+"
+                        },
+                        {
+                            "id": "ed297825-1e78-485e-93e2-ac27e9d9a17a",
+                            "type": "occurrence",
+                            "categoryId": "8ae48510-c5d3-40cd-9d5e-15882d285cdc",
+                            "actionId": "077f6a59-858d-4bdd-b929-c9f17c459662",
+                            "label": {
+                                "default": "Bringe Orthese/Prothese an oder entferne sie",
+                                "translations": {
+                                    "de": "Bringe Orthese/Prothese an oder entferne sie"
+                                }
+                            }
+                        },
+                        {
+                            "id": "eb4201b2-5877-4a28-a70f-df4cd6ac4aa9",
+                            "type": "operator",
+                            "operator": "+"
+                        },
+                        {
+                            "id": "3bde949b-da04-43df-914d-a181c9f35507",
+                            "type": "occurrence",
+                            "categoryId": "8ae48510-c5d3-40cd-9d5e-15882d285cdc",
+                            "actionId": "75c75a0f-2e18-4c54-85d9-aaaaf8761f60",
+                            "label": {
+                                "default": "Ziehe Kompressionsstrümpfe an/aus",
+                                "translations": {
+                                    "de": "Ziehe Kompressionsstrümpfe an/aus"
+                                }
+                            }
+                        }
+                    ],
+                    "timeframe": "weekly",
+                    "children": []
+                },
+                {
+                    "id": "6580f1fe-39a4-411f-8c45-b0e7283b4d89",
+                    "title": {
+                        "default": "MP 3 Body Care",
+                        "translations": {
+                            "de": "MP 3 Körperpflege"
+                        }
+                    },
+                    "formula": [
+                        {
+                            "id": "983fcd00-059a-4e8b-b2bb-ea2980edcd59",
+                            "type": "occurrence",
+                            "categoryId": "3eb7ed18-e1a3-4bf6-9845-b32c19da7a9f",
+                            "actionId": "f974314f-9f65-4ac2-a603-c171d50a7c08",
+                            "label": {
+                                "default": "Morning: Wecke Bewohner/in",
+                                "translations": {
+                                    "de": "Morgen: Wecke Bewohner/in"
+                                }
+                            }
+                        },
+                        {
+                            "id": "16624c8e-b0e5-4012-a16b-71f118660048",
+                            "type": "operator",
+                            "operator": "+"
+                        },
+                        {
+                            "id": "783ff49b-20c6-443c-9791-84d403f4d6f1",
+                            "type": "occurrence",
+                            "categoryId": "3eb7ed18-e1a3-4bf6-9845-b32c19da7a9f",
+                            "actionId": "b5089c96-0717-40b5-be6f-50dc0ab1af78",
+                            "label": {
+                                "default": "Morning: Führe Teilkörper-Morgentoilette durch",
+                                "translations": {
+                                    "de": "Morgen: Führe Teilkörper-Morgentoilette durch"
+                                }
+                            }
+                        },
+                        {
+                            "id": "717817c1-d41d-4e9f-b190-e4e2dd5efe83",
+                            "type": "operator",
+                            "operator": "+"
+                        },
+                        {
+                            "id": "517c484d-2d1f-4899-a30c-1d0024626f7c",
+                            "type": "occurrence",
+                            "categoryId": "3eb7ed18-e1a3-4bf6-9845-b32c19da7a9f",
+                            "actionId": "f61b72a9-8924-4a6a-be59-130dd95b8f85",
+                            "label": {
+                                "default": "Morning: Führe Ganzkörper-Morgentoilette durch",
+                                "translations": {
+                                    "de": "Morgen: Führe Ganzkörper-Morgentoilette durch"
+                                }
+                            }
+                        },
+                        {
+                            "id": "8cf00c17-bd66-4d9a-9f8d-8ce4f948d471",
+                            "type": "operator",
+                            "operator": "+"
+                        },
+                        {
+                            "id": "886dc549-c915-4cf7-822b-9fa60f5ba97f",
+                            "type": "occurrence",
+                            "categoryId": "3eb7ed18-e1a3-4bf6-9845-b32c19da7a9f",
+                            "actionId": "3f9794c6-76bd-46ce-9248-eaf2c2386108",
+                            "label": {
+                                "default": "Morning: Führe Mundpflege durch",
+                                "translations": {
+                                    "de": "Morgen: Führe Mundpflege durch"
+                                }
+                            }
+                        },
+                        {
+                            "id": "295eb9eb-dd62-41e8-9ee0-c99228365df4",
+                            "type": "operator",
+                            "operator": "+"
+                        },
+                        {
+                            "id": "67fd12e8-518c-4cbd-9130-d62d34647da1",
+                            "type": "occurrence",
+                            "categoryId": "3eb7ed18-e1a3-4bf6-9845-b32c19da7a9f",
+                            "actionId": "6df46ccf-84ca-47fa-b3f6-39ebcc18d817",
+                            "label": {
+                                "default": "Morning: Rasiere Bewohner/in",
+                                "translations": {
+                                    "de": "Morgen: Rasiere Bewohner/in"
+                                }
+                            }
+                        },
+                        {
+                            "id": "eb33c176-3063-4c5e-999a-44a3016c54da",
+                            "type": "operator",
+                            "operator": "+"
+                        },
+                        {
+                            "id": "717361c7-7e1c-4387-bce2-0ac68e11c1ef",
+                            "type": "occurrence",
+                            "categoryId": "3eb7ed18-e1a3-4bf6-9845-b32c19da7a9f",
+                            "actionId": "c9230900-fd7c-4c24-838b-162fbebfdade",
+                            "label": {
+                                "default": "Morning: Kleide Bewohner/in an",
+                                "translations": {
+                                    "de": "Morgen: Kleide Bewohner/in an"
+                                }
+                            }
+                        },
+                        {
+                            "id": "af7667f1-ce86-48e5-bb0c-9e8f047ce17f",
+                            "type": "operator",
+                            "operator": "+"
+                        },
+                        {
+                            "id": "9f2dc529-7331-498a-a4cc-af7051960c8e",
+                            "type": "occurrence",
+                            "categoryId": "4ca5c8c4-c1e2-4b22-a0f4-68fd6b3574a3",
+                            "actionId": "a98efbe2-27ff-47a0-8be1-0c3be1aa0597",
+                            "label": {
+                                "default": "Bath: Dusche Bewohner/in",
+                                "translations": {
+                                    "de": "Baden: Dusche Bewohner/in"
+                                }
+                            }
+                        },
+                        {
+                            "id": "50906186-312e-452f-903f-60c6726093c2",
+                            "type": "operator",
+                            "operator": "+"
+                        },
+                        {
+                            "id": "8d60f067-80a3-48a9-9413-9815b9b4a5a9",
+                            "type": "occurrence",
+                            "categoryId": "4ca5c8c4-c1e2-4b22-a0f4-68fd6b3574a3",
+                            "actionId": "b7d93085-d080-403c-8165-6dec80efdb2d",
+                            "label": {
+                                "default": "Bath: Bade Bewohner/in",
+                                "translations": {
+                                    "de": "Baden: Bade Bewohner/in"
+                                }
+                            }
+                        },
+                        {
+                            "id": "610b9453-e76c-4e30-b4e8-5782ce5b4868",
+                            "type": "operator",
+                            "operator": "+"
+                        },
+                        {
+                            "id": "efbe793c-1ad1-4b9d-a6e0-90e47d45fc03",
+                            "type": "occurrence",
+                            "categoryId": "4ca5c8c4-c1e2-4b22-a0f4-68fd6b3574a3",
+                            "actionId": "f33e5b0c-fd61-44fb-91c7-f23a115f1350",
+                            "label": {
+                                "default": "Bath: Wasche Haare separat",
+                                "translations": {
+                                    "de": "Baden: Wasche Haare separat"
+                                }
+                            }
+                        },
+                        {
+                            "id": "9f5ca449-c8bf-4be0-9bd7-853cbf3dbe61",
+                            "type": "operator",
+                            "operator": "+"
+                        },
+                        {
+                            "id": "63909924-f340-4fdc-9241-d59d9ee362f5",
+                            "type": "occurrence",
+                            "categoryId": "9ed2b2f0-5a5b-46b7-b39f-fa6b59f3f830",
+                            "actionId": "d9b55a3c-aed3-4ad1-8f78-003b4cea0551",
+                            "label": {
+                                "default": "Evening: Führe Abendtoilette durch",
+                                "translations": {
+                                    "de": "Abend: Führe Abendtoilette durch"
+                                }
+                            }
+                        },
+                        {
+                            "id": "09aa1990-8543-4b37-9c27-d97af9793281",
+                            "type": "operator",
+                            "operator": "+"
+                        },
+                        {
+                            "id": "738793fe-9b5c-4d58-8420-5d6eb51b2e08",
+                            "type": "occurrence",
+                            "categoryId": "9ed2b2f0-5a5b-46b7-b39f-fa6b59f3f830",
+                            "actionId": "b81038ce-57d0-49f2-8569-67d7c903e91e",
+                            "label": {
+                                "default": "Evening: Kleide Bewohner/in aus",
+                                "translations": {
+                                    "de": "Abend: Kleide Bewohner/in aus"
+                                }
+                            }
+                        },
+                        {
+                            "id": "22000492-94eb-4952-8d59-63b9dbb14f89",
+                            "type": "operator",
+                            "operator": "+"
+                        },
+                        {
+                            "id": "01a6ded2-93cf-4481-947f-bc9b26fe789f",
+                            "type": "occurrence",
+                            "categoryId": "9ed2b2f0-5a5b-46b7-b39f-fa6b59f3f830",
+                            "actionId": "ed287c31-e455-4455-97be-b0547e41f9f4",
+                            "label": {
+                                "default": "Evening: Ziehe Nachtwäsche an",
+                                "translations": {
+                                    "de": "Abend: Ziehe Nachtwäsche an"
+                                }
+                            }
+                        },
+                        {
+                            "id": "9cf38cf8-cb4f-4a85-a7b3-2c31c6e089c9",
+                            "type": "operator",
+                            "operator": "+"
+                        },
+                        {
+                            "id": "32a5728e-1dc6-4814-8315-37bfe773e1ac",
+                            "type": "occurrence",
+                            "categoryId": "9ed2b2f0-5a5b-46b7-b39f-fa6b59f3f830",
+                            "actionId": "75f42a95-193f-44a6-8e7e-4398dd97eb2b",
+                            "label": {
+                                "default": "Evening: Bringe ins Bett",
+                                "translations": {
+                                    "de": "Abend: Bringe ins Bett"
+                                }
+                            }
+                        },
+                        {
+                            "id": "62ebea6f-882a-4518-b892-0d216c904054",
+                            "type": "operator",
+                            "operator": "+"
+                        },
+                        {
+                            "id": "2155f6d3-9b1a-4cbd-a2bb-ac8d1052323b",
+                            "type": "occurrence",
+                            "categoryId": "9ed2b2f0-5a5b-46b7-b39f-fa6b59f3f830",
+                            "actionId": "93561f27-4a97-4548-9656-d7fbad83b7ae",
+                            "label": {
+                                "default": "Evening: Richte Bett her",
+                                "translations": {
+                                    "de": "Abend: Richte Bett her"
+                                }
+                            }
+                        },
+                        {
+                            "id": "e27d9ecb-bc11-4f72-bdd6-d1880d0b480a",
+                            "type": "operator",
+                            "operator": "+"
+                        },
+                        {
+                            "id": "684a34d4-d036-4fb0-b033-86b36d1fb2f7",
+                            "type": "occurrence",
+                            "categoryId": "c18d5d88-1af0-419a-8eec-659b5b3ab7a7",
+                            "actionId": "f29b673d-607e-431b-969d-1ed49cc5f2b7",
+                            "label": {
+                                "default": "Reinige nach Darmentleerung/Toilettengang",
+                                "translations": {
+                                    "de": "Reinige nach Darmentleerung/Toilettengang"
+                                }
+                            }
+                        },
+                        {
+                            "id": "86124333-e3a5-44e6-9b65-c16c071b15e2",
+                            "type": "operator",
+                            "operator": "+"
+                        },
+                        {
+                            "id": "ebcbfa58-664c-44f5-9f62-377c50a5f943",
+                            "type": "occurrence",
+                            "categoryId": "c18d5d88-1af0-419a-8eec-659b5b3ab7a7",
+                            "actionId": "766f7fc9-d5a5-4add-a9e8-c73c93464956",
+                            "label": {
+                                "default": "Wechsle Inkontinenz-Einlage",
+                                "translations": {
+                                    "de": "Wechsle Inkontinenz-Einlage"
+                                }
+                            }
+                        },
+                        {
+                            "id": "2c07a9ee-fee9-40fd-b644-8895bc4ac475",
+                            "type": "operator",
+                            "operator": "+"
+                        },
+                        {
+                            "id": "3f146b4e-1f61-40fc-b6f0-06baeaedd6a0",
+                            "type": "occurrence",
+                            "categoryId": "c18d5d88-1af0-419a-8eec-659b5b3ab7a7",
+                            "actionId": "0f2daae2-40dc-4ea9-9b16-5851a06aef01",
+                            "label": {
+                                "default": "Reiche Bettschüssel/Urinflasche",
+                                "translations": {
+                                    "de": "Reiche Bettschüssel/Urinflasche"
+                                }
+                            }
+                        },
+                        {
+                            "id": "7fe9498d-4af6-4a4a-9d95-ffdc03ab124b",
+                            "type": "operator",
+                            "operator": "+"
+                        },
+                        {
+                            "id": "c2c34da7-f8e2-410c-a49c-d2abe6cf92b2",
+                            "type": "occurrence",
+                            "categoryId": "c18d5d88-1af0-419a-8eec-659b5b3ab7a7",
+                            "actionId": "26bc1b00-de09-461c-8118-cecd1f3d2e39",
+                            "label": {
+                                "default": "Lege Katheter ein/wechsle ihn",
+                                "translations": {
+                                    "de": "Lege Katheter ein/wechsle ihn"
+                                }
+                            }
+                        },
+                        {
+                            "id": "97a0804a-562c-4796-aeea-d920949a667d",
+                            "type": "operator",
+                            "operator": "+"
+                        },
+                        {
+                            "id": "77b22880-16a4-4e4c-aee1-fa23c72c6d6a",
+                            "type": "occurrence",
+                            "categoryId": "c18d5d88-1af0-419a-8eec-659b5b3ab7a7",
+                            "actionId": "04243c78-78db-41aa-9832-810891ce33da",
+                            "label": {
+                                "default": "Pflege Urinalsystem",
+                                "translations": {
+                                    "de": "Pflege Urinalsystem"
+                                }
+                            }
+                        },
+                        {
+                            "id": "eea03f66-bf2a-4835-9e03-2d3fccc1af80",
+                            "type": "operator",
+                            "operator": "+"
+                        },
+                        {
+                            "id": "9dbf85ab-1600-419b-b392-6bc66feef8ac",
+                            "type": "occurrence",
+                            "categoryId": "c18d5d88-1af0-419a-8eec-659b5b3ab7a7",
+                            "actionId": "677f837d-1789-4b8d-9729-01d7887a0156",
+                            "label": {
+                                "default": "Versorge Stoma",
+                                "translations": {
+                                    "de": "Versorge Stoma"
+                                }
+                            }
+                        },
+                        {
+                            "id": "76a8c9f4-b13a-4244-9015-4362c0ad7a3c",
+                            "type": "operator",
+                            "operator": "+"
+                        },
+                        {
+                            "id": "cde540a9-8b5e-470f-8ad4-d9a8f9a23170",
+                            "type": "occurrence",
+                            "categoryId": "c18d5d88-1af0-419a-8eec-659b5b3ab7a7",
+                            "actionId": "b0b529c0-5bce-4b0e-8d06-82b960c0dc58",
+                            "label": {
+                                "default": "Verabreiche Einlauf/Klistier",
+                                "translations": {
+                                    "de": "Verabreiche Einlauf/Klistier"
+                                }
+                            }
+                        },
+                        {
+                            "id": "6cfb7027-1e64-4d7f-a591-9a2c7b800c98",
+                            "type": "operator",
+                            "operator": "+"
+                        },
+                        {
+                            "id": "083b7eef-56e7-47eb-80b5-bd2c940a81fd",
+                            "type": "occurrence",
+                            "categoryId": "c18d5d88-1af0-419a-8eec-659b5b3ab7a7",
+                            "actionId": "0ebc8d66-4860-42db-8576-64491282f6d2",
+                            "label": {
+                                "default": "Führe digitales Ausräumen durch",
+                                "translations": {
+                                    "de": "Führe digitales Ausräumen durch"
+                                }
+                            }
+                        },
+                        {
+                            "id": "1791a39a-4137-4dc9-b2b8-001ceaafd62d",
+                            "type": "operator",
+                            "operator": "+"
+                        },
+                        {
+                            "id": "589a590d-80a4-4c55-a1b1-7873231c839e",
+                            "type": "occurrence",
+                            "categoryId": "c18d5d88-1af0-419a-8eec-659b5b3ab7a7",
+                            "actionId": "d3703ca3-168d-4064-b611-ee1a22b8b89a",
+                            "label": {
+                                "default": "Führe Toilettentraining durch",
+                                "translations": {
+                                    "de": "Führe Toilettentraining durch"
+                                }
+                            }
+                        }
+                    ],
+                    "timeframe": "weekly",
+                    "children": []
+                },
+                {
+                    "id": "a8cd6ba1-a513-4048-a227-171c1254b889",
+                    "title": {
+                        "default": "MP 4 Nutrition",
+                        "translations": {
+                            "de": "MP 4 Essen und Trinken"
+                        }
+                    },
+                    "formula": [
+                        {
+                            "id": "f94303a8-23af-4a76-8cba-e1d638b1c565",
+                            "type": "occurrence",
+                            "categoryId": "8936265e-08b1-41ce-996e-65ddcadaedfa",
+                            "actionId": "c60c89b8-bae6-4847-bf4b-00f04043db97",
+                            "label": {
+                                "default": "Bereite Mahlzeit vor",
+                                "translations": {
+                                    "de": "Bereite Mahlzeit vor"
+                                }
+                            }
+                        },
+                        {
+                            "id": "46c1ac22-088c-419f-a0bd-826a3032ed5b",
+                            "type": "operator",
+                            "operator": "+"
+                        },
+                        {
+                            "id": "3fb9fc80-902f-401a-9c14-ac5370a74735",
+                            "type": "occurrence",
+                            "categoryId": "8936265e-08b1-41ce-996e-65ddcadaedfa",
+                            "actionId": "6de0c9bb-537b-435b-9d02-fe8bd7426402",
+                            "label": {
+                                "default": "Fordere zum Essen/Trinken auf",
+                                "translations": {
+                                    "de": "Fordere zum Essen/Trinken auf"
+                                }
+                            }
+                        },
+                        {
+                            "id": "c6829438-4a17-43f7-b18d-ab86a3aa2f54",
+                            "type": "operator",
+                            "operator": "+"
+                        },
+                        {
+                            "id": "d1f8d41a-e96b-4af0-a242-8c733fe8943b",
+                            "type": "occurrence",
+                            "categoryId": "8936265e-08b1-41ce-996e-65ddcadaedfa",
+                            "actionId": "5062d209-b632-4816-be0e-904e6d138dae",
+                            "label": {
+                                "default": "Unterstütze beim Essen",
+                                "translations": {
+                                    "de": "Unterstütze beim Essen"
+                                }
+                            }
+                        },
+                        {
+                            "id": "b839aecb-4f2b-4125-babb-7d2cf5b8d4a2",
+                            "type": "operator",
+                            "operator": "+"
+                        },
+                        {
+                            "id": "ac141e24-c3b5-446d-9e77-5613ba5b5a57",
+                            "type": "occurrence",
+                            "categoryId": "8936265e-08b1-41ce-996e-65ddcadaedfa",
+                            "actionId": "c298f8c6-af51-43e3-a01a-939110bdea2e",
+                            "label": {
+                                "default": "Unterstütze beim Trinken",
+                                "translations": {
+                                    "de": "Unterstütze beim Trinken"
+                                }
+                            }
+                        },
+                        {
+                            "id": "803b825a-1f11-4c1d-8a19-8310d2431d70",
+                            "type": "operator",
+                            "operator": "+"
+                        },
+                        {
+                            "id": "dff8f699-7322-4597-9002-e573d9905610",
+                            "type": "occurrence",
+                            "categoryId": "8936265e-08b1-41ce-996e-65ddcadaedfa",
+                            "actionId": "32ad7131-5ebc-462f-b880-3707e887c91e",
+                            "label": {
+                                "default": "Verabreiche Nährlösung via PEG-Sonde",
+                                "translations": {
+                                    "de": "Verabreiche Nährlösung via PEG-Sonde"
+                                }
+                            }
+                        },
+                        {
+                            "id": "19ce9f24-6695-4d10-8e4b-67d1e84306a2",
+                            "type": "operator",
+                            "operator": "+"
+                        },
+                        {
+                            "id": "01da0691-eb29-40ea-9185-2e7644574d3f",
+                            "type": "occurrence",
+                            "categoryId": "8936265e-08b1-41ce-996e-65ddcadaedfa",
+                            "actionId": "969836c9-7b75-456e-9220-c55097498408",
+                            "label": {
+                                "default": "Führe Schlucktraining durch",
+                                "translations": {
+                                    "de": "Führe Schlucktraining durch"
+                                }
+                            }
+                        },
+                        {
+                            "id": "99204a05-06a7-49f6-8542-0cffc6029748",
+                            "type": "operator",
+                            "operator": "+"
+                        },
+                        {
+                            "id": "d3d57b15-81a6-4f68-a9b3-1afbe2a91600",
+                            "type": "occurrence",
+                            "categoryId": "8936265e-08b1-41ce-996e-65ddcadaedfa",
+                            "actionId": "94c4ae13-da56-4609-9440-3333d6512f31",
+                            "label": {
+                                "default": "Übe Benutzung von Esshilfen",
+                                "translations": {
+                                    "de": "Übe Benutzung von Esshilfen"
+                                }
+                            }
+                        },
+                        {
+                            "id": "a51127b3-c6b3-4582-b743-df95b4006c9d",
+                            "type": "operator",
+                            "operator": "+"
+                        },
+                        {
+                            "id": "9f91c10e-8e4c-4151-8297-60966ef6d789",
+                            "type": "occurrence",
+                            "categoryId": "8936265e-08b1-41ce-996e-65ddcadaedfa",
+                            "actionId": "2ae2bad4-d042-4780-a1b3-52b7a97ef430",
+                            "label": {
+                                "default": "Führe Zimmerservice durch",
+                                "translations": {
+                                    "de": "Führe Zimmerservice durch"
+                                }
+                            }
+                        }
+                    ],
+                    "timeframe": "weekly",
+                    "children": []
+                },
+                {
+                    "id": "77ae1060-09b2-44a7-b846-5d0a7dcd5a56",
+                    "title": {
+                        "default": "MP 5 Medical Care",
+                        "translations": {
+                            "de": "MP 5 Medizinische Pflege"
+                        }
+                    },
+                    "formula": [
+                        {
+                            "id": "fb91a9f7-7665-4fe4-a864-25ba4c25ef3b",
+                            "type": "occurrence",
+                            "categoryId": "189ca942-3892-42fa-ae21-7ebd79882187",
+                            "actionId": "c0ff845e-1607-4959-9636-f0ed0782fc76",
+                            "label": {
+                                "default": "Verabreiche orale Medikation",
+                                "translations": {
+                                    "de": "Verabreiche orale Medikation"
+                                }
+                            }
+                        },
+                        {
+                            "id": "5a0c234a-b978-4669-a6d2-0d06de80fe6c",
+                            "type": "operator",
+                            "operator": "+"
+                        },
+                        {
+                            "id": "65a74afd-a2f6-433a-a20d-9035db69852a",
+                            "type": "occurrence",
+                            "categoryId": "189ca942-3892-42fa-ae21-7ebd79882187",
+                            "actionId": "8f59851f-7223-4b3d-a0d6-8f4f11e07300",
+                            "label": {
+                                "default": "Appliziere transdermales Pflaster",
+                                "translations": {
+                                    "de": "Appliziere transdermales Pflaster"
+                                }
+                            }
+                        },
+                        {
+                            "id": "a30964e6-d71a-4326-bb77-f23a766688be",
+                            "type": "operator",
+                            "operator": "+"
+                        },
+                        {
+                            "id": "117b7f51-fe7c-4abb-80de-938c004e16d1",
+                            "type": "occurrence",
+                            "categoryId": "189ca942-3892-42fa-ae21-7ebd79882187",
+                            "actionId": "ae1758c9-4dc3-4a42-9972-25adc018c78f",
+                            "label": {
+                                "default": "Verabreiche Augen-/Ohren-/Nasentropfen oder -salben",
+                                "translations": {
+                                    "de": "Verabreiche Augen-/Ohren-/Nasentropfen oder -salben"
+                                }
+                            }
+                        },
+                        {
+                            "id": "f9eae0be-e671-42b4-af69-ff6b9ced1cfe",
+                            "type": "operator",
+                            "operator": "+"
+                        },
+                        {
+                            "id": "ba324d41-b5ad-4303-ac71-ffab87be431f",
+                            "type": "occurrence",
+                            "categoryId": "189ca942-3892-42fa-ae21-7ebd79882187",
+                            "actionId": "80e7ea5e-a9b1-4c33-ac03-a0c40510bae4",
+                            "label": {
+                                "default": "Trage rezeptpflichtige Salbe auf",
+                                "translations": {
+                                    "de": "Trage rezeptpflichtige Salbe auf"
+                                }
+                            }
+                        },
+                        {
+                            "id": "347a8075-a8f6-47de-84b7-7a4aaba5e973",
+                            "type": "operator",
+                            "operator": "+"
+                        },
+                        {
+                            "id": "0e8eea60-545f-43f1-a3ea-4be8d31d3067",
+                            "type": "occurrence",
+                            "categoryId": "189ca942-3892-42fa-ae21-7ebd79882187",
+                            "actionId": "d4fdf694-d94f-4bc0-9d53-1a7760a0f6f3",
+                            "label": {
+                                "default": "Verabreiche Injektion",
+                                "translations": {
+                                    "de": "Verabreiche Injektion"
+                                }
+                            }
+                        },
+                        {
+                            "id": "f59e4ca8-9346-4bd0-afb8-05da6be33167",
+                            "type": "operator",
+                            "operator": "+"
+                        },
+                        {
+                            "id": "53bb2ecd-20c6-4ca6-908c-937f812bda3d",
+                            "type": "occurrence",
+                            "categoryId": "189ca942-3892-42fa-ae21-7ebd79882187",
+                            "actionId": "c3e51d7b-3305-4def-969b-78b0ee0670fa",
+                            "label": {
+                                "default": "Bereite Infusion vor und überwache sie",
+                                "translations": {
+                                    "de": "Bereite Infusion vor und überwache sie"
+                                }
+                            }
+                        },
+                        {
+                            "id": "74d3d8c1-42dc-4b72-b4b7-29cc6c80717d",
+                            "type": "operator",
+                            "operator": "+"
+                        },
+                        {
+                            "id": "2a90d15b-c4f5-45a1-be92-b6bfa738a689",
+                            "type": "occurrence",
+                            "categoryId": "189ca942-3892-42fa-ae21-7ebd79882187",
+                            "actionId": "8ae3c112-1078-46f6-94a9-2df15a44f9eb",
+                            "label": {
+                                "default": "Erfasse Schmerzen",
+                                "translations": {
+                                    "de": "Erfasse Schmerzen"
+                                }
+                            }
+                        },
+                        {
+                            "id": "0bb994c7-ec5f-45ed-b722-0ba62713e6f2",
+                            "type": "operator",
+                            "operator": "+"
+                        },
+                        {
+                            "id": "a13e3c06-22e5-4d24-be3f-11596c9a325b",
+                            "type": "occurrence",
+                            "categoryId": "189ca942-3892-42fa-ae21-7ebd79882187",
+                            "actionId": "8fadda42-1522-40f2-8b6b-d6535341a07d",
+                            "label": {
+                                "default": "Messe Vitalzeichen",
+                                "translations": {
+                                    "de": "Messe Vitalzeichen"
+                                }
+                            }
+                        },
+                        {
+                            "id": "e554dec1-1bc7-467b-860c-e0c3750bc253",
+                            "type": "operator",
+                            "operator": "+"
+                        },
+                        {
+                            "id": "542cf413-ac35-4d53-96a5-7ccc14f36920",
+                            "type": "occurrence",
+                            "categoryId": "189ca942-3892-42fa-ae21-7ebd79882187",
+                            "actionId": "be04fda4-dbf1-4feb-9f00-275543f4440b",
+                            "label": {
+                                "default": "Bringe Wickel/Kompresse an",
+                                "translations": {
+                                    "de": "Bringe Wickel/Kompresse an"
+                                }
+                            }
+                        },
+                        {
+                            "id": "706816e6-4cae-487e-bea6-b7642ce3cf0b",
+                            "type": "operator",
+                            "operator": "+"
+                        },
+                        {
+                            "id": "77362f44-6040-4993-a228-708b9e9a2930",
+                            "type": "occurrence",
+                            "categoryId": "189ca942-3892-42fa-ae21-7ebd79882187",
+                            "actionId": "893e87dd-c3ff-44cb-a6d2-cb7785ee243e",
+                            "label": {
+                                "default": "Führe Bluttest durch",
+                                "translations": {
+                                    "de": "Führe Bluttest durch"
+                                }
+                            }
+                        },
+                        {
+                            "id": "03e3d7f4-be41-4894-97d1-3f4d8c1f8879",
+                            "type": "operator",
+                            "operator": "+"
+                        },
+                        {
+                            "id": "6cac28ac-0623-4c52-9147-766d24a15637",
+                            "type": "occurrence",
+                            "categoryId": "189ca942-3892-42fa-ae21-7ebd79882187",
+                            "actionId": "0aaaa09b-357e-4fea-aeb9-d98fbb9c222d",
+                            "label": {
+                                "default": "Führe Urintest durch",
+                                "translations": {
+                                    "de": "Führe Urintest durch"
+                                }
+                            }
+                        },
+                        {
+                            "id": "467bec23-4f01-49e7-aad5-d524018336b0",
+                            "type": "operator",
+                            "operator": "+"
+                        },
+                        {
+                            "id": "b647ab8d-557d-4a21-b69d-659c9a520de5",
+                            "type": "occurrence",
+                            "categoryId": "291c08c9-11f6-4367-b9e5-6702efaa46e4",
+                            "actionId": "9eaf821b-a0df-46ce-86c1-1992f65bf487",
+                            "label": {
+                                "default": "Versorge Wunde (bis 10 Min.)",
+                                "translations": {
+                                    "de": "Versorge Wunde (bis 10 Min.)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "dfc18b06-4cfd-439b-bfe1-95300a0cfdee",
+                            "type": "operator",
+                            "operator": "+"
+                        },
+                        {
+                            "id": "65b09ef2-b8f7-4551-a40a-9ca3ee2f455f",
+                            "type": "occurrence",
+                            "categoryId": "291c08c9-11f6-4367-b9e5-6702efaa46e4",
+                            "actionId": "d0fcf2e2-d3ea-4a64-89fa-1192096f82c2",
+                            "label": {
+                                "default": "Versorge Wunde (10-30 Min.)",
+                                "translations": {
+                                    "de": "Versorge Wunde (10-30 Min.)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "4dccb6ae-fdd5-4019-a472-0c96f702c595",
+                            "type": "operator",
+                            "operator": "+"
+                        },
+                        {
+                            "id": "ae89f033-5ba4-4f5d-8287-38b89a98e74e",
+                            "type": "occurrence",
+                            "categoryId": "291c08c9-11f6-4367-b9e5-6702efaa46e4",
+                            "actionId": "6a6b0166-5e1c-4c22-b852-3cfb49dc1ebc",
+                            "label": {
+                                "default": "Versorge Wunde (30-60 Min.)",
+                                "translations": {
+                                    "de": "Versorge Wunde (30-60 Min.)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aeec6e5c-884e-4dc1-b353-1731b5b83220",
+                            "type": "operator",
+                            "operator": "+"
+                        },
+                        {
+                            "id": "d3cd0a71-b980-4bb9-8165-88a5f90eea47",
+                            "type": "occurrence",
+                            "categoryId": "291c08c9-11f6-4367-b9e5-6702efaa46e4",
+                            "actionId": "8a02daf5-e644-45d3-b421-649f23804050",
+                            "label": {
+                                "default": "Führe Haut-/Schleimhautkontrolle durch",
+                                "translations": {
+                                    "de": "Führe Haut-/Schleimhautkontrolle durch"
+                                }
+                            }
+                        },
+                        {
+                            "id": "b3628527-079f-458f-913e-12f4969fb838",
+                            "type": "operator",
+                            "operator": "+"
+                        },
+                        {
+                            "id": "66be3820-1960-4540-b1ea-aa2851c3a182",
+                            "type": "occurrence",
+                            "categoryId": "9d2b0558-be9e-4ae5-9123-64ddf10574b3",
+                            "actionId": "9dedf85c-be7b-4c56-8fdf-75464809a7bd",
+                            "label": {
+                                "default": "Verabreiche und überwache Inhalation",
+                                "translations": {
+                                    "de": "Verabreiche und überwache Inhalation"
+                                }
+                            }
+                        },
+                        {
+                            "id": "a271c3ae-84b2-4086-b0ec-f91c5ef2366d",
+                            "type": "operator",
+                            "operator": "+"
+                        },
+                        {
+                            "id": "24ab6e1d-adf4-4195-b614-6f43b9a1a453",
+                            "type": "occurrence",
+                            "categoryId": "9d2b0558-be9e-4ae5-9123-64ddf10574b3",
+                            "actionId": "35040720-5fe7-4537-ba82-8e5288b267d4",
+                            "label": {
+                                "default": "Unterstütze beim Abhusten",
+                                "translations": {
+                                    "de": "Unterstütze beim Abhusten"
+                                }
+                            }
+                        },
+                        {
+                            "id": "d3f8a939-c9b8-4a92-9d7f-9f960fea6263",
+                            "type": "operator",
+                            "operator": "+"
+                        },
+                        {
+                            "id": "55a1ca23-82da-4d57-b8ce-34d2738ce7d8",
+                            "type": "occurrence",
+                            "categoryId": "9d2b0558-be9e-4ae5-9123-64ddf10574b3",
+                            "actionId": "dcdf17d2-8500-4852-a6b2-b800e9be9cd3",
+                            "label": {
+                                "default": "Sauge Sekrete ab",
+                                "translations": {
+                                    "de": "Sauge Sekrete ab"
+                                }
+                            }
+                        },
+                        {
+                            "id": "51da71e0-3cb6-4fbb-a0de-3c411792a5c6",
+                            "type": "operator",
+                            "operator": "+"
+                        },
+                        {
+                            "id": "9c49aeaf-b340-439e-bdab-603d6a196520",
+                            "type": "occurrence",
+                            "categoryId": "9d2b0558-be9e-4ae5-9123-64ddf10574b3",
+                            "actionId": "2e1eac36-4186-447c-a759-21f7658acb15",
+                            "label": {
+                                "default": "Pflege Trachealkanüle",
+                                "translations": {
+                                    "de": "Pflege Trachealkanüle"
+                                }
+                            }
+                        },
+                        {
+                            "id": "74aaf1ab-42e5-448c-8904-b15292382d93",
+                            "type": "operator",
+                            "operator": "+"
+                        },
+                        {
+                            "id": "f0eb2e6e-f50f-4a03-8354-eb191f841316",
+                            "type": "occurrence",
+                            "categoryId": "9d2b0558-be9e-4ae5-9123-64ddf10574b3",
+                            "actionId": "b1ed9af1-506a-4dc5-9d00-4e3708da8199",
+                            "label": {
+                                "default": "Verabreiche Sauerstoff",
+                                "translations": {
+                                    "de": "Verabreiche Sauerstoff"
+                                }
+                            }
+                        },
+                        {
+                            "id": "55c053b0-ab30-482c-89bd-e21fa6781636",
+                            "type": "operator",
+                            "operator": "+"
+                        },
+                        {
+                            "id": "ae7470b2-d646-44c1-bb3b-75ebca54e701",
+                            "type": "occurrence",
+                            "categoryId": "9d2b0558-be9e-4ae5-9123-64ddf10574b3",
+                            "actionId": "0e302d5a-9b4a-45fe-9458-36cae91bb005",
+                            "label": {
+                                "default": "Übe Benutzung von Inhalationsgeräten",
+                                "translations": {
+                                    "de": "Übe Benutzung von Inhalationsgeräten"
+                                }
+                            }
+                        }
+                    ],
+                    "timeframe": "weekly",
+                    "children": []
+                }
+            ]
+        }
+    ],
     "graphs": []
 }
