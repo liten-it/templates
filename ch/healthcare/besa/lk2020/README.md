@@ -6,7 +6,6 @@ Dieses Template basiert auf dem **BESA Leistungskatalog 2020** (LK2020) und dien
 
 ## Datei
 
-- **Dateiname:** `besa_lk2020_pflege_rapport.json`
 - **Version:** 2.0.0
 - **Sprachen:** Deutsch (de), Englisch (default)
 
@@ -18,9 +17,9 @@ Das Template definiert folgende Objekteigenschaften für Bewohner:
 
 | Eigenschaft | Typ | Beschreibung |
 |-------------|-----|--------------|
-| `bewohner_name` | Text | Name des Bewohners/der Bewohnerin |
-| `zimmer` | Text | Zimmernummer |
-| `station` | Dropdown | Station/Abteilung (A, B, C) |
+| bewohner_name | Text | Name des Bewohners/der Bewohnerin |
+| zimmer | Text | Zimmernummer |
+| station | Dropdown | Station/Abteilung (A, B, C) |
 
 ---
 
@@ -205,9 +204,9 @@ Das Template verwendet folgende Eigenschaftstypen:
 
 | Typ | Beschreibung | Beispiel |
 |-----|--------------|----------|
-| `radio` | Einzelauswahl | Unterstützungsgrad |
-| `checkbox` | Mehrfachauswahl | Durchgeführte Tätigkeiten |
-| `number` | Zahlenwert mit Einheit | Menge (ml), Dauer (min) |
+| radio | Einzelauswahl | Unterstützungsgrad |
+| checkbox | Mehrfachauswahl | Durchgeführte Tätigkeiten |
+| number | Zahlenwert mit Einheit | Menge (ml), Dauer (min) |
 
 ---
 
@@ -230,14 +229,6 @@ Das Template deckt folgende BESA Massnahmenpakete ab:
 
 ---
 
-## Import
-
-1. Öffnen Sie die Anwendung
-2. Navigieren Sie zu **Settings > Templates**
-3. Wählen Sie **Import Template**
-4. Laden Sie die Datei `besa_lk2020_pflege_rapport.json`
-
----
 
 ## Lizenz & Quelle
 
