@@ -96,7 +96,12 @@
         "default": "Summary Report",
         "translations": {}
       },
-      "formula": [],
+      "formula": [
+        {
+          "type": "count",
+          "config": {}
+        }
+      ],
       "position": 0,
       "children": [
         {
